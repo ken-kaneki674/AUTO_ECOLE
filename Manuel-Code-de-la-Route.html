@@ -1,0 +1,2070 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manuel du Code de la Route — Préparation au permis B (et deux-roues A1/A2/A3)</title>
+<style>
+:root{
+  --asphalte:#171A1F;
+  --asphalte-2:#2C3138;
+  --papier:#F2F3F5;
+  --papier-2:#FFFFFF;
+  --rouge:#D2202F;
+  --bleu:#0B5FA5;
+  --ambre:#F5B301;
+  --vert:#1B7F5A;
+  --ligne:#D3D7DD;
+  --font-titre:"Arial Narrow","Helvetica Neue Condensed",'Roboto Condensed',"Liberation Sans Narrow",Arial,sans-serif;
+  --font-texte:Georgia,"Times New Roman",serif;
+  --font-tech:"Consolas","DejaVu Sans Mono",monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--papier);color:var(--asphalte);
+  font-family:var(--font-texte);font-size:17px;line-height:1.65;
+}
+.wrap{max-width:880px;margin:0 auto;padding:0 22px 80px}
+h1,h2,h3,h4,.tit{font-family:var(--font-titre);letter-spacing:.02em;text-transform:uppercase;font-weight:700;line-height:1.12}
+h3{font-size:1.35rem;margin:2.2rem 0 .6rem;color:var(--asphalte);border-left:5px solid var(--ambre);padding-left:.6rem;text-transform:none;letter-spacing:0}
+h4{font-size:1.05rem;margin:1.5rem 0 .4rem;color:var(--asphalte-2);text-transform:none;letter-spacing:0}
+p{margin:.7rem 0}
+ul,ol{margin:.6rem 0 .6rem 1.1rem;padding-left:.6rem}
+li{margin:.28rem 0}
+strong{color:#000}
+a{color:var(--bleu)}
+
+/* ---------- COUVERTURE ---------- */
+.cover{background:var(--asphalte);color:#fff;padding:64px 0 54px;margin-bottom:0;position:relative;overflow:hidden}
+.cover .wrap{padding-bottom:0}
+.cover .route{height:12px;background:repeating-linear-gradient(90deg,#fff 0 46px,transparent 46px 92px);opacity:.85;margin:28px 0 30px}
+.cover .eyebrow{font-family:var(--font-titre);font-size:.85rem;letter-spacing:.28em;color:var(--ambre);margin:0}
+.cover h1{font-size:clamp(2.2rem,7vw,4rem);margin:.4rem 0 0;color:#fff}
+.cover h1 span{color:var(--ambre);display:block}
+.cover .sous{font-size:1.05rem;color:#C9CDD4;max-width:640px}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.badge{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.08em;border:1px solid #4A505A;color:#E6E8EB;padding:6px 12px;border-radius:2px}
+
+/* ---------- SOMMAIRE ---------- */
+.toc{background:var(--papier-2);border:1px solid var(--ligne);padding:26px 26px 30px;margin:34px 0 10px}
+.toc h2{font-size:1.1rem;letter-spacing:.2em;margin:0 0 14px;color:var(--asphalte-2)}
+.toc ol{list-style:none;margin:0;padding:0;columns:2;column-gap:34px}
+.toc li{break-inside:avoid;margin:0;border-bottom:1px dotted var(--ligne)}
+.toc a{display:flex;gap:12px;align-items:baseline;padding:7px 0;text-decoration:none;color:var(--asphalte)}
+.toc a:hover{color:var(--rouge)}
+.toc .n{font-family:var(--font-tech);font-size:.8rem;color:#fff;background:var(--asphalte-2);padding:1px 6px;border-radius:2px}
+
+/* ---------- CHAPITRES ---------- */
+.chap{margin-top:56px}
+.chap-head{background:var(--bleu);color:#fff;padding:20px 22px;display:flex;gap:18px;align-items:center;border-radius:3px}
+.chap-head .borne{font-family:var(--font-titre);font-size:2.3rem;line-height:1;background:#fff;color:var(--bleu);padding:10px 12px;border-radius:2px;min-width:66px;text-align:center}
+.chap-head h2{margin:0;font-size:1.5rem;color:#fff}
+.chap-head .fil{font-family:var(--font-titre);font-size:.72rem;letter-spacing:.22em;color:#BBD8F1;text-transform:uppercase;display:block;margin-bottom:3px}
+.obj{background:#fff;border:1px solid var(--ligne);border-top:none;padding:14px 20px;font-size:.95rem;color:var(--asphalte-2);margin:0}
+.obj b{font-family:var(--font-titre);letter-spacing:.08em;font-size:.78rem;text-transform:uppercase;color:var(--bleu);display:block}
+
+/* ---------- ENCADRES ---------- */
+.memo,.exemple,.attention,.astuce{border-radius:3px;padding:14px 18px;margin:1.4rem 0;font-size:.97rem;break-inside:avoid}
+.memo{background:#FFF8E1;border-left:6px solid var(--ambre)}
+.exemple{background:#EDF4FB;border-left:6px solid var(--bleu)}
+.attention{background:#FCEBEC;border-left:6px solid var(--rouge)}
+.astuce{background:#E9F5EF;border-left:6px solid var(--vert)}
+.memo .lab,.exemple .lab,.attention .lab,.astuce .lab{font-family:var(--font-titre);text-transform:uppercase;letter-spacing:.14em;font-size:.74rem;display:block;margin-bottom:5px}
+.memo .lab{color:#946200}.exemple .lab{color:var(--bleu)}.attention .lab{color:var(--rouge)}.astuce .lab{color:var(--vert)}
+
+/* ---------- TABLEAUX ---------- */
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;font-size:.92rem;background:#fff;break-inside:avoid}
+th,td{border:1px solid var(--ligne);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--asphalte-2);color:#fff;font-family:var(--font-titre);letter-spacing:.06em;text-transform:uppercase;font-size:.78rem;font-weight:600}
+tbody tr:nth-child(even){background:#F7F8F9}
+
+/* ---------- FIGURES ---------- */
+figure{margin:1.6rem 0;background:#fff;border:1px solid var(--ligne);padding:16px;text-align:center;break-inside:avoid}
+figure svg{max-width:100%;height:auto}
+figcaption{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.06em;color:#5C636D;margin-top:10px;text-transform:uppercase}
+.panneaux{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin:1.2rem 0}
+.pan{width:118px;text-align:center;font-size:.75rem;font-family:var(--font-titre);letter-spacing:.02em;color:var(--asphalte-2);line-height:1.25;text-transform:none}
+.pan svg{display:block;margin:0 auto 6px}
+
+/* ---------- QCM ---------- */
+.qcm{background:#fff;border:2px solid var(--asphalte);padding:20px 22px;margin:2.4rem 0 0;border-radius:3px}
+.qcm > h4{margin-top:0;font-family:var(--font-titre);text-transform:uppercase;letter-spacing:.14em;font-size:.9rem;color:var(--asphalte)}
+.q{margin:1.1rem 0;break-inside:avoid}
+.q p{margin:0 0 .3rem;font-weight:bold;font-family:var(--font-texte)}
+.q ul{list-style:none;margin:.2rem 0 0 .2rem;padding:0}
+.q li{margin:.15rem 0}
+.q li b{font-family:var(--font-tech);color:var(--bleu);margin-right:6px}
+details.corrige{margin-top:16px;border-top:2px dashed var(--ligne);padding-top:12px}
+details.corrige summary{font-family:var(--font-titre);text-transform:uppercase;letter-spacing:.12em;font-size:.82rem;color:var(--vert);cursor:pointer;list-style:none}
+details.corrige summary::-webkit-details-marker{display:none}
+details.corrige summary::before{content:"▸ ";}
+details.corrige[open] summary::before{content:"▾ ";}
+details.corrige ol{font-size:.93rem;margin-top:.7rem}
+details.corrige .rep{font-family:var(--font-tech);background:var(--vert);color:#fff;padding:0 6px;border-radius:2px;margin-right:6px}
+
+hr.sep{border:none;border-top:1px solid var(--ligne);margin:44px 0}
+.fin{background:var(--asphalte);color:#C9CDD4;padding:30px 24px;margin-top:60px;font-size:.9rem;border-radius:3px}
+.fin b{color:#fff}
+
+@media(max-width:640px){
+  .toc ol{columns:1}
+  body{font-size:16px}
+  .chap-head{flex-direction:column;align-items:flex-start;gap:10px}
+}
+@media print{
+  body{background:#fff;font-size:11.5pt}
+  .chap{page-break-before:always}
+  details.corrige{display:block}
+  details.corrige > *{display:block}
+  .qcm{border-width:1px}
+  a{color:#000;text-decoration:none}
+}
+</style>
+</head>
+<body>
+
+<!-- SPRITE DES FORMES DE PANNEAUX -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <symbol id="s-danger" viewBox="0 0 100 90"><path d="M50 4 96 86H4Z" fill="#D2202F"/><path d="M50 16 85 79H15Z" fill="#fff"/></symbol>
+  <symbol id="s-interdit" viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" fill="#D2202F"/><circle cx="50" cy="50" r="37" fill="#fff"/></symbol>
+  <symbol id="s-oblig" viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" fill="#fff"/><circle cx="50" cy="50" r="44" fill="#0B5FA5"/></symbol>
+  <symbol id="s-indic" viewBox="0 0 100 100"><rect x="3" y="3" width="94" height="94" rx="4" fill="#0B5FA5" stroke="#fff" stroke-width="4"/></symbol>
+ </defs>
+</svg>
+
+<header class="cover">
+  <div class="wrap">
+    <p class="eyebrow">Manuel de formation · Auto-école</p>
+    <h1>Le code de la route<span>de A à Z</span></h1>
+    <div class="route"></div>
+    <p class="sous">Cours complet en 14 chapitres, illustré, avec exemples concrets, fiches mémo, plus de 100 questions de QCM et leurs corrigés types. Préparation à l'examen théorique du permis de conduire catégorie B et des permis deux-roues A1 / A2 / A3.</p>
+    <div class="badges">
+      <span class="badge">14 chapitres</span>
+      <span class="badge">QCM corrigés</span>
+      <span class="badge">Schémas &amp; panneaux</span>
+      <span class="badge">Examen blanc final</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<nav class="toc">
+  <h2>Sommaire</h2>
+  <ol>
+    <li><a href="#ch1"><span class="n">01</span> Les signalisations routières</a></li>
+    <li><a href="#ch2"><span class="n">02</span> Les règles de priorité</a></li>
+    <li><a href="#ch3"><span class="n">03</span> Croisements et dépassements</a></li>
+    <li><a href="#ch4"><span class="n">04</span> Arrêt et stationnement</a></li>
+    <li><a href="#ch5"><span class="n">05</span> La vitesse</a></li>
+    <li><a href="#ch6"><span class="n">06</span> Route, route pour automobiles, autoroute</a></li>
+    <li><a href="#ch7"><span class="n">07</span> Équipement d'une voiture</a></li>
+    <li><a href="#ch8"><span class="n">08</span> Mécanique élémentaire du moteur à essence</a></li>
+    <li><a href="#ch9"><span class="n">09</span> Secourisme élémentaire</a></li>
+    <li><a href="#ch10"><span class="n">10</span> Les deux-roues (A1 · A2 · A3)</a></li>
+    <li><a href="#ch11"><span class="n">11</span> Les cas d'abstinence à la conduite</a></li>
+    <li><a href="#ch12"><span class="n">12</span> Le permis de conduire catégorie B</a></li>
+    <li><a href="#ch13"><span class="n">13</span> Le changement de direction</a></li>
+    <li><a href="#ch14"><span class="n">14</span> Les panneaux : catalogue</a></li>
+    <li><a href="#examen"><span class="n">EX</span> Examen blanc : 30 questions</a></li>
+    <li><a href="#lexique"><span class="n">AN</span> Lexique &amp; fiches de révision</a></li>
+  </ol>
+</nav>
+
+<div class="attention" style="margin-top:26px">
+  <span class="lab">Avertissement important</span>
+  Ce manuel présente les règles communes aux codes de la route francophones (Bénin et espace UEMOA, France, etc.). <strong>Les chiffres qui varient d'un pays à l'autre</strong> — limitations de vitesse, taux d'alcoolémie, montants d'amendes, numéros d'urgence — sont signalés par le pictogramme « ⚠ à vérifier ». Confronte-les toujours au code en vigueur dans ton pays et aux consignes de ton auto-école, qui font seuls foi le jour de l'examen.
+</div>
+
+<!-- ============ CHAPITRE 1 ============ -->
+<section class="chap" id="ch1">
+<div class="chap-head">
+  <span class="borne">01</span>
+  <div><span class="fil">Chapitre 1</span><h2>Les signalisations routières</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Identifier les quatre familles de signalisation, connaître l'ordre de priorité entre elles, lire les feux et les marquages au sol, comprendre les gestes de l'agent et la signalisation temporaire.</p>
+
+<h3>1.1 Définition et rôle</h3>
+<p>La <strong>signalisation routière</strong> est l'ensemble des signaux (panneaux, marques, feux, gestes) placés sur la route ou à ses abords pour <strong>informer</strong>, <strong>guider</strong>, <strong>avertir</strong> et <strong>ordonner</strong> aux usagers un comportement précis. Elle est le langage commun de la route : tous les usagers, quelle que soit leur langue, doivent la comprendre de la même manière.</p>
+<p>Elle poursuit trois buts : la <strong>sécurité</strong> (éviter les accidents), la <strong>fluidité</strong> (organiser la circulation) et le <strong>confort</strong> (informer sur les distances, les services, les directions).</p>
+
+<h3>1.2 Les quatre familles de signalisation</h3>
+<table>
+<thead><tr><th>Famille</th><th>Support</th><th>Exemples</th></tr></thead>
+<tbody>
+<tr><td><strong>Signalisation par agent</strong></td><td>Gestes d'un agent de la circulation (police, gendarmerie)</td><td>Bras levé verticalement, bras tendu horizontalement</td></tr>
+<tr><td><strong>Signalisation lumineuse</strong></td><td>Feux tricolores, feux clignotants, flèches lumineuses</td><td>Feu rouge, jaune, vert, feu jaune clignotant</td></tr>
+<tr><td><strong>Signalisation verticale</strong></td><td>Panneaux fixés sur poteaux, portiques ou murs</td><td>STOP, Cédez le passage, sens interdit</td></tr>
+<tr><td><strong>Signalisation horizontale</strong></td><td>Marquages peints sur la chaussée</td><td>Ligne continue, passage piétons, flèches de rabattement</td></tr>
+</tbody>
+</table>
+
+<h4>La hiérarchie : qui commande à qui ?</h4>
+<p>Quand deux signalisations se contredisent, il faut savoir laquelle obéir. L'ordre est <strong>toujours</strong> le même :</p>
+
+<figure>
+<svg viewBox="0 0 720 150" role="img" aria-label="Hiérarchie de la signalisation">
+  <g font-family="Arial Narrow, Arial, sans-serif" text-anchor="middle">
+    <rect x="6" y="40" width="126" height="62" rx="3" fill="#171A1F"/>
+    <text x="69" y="66" fill="#F5B301" font-size="15" font-weight="bold">1. AGENT</text>
+    <text x="69" y="87" fill="#fff" font-size="12">ses gestes</text>
+    <path d="M138 71h26" stroke="#171A1F" stroke-width="3"/><path d="M164 71l-9-6v12z" fill="#171A1F"/>
+    <rect x="170" y="40" width="126" height="62" rx="3" fill="#2C3138"/>
+    <text x="233" y="66" fill="#fff" font-size="15" font-weight="bold">2. FEUX</text>
+    <text x="233" y="87" fill="#C9CDD4" font-size="12">tricolores</text>
+    <path d="M302 71h26" stroke="#171A1F" stroke-width="3"/><path d="M328 71l-9-6v12z" fill="#171A1F"/>
+    <rect x="334" y="40" width="126" height="62" rx="3" fill="#0B5FA5"/>
+    <text x="397" y="66" fill="#fff" font-size="15" font-weight="bold">3. PANNEAUX</text>
+    <text x="397" y="87" fill="#BBD8F1" font-size="12">verticaux</text>
+    <path d="M466 71h26" stroke="#171A1F" stroke-width="3"/><path d="M492 71l-9-6v12z" fill="#171A1F"/>
+    <rect x="498" y="40" width="126" height="62" rx="3" fill="#5C636D"/>
+    <text x="561" y="66" fill="#fff" font-size="15" font-weight="bold">4. MARQUAGE</text>
+    <text x="561" y="87" fill="#E6E8EB" font-size="12">au sol</text>
+    <path d="M630 71h26" stroke="#171A1F" stroke-width="3"/><path d="M656 71l-9-6v12z" fill="#171A1F"/>
+    <rect x="662" y="40" width="52" height="62" rx="3" fill="#fff" stroke="#171A1F" stroke-width="2"/>
+    <text x="688" y="66" fill="#171A1F" font-size="13" font-weight="bold">5. RÈGLE</text>
+    <text x="688" y="86" fill="#171A1F" font-size="11">générale</text>
+    <text x="360" y="22" font-size="14" fill="#171A1F" font-weight="bold" letter-spacing="2">ORDRE DE PRIORITÉ DES SIGNALISATIONS</text>
+    <text x="360" y="130" font-size="12.5" fill="#5C636D">Le signal de gauche annule toujours celui de droite.</text>
+  </g>
+</svg>
+<figcaption>Figure 1.1 — La chaîne de commandement de la signalisation</figcaption>
+</figure>
+
+<div class="exemple"><span class="lab">Exemple concret</span>
+Tu arrives à un carrefour : le feu est <strong>vert</strong>, mais un agent de police, face à toi, lève le bras verticalement. Que fais-tu ? <strong>Tu t'arrêtes.</strong> L'agent est au-dessus du feu dans la hiérarchie. Passer au vert serait ici une infraction.</div>
+
+<h3>1.3 Les gestes de l'agent de la circulation</h3>
+<table>
+<thead><tr><th>Geste</th><th>Signification</th><th>Qui est concerné</th></tr></thead>
+<tbody>
+<tr><td>Bras levé verticalement</td><td>Arrêt imminent pour tous — équivaut au feu jaune fixe</td><td>Tous les usagers, de toutes les directions</td></tr>
+<tr><td>Bras tendu horizontalement (un ou deux)</td><td>Arrêt obligatoire</td><td>Les usagers vers qui la poitrine ou le dos de l'agent est tourné</td></tr>
+<tr><td>Agent vu de profil (bras baissés)</td><td>Voie libre : tu peux passer</td><td>Les usagers qui voient l'agent de côté</td></tr>
+<tr><td>Balancement d'un bras d'avant en arrière</td><td>Ordre d'avancer, de dégager le carrefour</td><td>L'usager désigné</td></tr>
+<tr><td>Bras qui s'agite de haut en bas</td><td>Ordre de ralentir</td><td>L'usager désigné</td></tr>
+</tbody>
+</table>
+<div class="memo"><span class="lab">À retenir</span>
+Face ou dos de l'agent = <strong>je m'arrête</strong>. Profil de l'agent = <strong>je passe</strong>. La nuit, l'agent utilise un bâton lumineux ou un sifflet : le sifflet à coups brefs et répétés annonce toujours un ordre d'arrêt.</div>
+
+<h3>1.4 La signalisation lumineuse</h3>
+<figure>
+<svg viewBox="0 0 620 200" role="img" aria-label="Les feux tricolores">
+ <g font-family="Arial Narrow, Arial, sans-serif" text-anchor="middle">
+  <rect x="20" y="16" width="60" height="150" rx="8" fill="#171A1F"/>
+  <circle cx="50" cy="46" r="19" fill="#D2202F"/><circle cx="50" cy="91" r="19" fill="#3A3F46"/><circle cx="50" cy="136" r="19" fill="#3A3F46"/>
+  <text x="50" y="186" font-size="13" fill="#171A1F" font-weight="bold">ROUGE</text>
+  <rect x="170" y="16" width="60" height="150" rx="8" fill="#171A1F"/>
+  <circle cx="200" cy="46" r="19" fill="#3A3F46"/><circle cx="200" cy="91" r="19" fill="#F5B301"/><circle cx="200" cy="136" r="19" fill="#3A3F46"/>
+  <text x="200" y="186" font-size="13" fill="#171A1F" font-weight="bold">JAUNE</text>
+  <rect x="320" y="16" width="60" height="150" rx="8" fill="#171A1F"/>
+  <circle cx="350" cy="46" r="19" fill="#3A3F46"/><circle cx="350" cy="91" r="19" fill="#3A3F46"/><circle cx="350" cy="136" r="19" fill="#1B7F5A"/>
+  <text x="350" y="186" font-size="13" fill="#171A1F" font-weight="bold">VERT</text>
+  <rect x="470" y="46" width="60" height="60" rx="8" fill="#171A1F"/>
+  <circle cx="500" cy="76" r="19" fill="#F5B301" stroke="#fff" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="500" y="126" font-size="13" fill="#171A1F" font-weight="bold">JAUNE</text>
+  <text x="500" y="142" font-size="13" fill="#171A1F" font-weight="bold">CLIGNOTANT</text>
+  <text x="500" y="176" font-size="11.5" fill="#5C636D">prudence,</text>
+  <text x="500" y="190" font-size="11.5" fill="#5C636D">priorité à droite</text>
+ </g>
+</svg>
+<figcaption>Figure 1.2 — Le cycle des feux tricolores</figcaption>
+</figure>
+<ul>
+<li><strong>Feu vert</strong> : le passage est autorisé, à condition que le carrefour soit dégagé. Le vert ne donne <em>jamais</em> le droit de bloquer une intersection.</li>
+<li><strong>Feu jaune fixe</strong> : arrêt obligatoire, sauf si le véhicule est trop engagé pour s'arrêter sans danger (risque de choc arrière).</li>
+<li><strong>Feu rouge fixe</strong> : arrêt absolu à la hauteur de la ligne d'effet du feu ou avant le passage piétons. Le franchissement d'un feu rouge est l'une des infractions les plus lourdement sanctionnées.</li>
+<li><strong>Feu jaune clignotant</strong> : le carrefour n'est plus régulé ; on applique la signalisation en place, à défaut la priorité à droite.</li>
+<li><strong>Feu rouge clignotant</strong> : arrêt absolu — il signale un passage à niveau, un pont mobile ou une sortie de véhicules de secours.</li>
+<li><strong>Flèches lumineuses</strong> : un feu vert en forme de flèche n'autorise que la direction indiquée, et impose de céder le passage aux piétons.</li>
+<li><strong>Feux piétons</strong> : silhouette rouge = interdiction de traverser ; silhouette verte = traversée autorisée.</li>
+</ul>
+<div class="attention"><span class="lab">Erreur classique</span>
+Le feu vert n'est <strong>pas</strong> une priorité absolue : il faut toujours laisser dégager les véhicules encore engagés, les piétons attardés et céder le passage aux véhicules prioritaires en mission (ambulance, pompiers, police) même quand ils arrivent au rouge.</div>
+
+<h3>1.5 La signalisation horizontale (marquage au sol)</h3>
+<p>Le marquage est <strong>blanc</strong> pour la circulation permanente et <strong>jaune</strong> pour la signalisation temporaire ou les interdictions d'arrêt.</p>
+<figure>
+<svg viewBox="0 0 660 230" role="img" aria-label="Types de lignes au sol">
+ <g font-family="Arial Narrow, Arial, sans-serif">
+  <rect x="10" y="16" width="640" height="40" fill="#3A3F46"/>
+  <rect x="10" y="34" width="640" height="4" fill="#fff"/>
+  <text x="10" y="72" font-size="13.5" fill="#171A1F" font-weight="bold">LIGNE CONTINUE — franchissement et chevauchement interdits</text>
+  <rect x="10" y="86" width="640" height="40" fill="#3A3F46"/>
+  <g fill="#fff"><rect x="20" y="104" width="40" height="4"/><rect x="90" y="104" width="40" height="4"/><rect x="160" y="104" width="40" height="4"/><rect x="230" y="104" width="40" height="4"/><rect x="300" y="104" width="40" height="4"/><rect x="370" y="104" width="40" height="4"/><rect x="440" y="104" width="40" height="4"/><rect x="510" y="104" width="40" height="4"/><rect x="580" y="104" width="40" height="4"/></g>
+  <text x="10" y="142" font-size="13.5" fill="#171A1F" font-weight="bold">LIGNE DISCONTINUE — franchissement autorisé pour dépasser ou tourner</text>
+  <rect x="10" y="156" width="640" height="42" fill="#3A3F46"/>
+  <rect x="10" y="172" width="640" height="4" fill="#fff"/>
+  <g fill="#fff"><rect x="20" y="180" width="40" height="4"/><rect x="90" y="180" width="40" height="4"/><rect x="160" y="180" width="40" height="4"/><rect x="230" y="180" width="40" height="4"/><rect x="300" y="180" width="40" height="4"/><rect x="370" y="180" width="40" height="4"/><rect x="440" y="180" width="40" height="4"/><rect x="510" y="180" width="40" height="4"/><rect x="580" y="180" width="40" height="4"/></g>
+  <text x="10" y="216" font-size="13.5" fill="#171A1F" font-weight="bold">LIGNE MIXTE — j'obéis à la ligne située de mon côté</text>
+ </g>
+</svg>
+<figcaption>Figure 1.3 — Les trois lignes axiales fondamentales</figcaption>
+</figure>
+<ul>
+<li><strong>Ligne continue</strong> : interdiction absolue de la franchir ou de la chevaucher, dans les deux sens. Elle protège une zone dangereuse (virage, sommet de côte, visibilité réduite).</li>
+<li><strong>Ligne discontinue axiale</strong> : franchissable pour dépasser, tourner ou contourner un obstacle.</li>
+<li><strong>Ligne mixte</strong> (une continue + une discontinue) : tu obéis à la ligne la plus proche de ton véhicule. Si la discontinue est de ton côté, tu peux dépasser, à condition de te rabattre avant la fin.</li>
+<li><strong>Ligne de rive</strong> (bord de chaussée) : elle délimite la chaussée de l'accotement ; discontinue à traits longs, elle signale la présence d'un accès ou d'une intersection.</li>
+<li><strong>Ligne d'effet des feux ou du STOP</strong> : ligne transversale où le véhicule doit s'immobiliser.</li>
+<li><strong>Zébras (hachures)</strong> : zone interdite à la circulation et au stationnement ; on ne s'y engage pas.</li>
+<li><strong>Passage pour piétons</strong> : bandes blanches larges ; on ne s'y arrête jamais et on ne stationne pas dessus.</li>
+<li><strong>Flèches de rabattement</strong> : elles annoncent la fin prochaine de la voie ; il faut se rabattre.</li>
+</ul>
+
+<h3>1.6 La signalisation temporaire</h3>
+<p>Elle est de couleur <strong>jaune</strong> (marquage) ou à fond jaune (panneaux de chantier) et <strong>prime sur la signalisation permanente</strong>. Elle comprend : panneaux de chantier, cônes, balises, barrières, feux mobiles, et parfois un signaleur muni d'un panneau K10 (disque rouge/vert).</p>
+<div class="memo"><span class="lab">À retenir</span>
+Dans une zone de travaux, si le marquage jaune contredit le marquage blanc, <strong>on suit le jaune</strong>. Un panneau à fond jaune annonce toujours un danger temporaire : ralentis et augmente les distances de sécurité.</div>
+
+<h3>1.7 Les quatre formes de panneaux (rappel visuel)</h3>
+<div class="panneaux">
+ <div class="pan"><svg width="86" height="78"><use href="#s-danger" xlink:href="#s-danger" width="86" height="78"/><path d="M43 26v26M43 58v6" stroke="#000" stroke-width="5" stroke-linecap="round" transform="translate(0,4)"/></svg>Triangle rouge<br>DANGER — avertit</div>
+ <div class="pan"><svg width="80" height="80"><use href="#s-interdit" xlink:href="#s-interdit" width="80" height="80"/><path d="M20 60 60 20" stroke="#D2202F" stroke-width="8"/></svg>Rond rouge<br>INTERDICTION</div>
+ <div class="pan"><svg width="80" height="80"><use href="#s-oblig" xlink:href="#s-oblig" width="80" height="80"/><path d="M40 60V30" stroke="#fff" stroke-width="7"/><path d="M40 20l12 16H28z" fill="#fff"/></svg>Rond bleu<br>OBLIGATION</div>
+ <div class="pan"><svg width="80" height="80"><use href="#s-indic" xlink:href="#s-indic" width="80" height="80"/><rect x="26" y="34" width="28" height="22" fill="#fff"/><rect x="34" y="40" width="12" height="16" fill="#0B5FA5"/></svg>Carré bleu<br>INDICATION</div>
+</div>
+<p>Ces quatre formes se retrouvent en détail au <a href="#ch14">chapitre 14</a>, avec le catalogue complet des panneaux.</p>
+
+<div class="qcm">
+<h4>QCM — Chapitre 1 (8 questions)</h4>
+<div class="q"><p>1. Le feu est vert mais un agent, face à moi, tend le bras horizontalement. Je dois :</p>
+<ul><li><b>A.</b> passer, le feu vert est prioritaire</li><li><b>B.</b> m'arrêter</li><li><b>C.</b> klaxonner puis passer</li><li><b>D.</b> reculer</li></ul></div>
+<div class="q"><p>2. Un feu jaune clignotant signifie :</p>
+<ul><li><b>A.</b> arrêt absolu</li><li><b>B.</b> le carrefour n'est plus régulé, j'applique la signalisation en place ou la priorité à droite</li><li><b>C.</b> j'ai la priorité sur tous</li><li><b>D.</b> la route est barrée</li></ul></div>
+<div class="q"><p>3. La ligne mixte : je peux la franchir…</p>
+<ul><li><b>A.</b> jamais</li><li><b>B.</b> toujours</li><li><b>C.</b> si la ligne discontinue est de mon côté</li><li><b>D.</b> uniquement la nuit</li></ul></div>
+<div class="q"><p>4. Le marquage au sol de couleur jaune indique :</p>
+<ul><li><b>A.</b> une signalisation temporaire ou une interdiction d'arrêt</li><li><b>B.</b> une voie réservée aux taxis</li><li><b>C.</b> un marquage effacé</li><li><b>D.</b> une piste cyclable</li></ul></div>
+<div class="q"><p>5. Un agent vu de profil, bras baissés :</p>
+<ul><li><b>A.</b> m'ordonne l'arrêt</li><li><b>B.</b> me laisse passer</li><li><b>C.</b> ne signifie rien</li><li><b>D.</b> m'ordonne de reculer</li></ul></div>
+<div class="q"><p>6. Au feu jaune fixe, je peux poursuivre ma route :</p>
+<ul><li><b>A.</b> toujours</li><li><b>B.</b> si je suis trop engagé pour m'arrêter sans danger</li><li><b>C.</b> si je suis pressé</li><li><b>D.</b> si aucun véhicule n'arrive</li></ul></div>
+<div class="q"><p>7. Les zébras (hachures blanches) :</p>
+<ul><li><b>A.</b> sont des places de stationnement</li><li><b>B.</b> délimitent une zone interdite à la circulation et au stationnement</li><li><b>C.</b> signalent une école</li><li><b>D.</b> indiquent un arrêt de bus</li></ul></div>
+<div class="q"><p>8. Classe dans l'ordre de priorité : feux tricolores, marquage au sol, agent, panneaux.</p>
+<ul><li><b>A.</b> panneaux → agent → feux → marquage</li><li><b>B.</b> agent → feux → panneaux → marquage</li><li><b>C.</b> feux → agent → marquage → panneaux</li><li><b>D.</b> marquage → panneaux → feux → agent</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> L'agent est au sommet de la hiérarchie : son geste annule le feu vert.</li>
+<li><span class="rep">B</span> Le jaune clignotant ne donne aucune priorité : il rend le carrefour à la règle commune (souvent la priorité à droite).</li>
+<li><span class="rep">C</span> On obéit toujours à la ligne située du côté du véhicule ; le rabattement doit se faire avant la fin de la discontinue.</li>
+<li><span class="rep">A</span> Le jaune est la couleur du provisoire (chantier) et des interdictions d'arrêt en bordure.</li>
+<li><span class="rep">B</span> Profil = passage libre ; face ou dos = arrêt.</li>
+<li><span class="rep">B</span> L'arrêt au jaune fixe est la règle ; l'exception est le risque de choc arrière si l'on freine trop tard.</li>
+<li><span class="rep">B</span> Les zébras protègent une zone de manœuvre ou un îlot : on ne les emprunte ni ne s'y arrête.</li>
+<li><span class="rep">B</span> Ordre mémo : « <strong>A</strong>gent, <strong>F</strong>eux, <strong>P</strong>anneaux, <strong>M</strong>arquage » — <em>A F P M</em>.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 2 ============ -->
+<section class="chap" id="ch2">
+<div class="chap-head">
+  <span class="borne">02</span>
+  <div><span class="fil">Chapitre 2</span><h2>Les règles de priorité</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Savoir qui passe en premier dans toutes les configurations : priorité à droite, carrefours signalés, giratoires, véhicules prioritaires, cas particuliers.</p>
+
+<h3>2.1 Le principe de base : la priorité à droite</h3>
+<p>En l'absence de toute signalisation, <strong>tout conducteur doit céder le passage au véhicule qui arrive à sa droite</strong>. C'est la règle de secours du code de la route : elle s'applique dès qu'aucun panneau, feu ou marquage ne règle le carrefour.</p>
+<figure>
+<svg viewBox="0 0 420 300" role="img" aria-label="Priorité à droite">
+ <rect x="0" y="0" width="420" height="300" fill="#EDEFF2"/>
+ <rect x="150" y="0" width="120" height="300" fill="#3A3F46"/>
+ <rect x="0" y="90" width="420" height="120" fill="#3A3F46"/>
+ <g stroke="#fff" stroke-width="3" stroke-dasharray="16 14"><path d="M210 0v90M210 210v90M0 150h150M270 150h150"/></g>
+ <g font-family="Arial Narrow, Arial, sans-serif">
+  <rect x="188" y="220" width="44" height="62" rx="6" fill="#0B5FA5"/>
+  <text x="210" y="258" fill="#fff" font-size="15" text-anchor="middle" font-weight="bold">MOI</text>
+  <path d="M210 216v-10" stroke="#0B5FA5" stroke-width="3"/><path d="M210 198l-7 12h14z" fill="#0B5FA5"/>
+  <rect x="300" y="128" width="62" height="44" rx="6" fill="#D2202F"/>
+  <text x="331" y="156" fill="#fff" font-size="14" text-anchor="middle" font-weight="bold">LUI</text>
+  <path d="M296 150h-12" stroke="#D2202F" stroke-width="3"/><path d="M276 150l12-7v14z" fill="#D2202F"/>
+  <text x="331" y="196" font-size="13" text-anchor="middle" fill="#D2202F" font-weight="bold">arrive à ma droite</text>
+  <text x="120" y="256" font-size="13" text-anchor="middle" fill="#0B5FA5" font-weight="bold">je cède</text>
+  <text x="120" y="272" font-size="13" text-anchor="middle" fill="#0B5FA5" font-weight="bold">le passage</text>
+ </g>
+</svg>
+<figcaption>Figure 2.1 — Carrefour non signalé : le véhicule rouge passe en premier</figcaption>
+</figure>
+<div class="memo"><span class="lab">À retenir</span>
+La priorité à droite s'applique aussi <strong>dans les parkings, les zones de rencontre et sur les places</strong>, dès lors qu'aucune signalisation ne l'écarte. Elle ne s'applique <strong>jamais</strong> si l'on sort d'un chemin de terre, d'une propriété privée, d'une station-service ou d'un parking vers une chaussée : dans ce cas, on cède toujours le passage.</div>
+
+<h3>2.2 Les carrefours réglés par des panneaux</h3>
+<div class="panneaux">
+ <div class="pan"><svg width="86" height="78"><use href="#s-danger" xlink:href="#s-danger" width="86" height="78"/><path d="M28 46l30 22M58 46l-30 22" stroke="#000" stroke-width="5"/></svg>AB1 · Croix de Saint-André<br>Priorité à droite au prochain carrefour</div>
+ <div class="pan"><svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M50 4 96 50 50 96 4 50Z" fill="#F5B301" stroke="#fff" stroke-width="6"/><path d="M50 16 84 50 50 84 16 50Z" fill="none" stroke="#171A1F" stroke-width="3"/></svg>AB2 · Route prioritaire<br>Je suis prioritaire</div>
+ <div class="pan"><svg width="86" height="78" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4 4h92L50 86Z" fill="#D2202F"/><path d="M18 15h64L50 72Z" fill="#fff"/></svg>AB3a · Cédez le passage<br>Ralentir, céder sans s'arrêter forcément</div>
+ <div class="pan"><svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M30 3h40l27 27v40l-27 27H30L3 70V30Z" fill="#D2202F" stroke="#fff" stroke-width="4"/><text x="50" y="60" fill="#fff" font-size="30" font-family="Arial Narrow, Arial" font-weight="bold" text-anchor="middle">STOP</text></svg>AB4 · STOP<br>Arrêt absolu obligatoire</div>
+</div>
+<table>
+<thead><tr><th>Panneau</th><th>Ce que je dois faire</th><th>Erreur à éviter</th></tr></thead>
+<tbody>
+<tr><td><strong>Cédez le passage</strong> (triangle pointe en bas)</td><td>Ralentir fortement, s'assurer que la voie est libre, s'arrêter seulement si nécessaire</td><td>S'engager « au feeling » sans avoir vraiment regardé à gauche et à droite</td></tr>
+<tr><td><strong>STOP</strong> (octogone rouge)</td><td><strong>Immobilisation complète</strong> du véhicule à la ligne, roues arrêtées, puis observation, puis engagement</td><td>Le « stop américain » : ralentir sans s'arrêter = infraction</td></tr>
+<tr><td><strong>Route prioritaire</strong> (losange jaune)</td><td>Je conserve la priorité aux carrefours suivants jusqu'au panneau de fin</td><td>Croire que l'on est prioritaire sur les piétons ou les véhicules de secours</td></tr>
+<tr><td><strong>Croix de Saint-André</strong> (triangle avec croix)</td><td>Le carrefour est à priorité à droite : je ralentis et je regarde à droite</td><td>Confondre avec un panneau de priorité</td></tr>
+</tbody>
+</table>
+<div class="attention"><span class="lab">Attention</span>
+Au STOP, la ligne d'arrêt est parfois placée en retrait pour la visibilité. On s'immobilise <strong>d'abord</strong> à la ligne, puis on peut avancer lentement (« deuxième arrêt ») jusqu'à voir la route.</div>
+
+<h3>2.3 Le carrefour à sens giratoire</h3>
+<figure>
+<svg viewBox="0 0 380 300" role="img" aria-label="Carrefour à sens giratoire">
+ <rect width="380" height="300" fill="#EDEFF2"/>
+ <circle cx="190" cy="150" r="105" fill="#3A3F46"/>
+ <circle cx="190" cy="150" r="48" fill="#8FA98C" stroke="#fff" stroke-width="4"/>
+ <rect x="160" y="0" width="60" height="45" fill="#3A3F46"/><rect x="160" y="255" width="60" height="45" fill="#3A3F46"/>
+ <rect x="0" y="120" width="85" height="60" fill="#3A3F46"/><rect x="295" y="120" width="85" height="60" fill="#3A3F46"/>
+ <path d="M255 90a92 92 0 0 1 20 55" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="10 8"/>
+ <path d="M279 158l-8-16 16 2z" fill="#fff"/>
+ <g font-family="Arial Narrow, Arial, sans-serif" text-anchor="middle">
+  <rect x="172" y="258" width="36" height="50" rx="5" fill="#0B5FA5"/>
+  <text x="190" y="290" fill="#fff" font-size="13" font-weight="bold">MOI</text>
+  <rect x="96" y="132" width="50" height="34" rx="5" fill="#D2202F"/>
+  <text x="121" y="155" fill="#fff" font-size="12" font-weight="bold">DÉJÀ</text>
+  <text x="190" y="155" fill="#fff" font-size="13" font-weight="bold">ÎLOT</text>
+  <text x="190" y="285" fill="#0B5FA5" font-size="0"> </text>
+ </g>
+ <g font-family="Arial Narrow, Arial, sans-serif" font-size="12.5" fill="#171A1F">
+  <text x="6" y="215">Je cède le passage aux véhicules déjà</text>
+  <text x="6" y="231">engagés dans l'anneau (qui viennent de ma gauche).</text>
+ </g>
+</svg>
+<figcaption>Figure 2.2 — Sens giratoire : la priorité est à l'anneau</figcaption>
+</figure>
+<p>Il faut distinguer deux objets qui se ressemblent :</p>
+<ul>
+<li><strong>Le carrefour à sens giratoire</strong> : signalé par le panneau « Cédez le passage » + le panneau bleu à trois flèches. Les véhicules <strong>déjà engagés dans l'anneau sont prioritaires</strong>. On cède donc à sa gauche.</li>
+<li><strong>Le rond-point simple</strong> (sans panneau de cession) : c'est la <strong>priorité à droite</strong> qui s'applique — les véhicules qui entrent sont prioritaires sur ceux qui tournent. Configuration rare mais piège classique d'examen.</li>
+</ul>
+<h4>Technique de franchissement d'un giratoire</h4>
+<ol>
+<li>Je ralentis et j'observe l'anneau à gauche.</li>
+<li>Je sors à droite (1<sup>re</sup> sortie) : voie de droite, clignotant droit dès l'entrée.</li>
+<li>Je vais tout droit : voie de droite en principe, pas de clignotant à l'entrée, clignotant droit juste après la sortie qui précède la mienne.</li>
+<li>Je tourne à gauche ou je fais demi-tour : voie de gauche, clignotant gauche à l'entrée, puis clignotant droit avant de sortir, en surveillant l'angle mort.</li>
+</ol>
+
+<h3>2.4 Les véhicules prioritaires</h3>
+<table>
+<thead><tr><th>Catégorie</th><th>Exemples</th><th>Mon obligation</th></tr></thead>
+<tbody>
+<tr><td><strong>Véhicules d'intérêt général prioritaires</strong> (avertisseurs sonores + gyrophare bleu en mission)</td><td>Pompiers, SAMU/ambulances de secours, police, gendarmerie</td><td>Céder le passage <strong>en toutes circonstances</strong>, se ranger, s'arrêter si nécessaire, même au feu vert</td></tr>
+<tr><td><strong>Véhicules d'intérêt général bénéficiant de facilités</strong> (gyrophare orange)</td><td>Convois exceptionnels, dépanneuses, engins de service hivernal, bennes à ordures</td><td>Faciliter leur progression sans leur céder de priorité de droit</td></tr>
+<tr><td><strong>Transports en commun</strong></td><td>Bus quittant un arrêt en agglomération</td><td>Ralentir et leur laisser la possibilité de se réinsérer</td></tr>
+<tr><td><strong>Trains et tramways</strong></td><td>Passage à niveau, plateforme de tram</td><td>Priorité absolue : ils ne peuvent pas s'écarter ni s'arrêter court</td></tr>
+<tr><td><strong>Piétons</strong></td><td>Sur ou aux abords d'un passage protégé, dans une zone de rencontre</td><td>Céder le passage, s'arrêter ; ne jamais dépasser un véhicule arrêté devant un passage piétons</td></tr>
+</tbody>
+</table>
+
+<h3>2.5 Cas particuliers à connaître</h3>
+<ul>
+<li><strong>Rétrécissement de chaussée</strong> : le panneau à flèches (rouge/noire) désigne qui passe. La flèche rouge indique le sens qui doit céder.</li>
+<li><strong>Route de montagne étroite</strong> : le véhicule qui <strong>descend</strong> cède le passage à celui qui monte (démarrage en côte plus délicat) ; à défaut de place, c'est le véhicule le plus facile à manœuvrer qui recule.</li>
+<li><strong>Sortie de parking, station-service, chemin de terre, propriété privée</strong> : je cède toujours le passage.</li>
+<li><strong>Passage à niveau</strong> : ne jamais s'engager si l'on ne peut pas le dégager immédiatement ; l'arrêt sur les rails est interdit.</li>
+<li><strong>Cortège officiel ou funéraire</strong> : on ne le coupe pas.</li>
+<li><strong>Véhicule en panne dans un rétrécissement</strong> : la courtoisie prime, mais la règle de la flèche reste applicable.</li>
+</ul>
+<div class="astuce"><span class="lab">Méthode d'examen</span>
+Devant une question de priorité, pose-toi les questions <strong>dans cet ordre</strong> : 1) y a-t-il un agent ? 2) un feu ? 3) un panneau ? 4) un marquage ? 5) sinon → priorité à droite. Puis vérifie s'il y a un piéton ou un véhicule prioritaire dans l'image.</div>
+
+<div class="qcm">
+<h4>QCM — Chapitre 2 (8 questions)</h4>
+<div class="q"><p>1. À un carrefour sans aucune signalisation, un véhicule arrive à ma droite :</p>
+<ul><li><b>A.</b> je passe le premier car je vais tout droit</li><li><b>B.</b> je lui cède le passage</li><li><b>C.</b> le plus rapide passe</li><li><b>D.</b> je klaxonne et je passe</li></ul></div>
+<div class="q"><p>2. Le panneau STOP m'impose :</p>
+<ul><li><b>A.</b> de ralentir seulement</li><li><b>B.</b> l'immobilisation complète du véhicule</li><li><b>C.</b> de m'arrêter uniquement si un véhicule arrive</li><li><b>D.</b> de céder le passage à droite seulement</li></ul></div>
+<div class="q"><p>3. Dans un carrefour à sens giratoire signalé « Cédez le passage » :</p>
+<ul><li><b>A.</b> les entrants sont prioritaires</li><li><b>B.</b> les véhicules déjà dans l'anneau sont prioritaires</li><li><b>C.</b> la priorité à droite s'applique</li><li><b>D.</b> il n'y a aucune règle</li></ul></div>
+<div class="q"><p>4. Je sors d'un parking pour rejoindre la route :</p>
+<ul><li><b>A.</b> j'ai la priorité à droite</li><li><b>B.</b> je cède le passage à tous les usagers de la route</li><li><b>C.</b> je suis prioritaire si je mets le clignotant</li><li><b>D.</b> je suis prioritaire sur les piétons</li></ul></div>
+<div class="q"><p>5. Une ambulance arrive derrière moi, gyrophare et sirène en marche, alors que je suis au feu rouge :</p>
+<ul><li><b>A.</b> je reste immobile, le rouge s'impose à tous</li><li><b>B.</b> je me range prudemment pour la laisser passer, même si je dois dégager légèrement</li><li><b>C.</b> j'accélère pour la précéder</li><li><b>D.</b> je passe au rouge derrière elle</li></ul></div>
+<div class="q"><p>6. Sur une route de montagne étroite, qui cède le passage ?</p>
+<ul><li><b>A.</b> celui qui monte</li><li><b>B.</b> celui qui descend</li><li><b>C.</b> le plus gros véhicule</li><li><b>D.</b> le plus rapide</li></ul></div>
+<div class="q"><p>7. Le panneau en losange jaune signifie :</p>
+<ul><li><b>A.</b> fin de route prioritaire</li><li><b>B.</b> route prioritaire</li><li><b>C.</b> danger</li><li><b>D.</b> priorité à droite</li></ul></div>
+<div class="q"><p>8. Un bus quitte son arrêt en agglomération, clignotant allumé :</p>
+<ul><li><b>A.</b> je le dépasse rapidement</li><li><b>B.</b> je ralentis et je le laisse s'insérer</li><li><b>C.</b> il doit attendre que la voie soit vide</li><li><b>D.</b> je klaxonne</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> Aucune signalisation = priorité à droite, quelle que soit la direction que l'on prend.</li>
+<li><span class="rep">B</span> Le STOP exige l'arrêt total, roues bloquées, à la hauteur de la ligne ; l'absence de véhicule ne dispense pas de l'arrêt.</li>
+<li><span class="rep">B</span> Le giratoire inverse la règle : on cède à sa gauche, aux véhicules engagés dans l'anneau.</li>
+<li><span class="rep">B</span> Sortant d'un lieu non ouvert à la circulation publique, je n'ai aucune priorité, y compris sur les piétons du trottoir que je traverse.</li>
+<li><span class="rep">B</span> Le véhicule prioritaire en mission prime sur le feu ; je dégage sans commettre d'infraction dangereuse ni franchir le feu.</li>
+<li><span class="rep">B</span> Celui qui descend cède, car le redémarrage en côte est plus difficile et plus risqué.</li>
+<li><span class="rep">B</span> Le losange jaune = route prioritaire ; barré d'un trait noir, il en marque la fin.</li>
+<li><span class="rep">B</span> En agglomération, le bus qui quitte son arrêt bénéficie d'une facilité de réinsertion.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 3 ============ -->
+<section class="chap" id="ch3">
+<div class="chap-head">
+  <span class="borne">03</span>
+  <div><span class="fil">Chapitre 3</span><h2>Croisements et dépassements</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Croiser en sécurité dans toutes les configurations, connaître les six temps du dépassement, savoir où le dépassement est interdit et quand il peut se faire par la droite.</p>
+
+<h3>3.1 Le croisement</h3>
+<p>Croiser, c'est rencontrer un véhicule circulant <strong>en sens inverse</strong>. Dans les pays à conduite à droite (Bénin, France, la plupart des pays d'Afrique de l'Ouest francophone), <strong>on croise par la droite</strong> : chaque conducteur serre son côté droit.</p>
+<h4>Les règles du croisement</h4>
+<ol>
+<li><strong>Se déporter à droite</strong> sans mordre sur l'accotement meuble ni sur le trottoir.</li>
+<li><strong>Ralentir</strong> si la chaussée est étroite, si le véhicule croisé est large, ou si un obstacle est présent.</li>
+<li><strong>Passer en feux de croisement</strong> la nuit, dès que l'on aperçoit un véhicule en sens inverse (et aussi lorsqu'on suit un véhicule).</li>
+<li><strong>Céder le passage</strong> lorsque l'obstacle (véhicule en stationnement, travaux, îlot) se trouve <strong>de mon côté</strong> : c'est moi qui dois attendre.</li>
+</ol>
+<div class="exemple"><span class="lab">Exemple concret</span>
+Une voiture est garée sur ta voie et un camion arrive en face. L'obstacle est de ton côté : tu ralentis et tu t'arrêtes avant l'obstacle pour laisser passer le camion. Forcer le passage serait une faute grave — et, en cas d'accident, ta responsabilité serait engagée.</div>
+<h4>Cas particuliers de croisement</h4>
+<ul>
+<li><strong>Croisement d'un deux-roues ou d'un piéton</strong> : prévoir une marge latérale d'au moins <strong>1 m en agglomération</strong> et <strong>1,50 m hors agglomération</strong>.</li>
+<li><strong>Croisement d'un convoi ou d'un véhicule large</strong> : ralentir fortement, voire s'arrêter, à cause de l'effet de souffle.</li>
+<li><strong>Croisement de nuit</strong> : ne jamais rester en feux de route ; en cas d'éblouissement, ralentir, fixer le bord droit de la chaussée, ne jamais fermer les yeux.</li>
+<li><strong>Croisement en montagne</strong> : celui qui descend s'arrête ou recule.</li>
+</ul>
+
+<h3>3.2 Le dépassement</h3>
+<p>Dépasser, c'est <strong>rattraper et doubler un véhicule circulant dans le même sens</strong>. C'est la manœuvre la plus accidentogène : elle mobilise la voie de sens inverse et allonge fortement la distance parcourue.</p>
+<figure>
+<svg viewBox="0 0 700 220" role="img" aria-label="Les six temps du dépassement">
+ <rect width="700" height="220" fill="#EDEFF2"/>
+ <rect x="0" y="60" width="700" height="110" fill="#3A3F46"/>
+ <g stroke="#fff" stroke-width="3" stroke-dasharray="18 16"><path d="M0 115h700"/></g>
+ <path d="M60 148 C 150 148, 170 85, 250 85 L 430 85 C 510 85, 530 148, 620 148" fill="none" stroke="#F5B301" stroke-width="4" stroke-dasharray="9 7"/>
+ <path d="M620 148l-16-7v14z" fill="#F5B301"/>
+ <g font-family="Arial Narrow, Arial, sans-serif">
+  <rect x="40" y="134" width="46" height="28" rx="4" fill="#0B5FA5"/>
+  <text x="63" y="153" fill="#fff" font-size="12" text-anchor="middle" font-weight="bold">MOI</text>
+  <rect x="330" y="134" width="52" height="28" rx="4" fill="#5C636D"/>
+  <text x="356" y="153" fill="#fff" font-size="11" text-anchor="middle" font-weight="bold">DÉPASSÉ</text>
+  <g font-size="12.5" fill="#171A1F" text-anchor="middle">
+   <text x="70" y="196">1. Observer</text><text x="185" y="196">2. Avertir</text><text x="300" y="196">3. Déboîter</text>
+   <text x="415" y="196">4. Doubler</text><text x="530" y="196">5. Contrôler</text><text x="645" y="196">6. Se rabattre</text>
+  </g>
+  <text x="350" y="34" font-size="14" text-anchor="middle" font-weight="bold" fill="#171A1F" letter-spacing="1.5">LES SIX TEMPS DU DÉPASSEMENT</text>
+ </g>
+</svg>
+<figcaption>Figure 3.1 — La trajectoire et la chronologie du dépassement</figcaption>
+</figure>
+<h4>La méthode en six temps</h4>
+<ol>
+<li><strong>Observer</strong> : rétroviseur intérieur, rétroviseur gauche, angle mort. Vérifier que personne ne me dépasse déjà, que la visibilité est suffisante (au moins le double de la distance nécessaire) et que le véhicule devant ne s'apprête pas à tourner à gauche.</li>
+<li><strong>Avertir</strong> : clignotant gauche ; de jour hors agglomération, un appel de phares est possible ; en agglomération, l'avertisseur sonore est réservé au danger immédiat.</li>
+<li><strong>Déboîter</strong> franchement, sans brusquerie, en gardant l'écart latéral.</li>
+<li><strong>Doubler</strong> : accélérer pour réduire le temps passé sur la voie de gauche, garder au moins <strong>1 m (agglomération) ou 1,50 m (hors agglomération)</strong> d'écart latéral.</li>
+<li><strong>Contrôler</strong> : voir le véhicule dépassé <strong>entièrement dans le rétroviseur intérieur</strong> avant de revenir.</li>
+<li><strong>Se rabattre</strong> souplement, clignotant droit, sans obliger le dépassé à freiner.</li>
+</ol>
+
+<h3>3.3 Où et quand le dépassement est interdit</h3>
+<table>
+<thead><tr><th>Interdiction</th><th>Pourquoi</th></tr></thead>
+<tbody>
+<tr><td>Visibilité insuffisante : virage, sommet de côte, brouillard, nuit sans visibilité</td><td>On ne voit pas le véhicule arrivant en face</td></tr>
+<tr><td>Ligne continue axiale</td><td>Le franchissement est lui-même interdit</td></tr>
+<tr><td>Aux intersections, sauf si l'on circule sur une route prioritaire</td><td>Risque de collision avec un véhicule débouchant ou tournant</td></tr>
+<tr><td>Sur et aux abords d'un passage pour piétons</td><td>Le véhicule dépassé peut masquer un piéton engagé</td></tr>
+<tr><td>Aux passages à niveau et à leurs abords</td><td>Zone de manœuvre impossible</td></tr>
+<tr><td>Lorsqu'un véhicule me dépasse déjà</td><td>Double dépassement = collision quasi certaine</td></tr>
+<tr><td>Quand le véhicule précédent a mis son clignotant gauche pour tourner</td><td>Il coupera ma trajectoire</td></tr>
+<tr><td>Panneau « dépassement interdit » (voiture rouge/voiture noire)</td><td>Interdiction réglementaire jusqu'au panneau de fin</td></tr>
+</tbody>
+</table>
+<div class="attention"><span class="lab">Danger</span>
+Le dépassement d'un <strong>véhicule long</strong> (camion, semi-remorque) demande une distance et un temps considérables : à 90 km/h, doubler un camion peut mobiliser <strong>plus de 400 m</strong> de route. Si tu doutes de la place disponible, n'engage pas la manœuvre.</div>
+
+<h3>3.4 Le dépassement par la droite</h3>
+<p>La règle est de dépasser par la gauche. Le dépassement par la droite n'est autorisé que dans quatre cas :</p>
+<ul>
+<li>Le véhicule précédent a signalé son intention de <strong>tourner à gauche</strong> et s'est déporté vers l'axe.</li>
+<li>Sur une chaussée à <strong>circulation en files ininterrompues</strong>, où l'on progresse plus vite dans sa file (ce n'est alors pas un dépassement).</li>
+<li>Sur une chaussée à sens unique à plusieurs voies, dans une circulation dense.</li>
+<li>Pour dépasser un <strong>tramway</strong> circulant sur une plateforme centrale.</li>
+</ul>
+
+<h3>3.5 Obligations de celui qui est dépassé</h3>
+<p>Le conducteur dépassé doit <strong>serrer à droite</strong> et <strong>ne pas accélérer</strong>. Accélérer pendant qu'on est dépassé est à la fois dangereux et sanctionné.</p>
+
+<div class="qcm">
+<h4>QCM — Chapitre 3 (8 questions)</h4>
+<div class="q"><p>1. Un obstacle se trouve sur ma voie et un véhicule arrive en face :</p>
+<ul><li><b>A.</b> je passe en premier</li><li><b>B.</b> je cède le passage et j'attends</li><li><b>C.</b> je klaxonne pour qu'il s'écarte</li><li><b>D.</b> je monte sur le trottoir</li></ul></div>
+<div class="q"><p>2. Avant de me rabattre après un dépassement, je dois :</p>
+<ul><li><b>A.</b> compter jusqu'à trois</li><li><b>B.</b> voir le véhicule dépassé entièrement dans mon rétroviseur intérieur</li><li><b>C.</b> attendre qu'il klaxonne</li><li><b>D.</b> me rabattre immédiatement</li></ul></div>
+<div class="q"><p>3. Le dépassement est-il autorisé au sommet d'une côte ?</p>
+<ul><li><b>A.</b> oui si la ligne est discontinue</li><li><b>B.</b> non, la visibilité est insuffisante</li><li><b>C.</b> oui de jour</li><li><b>D.</b> oui si je klaxonne</li></ul></div>
+<div class="q"><p>4. Je suis en train d'être dépassé. Je dois :</p>
+<ul><li><b>A.</b> accélérer</li><li><b>B.</b> serrer à droite et maintenir ma vitesse</li><li><b>C.</b> freiner brusquement</li><li><b>D.</b> me déporter à gauche</li></ul></div>
+<div class="q"><p>5. Le dépassement par la droite est autorisé lorsque :</p>
+<ul><li><b>A.</b> le véhicule devant roule lentement</li><li><b>B.</b> le véhicule devant a mis son clignotant gauche et s'est déporté pour tourner</li><li><b>C.</b> je suis pressé</li><li><b>D.</b> la voie de droite est libre</li></ul></div>
+<div class="q"><p>6. L'écart latéral minimal pour dépasser un cycliste hors agglomération est de :</p>
+<ul><li><b>A.</b> 0,50 m</li><li><b>B.</b> 1 m</li><li><b>C.</b> 1,50 m</li><li><b>D.</b> 3 m</li></ul></div>
+<div class="q"><p>7. La nuit, je croise un véhicule. Je dois :</p>
+<ul><li><b>A.</b> rester en feux de route</li><li><b>B.</b> passer en feux de croisement</li><li><b>C.</b> éteindre mes feux</li><li><b>D.</b> allumer mes feux de brouillard</li></ul></div>
+<div class="q"><p>8. Je suis ébloui par un véhicule en sens inverse :</p>
+<ul><li><b>A.</b> je ferme les yeux une seconde</li><li><b>B.</b> je ralentis et je fixe le bord droit de la chaussée</li><li><b>C.</b> j'allume mes feux de route en réponse</li><li><b>D.</b> je freine brusquement</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> L'obstacle étant de mon côté, la voie de sens inverse ne m'appartient pas : je m'arrête avant l'obstacle.</li>
+<li><span class="rep">B</span> Voir le véhicule <em>en entier</em> dans le rétroviseur intérieur garantit un espace suffisant pour se rabattre.</li>
+<li><span class="rep">B</span> L'absence de visibilité interdit le dépassement, même si le marquage l'autorise.</li>
+<li><span class="rep">B</span> Le dépassé doit faciliter la manœuvre : serrer à droite, sans accélérer.</li>
+<li><span class="rep">B</span> C'est le cas le plus classique ; les autres cas concernent les files ininterrompues et le tramway.</li>
+<li><span class="rep">C</span> 1 m en agglomération, 1,50 m hors agglomération ; à défaut de place, on renonce au dépassement.</li>
+<li><span class="rep">B</span> Les feux de route éblouissent et créent un danger mutuel ; on repasse en croisement dès que l'on aperçoit un véhicule.</li>
+<li><span class="rep">B</span> Le regard se porte sur la ligne de rive droite, qui sert de guide pendant les quelques secondes d'éblouissement.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 4 ============ -->
+<section class="chap" id="ch4">
+<div class="chap-head">
+  <span class="borne">04</span>
+  <div><span class="fil">Chapitre 4</span><h2>Arrêt et stationnement</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Distinguer arrêt et stationnement, connaître les stationnements interdits, gênants, dangereux et abusifs, maîtriser les différents modes de rangement et les règles de sortie de véhicule.</p>
+
+<h3>4.1 Deux notions à ne jamais confondre</h3>
+<table>
+<thead><tr><th></th><th>L'arrêt</th><th>Le stationnement</th></tr></thead>
+<tbody>
+<tr><td><strong>Définition</strong></td><td>Immobilisation <em>momentanée</em> du véhicule, le conducteur restant au volant ou à proximité immédiate, pour laisser monter/descendre des personnes ou charger/décharger</td><td>Immobilisation du véhicule en dehors des circonstances de l'arrêt : le conducteur quitte son véhicule ou l'immobilise durablement</td></tr>
+<tr><td><strong>Conducteur</strong></td><td>Présent, prêt à repartir</td><td>Peut être absent</td></tr>
+<tr><td><strong>Durée</strong></td><td>Brève, liée à l'opération en cours</td><td>Indéterminée</td></tr>
+<tr><td><strong>Règle</strong></td><td>Tout stationnement interdit est aussi un arrêt interdit ? <strong>Non</strong> : tout <em>arrêt</em> interdit entraîne l'interdiction de stationner, l'inverse n'est pas vrai</td><td>Là où le stationnement est interdit, l'arrêt peut rester possible</td></tr>
+</tbody>
+</table>
+<div class="memo"><span class="lab">À retenir</span>
+Le panneau rond bleu barré d'un <strong>seul trait rouge</strong> = <em>stationnement interdit</em>. Barré de <strong>deux traits croisés</strong> = <em>arrêt et stationnement interdits</em>. Un trait, une interdiction ; deux traits, deux interdictions.</div>
+
+<h3>4.2 Où l'arrêt et le stationnement sont interdits</h3>
+<ul>
+<li>Sur les <strong>passages pour piétons</strong> et, en amont, sur les 5 mètres qui les précèdent (zone de visibilité).</li>
+<li>Sur les <strong>trottoirs</strong>, les pistes et bandes cyclables, les voies réservées aux bus.</li>
+<li>Sur les <strong>ponts, dans les tunnels, les passages souterrains</strong> et sur les passages à niveau.</li>
+<li>Dans les <strong>virages, les sommets de côte</strong> et à proximité des intersections lorsque la visibilité est réduite.</li>
+<li>Devant les <strong>entrées carrossables</strong> (portails, garages) d'autrui.</li>
+<li>Sur les <strong>zébras</strong>, les emplacements réservés (handicapés, taxis, livraisons, secours), devant les bouches d'incendie.</li>
+<li>En <strong>double file</strong>, ou du côté opposé au sens de circulation sur une chaussée à double sens.</li>
+<li>Sur la <strong>bande d'arrêt d'urgence</strong> d'une autoroute, sauf urgence réelle.</li>
+</ul>
+
+<h3>4.3 Les trois qualifications sanctionnées</h3>
+<table>
+<thead><tr><th>Type</th><th>Définition</th><th>Exemples</th></tr></thead>
+<tbody>
+<tr><td><strong>Gênant</strong></td><td>Entrave la circulation des autres usagers</td><td>Trottoir, piste cyclable, double file, arrêt de bus, place réservée</td></tr>
+<tr><td><strong>Dangereux</strong></td><td>Crée un risque d'accident par manque de visibilité</td><td>Virage, sommet de côte, intersection, passage à niveau, tunnel</td></tr>
+<tr><td><strong>Abusif</strong></td><td>Véhicule laissé au même endroit au-delà d'une durée fixée (souvent <strong>7 jours</strong> ⚠ à vérifier), ou véhicule épave</td><td>Voiture immobilisée des semaines sur la voie publique</td></tr>
+</tbody>
+</table>
+<p>Ces stationnements exposent à une amende, à l'<strong>immobilisation</strong> et à la <strong>mise en fourrière</strong> aux frais du propriétaire.</p>
+
+<h3>4.4 Les modes de rangement</h3>
+<figure>
+<svg viewBox="0 0 660 200" role="img" aria-label="Modes de stationnement">
+ <rect width="660" height="200" fill="#EDEFF2"/>
+ <g font-family="Arial Narrow, Arial, sans-serif" text-anchor="middle">
+  <rect x="20" y="30" width="180" height="90" fill="#3A3F46"/>
+  <g fill="#0B5FA5"><rect x="30" y="46" width="48" height="24" rx="3"/><rect x="88" y="46" width="48" height="24" rx="3"/><rect x="146" y="46" width="48" height="24" rx="3"/></g>
+  <text x="110" y="140" font-size="13.5" font-weight="bold" fill="#171A1F">LONGITUDINAL</text>
+  <text x="110" y="158" font-size="12" fill="#5C636D">le long du trottoir</text>
+  <rect x="240" y="30" width="180" height="90" fill="#3A3F46"/>
+  <g fill="#D2202F"><rect x="252" y="42" width="24" height="46" rx="3" transform="rotate(30 264 65)"/><rect x="300" y="42" width="24" height="46" rx="3" transform="rotate(30 312 65)"/><rect x="348" y="42" width="24" height="46" rx="3" transform="rotate(30 360 65)"/></g>
+  <text x="330" y="140" font-size="13.5" font-weight="bold" fill="#171A1F">EN ÉPI</text>
+  <text x="330" y="158" font-size="12" fill="#5C636D">en oblique, entrée facile</text>
+  <rect x="460" y="30" width="180" height="90" fill="#3A3F46"/>
+  <g fill="#1B7F5A"><rect x="476" y="42" width="26" height="48" rx="3"/><rect x="522" y="42" width="26" height="48" rx="3"/><rect x="568" y="42" width="26" height="48" rx="3"/></g>
+  <text x="550" y="140" font-size="13.5" font-weight="bold" fill="#171A1F">EN BATAILLE</text>
+  <text x="550" y="158" font-size="12" fill="#5C636D">perpendiculaire</text>
+ </g>
+</svg>
+<figcaption>Figure 4.1 — Les trois modes de stationnement</figcaption>
+</figure>
+<ul>
+<li><strong>Longitudinal (en créneau)</strong> : parallèle au trottoir, dans le sens de la circulation. C'est la manœuvre du créneau, exigée à l'examen pratique.</li>
+<li><strong>En épi</strong> : véhicules en oblique. Entrée facile, sortie délicate (visibilité réduite) : privilégier la <strong>marche arrière à l'entrée</strong> quand c'est possible.</li>
+<li><strong>En bataille</strong> : perpendiculaire au trottoir. Se ranger en marche arrière permet de repartir en marche avant, ce qui est nettement plus sûr.</li>
+</ul>
+<h4>Réglementations particulières</h4>
+<ul>
+<li><strong>Stationnement alterné semi-mensuel</strong> : du 1<sup>er</sup> au 15 du mois, côté impair ; du 16 à la fin du mois, côté pair. Le changement s'effectue le dernier jour de chaque période, entre 20 h 30 et 21 h.</li>
+<li><strong>Zone bleue</strong> : durée limitée, disque de stationnement obligatoire derrière le pare-brise.</li>
+<li><strong>Stationnement payant</strong> : horodateur ; le ticket doit être visible.</li>
+<li><strong>Hors agglomération, de nuit</strong> : si le véhicule doit rester sur la chaussée, il faut allumer les <strong>feux de position</strong> et, en cas de panne, poser le triangle de présignalisation à <strong>30 m</strong> au moins.</li>
+</ul>
+
+<h3>4.5 Quitter et reprendre son véhicule</h3>
+<ol>
+<li>Serrer le <strong>frein de stationnement</strong>, engager une vitesse (1<sup>re</sup> en montée, marche arrière en descente), braquer les roues vers le trottoir en pente.</li>
+<li>Contrôler le rétroviseur et l'angle mort <strong>avant d'ouvrir la portière</strong> : l'ouverture dangereuse est une cause fréquente d'accident mortel de cycliste ou de motocycliste.</li>
+<li>Descendre côté trottoir chaque fois que c'est possible ; ne pas laisser d'enfant ni d'animal seul dans un véhicule fermé, surtout au soleil.</li>
+<li>Avant de repartir : faire le tour du véhicule si nécessaire, clignotant, contrôle du rétroviseur et de l'angle mort, puis insertion en cédant le passage.</li>
+</ol>
+<div class="astuce"><span class="lab">Astuce sécurité</span>
+La « <strong>prise hollandaise</strong> » : ouvrir sa portière avec la main la plus éloignée (main droite pour le conducteur). Le buste pivote naturellement et le regard part vers l'arrière — le contrôle de l'angle mort devient automatique.</div>
+
+<div class="qcm">
+<h4>QCM — Chapitre 4 (7 questions)</h4>
+<div class="q"><p>1. Un panneau rond bleu barré de deux traits rouges croisés signifie :</p>
+<ul><li><b>A.</b> stationnement interdit</li><li><b>B.</b> arrêt et stationnement interdits</li><li><b>C.</b> stationnement payant</li><li><b>D.</b> zone bleue</li></ul></div>
+<div class="q"><p>2. Le stationnement au sommet d'une côte est qualifié de :</p>
+<ul><li><b>A.</b> gênant</li><li><b>B.</b> dangereux</li><li><b>C.</b> abusif</li><li><b>D.</b> autorisé</li></ul></div>
+<div class="q"><p>3. Je m'immobilise pour laisser descendre un passager, moteur tournant, au volant. Il s'agit :</p>
+<ul><li><b>A.</b> d'un stationnement</li><li><b>B.</b> d'un arrêt</li><li><b>C.</b> d'un stationnement abusif</li><li><b>D.</b> d'un stationnement gênant</li></ul></div>
+<div class="q"><p>4. Sur une chaussée à double sens, je peux stationner :</p>
+<ul><li><b>A.</b> des deux côtés indifféremment</li><li><b>B.</b> uniquement du côté droit, dans le sens de la circulation</li><li><b>C.</b> à gauche si la place est libre</li><li><b>D.</b> en double file</li></ul></div>
+<div class="q"><p>5. En stationnement alterné semi-mensuel, du 1<sup>er</sup> au 15 du mois, je stationne :</p>
+<ul><li><b>A.</b> côté pair</li><li><b>B.</b> côté impair</li><li><b>C.</b> des deux côtés</li><li><b>D.</b> nulle part</li></ul></div>
+<div class="q"><p>6. En stationnement en bataille, la manière la plus sûre est :</p>
+<ul><li><b>A.</b> entrer en marche avant, sortir en marche arrière</li><li><b>B.</b> entrer en marche arrière, sortir en marche avant</li><li><b>C.</b> peu importe</li><li><b>D.</b> se garer en travers</li></ul></div>
+<div class="q"><p>7. Avant d'ouvrir ma portière côté chaussée, je dois :</p>
+<ul><li><b>A.</b> klaxonner</li><li><b>B.</b> contrôler le rétroviseur et l'angle mort</li><li><b>C.</b> ouvrir vite pour ne pas gêner</li><li><b>D.</b> allumer les warnings uniquement</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> Deux traits = deux interdictions (arrêt + stationnement) ; un seul trait n'interdit que le stationnement.</li>
+<li><span class="rep">B</span> Le manque de visibilité crée un risque d'accident : le stationnement est dangereux.</li>
+<li><span class="rep">B</span> Immobilisation momentanée avec conducteur au volant pour la descente d'un passager = arrêt.</li>
+<li><span class="rep">B</span> Le stationnement se fait à droite, dans le sens de la marche ; les deux côtés ne sont possibles qu'en sens unique lorsque c'est autorisé.</li>
+<li><span class="rep">B</span> Du 1<sup>er</sup> au 15 : côté impair ; du 16 à la fin : côté pair.</li>
+<li><span class="rep">B</span> On entre en marche arrière pour repartir en marche avant, avec une visibilité bien meilleure.</li>
+<li><span class="rep">B</span> L'ouverture de portière sans contrôle est une des causes majeures d'accidents graves de deux-roues.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 5 ============ -->
+<section class="chap" id="ch5">
+<div class="chap-head">
+  <span class="borne">05</span>
+  <div><span class="fil">Chapitre 5</span><h2>La vitesse</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Comprendre le lien vitesse / distance d'arrêt / gravité du choc, connaître les limitations, calculer une distance de sécurité, adapter sa vitesse aux circonstances.</p>
+
+<h3>5.1 La règle d'or : la vitesse adaptée</h3>
+<p>La limitation affichée est un <strong>maximum</strong>, jamais une obligation. Le conducteur doit <strong>rester constamment maître de son véhicule</strong> et adapter sa vitesse à l'état de la route, au trafic, à la météo, à la visibilité, à la charge du véhicule et à sa propre forme.</p>
+
+<h3>5.2 Les limitations de vitesse</h3>
+<table>
+<thead><tr><th>Type de voie</th><th>Temps sec</th><th>Pluie / chaussée mouillée</th><th>Visibilité &lt; 50 m</th></tr></thead>
+<tbody>
+<tr><td>Agglomération</td><td>50 km/h (60 sur certains axes ; 30 en zone apaisée) ⚠</td><td>50 km/h</td><td>50 km/h</td></tr>
+<tr><td>Route à double sens</td><td>80 à 90 km/h ⚠</td><td>80 km/h</td><td>50 km/h</td></tr>
+<tr><td>Route pour automobiles (voie express)</td><td>110 km/h ⚠</td><td>100 km/h</td><td>50 km/h</td></tr>
+<tr><td>Autoroute</td><td>120 à 130 km/h ⚠</td><td>110 km/h</td><td>50 km/h</td></tr>
+</tbody>
+</table>
+<div class="attention"><span class="lab">⚠ À vérifier</span>
+Ces valeurs sont celles du référentiel francophone le plus courant. Au Bénin et dans plusieurs pays de la sous-région, les limitations en agglomération et hors agglomération peuvent différer (souvent 60 km/h en ville, 90 km/h hors agglomération, et des limitations locales plus basses à proximité des écoles et des marchés). Retiens le <strong>raisonnement</strong>, vérifie les <strong>chiffres</strong> dans le code applicable chez toi.</div>
+<p>D'autres limitations s'appliquent en permanence : véhicules lourds, véhicules tractant une remorque, conducteurs novices (souvent limités à la vitesse « pluie »), transports en commun.</p>
+
+<h3>5.3 La distance d'arrêt</h3>
+<p>La distance d'arrêt est la somme de deux distances :</p>
+<p style="text-align:center;font-family:var(--font-tech);background:#fff;border:1px solid var(--ligne);padding:12px"><strong>DISTANCE D'ARRÊT = distance de réaction + distance de freinage</strong></p>
+<ul>
+<li><strong>Distance de réaction</strong> : distance parcourue pendant le temps de réaction, environ <strong>1 seconde</strong> chez un conducteur en forme. Elle augmente avec la fatigue, l'alcool, le téléphone, les médicaments.</li>
+<li><strong>Distance de freinage</strong> : distance parcourue une fois le frein actionné. Elle dépend du <strong>carré de la vitesse</strong> : doubler la vitesse <strong>quadruple</strong> la distance de freinage.</li>
+</ul>
+<div class="memo"><span class="lab">Les deux formules à connaître par cœur</span>
+<strong>Distance de réaction (m)</strong> = (V ÷ 10) × 3 &nbsp;→ à 90 km/h : 9 × 3 = <strong>27 m</strong><br>
+<strong>Distance de freinage (m, sur sol sec)</strong> = (V ÷ 10) × (V ÷ 10) &nbsp;→ à 90 km/h : 9 × 9 = <strong>81 m</strong><br>
+Sur chaussée mouillée, la distance de freinage est <strong>multipliée par 2</strong>.</div>
+<figure>
+<svg viewBox="0 0 680 250" role="img" aria-label="Distances d'arrêt selon la vitesse">
+ <g font-family="Arial Narrow, Arial, sans-serif" font-size="13">
+  <text x="10" y="20" font-weight="bold" font-size="14" letter-spacing="1">DISTANCE D'ARRÊT SUR CHAUSSÉE SÈCHE</text>
+  <g>
+   <text x="10" y="56" font-weight="bold">50 km/h</text>
+   <rect x="86" y="42" width="60" height="20" fill="#F5B301"/><rect x="146" y="42" width="100" height="20" fill="#D2202F"/>
+   <text x="256" y="57" fill="#171A1F">15 + 25 = <tspan font-weight="bold">40 m</tspan></text>
+  </g>
+  <g>
+   <text x="10" y="96" font-weight="bold">70 km/h</text>
+   <rect x="86" y="82" width="84" height="20" fill="#F5B301"/><rect x="170" y="82" width="196" height="20" fill="#D2202F"/>
+   <text x="376" y="97" fill="#171A1F">21 + 49 = <tspan font-weight="bold">70 m</tspan></text>
+  </g>
+  <g>
+   <text x="10" y="136" font-weight="bold">90 km/h</text>
+   <rect x="86" y="122" width="108" height="20" fill="#F5B301"/><rect x="194" y="122" width="324" height="20" fill="#D2202F"/>
+   <text x="528" y="137" fill="#171A1F">27 + 81 = <tspan font-weight="bold">108 m</tspan></text>
+  </g>
+  <g>
+   <text x="10" y="176" font-weight="bold">110 km/h</text>
+   <rect x="86" y="162" width="132" height="20" fill="#F5B301"/><rect x="218" y="162" width="380" height="20" fill="#D2202F"/>
+   <text x="606" y="177" fill="#171A1F" font-size="12">33+121</text>
+  </g>
+  <rect x="86" y="208" width="18" height="14" fill="#F5B301"/><text x="110" y="220">distance de réaction (1 s)</text>
+  <rect x="270" y="208" width="18" height="14" fill="#D2202F"/><text x="294" y="220">distance de freinage (sol sec)</text>
+  <text x="10" y="243" font-size="12" fill="#5C636D">Sur chaussée mouillée, la partie rouge double : à 90 km/h, l'arrêt demande environ 190 m.</text>
+ </g>
+</svg>
+<figcaption>Figure 5.1 — Ce que coûte réellement chaque tranche de vitesse</figcaption>
+</figure>
+
+<h3>5.4 L'énergie du choc</h3>
+<p>L'énergie cinétique d'un véhicule est proportionnelle au <strong>carré de la vitesse</strong> : <em>E = ½ m V²</em>. À 100 km/h, un choc frontal contre un obstacle fixe équivaut à une chute d'un immeuble d'environ <strong>12 étages</strong>. C'est pourquoi quelques kilomètres/heure de moins changent radicalement les conséquences d'un accident, notamment pour un piéton :</p>
+<ul>
+<li>Renversé à <strong>30 km/h</strong> : le piéton survit dans la très grande majorité des cas.</li>
+<li>Renversé à <strong>50 km/h</strong> : environ un piéton sur deux est tué.</li>
+<li>Renversé à <strong>60 km/h</strong> et au-delà : le décès est la règle.</li>
+</ul>
+
+<h3>5.5 Les distances de sécurité</h3>
+<p>La distance à respecter avec le véhicule qui précède correspond à la distance parcourue pendant <strong>2 secondes</strong>. Sur route mouillée ou avec une remorque, on passe à <strong>3 secondes</strong>.</p>
+<div class="astuce"><span class="lab">Technique des deux secondes</span>
+Repère un point fixe (panneau, arbre). Quand le véhicule de devant le dépasse, compte « <em>mille un, mille deux</em> ». Si tu atteins le point avant la fin du décompte, tu es trop près : lève le pied.</div>
+
+<h3>5.6 Vitesse excessive, vitesse insuffisante, phénomènes physiques</h3>
+<ul>
+<li><strong>Vitesse trop faible</strong> : elle est aussi une infraction lorsqu'elle gêne la circulation sans motif ; sur autoroute, la voie de gauche impose de pouvoir tenir au moins 80 km/h.</li>
+<li><strong>Aquaplanage</strong> : au-delà d'une certaine vitesse sur film d'eau, les pneus ne chassent plus l'eau et le véhicule « flotte ». Réaction : lever le pied <strong>sans freiner ni braquer</strong>, tenir le volant droit.</li>
+<li><strong>Force centrifuge</strong> : en virage, elle déporte le véhicule vers l'extérieur ; elle croît avec le carré de la vitesse. On freine <strong>avant</strong> le virage, on accélère progressivement à la sortie.</li>
+<li><strong>Fading</strong> : échauffement des freins en longue descente ; utiliser le frein moteur en rétrogradant.</li>
+</ul>
+
+<div class="qcm">
+<h4>QCM — Chapitre 5 (8 questions)</h4>
+<div class="q"><p>1. La distance d'arrêt est égale à :</p>
+<ul><li><b>A.</b> la distance de freinage seule</li><li><b>B.</b> la distance de réaction + la distance de freinage</li><li><b>C.</b> deux fois la distance de réaction</li><li><b>D.</b> la distance de sécurité</li></ul></div>
+<div class="q"><p>2. À 90 km/h sur sol sec, ma distance de freinage est d'environ :</p>
+<ul><li><b>A.</b> 27 m</li><li><b>B.</b> 45 m</li><li><b>C.</b> 81 m</li><li><b>D.</b> 120 m</li></ul></div>
+<div class="q"><p>3. Si je double ma vitesse, ma distance de freinage :</p>
+<ul><li><b>A.</b> double</li><li><b>B.</b> triple</li><li><b>C.</b> est multipliée par quatre</li><li><b>D.</b> ne change pas</li></ul></div>
+<div class="q"><p>4. La distance de sécurité minimale correspond à :</p>
+<ul><li><b>A.</b> une longueur de voiture</li><li><b>B.</b> 2 secondes de trajet</li><li><b>C.</b> 10 mètres</li><li><b>D.</b> 30 mètres quelle que soit la vitesse</li></ul></div>
+<div class="q"><p>5. En cas d'aquaplanage, je dois :</p>
+<ul><li><b>A.</b> freiner fort</li><li><b>B.</b> braquer pour reprendre la trajectoire</li><li><b>C.</b> lever le pied, tenir le volant droit, ne pas freiner</li><li><b>D.</b> accélérer</li></ul></div>
+<div class="q"><p>6. Par visibilité inférieure à 50 m (brouillard épais), la vitesse est limitée à :</p>
+<ul><li><b>A.</b> 30 km/h</li><li><b>B.</b> 50 km/h sur toutes les routes</li><li><b>C.</b> 70 km/h</li><li><b>D.</b> aucune limitation particulière</li></ul></div>
+<div class="q"><p>7. Un piéton renversé à 50 km/h :</p>
+<ul><li><b>A.</b> est rarement blessé</li><li><b>B.</b> a environ une chance sur deux d'être tué</li><li><b>C.</b> est toujours indemne</li><li><b>D.</b> est protégé par le pare-chocs</li></ul></div>
+<div class="q"><p>8. Le temps de réaction moyen d'un conducteur en bonne forme est d'environ :</p>
+<ul><li><b>A.</b> 0,1 seconde</li><li><b>B.</b> 1 seconde</li><li><b>C.</b> 3 secondes</li><li><b>D.</b> 5 secondes</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> On ne s'arrête jamais au moment où l'on décide de freiner : le temps de réaction consomme déjà des dizaines de mètres.</li>
+<li><span class="rep">C</span> (90 ÷ 10)² = 9 × 9 = 81 m sur sol sec — le double environ sur sol mouillé.</li>
+<li><span class="rep">C</span> La distance de freinage varie avec le carré de la vitesse.</li>
+<li><span class="rep">B</span> La règle des 2 secondes s'adapte automatiquement à la vitesse ; on passe à 3 s sous la pluie.</li>
+<li><span class="rep">C</span> Freiner ou braquer sur un film d'eau provoque la perte totale de contrôle.</li>
+<li><span class="rep">B</span> Sous 50 m de visibilité, la vitesse maximale est de 50 km/h partout, autoroute comprise.</li>
+<li><span class="rep">B</span> D'où l'intérêt majeur des zones limitées à 30 km/h autour des écoles et des marchés.</li>
+<li><span class="rep">B</span> Environ 1 seconde ; ce temps double sous l'effet de l'alcool, de la fatigue ou du téléphone.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 6 ============ -->
+<section class="chap" id="ch6">
+<div class="chap-head">
+  <span class="borne">06</span>
+  <div><span class="fil">Chapitre 6</span><h2>Route · Route pour automobiles · Autoroute</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Reconnaître les trois types de voies, nommer les parties de la route, maîtriser l'insertion et la sortie, connaître les interdictions propres à l'autoroute et la conduite à tenir en cas de panne.</p>
+
+<h3>6.1 Les parties de la route</h3>
+<figure>
+<svg viewBox="0 0 700 230" role="img" aria-label="Coupe d'une route">
+ <rect width="700" height="230" fill="#EDEFF2"/>
+ <rect x="0" y="60" width="700" height="110" fill="#3A3F46"/>
+ <rect x="0" y="60" width="70" height="110" fill="#9C8B6E"/>
+ <rect x="630" y="60" width="70" height="110" fill="#9C8B6E"/>
+ <rect x="70" y="62" width="5" height="106" fill="#fff"/><rect x="625" y="62" width="5" height="106" fill="#fff"/>
+ <g stroke="#fff" stroke-width="4" stroke-dasharray="20 18"><path d="M75 115h550"/></g>
+ <g font-family="Arial Narrow, Arial, sans-serif" font-size="12.5" fill="#171A1F">
+  <text x="8" y="52">ACCOTEMENT</text><text x="8" y="192">bas-côté / trottoir</text>
+  <text x="300" y="52" font-weight="bold">CHAUSSÉE</text>
+  <text x="120" y="192">ligne de rive</text>
+  <text x="330" y="192">ligne axiale</text>
+  <text x="596" y="52">ACCOTEMENT</text>
+  <text x="250" y="216" fill="#5C636D">Chaussée = partie réservée à la circulation des véhicules · Voie = subdivision de la chaussée</text>
+ </g>
+</svg>
+<figcaption>Figure 6.1 — Vocabulaire de la route</figcaption>
+</figure>
+<ul>
+<li><strong>La chaussée</strong> : partie de la route affectée à la circulation des véhicules.</li>
+<li><strong>La voie</strong> : subdivision de la chaussée, de largeur suffisante pour une file de véhicules.</li>
+<li><strong>L'accotement</strong> : bordure située entre la chaussée et le fossé ou le talus ; il peut être stabilisé ou meuble.</li>
+<li><strong>Le terre-plein central</strong> : séparateur entre les deux sens de circulation sur une chaussée séparée.</li>
+<li><strong>La bande d'arrêt d'urgence (BAU)</strong> : bande revêtue à droite des autoroutes et voies express, réservée aux arrêts d'urgence et aux véhicules de secours.</li>
+<li><strong>Le trottoir</strong> : partie réservée aux piétons en agglomération.</li>
+</ul>
+
+<h3>6.2 Les trois types de voies</h3>
+<table>
+<thead><tr><th></th><th>Route ordinaire</th><th>Route pour automobiles</th><th>Autoroute</th></tr></thead>
+<tbody>
+<tr><td><strong>Panneau d'entrée</strong></td><td>Aucun</td><td>Carré bleu à voiture blanche</td><td>Carré bleu à autoroute (deux chaussées et un pont)</td></tr>
+<tr><td><strong>Sens de circulation</strong></td><td>Souvent double sens sur une même chaussée</td><td>Chaussées le plus souvent séparées</td><td>Chaussées <strong>toujours</strong> séparées par un terre-plein</td></tr>
+<tr><td><strong>Croisements</strong></td><td>Carrefours à niveau, entrées riveraines</td><td>Carrefours dénivelés ou giratoires</td><td><strong>Aucun croisement à niveau</strong> : uniquement des échangeurs</td></tr>
+<tr><td><strong>Accès</strong></td><td>Tous usagers autorisés</td><td>Véhicules à moteur pouvant dépasser une vitesse minimale</td><td>Réservée aux véhicules à moteur capables d'atteindre 80 km/h en palier</td></tr>
+<tr><td><strong>Vitesse maximale</strong></td><td>80 à 90 km/h ⚠</td><td>110 km/h ⚠</td><td>120 à 130 km/h ⚠</td></tr>
+<tr><td><strong>Signalisation directionnelle</strong></td><td>Panneaux blancs (routes locales) ou verts (grandes liaisons)</td><td>Panneaux bleus ou verts</td><td>Panneaux <strong>bleus</strong></td></tr>
+<tr><td><strong>BAU</strong></td><td>Non</td><td>Parfois</td><td>Oui</td></tr>
+</tbody>
+</table>
+
+<h3>6.3 L'autoroute : entrer, circuler, sortir</h3>
+<h4>L'insertion</h4>
+<ol>
+<li>Sur la <strong>bretelle d'accès</strong>, j'observe le trafic à ma gauche.</li>
+<li>Sur la <strong>voie d'accélération</strong>, j'accélère pour atteindre une vitesse proche de celle du flux.</li>
+<li>Je mets le <strong>clignotant gauche</strong>, je contrôle le rétroviseur puis l'<strong>angle mort</strong>.</li>
+<li>Je m'insère dans un espace suffisant. <strong>Je n'ai pas la priorité</strong> : ce sont les véhicules déjà sur l'autoroute qui l'ont. Ceux-ci doivent toutefois faciliter mon insertion en se déportant si possible sur la voie de gauche.</li>
+<li>Ne jamais s'arrêter en bout de voie d'accélération, sauf impossibilité absolue de s'insérer.</li>
+</ol>
+<h4>La circulation</h4>
+<ul>
+<li>Je circule <strong>sur la voie la plus à droite</strong> disponible ; les voies de gauche servent uniquement au dépassement.</li>
+<li>Je respecte les distances de sécurité (repères d'espacement en losanges sur certaines autoroutes).</li>
+<li>Je surveille ma fatigue : <strong>une pause toutes les deux heures</strong>, sur une aire de repos ou de service.</li>
+</ul>
+<h4>La sortie</h4>
+<ol>
+<li>Panneaux de présignalisation à 1000 m puis 500 m.</li>
+<li>Clignotant droit, puis passage sur la <strong>voie de décélération</strong> : c'est là — et pas avant — que je ralentis.</li>
+<li>Attention au « choc des vitesses » : après une heure à 120 km/h, 60 km/h paraissent lents. Regarde le compteur en sortie.</li>
+</ol>
+
+<h3>6.4 Ce qui est interdit sur autoroute</h3>
+<ul>
+<li>La <strong>marche arrière</strong> et le <strong>demi-tour</strong>, y compris sur le terre-plein.</li>
+<li>L'<strong>arrêt et le stationnement</strong> sur la chaussée et sur la BAU (sauf urgence).</li>
+<li>La circulation des <strong>piétons</strong>, des animaux, des cyclistes, des cyclomoteurs et des engins agricoles.</li>
+<li>L'<strong>auto-stop</strong>, y compris sur les bretelles.</li>
+<li>Le franchissement du <strong>terre-plein central</strong>.</li>
+<li>Le dépassement par la droite.</li>
+</ul>
+
+<h3>6.5 En cas de panne ou d'accident</h3>
+<div class="attention"><span class="lab">Procédure vitale</span>
+<strong>1.</strong> Je me range le plus à droite possible sur la BAU, roues braquées à droite. <strong>2.</strong> J'allume les <strong>feux de détresse</strong>. <strong>3.</strong> J'enfile le <strong>gilet rétroréfléchissant</strong> <em>avant</em> de sortir. <strong>4.</strong> Je fais sortir tous les passagers <strong>par le côté droit</strong>. <strong>5.</strong> Nous nous mettons <strong>derrière la glissière de sécurité</strong>, jamais devant ni dans le véhicule. <strong>6.</strong> Je place le <strong>triangle de présignalisation</strong> à au moins 30 m (si cela est possible sans danger — jamais sur autoroute à fort trafic). <strong>7.</strong> J'appelle les secours ou j'utilise la borne d'appel d'urgence orange, située tous les 2 km.</div>
+
+<div class="qcm">
+<h4>QCM — Chapitre 6 (7 questions)</h4>
+<div class="q"><p>1. Sur la voie d'accélération d'une autoroute :</p>
+<ul><li><b>A.</b> j'ai la priorité</li><li><b>B.</b> je cède le passage aux véhicules circulant sur l'autoroute</li><li><b>C.</b> je m'arrête en bout de voie</li><li><b>D.</b> je roule lentement</li></ul></div>
+<div class="q"><p>2. La bande d'arrêt d'urgence sert à :</p>
+<ul><li><b>A.</b> dépasser par la droite</li><li><b>B.</b> s'arrêter en cas d'urgence et laisser passer les secours</li><li><b>C.</b> se reposer</li><li><b>D.</b> téléphoner tranquillement</li></ul></div>
+<div class="q"><p>3. Sur autoroute, les panneaux de direction sont de couleur :</p>
+<ul><li><b>A.</b> verte</li><li><b>B.</b> blanche</li><li><b>C.</b> bleue</li><li><b>D.</b> jaune</li></ul></div>
+<div class="q"><p>4. Je ralentis pour sortir de l'autoroute :</p>
+<ul><li><b>A.</b> dès le panneau des 1000 m, sur la voie de droite</li><li><b>B.</b> uniquement sur la voie de décélération</li><li><b>C.</b> sur la BAU</li><li><b>D.</b> sur la voie de gauche</li></ul></div>
+<div class="q"><p>5. Sont interdits sur autoroute :</p>
+<ul><li><b>A.</b> les poids lourds</li><li><b>B.</b> les piétons, cyclistes, cyclomoteurs et l'auto-stop</li><li><b>C.</b> les autocars</li><li><b>D.</b> les remorques</li></ul></div>
+<div class="q"><p>6. Je tombe en panne sur autoroute. Le bon ordre est :</p>
+<ul><li><b>A.</b> sortir, mettre le gilet, poser le triangle, appeler</li><li><b>B.</b> se ranger, feux de détresse, gilet, sortie par la droite, derrière la glissière, appel</li><li><b>C.</b> rester dans la voiture et attendre</li><li><b>D.</b> traverser pour appeler à la borne d'en face</li></ul></div>
+<div class="q"><p>7. La différence essentielle entre une autoroute et une route pour automobiles est :</p>
+<ul><li><b>A.</b> la couleur du bitume</li><li><b>B.</b> l'absence totale de croisement à niveau et la séparation des chaussées sur l'autoroute</li><li><b>C.</b> le péage</li><li><b>D.</b> le nombre de stations-service</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> L'insertion n'est jamais prioritaire ; la voie d'accélération sert à atteindre la vitesse du flux, pas à s'arrêter.</li>
+<li><span class="rep">B</span> La BAU n'est ni une voie de circulation, ni une aire de repos.</li>
+<li><span class="rep">C</span> Bleu = autoroute, vert = grandes liaisons, blanc = routes locales.</li>
+<li><span class="rep">B</span> Ralentir sur la voie de circulation crée un risque de collision arrière : on décélère sur la voie prévue.</li>
+<li><span class="rep">B</span> L'autoroute est réservée aux véhicules à moteur capables de tenir une vitesse minimale.</li>
+<li><span class="rep">B</span> Le gilet se met <em>avant</em> de sortir, et l'abri derrière la glissière est la seule zone sûre.</li>
+<li><span class="rep">B</span> Ce sont les caractéristiques de conception, pas le péage, qui définissent l'autoroute.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 7 ============ -->
+<section class="chap" id="ch7">
+<div class="chap-head">
+  <span class="borne">07</span>
+  <div><span class="fil">Chapitre 7</span><h2>L'équipement d'une voiture</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Connaître les organes de sécurité active et passive, savoir quel feu allumer et quand, contrôler pneus et freins, et savoir ce qui doit obligatoirement se trouver à bord.</p>
+
+<h3>7.1 Sécurité active et sécurité passive</h3>
+<table>
+<thead><tr><th>Sécurité ACTIVE — éviter l'accident</th><th>Sécurité PASSIVE — en limiter les conséquences</th></tr></thead>
+<tbody>
+<tr><td>Freins et ABS, direction, suspension, pneumatiques, éclairage et signalisation, essuie-glaces, ESP/antipatinage, klaxon, rétroviseurs</td><td>Ceintures de sécurité et prétensionneurs, airbags, appuie-têtes, structure à déformation programmée, sièges enfants, vitrage feuilleté</td></tr>
+</tbody>
+</table>
+
+<h3>7.2 L'éclairage et la signalisation</h3>
+<table>
+<thead><tr><th>Feu</th><th>Portée / usage</th><th>Quand l'utiliser</th></tr></thead>
+<tbody>
+<tr><td><strong>Feux de position</strong> (veilleuses)</td><td>Environ 150 m de visibilité, faible éclairage</td><td>Pour être vu : crépuscule, véhicule à l'arrêt de nuit hors agglomération</td></tr>
+<tr><td><strong>Feux de croisement</strong> (codes)</td><td>Éclairent environ 30 m</td><td>La nuit, en ville, en croisant ou en suivant un véhicule, par pluie et brouillard, dans les tunnels</td></tr>
+<tr><td><strong>Feux de route</strong> (phares)</td><td>Éclairent environ 100 m</td><td>Nuit, hors agglomération, route dégagée. À couper dès qu'on croise ou qu'on suit un véhicule</td></tr>
+<tr><td><strong>Feux de brouillard avant</strong></td><td>Faisceau large et bas</td><td>Brouillard, pluie forte, chute de neige</td></tr>
+<tr><td><strong>Feu de brouillard arrière</strong></td><td>Très puissant, éblouissant</td><td><strong>Uniquement</strong> par brouillard ou chute de neige. Interdit sous la pluie</td></tr>
+<tr><td><strong>Feux stop</strong></td><td>S'allument au freinage</td><td>Automatique</td></tr>
+<tr><td><strong>Clignotants (indicateurs de direction)</strong></td><td>Annoncent un changement de direction ou de file</td><td>Toujours, avant toute manœuvre</td></tr>
+<tr><td><strong>Feux de détresse (warnings)</strong></td><td>Les quatre clignotants ensemble</td><td>Véhicule immobilisé, ralentissement brutal, danger pour les suiveurs</td></tr>
+<tr><td><strong>Feu de recul, éclairage de plaque</strong></td><td>Signalent la marche arrière, permettent l'identification</td><td>Automatique</td></tr>
+</tbody>
+</table>
+<div class="memo"><span class="lab">À retenir</span>
+Les feux servent à <strong>voir</strong> et à <strong>être vu</strong>. Sous la pluie, on allume les <strong>feux de croisement</strong>, jamais le feu de brouillard arrière, qui éblouit le conducteur suivant.</div>
+
+<h3>7.3 Les pneumatiques</h3>
+<ul>
+<li>Seuls points de contact avec la route : <strong>quatre surfaces de la taille d'une carte postale</strong> chacune.</li>
+<li><strong>Profondeur minimale des sculptures : 1,6 mm</strong> sur toute la bande de roulement ⚠. Des témoins d'usure moulés dans les rainures l'indiquent.</li>
+<li><strong>Pression</strong> à contrôler à froid, au moins une fois par mois. Sous-gonflé : usure des épaules, échauffement, surconsommation, risque d'éclatement. Sur-gonflé : usure centrale, tenue de route dégradée.</li>
+<li>Surveiller les <strong>hernies, coupures, corps étrangers</strong> et l'usure irrégulière (signe de mauvais parallélisme).</li>
+</ul>
+<div class="attention"><span class="lab">En cas d'éclatement</span>
+Tenir fermement le volant, <strong>ne pas freiner brutalement</strong>, lever le pied progressivement, se déporter doucement vers la droite et s'arrêter hors de la chaussée.</div>
+
+<h3>7.4 Le freinage et la direction</h3>
+<ul>
+<li><strong>Frein principal</strong> (à pied) : agit sur les quatre roues, assisté par le servo-frein.</li>
+<li><strong>Frein de stationnement</strong> (à main ou électrique) : agit en général sur les roues arrière ; il sert aussi de frein de secours.</li>
+<li><strong>ABS</strong> : empêche le blocage des roues, donc conserve la <strong>directivité</strong> du véhicule. Il ne raccourcit pas systématiquement la distance de freinage. En freinage d'urgence avec ABS : appuyer <strong>fort et sans relâcher</strong>, et braquer pour éviter l'obstacle.</li>
+<li><strong>Frein moteur</strong> : ralentissement obtenu en levant le pied et en rétrogradant ; indispensable en longue descente pour éviter le fading.</li>
+<li><strong>Direction</strong> : jeu excessif, vibrations ou tirage d'un côté imposent une vérification immédiate.</li>
+</ul>
+
+<h3>7.5 Ce qui doit se trouver à bord</h3>
+<table>
+<thead><tr><th>Équipements de sécurité</th><th>Documents</th></tr></thead>
+<tbody>
+<tr><td>
+Triangle de présignalisation · Gilet rétroréfléchissant (à portée de main, dans l'habitacle) · Extincteur en état de marche ⚠ · Trousse de premiers secours ⚠ · Roue de secours, cric et manivelle · Ampoules et fusibles de rechange
+</td><td>
+Permis de conduire valide · Certificat d'immatriculation (carte grise) · Attestation d'assurance en cours de validité · Visite technique à jour · Vignette / taxe le cas échéant ⚠
+</td></tr>
+</tbody>
+</table>
+
+<h3>7.6 Le contrôle avant départ : la méthode des 5 minutes</h3>
+<ol>
+<li><strong>Tour du véhicule</strong> : pneus (aspect, pression), carrosserie, feux (faire vérifier par une autre personne), plaques propres et lisibles, absence d'obstacle derrière.</li>
+<li><strong>Niveaux</strong> : huile moteur, liquide de refroidissement, liquide de frein, liquide lave-glace, carburant.</li>
+<li><strong>Poste de conduite</strong> : réglage du siège (jambes légèrement fléchies, poignets sur le haut du volant), appuie-tête au niveau du sommet du crâne, rétroviseurs, ceinture, verrouillage des portes.</li>
+<li><strong>Tableau de bord</strong> : contact mis, vérifier l'extinction des témoins rouges après le démarrage.</li>
+</ol>
+<div class="memo"><span class="lab">Code couleur du tableau de bord</span>
+<strong>Rouge</strong> = danger immédiat, je m'arrête dès que possible (pression d'huile, température, frein, batterie de charge). <strong>Orange</strong> = anomalie à faire contrôler rapidement (moteur, ABS, airbag). <strong>Vert / bleu</strong> = simple information de fonctionnement (feux, clignotants).</div>
+
+<div class="qcm">
+<h4>QCM — Chapitre 7 (8 questions)</h4>
+<div class="q"><p>1. La ceinture de sécurité relève de :</p>
+<ul><li><b>A.</b> la sécurité active</li><li><b>B.</b> la sécurité passive</li><li><b>C.</b> du confort</li><li><b>D.</b> de l'équipement facultatif</li></ul></div>
+<div class="q"><p>2. Sous une pluie forte, j'allume :</p>
+<ul><li><b>A.</b> mes feux de route</li><li><b>B.</b> mes feux de croisement</li><li><b>C.</b> mon feu de brouillard arrière</li><li><b>D.</b> uniquement mes feux de position</li></ul></div>
+<div class="q"><p>3. La profondeur minimale des sculptures d'un pneu est de :</p>
+<ul><li><b>A.</b> 0,6 mm</li><li><b>B.</b> 1,6 mm</li><li><b>C.</b> 3 mm</li><li><b>D.</b> 5 mm</li></ul></div>
+<div class="q"><p>4. L'ABS a pour fonction principale :</p>
+<ul><li><b>A.</b> de réduire toujours la distance de freinage</li><li><b>B.</b> d'empêcher le blocage des roues et de conserver la possibilité de diriger</li><li><b>C.</b> d'accélérer plus vite</li><li><b>D.</b> de remplacer le frein à main</li></ul></div>
+<div class="q"><p>5. Un témoin rouge s'allume au tableau de bord :</p>
+<ul><li><b>A.</b> je continue jusqu'au garage le plus éloigné</li><li><b>B.</b> je m'arrête dès que possible en sécurité</li><li><b>C.</b> je l'ignore</li><li><b>D.</b> j'accélère pour arriver plus vite</li></ul></div>
+<div class="q"><p>6. Le gilet rétroréfléchissant doit être :</p>
+<ul><li><b>A.</b> dans le coffre</li><li><b>B.</b> à portée de main dans l'habitacle et enfilé avant de sortir</li><li><b>C.</b> porté en permanence</li><li><b>D.</b> facultatif</li></ul></div>
+<div class="q"><p>7. Le feu de brouillard arrière est autorisé :</p>
+<ul><li><b>A.</b> par temps de pluie</li><li><b>B.</b> par brouillard ou chute de neige uniquement</li><li><b>C.</b> la nuit sur autoroute</li><li><b>D.</b> pour signaler qu'on est pressé</li></ul></div>
+<div class="q"><p>8. En cas d'éclatement d'un pneu, je dois :</p>
+<ul><li><b>A.</b> freiner brutalement</li><li><b>B.</b> tenir le volant, lever le pied progressivement et m'arrêter hors chaussée</li><li><b>C.</b> braquer vers la gauche</li><li><b>D.</b> accélérer</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> La sécurité passive intervient une fois le choc inévitable : elle protège les occupants.</li>
+<li><span class="rep">B</span> Les feux de croisement permettent d'être vu sans éblouir ; le brouillard arrière est interdit sous la pluie.</li>
+<li><span class="rep">B</span> 1,6 mm, contrôlé par les témoins d'usure ; sous ce seuil, le pneu est lisse et le véhicule non conforme.</li>
+<li><span class="rep">B</span> L'ABS conserve la directivité : on peut freiner <em>et</em> braquer en même temps.</li>
+<li><span class="rep">B</span> Le rouge signale un risque immédiat pour la sécurité ou pour le moteur.</li>
+<li><span class="rep">B</span> Il ne sert à rien s'il faut sortir du véhicule sur la chaussée pour aller le chercher.</li>
+<li><span class="rep">B</span> Sa puissance éblouit fortement ; il est réservé au brouillard et à la neige.</li>
+<li><span class="rep">B</span> Tout geste brusque, frein ou volant, provoque une perte de contrôle.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 8 ============ -->
+<section class="chap" id="ch8">
+<div class="chap-head">
+  <span class="borne">08</span>
+  <div><span class="fil">Chapitre 8</span><h2>Mécanique élémentaire d'un moteur à essence</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Nommer les organes du moteur, expliquer le cycle à quatre temps, décrire les cinq circuits vitaux, entretenir son véhicule et diagnostiquer les pannes les plus courantes.</p>
+
+<h3>8.1 Le principe : transformer une explosion en mouvement</h3>
+<p>Le moteur à essence est un <strong>moteur à combustion interne</strong> : un mélange d'air et d'essence est comprimé dans un cylindre puis enflammé par une <strong>étincelle de bougie</strong>. L'explosion pousse le piston ; la bielle transforme ce mouvement de va-et-vient en <strong>mouvement rotatif</strong> au niveau du vilebrequin, qui entraîne ensuite la transmission et les roues.</p>
+<h4>Les organes principaux</h4>
+<table>
+<thead><tr><th>Organe</th><th>Rôle</th></tr></thead>
+<tbody>
+<tr><td>Bloc-cylindres</td><td>Corps du moteur, contient les cylindres dans lesquels coulissent les pistons</td></tr>
+<tr><td>Culasse</td><td>Ferme le haut des cylindres ; reçoit les soupapes et les bougies</td></tr>
+<tr><td>Piston et segments</td><td>Reçoit la poussée de l'explosion ; les segments assurent l'étanchéité</td></tr>
+<tr><td>Bielle</td><td>Relie le piston au vilebrequin</td></tr>
+<tr><td>Vilebrequin</td><td>Transforme le mouvement alternatif en rotation</td></tr>
+<tr><td>Soupapes (admission / échappement)</td><td>Ouvrent et ferment les passages de gaz</td></tr>
+<tr><td>Arbre à cames et courroie/chaîne de distribution</td><td>Commande l'ouverture des soupapes en synchronisation avec le vilebrequin</td></tr>
+<tr><td>Volant moteur</td><td>Régularise la rotation grâce à son inertie</td></tr>
+<tr><td>Bougie d'allumage</td><td>Produit l'étincelle qui enflamme le mélange</td></tr>
+</tbody>
+</table>
+
+<h3>8.2 Le cycle à quatre temps</h3>
+<figure>
+<svg viewBox="0 0 700 260" role="img" aria-label="Cycle à quatre temps">
+ <g font-family="Arial Narrow, Arial, sans-serif">
+  <!-- 1 admission -->
+  <g transform="translate(20,30)">
+   <rect x="0" y="0" width="120" height="150" rx="6" fill="#DCE0E5" stroke="#5C636D" stroke-width="2"/>
+   <rect x="16" y="95" width="88" height="40" fill="#5C636D"/>
+   <rect x="16" y="22" width="88" height="70" fill="#BBD8F1"/>
+   <path d="M30 4v22M90 4v22" stroke="#171A1F" stroke-width="5"/>
+   <path d="M22 26h16M82 26h16" stroke="#1B7F5A" stroke-width="6"/>
+   <path d="M60 40v34" stroke="#0B5FA5" stroke-width="3"/><path d="M60 84l-7-14h14z" fill="#0B5FA5"/>
+   <text x="60" y="170" font-size="13.5" text-anchor="middle" font-weight="bold">1. ADMISSION</text>
+   <text x="60" y="188" font-size="11.5" text-anchor="middle" fill="#5C636D">soupape d'admission</text>
+   <text x="60" y="202" font-size="11.5" text-anchor="middle" fill="#5C636D">ouverte, piston descend</text>
+  </g>
+  <!-- 2 compression -->
+  <g transform="translate(190,30)">
+   <rect x="0" y="0" width="120" height="150" rx="6" fill="#DCE0E5" stroke="#5C636D" stroke-width="2"/>
+   <rect x="16" y="40" width="88" height="40" fill="#5C636D"/>
+   <rect x="16" y="22" width="88" height="16" fill="#8FA8C8"/>
+   <path d="M30 4v22M90 4v22" stroke="#171A1F" stroke-width="5"/>
+   <path d="M60 96V60" stroke="#0B5FA5" stroke-width="3"/><path d="M60 50l-7 14h14z" fill="#0B5FA5"/>
+   <text x="60" y="170" font-size="13.5" text-anchor="middle" font-weight="bold">2. COMPRESSION</text>
+   <text x="60" y="188" font-size="11.5" text-anchor="middle" fill="#5C636D">soupapes fermées,</text>
+   <text x="60" y="202" font-size="11.5" text-anchor="middle" fill="#5C636D">piston remonte</text>
+  </g>
+  <!-- 3 explosion -->
+  <g transform="translate(360,30)">
+   <rect x="0" y="0" width="120" height="150" rx="6" fill="#DCE0E5" stroke="#5C636D" stroke-width="2"/>
+   <rect x="16" y="90" width="88" height="40" fill="#5C636D"/>
+   <rect x="16" y="22" width="88" height="66" fill="#F5B301"/>
+   <path d="M60 4v18" stroke="#D2202F" stroke-width="5"/>
+   <path d="M50 30l10 14 10-14-6 20h-8z" fill="#D2202F"/>
+   <path d="M60 60v22" stroke="#D2202F" stroke-width="3"/><path d="M60 92l-7-14h14z" fill="#D2202F"/>
+   <text x="60" y="170" font-size="13.5" text-anchor="middle" font-weight="bold">3. EXPLOSION</text>
+   <text x="60" y="188" font-size="11.5" text-anchor="middle" fill="#5C636D">étincelle, le piston est</text>
+   <text x="60" y="202" font-size="11.5" text-anchor="middle" fill="#5C636D">chassé vers le bas (moteur)</text>
+  </g>
+  <!-- 4 echappement -->
+  <g transform="translate(530,30)">
+   <rect x="0" y="0" width="120" height="150" rx="6" fill="#DCE0E5" stroke="#5C636D" stroke-width="2"/>
+   <rect x="16" y="40" width="88" height="40" fill="#5C636D"/>
+   <rect x="16" y="22" width="88" height="16" fill="#9AA0A8"/>
+   <path d="M30 4v22M90 4v22" stroke="#171A1F" stroke-width="5"/>
+   <path d="M82 26h16" stroke="#D2202F" stroke-width="6"/>
+   <path d="M60 96V60" stroke="#0B5FA5" stroke-width="3"/><path d="M60 50l-7 14h14z" fill="#0B5FA5"/>
+   <text x="60" y="170" font-size="13.5" text-anchor="middle" font-weight="bold">4. ÉCHAPPEMENT</text>
+   <text x="60" y="188" font-size="11.5" text-anchor="middle" fill="#5C636D">soupape d'échappement</text>
+   <text x="60" y="202" font-size="11.5" text-anchor="middle" fill="#5C636D">ouverte, gaz évacués</text>
+  </g>
+  <text x="350" y="18" font-size="14" text-anchor="middle" font-weight="bold" letter-spacing="1.5">LE CYCLE À QUATRE TEMPS</text>
+  <text x="350" y="248" font-size="12" text-anchor="middle" fill="#5C636D">Deux tours de vilebrequin pour un cycle complet — un seul temps sur quatre produit de l'énergie.</text>
+ </g>
+</svg>
+<figcaption>Figure 8.1 — Admission, compression, explosion, échappement</figcaption>
+</figure>
+<div class="astuce"><span class="lab">Moyen mnémotechnique</span>
+« <strong>A</strong>dmission, <strong>C</strong>ompression, <strong>E</strong>xplosion, <strong>É</strong>chappement » → <strong>A C E É</strong> : « <em>l'As Compte Et Économise</em> ». Le temps moteur, celui qui fournit la force, est le <strong>troisième</strong>.</div>
+
+<h3>8.3 Les cinq circuits vitaux du moteur</h3>
+<table>
+<thead><tr><th>Circuit</th><th>Organes</th><th>Rôle</th><th>Panne typique</th></tr></thead>
+<tbody>
+<tr><td><strong>Alimentation</strong></td><td>Réservoir, pompe, filtre à carburant, carburateur ou injecteurs, filtre à air</td><td>Doser le mélange air/essence</td><td>Panne sèche, filtre encrassé, moteur qui broute</td></tr>
+<tr><td><strong>Allumage</strong></td><td>Batterie, bobine, allumeur ou module, bougies, câbles</td><td>Produire l'étincelle au bon moment</td><td>Bougies encrassées, moteur qui ne démarre pas</td></tr>
+<tr><td><strong>Graissage</strong></td><td>Carter d'huile, pompe à huile, filtre, canalisations</td><td>Réduire les frottements, refroidir, nettoyer</td><td>Témoin de pression d'huile → <strong>arrêt immédiat</strong></td></tr>
+<tr><td><strong>Refroidissement</strong></td><td>Radiateur, pompe à eau, thermostat, ventilateur, durites, vase d'expansion</td><td>Maintenir le moteur autour de 90 °C</td><td>Surchauffe, durite percée, courroie cassée</td></tr>
+<tr><td><strong>Démarrage / charge</strong></td><td>Batterie, démarreur, alternateur, régulateur</td><td>Lancer le moteur et recharger la batterie</td><td>Batterie déchargée, alternateur HS (témoin rouge)</td></tr>
+</tbody>
+</table>
+
+<h3>8.4 La transmission</h3>
+<p>La chaîne va du moteur aux roues : <strong>embrayage</strong> (accouple ou désaccouple le moteur) → <strong>boîte de vitesses</strong> (adapte couple et vitesse) → <strong>arbre de transmission</strong> → <strong>différentiel</strong> (permet aux roues de tourner à des vitesses différentes en virage) → <strong>roues</strong>.</p>
+<ul>
+<li><strong>1<sup>re</sup> vitesse</strong> : force maximale, vitesse minimale — pour démarrer.</li>
+<li><strong>Vitesses supérieures</strong> : moins de force, plus de vitesse — pour rouler économiquement.</li>
+<li>Un embrayage qui « patine » (le régime monte sans que la voiture accélère) doit être remplacé.</li>
+</ul>
+
+<h3>8.5 Entretien courant et pannes fréquentes</h3>
+<table>
+<thead><tr><th>Symptôme</th><th>Cause probable</th><th>Que faire</th></tr></thead>
+<tbody>
+<tr><td>Le démarreur ne tourne pas, aucun bruit</td><td>Batterie déchargée ou cosses oxydées</td><td>Nettoyer les cosses, recharger, démarrer avec des câbles</td></tr>
+<tr><td>Le moteur tourne mais ne démarre pas</td><td>Allumage (bougies humides) ou panne sèche</td><td>Vérifier le carburant, sécher/nettoyer les bougies</td></tr>
+<tr><td>Aiguille de température dans le rouge, vapeur</td><td>Manque de liquide, durite percée, ventilateur HS</td><td>S'arrêter, laisser refroidir, <strong>ne jamais ouvrir le bouchon à chaud</strong></td></tr>
+<tr><td>Témoin de pression d'huile allumé</td><td>Manque d'huile ou pompe défaillante</td><td>Couper le moteur immédiatement : risque de casse</td></tr>
+<tr><td>Témoin de charge (batterie) allumé en roulant</td><td>Courroie d'alternateur cassée</td><td>S'arrêter : le refroidissement peut aussi être coupé</td></tr>
+<tr><td>Pédale de frein molle ou qui s'enfonce</td><td>Manque de liquide, air dans le circuit</td><td>Arrêt et dépannage ; utiliser le frein moteur</td></tr>
+<tr><td>Fumée noire à l'échappement</td><td>Mélange trop riche, filtre à air colmaté</td><td>Faire régler l'alimentation</td></tr>
+<tr><td>Fumée bleue</td><td>Le moteur consomme de l'huile (segments, joints)</td><td>Diagnostic en atelier</td></tr>
+</tbody>
+</table>
+<div class="memo"><span class="lab">Le calendrier de l'entretien</span>
+Vidange huile + filtre selon le constructeur (souvent 5 000 à 10 000 km) · Filtres à air et à carburant · Bougies · Courroie de distribution (pièce vitale : sa rupture détruit le moteur) · Liquide de frein tous les 2 ans · Contrôle des niveaux <strong>chaque semaine</strong> et avant tout long trajet.</div>
+
+<div class="qcm">
+<h4>QCM — Chapitre 8 (8 questions)</h4>
+<div class="q"><p>1. L'ordre exact du cycle à quatre temps est :</p>
+<ul><li><b>A.</b> compression, admission, échappement, explosion</li><li><b>B.</b> admission, compression, explosion, échappement</li><li><b>C.</b> explosion, admission, compression, échappement</li><li><b>D.</b> admission, explosion, compression, échappement</li></ul></div>
+<div class="q"><p>2. La pièce qui produit l'étincelle est :</p>
+<ul><li><b>A.</b> l'injecteur</li><li><b>B.</b> la bougie d'allumage</li><li><b>C.</b> la soupape</li><li><b>D.</b> le piston</li></ul></div>
+<div class="q"><p>3. Le rôle du vilebrequin est :</p>
+<ul><li><b>A.</b> de refroidir le moteur</li><li><b>B.</b> de transformer le mouvement alternatif du piston en rotation</li><li><b>C.</b> de filtrer l'huile</li><li><b>D.</b> d'ouvrir les soupapes</li></ul></div>
+<div class="q"><p>4. Le témoin de pression d'huile s'allume en roulant. Je dois :</p>
+<ul><li><b>A.</b> continuer jusqu'au garage</li><li><b>B.</b> arrêter le moteur immédiatement en sécurité</li><li><b>C.</b> accélérer pour augmenter la pression</li><li><b>D.</b> ajouter de l'eau</li></ul></div>
+<div class="q"><p>5. Le circuit de refroidissement maintient le moteur autour de :</p>
+<ul><li><b>A.</b> 40 °C</li><li><b>B.</b> 90 °C</li><li><b>C.</b> 150 °C</li><li><b>D.</b> 200 °C</li></ul></div>
+<div class="q"><p>6. L'embrayage sert à :</p>
+<ul><li><b>A.</b> freiner le véhicule</li><li><b>B.</b> accoupler et désaccoupler le moteur de la boîte de vitesses</li><li><b>C.</b> recharger la batterie</li><li><b>D.</b> refroidir les freins</li></ul></div>
+<div class="q"><p>7. Le moteur surchauffe et de la vapeur sort du capot :</p>
+<ul><li><b>A.</b> j'ouvre le bouchon du radiateur tout de suite</li><li><b>B.</b> je m'arrête, je laisse refroidir avant toute intervention</li><li><b>C.</b> je verse de l'eau froide sur le moteur</li><li><b>D.</b> je continue à rouler doucement</li></ul></div>
+<div class="q"><p>8. Quel temps du cycle fournit l'énergie motrice ?</p>
+<ul><li><b>A.</b> le premier</li><li><b>B.</b> le deuxième</li><li><b>C.</b> le troisième</li><li><b>D.</b> le quatrième</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> Admission → compression → explosion (temps moteur) → échappement, en deux tours de vilebrequin.</li>
+<li><span class="rep">B</span> C'est la différence essentielle avec le diesel, où l'inflammation est obtenue par compression seule.</li>
+<li><span class="rep">B</span> Le piston monte et descend ; le vilebrequin convertit ce mouvement en rotation exploitable.</li>
+<li><span class="rep">B</span> Sans pression d'huile, les pièces se grippent en quelques secondes : c'est la panne la plus destructrice.</li>
+<li><span class="rep">B</span> Environ 90 °C : trop froid, le moteur s'use et pollue ; trop chaud, il casse.</li>
+<li><span class="rep">B</span> Il permet de démarrer en douceur et de changer de rapport.</li>
+<li><span class="rep">B</span> Le circuit est sous pression : ouvrir à chaud provoque une projection de liquide bouillant.</li>
+<li><span class="rep">C</span> Le troisième temps, l'explosion, est le seul temps moteur.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 9 ============ -->
+<section class="chap" id="ch9">
+<div class="chap-head">
+  <span class="borne">09</span>
+  <div><span class="fil">Chapitre 9</span><h2>Secourisme élémentaire</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Appliquer la chaîne PAS (Protéger, Alerter, Secourir), donner une alerte utile, réaliser les gestes de première urgence et connaître les erreurs à ne jamais commettre.</p>
+<div class="attention"><span class="lab">Avertissement</span>
+Ce chapitre est un rappel théorique destiné à l'examen du code. Il ne remplace <strong>pas</strong> une formation pratique aux premiers secours, que tout conducteur devrait suivre auprès de la Croix-Rouge, de la protection civile ou des sapeurs-pompiers.</div>
+
+<h3>9.1 La chaîne de survie : P · A · S</h3>
+<figure>
+<svg viewBox="0 0 660 130" role="img" aria-label="Protéger Alerter Secourir">
+ <g font-family="Arial Narrow, Arial, sans-serif" text-anchor="middle">
+  <rect x="10" y="24" width="190" height="72" rx="4" fill="#F5B301"/>
+  <text x="105" y="58" font-size="20" font-weight="bold" fill="#171A1F">1. PROTÉGER</text>
+  <text x="105" y="80" font-size="12.5" fill="#171A1F">éviter le suraccident</text>
+  <path d="M206 60h20" stroke="#171A1F" stroke-width="3"/><path d="M228 60l-9-6v12z" fill="#171A1F"/>
+  <rect x="234" y="24" width="190" height="72" rx="4" fill="#0B5FA5"/>
+  <text x="329" y="58" font-size="20" font-weight="bold" fill="#fff">2. ALERTER</text>
+  <text x="329" y="80" font-size="12.5" fill="#BBD8F1">donner un message précis</text>
+  <path d="M430 60h20" stroke="#171A1F" stroke-width="3"/><path d="M452 60l-9-6v12z" fill="#171A1F"/>
+  <rect x="458" y="24" width="190" height="72" rx="4" fill="#D2202F"/>
+  <text x="553" y="58" font-size="20" font-weight="bold" fill="#fff">3. SECOURIR</text>
+  <text x="553" y="80" font-size="12.5" fill="#FCEBEC">gestes d'urgence</text>
+ </g>
+</svg>
+<figcaption>Figure 9.1 — L'ordre à ne jamais inverser</figcaption>
+</figure>
+
+<h4>1. Protéger</h4>
+<ul>
+<li>Se garer <strong>après</strong> l'accident, feux de détresse allumés, gilet enfilé.</li>
+<li>Baliser en amont : triangle à 30 m au moins (150 m sur voie rapide si c'est possible sans danger), faire ralentir le trafic.</li>
+<li>Couper le contact des véhicules accidentés, serrer le frein de stationnement, ne pas fumer.</li>
+<li>Écarter les curieux, éloigner les personnes valides hors de la chaussée.</li>
+<li><strong>Ne jamais se mettre soi-même en danger</strong> : un sauveteur blessé devient une victime de plus.</li>
+</ul>
+
+<h4>2. Alerter</h4>
+<table>
+<thead><tr><th>Qui appeler ⚠</th><th>Que dire</th></tr></thead>
+<tbody>
+<tr><td>
+<strong>Police secours : 117</strong><br>
+<strong>Sapeurs-pompiers : 118</strong><br>
+<strong>Urgences (numéro européen) : 112</strong><br>
+<em>⚠ Vérifie les numéros en vigueur dans ton pays et note-les dans ton téléphone.</em>
+</td><td>
+1. <strong>Qui</strong> je suis et d'où j'appelle (numéro de rappel).<br>
+2. <strong>Où</strong> exactement : route, sens, point kilométrique, repère visible.<br>
+3. <strong>Quoi</strong> : type d'accident, véhicules impliqués, incendie, produit dangereux.<br>
+4. <strong>Combien</strong> de victimes et leur état apparent (conscientes ? qui saigne ? bloquées ?).<br>
+5. <strong>Ne jamais raccrocher le premier</strong> : le régulateur peut donner des consignes.
+</td></tr>
+</tbody>
+</table>
+
+<h4>3. Secourir</h4>
+<table>
+<thead><tr><th>Situation</th><th>Geste à faire</th></tr></thead>
+<tbody>
+<tr><td><strong>Hémorragie</strong> (saignement abondant)</td><td>Comprimer directement la plaie avec la main protégée ou un tissu propre, sans relâcher, et allonger la victime</td></tr>
+<tr><td><strong>Victime inconsciente qui respire</strong></td><td>Libérer les voies aériennes (desserrer col et ceinture, basculer doucement la tête en arrière), puis placer en <strong>position latérale de sécurité (PLS)</strong> et surveiller la respiration</td></tr>
+<tr><td><strong>Victime inconsciente qui ne respire pas</strong></td><td>Alerter immédiatement, débuter la réanimation cardio-pulmonaire : <strong>30 compressions thoraciques puis 2 insufflations</strong>, rythme d'environ 100 à 120 compressions par minute, jusqu'à l'arrivée des secours ou d'un défibrillateur</td></tr>
+<tr><td><strong>Brûlure</strong></td><td>Refroidir à l'eau tempérée qui ruisselle pendant plusieurs minutes ; ne pas percer les cloques, ne rien appliquer (ni huile, ni beurre, ni dentifrice)</td></tr>
+<tr><td><strong>Fracture suspectée</strong></td><td>Ne pas mobiliser le membre, immobiliser la victime telle qu'elle est, la couvrir, la rassurer</td></tr>
+<tr><td><strong>Traumatisme du dos ou du cou</strong></td><td><strong>Ne pas déplacer</strong> la victime, sauf danger immédiat (incendie, risque d'explosion, immersion)</td></tr>
+<tr><td><strong>Toutes victimes</strong></td><td>Couvrir pour lutter contre l'hypothermie, parler, rassurer, surveiller jusqu'à l'arrivée des secours</td></tr>
+</tbody>
+</table>
+<div class="attention"><span class="lab">Les cinq erreurs à ne jamais commettre</span>
+<strong>1.</strong> Déplacer un blessé sans danger immédiat. <strong>2.</strong> Retirer le casque d'un motocycliste (sauf s'il ne respire pas et qu'on ne peut faire autrement, en le faisant à deux). <strong>3.</strong> Donner à boire, à manger ou un médicament. <strong>4.</strong> Retirer un corps étranger planté dans une plaie. <strong>5.</strong> Se précipiter sur la chaussée sans avoir protégé la zone.</div>
+
+<div class="qcm">
+<h4>QCM — Chapitre 9 (7 questions)</h4>
+<div class="q"><p>1. L'ordre correct de l'intervention est :</p>
+<ul><li><b>A.</b> Secourir, Alerter, Protéger</li><li><b>B.</b> Protéger, Alerter, Secourir</li><li><b>C.</b> Alerter, Protéger, Secourir</li><li><b>D.</b> Protéger, Secourir, Alerter</li></ul></div>
+<div class="q"><p>2. Une victime est inconsciente mais respire. Je la place :</p>
+<ul><li><b>A.</b> sur le dos, jambes surélevées</li><li><b>B.</b> en position latérale de sécurité</li><li><b>C.</b> assise contre un arbre</li><li><b>D.</b> je la laisse dans le véhicule sans rien faire</li></ul></div>
+<div class="q"><p>3. Face à une hémorragie abondante, le geste immédiat est :</p>
+<ul><li><b>A.</b> donner à boire</li><li><b>B.</b> comprimer la plaie sans relâcher</li><li><b>C.</b> nettoyer la plaie à l'alcool</li><li><b>D.</b> attendre les secours sans rien faire</li></ul></div>
+<div class="q"><p>4. Le casque d'un motocycliste blessé :</p>
+<ul><li><b>A.</b> se retire toujours immédiatement</li><li><b>B.</b> se laisse en place, sauf nécessité vitale et alors à deux sauveteurs</li><li><b>C.</b> se retire pour identifier la victime</li><li><b>D.</b> se retire s'il gêne la circulation</li></ul></div>
+<div class="q"><p>5. Le rythme de la réanimation cardio-pulmonaire chez l'adulte est :</p>
+<ul><li><b>A.</b> 5 compressions / 1 insufflation</li><li><b>B.</b> 15 compressions / 3 insufflations</li><li><b>C.</b> 30 compressions / 2 insufflations</li><li><b>D.</b> 50 compressions / 5 insufflations</li></ul></div>
+<div class="q"><p>6. Sur une brûlure, j'applique :</p>
+<ul><li><b>A.</b> de l'huile</li><li><b>B.</b> du dentifrice</li><li><b>C.</b> de l'eau tempérée qui ruisselle</li><li><b>D.</b> de la glace directement sur la peau</li></ul></div>
+<div class="q"><p>7. Dans mon message d'alerte, il faut indiquer :</p>
+<ul><li><b>A.</b> uniquement le nombre de véhicules</li><li><b>B.</b> le lieu précis, la nature de l'accident, le nombre et l'état des victimes</li><li><b>C.</b> la marque des voitures</li><li><b>D.</b> le nom de mon assureur</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> Protéger d'abord évite le suraccident, qui fait souvent plus de victimes que l'accident initial.</li>
+<li><span class="rep">B</span> La PLS empêche l'étouffement par la langue ou les vomissements ; on surveille ensuite la respiration.</li>
+<li><span class="rep">B</span> La compression directe et continue est le geste qui sauve ; on n'interrompt pas pour aller chercher un pansement.</li>
+<li><span class="rep">B</span> Le retrait du casque risque d'aggraver une lésion cervicale.</li>
+<li><span class="rep">C</span> 30 / 2, environ 100 à 120 compressions par minute, sans interrompre plus de quelques secondes.</li>
+<li><span class="rep">C</span> Le refroidissement à l'eau limite l'extension de la brûlure ; tout corps gras est à proscrire.</li>
+<li><span class="rep">B</span> Une alerte imprécise retarde les secours : le lieu exact est l'information la plus critique.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 10 ============ -->
+<section class="chap" id="ch10">
+<div class="chap-head">
+  <span class="borne">10</span>
+  <div><span class="fil">Chapitre 10</span><h2>Les deux-roues (permis A1 · A2 · A3)</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Distinguer les catégories A1, A2 et A3, connaître l'équipement obligatoire, comprendre les spécificités de conduite d'un deux-roues et les dangers qui lui sont propres.</p>
+
+<h3>10.1 Les catégories de permis deux-roues</h3>
+<table>
+<thead><tr><th>Catégorie</th><th>Véhicules concernés</th><th>Âge minimal ⚠</th></tr></thead>
+<tbody>
+<tr><td><strong>A1</strong></td><td>Cyclomoteurs et vélomoteurs dont la cylindrée n'excède pas <strong>50 cm³</strong></td><td>Souvent 16 ans</td></tr>
+<tr><td><strong>A2</strong></td><td>Motocyclettes de cylindrée moyenne, généralement <strong>jusqu'à 125 cm³</strong></td><td>Souvent 18 ans</td></tr>
+<tr><td><strong>A3</strong></td><td>Motocyclettes de <strong>plus de 125 cm³</strong>, avec ou sans side-car, et tricycles à moteur</td><td>Souvent 18 ans</td></tr>
+</tbody>
+</table>
+<div class="attention"><span class="lab">⚠ À vérifier</span>
+Les seuils de cylindrée, de puissance et d'âge varient selon les législations nationales (Bénin, Togo, Côte d'Ivoire, France…). Le découpage A1 / A2 / A3 présenté ici correspond au modèle en vigueur dans plusieurs pays d'Afrique de l'Ouest francophone. Confirme les valeurs exactes auprès de ton auto-école ou du service des permis.</div>
+
+<h3>10.2 L'équipement du motocycliste</h3>
+<ul>
+<li><strong>Le casque homologué et attaché</strong> : obligatoire pour le conducteur <em>et</em> le passager. Un casque non attaché est un casque inutile : il s'envole au premier choc. C'est le seul équipement qui protège la tête, siège des lésions mortelles.</li>
+<li><strong>Gants</strong> : protègent les mains, réflexe naturel lors d'une chute.</li>
+<li><strong>Blouson résistant, pantalon long, chaussures montantes</strong> : la peau ne résiste pas à un glissement sur le bitume.</li>
+<li><strong>Vêtements clairs ou rétroréfléchissants, gilet la nuit</strong> : le deux-roues est un véhicule <em>étroit</em>, donc difficile à repérer et à évaluer en distance.</li>
+<li><strong>Feu de croisement allumé de jour</strong> : rend la moto beaucoup plus visible.</li>
+</ul>
+<div class="memo"><span class="lab">La physique du casque</span>
+À 50 km/h, une chute sans casque équivaut à un plongeon tête la première depuis un <strong>troisième étage</strong>. Le casque n'empêche pas la chute : il divise l'énergie transmise au crâne.</div>
+
+<h3>10.3 Ce qui change quand on conduit à deux roues</h3>
+<table>
+<thead><tr><th>Spécificité</th><th>Conséquence pratique</th></tr></thead>
+<tbody>
+<tr><td><strong>Équilibre</strong> : le deux-roues tient debout grâce à sa vitesse et à l'effet gyroscopique</td><td>À très basse vitesse, l'équilibre devient précaire : regarder loin, jamais la roue avant</td></tr>
+<tr><td><strong>Deux freins distincts</strong> (avant et arrière)</td><td>Freinage combiné : l'avant fournit environ 70 % de l'efficacité, mais bloquer la roue avant fait chuter. On freine progressivement, roue droite</td></tr>
+<tr><td><strong>Adhérence limitée à deux petites empreintes</strong></td><td>Gravillons, sable, plaques d'égout, marquages mouillés, gasoil répandu : autant de pièges. Éviter de freiner ou de braquer dessus</td></tr>
+<tr><td><strong>Absence de carrosserie</strong></td><td>Aucune protection en cas de choc : la seule stratégie est l'anticipation</td></tr>
+<tr><td><strong>Faible visibilité par les autres</strong></td><td>Rester hors des angles morts, ne pas se coller derrière un camion, se placer là où l'on est vu dans le rétroviseur du véhicule qui précède</td></tr>
+<tr><td><strong>Prise au vent</strong></td><td>Au dépassement d'un poids lourd ou à la sortie d'un pont : anticiper la rafale, serrer les genoux, garder les bras souples</td></tr>
+<tr><td><strong>Transport d'un passager</strong></td><td>Casque obligatoire, repose-pieds, tenue plus longue au freinage, comportement différent en virage</td></tr>
+</tbody>
+</table>
+
+<h3>10.4 Les contrôles avant de partir</h3>
+<ol>
+<li>Pneus : pression, usure, absence de corps étranger.</li>
+<li>Freins : garde des leviers, niveau de liquide, plaquettes.</li>
+<li>Éclairage et clignotants, rétroviseurs propres et réglés.</li>
+<li>Chaîne : tension et graissage.</li>
+<li>Niveaux : huile, carburant, liquide de refroidissement.</li>
+<li>Équipement : casque attaché, gants, vêtements adaptés.</li>
+</ol>
+<div class="astuce"><span class="lab">La règle des trois regards en ville</span>
+Devant (trajectoire), autour (portières, piétons, véhicules qui débouchent), derrière (rétroviseurs). En ville, le danger n°1 du deux-roues est le véhicule qui tourne à gauche devant lui ou la portière qui s'ouvre.</div>
+
+<h3>10.5 Interdictions et règles spécifiques</h3>
+<ul>
+<li>Les cyclomoteurs (moins de 50 cm³) sont <strong>interdits sur autoroute</strong> et sur les routes pour automobiles.</li>
+<li>La remontée de files entre les véhicules est <strong>interdite ou strictement encadrée</strong> selon les pays ⚠ : elle reste dans tous les cas très dangereuse.</li>
+<li>Le transport de plus d'un passager, le transport d'un enfant sans dispositif adapté et le transport de charges instables sont interdits.</li>
+<li>Circuler sur le trottoir, entre deux files à vive allure ou sans casque expose à des sanctions lourdes et à l'immobilisation du véhicule.</li>
+</ul>
+
+<div class="qcm">
+<h4>QCM — Chapitre 10 (7 questions)</h4>
+<div class="q"><p>1. Le permis A1 concerne généralement :</p>
+<ul><li><b>A.</b> les motos de plus de 125 cm³</li><li><b>B.</b> les cyclomoteurs n'excédant pas 50 cm³</li><li><b>C.</b> les tricycles</li><li><b>D.</b> les quadricycles lourds</li></ul></div>
+<div class="q"><p>2. Le casque est obligatoire :</p>
+<ul><li><b>A.</b> pour le conducteur seulement</li><li><b>B.</b> pour le conducteur et le passager, homologué et attaché</li><li><b>C.</b> uniquement hors agglomération</li><li><b>D.</b> uniquement la nuit</li></ul></div>
+<div class="q"><p>3. Au freinage d'un deux-roues, le frein avant fournit environ :</p>
+<ul><li><b>A.</b> 20 % de l'efficacité</li><li><b>B.</b> 50 %</li><li><b>C.</b> 70 %</li><li><b>D.</b> 100 %</li></ul></div>
+<div class="q"><p>4. Sur une plaque d'égout mouillée, je dois :</p>
+<ul><li><b>A.</b> freiner fort</li><li><b>B.</b> éviter de freiner et de braquer dessus</li><li><b>C.</b> accélérer</li><li><b>D.</b> me pencher davantage</li></ul></div>
+<div class="q"><p>5. Un cyclomoteur de 50 cm³ peut circuler :</p>
+<ul><li><b>A.</b> sur autoroute</li><li><b>B.</b> sur route pour automobiles</li><li><b>C.</b> ni sur autoroute, ni sur route pour automobiles</li><li><b>D.</b> partout sans restriction</li></ul></div>
+<div class="q"><p>6. En ville, le danger principal pour un deux-roues est :</p>
+<ul><li><b>A.</b> le vent</li><li><b>B.</b> le véhicule qui tourne devant lui et la portière qui s'ouvre</li><li><b>C.</b> les feux tricolores</li><li><b>D.</b> les panneaux</li></ul></div>
+<div class="q"><p>7. Pour être mieux vu de jour, le motocycliste doit :</p>
+<ul><li><b>A.</b> rouler feu de croisement allumé et porter des vêtements clairs</li><li><b>B.</b> klaxonner régulièrement</li><li><b>C.</b> rouler très vite</li><li><b>D.</b> rester dans l'angle mort des voitures</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> A1 = cyclomoteurs jusqu'à 50 cm³ ; A2 les cylindrées moyennes ; A3 au-delà de 125 cm³ et les tricycles.</li>
+<li><span class="rep">B</span> Non attaché, le casque quitte la tête dès le premier impact : il doit être homologué <em>et</em> sanglé.</li>
+<li><span class="rep">C</span> Le transfert de masse vers l'avant explique cette répartition ; le freinage doit rester progressif.</li>
+<li><span class="rep">B</span> Ces surfaces lisses offrent très peu d'adhérence : on les franchit droit, sans action sur les commandes.</li>
+<li><span class="rep">C</span> Les cyclomoteurs sont exclus des voies rapides pour des raisons de vitesse minimale.</li>
+<li><span class="rep">B</span> Ce sont les deux scénarios d'accident urbain les plus fréquents pour les deux-roues.</li>
+<li><span class="rep">A</span> La visibilité est le principal levier de sécurité du deux-roues.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 11 ============ -->
+<section class="chap" id="ch11">
+<div class="chap-head">
+  <span class="borne">11</span>
+  <div><span class="fil">Chapitre 11</span><h2>Les cas d'abstinence à la conduite</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Identifier tous les états dans lesquels il ne faut pas prendre le volant : alcool, stupéfiants, médicaments, fatigue, maladie, distraction, émotion.</p>
+
+<h3>11.1 L'alcool</h3>
+<p>L'alcool est impliqué dans une très large part des accidents mortels. Il agit <strong>même à faible dose</strong>, et le conducteur est le plus mauvais juge de son propre état — l'alcool supprime d'abord l'autocritique.</p>
+<h4>Ses effets</h4>
+<ul>
+<li>Allongement du <strong>temps de réaction</strong> (il peut doubler).</li>
+<li>Rétrécissement du <strong>champ visuel</strong> (« vision tunnel ») et mauvaise évaluation des distances.</li>
+<li>Perte de coordination, somnolence, sensibilité accrue à l'éblouissement.</li>
+<li><strong>Fausse assurance</strong> : le conducteur se croit plus performant alors qu'il l'est beaucoup moins.</li>
+</ul>
+<div class="memo"><span class="lab">Chiffres clés ⚠</span>
+Taux maximal autorisé couramment retenu : <strong>0,5 g/l de sang</strong> (soit 0,25 mg/l d'air expiré), abaissé à <strong>0,2 g/l</strong> pour les conducteurs novices et les transports en commun dans plusieurs pays.<br>
+Un « verre standard » (un demi de bière, un ballon de vin, une dose d'alcool fort) fait monter le taux d'environ <strong>0,20 à 0,25 g/l</strong>.<br>
+L'élimination est lente : environ <strong>0,10 à 0,15 g/l par heure</strong>. Rien ne l'accélère : ni le café, ni la douche froide, ni le sport, ni le fait de manger.</div>
+<p>Le contrôle se fait par <strong>éthylotest</strong> (dépistage) puis <strong>éthylomètre</strong> ou prise de sang (mesure). Le refus de se soumettre au contrôle est sanctionné aussi lourdement que l'infraction elle-même. Les sanctions vont de l'amende à la suspension ou à l'annulation du permis, voire à l'emprisonnement en cas d'accident corporel. L'assurance peut refuser sa garantie.</p>
+
+<h3>11.2 Les stupéfiants</h3>
+<p>La conduite après usage de stupéfiants est <strong>interdite quelle que soit la quantité</strong> : il n'existe pas de seuil toléré. Les effets (troubles de la perception, temps de réaction, somnolence, prise de risque) durent bien après la sensation d'effet, et la combinaison <strong>alcool + cannabis</strong> multiplie très fortement le risque d'accident mortel.</p>
+
+<h3>11.3 Les médicaments</h3>
+<p>De nombreux traitements altèrent la vigilance : somnifères, anxiolytiques, antidépresseurs, antihistaminiques, antitussifs, certains antidouleurs, collyres dilatant la pupille. Les boîtes portent un <strong>pictogramme triangulaire</strong> à trois niveaux :</p>
+<div class="panneaux">
+ <div class="pan"><svg width="80" height="72" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M50 4 96 86H4Z" fill="#F5B301"/><path d="M50 18 84 78H16Z" fill="#fff"/><text x="50" y="70" font-size="30" font-family="Arial" font-weight="bold" text-anchor="middle" fill="#171A1F">1</text></svg>Niveau 1<br>Soyez prudent</div>
+ <div class="pan"><svg width="80" height="72" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M50 4 96 86H4Z" fill="#E87722"/><path d="M50 18 84 78H16Z" fill="#fff"/><text x="50" y="70" font-size="30" font-family="Arial" font-weight="bold" text-anchor="middle" fill="#171A1F">2</text></svg>Niveau 2<br>Soyez très prudent, demandez l'avis d'un professionnel</div>
+ <div class="pan"><svg width="80" height="72" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M50 4 96 86H4Z" fill="#D2202F"/><path d="M50 18 84 78H16Z" fill="#fff"/><text x="50" y="70" font-size="30" font-family="Arial" font-weight="bold" text-anchor="middle" fill="#171A1F">3</text></svg>Niveau 3<br>Ne conduisez pas</div>
+</div>
+<p>En cas de doute, la règle est simple : <strong>demander au médecin ou au pharmacien</strong>, et ne jamais associer un médicament à l'alcool.</p>
+
+<h3>11.4 La fatigue et la somnolence</h3>
+<p>La somnolence est l'une des premières causes d'accident mortel sur autoroute. Un endormissement d'<strong>une seconde</strong> à 110 km/h, c'est 30 mètres parcourus les yeux fermés.</p>
+<h4>Les signaux d'alerte</h4>
+<ul>
+<li>Bâillements répétés, paupières lourdes, picotements des yeux.</li>
+<li>Difficulté à garder une trajectoire, à maintenir une vitesse constante.</li>
+<li>Raideur de la nuque, besoin de changer sans cesse de position.</li>
+<li>Perte de mémoire des derniers kilomètres parcourus.</li>
+</ul>
+<div class="attention"><span class="lab">La seule réponse efficace</span>
+S'arrêter dans un lieu sûr et <strong>dormir 15 à 20 minutes</strong>. Ouvrir la fenêtre, monter le son de la radio ou boire un café <em>seul</em> ne réveille pas durablement. Règle de base : une pause d'au moins <strong>20 minutes toutes les 2 heures</strong>, et prudence renforcée entre 2 h et 5 h du matin puis entre 13 h et 15 h, périodes de creux physiologique.</div>
+
+<h3>11.5 La maladie, le handicap et les états passagers</h3>
+<ul>
+<li><strong>Affections incompatibles ou soumises à avis médical</strong> : épilepsie non stabilisée, troubles graves du rythme cardiaque, diabète mal équilibré, apnée du sommeil non traitée, troubles psychiatriques aigus, vision ou audition très dégradées.</li>
+<li><strong>Correction visuelle</strong> : si elle est mentionnée sur le permis, les lunettes ou lentilles sont obligatoires ; prévoir une paire de secours.</li>
+<li><strong>États passagers</strong> : fièvre élevée, migraine, forte douleur, crise d'allergie, suites d'anesthésie ou de dilatation pupillaire chez l'ophtalmologiste.</li>
+<li><strong>Émotion forte</strong> : colère, deuil, dispute, choc. Le conducteur bouleversé perd sa capacité d'anticipation.</li>
+</ul>
+
+<h3>11.6 Les distractions</h3>
+<ul>
+<li><strong>Téléphone tenu en main</strong> : interdit. Il multiplie le risque d'accident par 3 à 5 ; écrire un message revient à parcourir plusieurs dizaines de mètres à l'aveugle. Le kit mains libres ne supprime pas la <strong>distraction cognitive</strong>.</li>
+<li>Réglages, GPS, musique, repas au volant, cigarette, discussion animée, enfants ou animaux non attachés.</li>
+<li>Bonne pratique : régler le GPS et la musique <strong>avant</strong> de démarrer, mettre le téléphone en mode conduite ou hors de portée.</li>
+</ul>
+
+<div class="qcm">
+<h4>QCM — Chapitre 11 (8 questions)</h4>
+<div class="q"><p>1. Le taux d'alcoolémie maximal généralement autorisé est de :</p>
+<ul><li><b>A.</b> 0,2 g/l pour tous</li><li><b>B.</b> 0,5 g/l de sang (0,25 mg/l d'air expiré)</li><li><b>C.</b> 0,8 g/l</li><li><b>D.</b> 1 g/l</li></ul></div>
+<div class="q"><p>2. Pour faire baisser plus vite son taux d'alcool, il faut :</p>
+<ul><li><b>A.</b> boire un café fort</li><li><b>B.</b> prendre une douche froide</li><li><b>C.</b> rien ne l'accélère : seul le temps agit</li><li><b>D.</b> faire du sport</li></ul></div>
+<div class="q"><p>3. Un verre standard fait monter l'alcoolémie d'environ :</p>
+<ul><li><b>A.</b> 0,02 g/l</li><li><b>B.</b> 0,20 à 0,25 g/l</li><li><b>C.</b> 0,80 g/l</li><li><b>D.</b> 1,50 g/l</li></ul></div>
+<div class="q"><p>4. Un pictogramme rouge de niveau 3 sur une boîte de médicament signifie :</p>
+<ul><li><b>A.</b> soyez prudent</li><li><b>B.</b> demandez l'avis d'un professionnel</li><li><b>C.</b> ne conduisez pas</li><li><b>D.</b> médicament sans effet sur la conduite</li></ul></div>
+<div class="q"><p>5. Je ressens des bâillements et mes paupières sont lourdes sur autoroute :</p>
+<ul><li><b>A.</b> j'ouvre la fenêtre et je continue</li><li><b>B.</b> je m'arrête dans un lieu sûr et je dors 15 à 20 minutes</li><li><b>C.</b> j'augmente le volume de la radio</li><li><b>D.</b> j'accélère pour arriver plus tôt</li></ul></div>
+<div class="q"><p>6. La conduite après consommation de stupéfiants est :</p>
+<ul><li><b>A.</b> tolérée en petite quantité</li><li><b>B.</b> interdite quelle que soit la quantité</li><li><b>C.</b> autorisée sur ordonnance</li><li><b>D.</b> autorisée hors agglomération</li></ul></div>
+<div class="q"><p>7. Le kit mains libres :</p>
+<ul><li><b>A.</b> supprime tout risque</li><li><b>B.</b> laisse subsister la distraction cognitive et donc le risque</li><li><b>C.</b> est obligatoire</li><li><b>D.</b> améliore l'attention</li></ul></div>
+<div class="q"><p>8. La fréquence de pause recommandée sur long trajet est :</p>
+<ul><li><b>A.</b> toutes les 6 heures</li><li><b>B.</b> toutes les 4 heures</li><li><b>C.</b> au moins 20 minutes toutes les 2 heures</li><li><b>D.</b> aucune pause n'est nécessaire</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> 0,5 g/l est le seuil courant ; il descend à 0,2 g/l pour les novices et certains professionnels ⚠.</li>
+<li><span class="rep">C</span> L'élimination est d'environ 0,10 à 0,15 g/l par heure et ne peut pas être accélérée.</li>
+<li><span class="rep">B</span> D'où le calcul simple : deux verres suffisent à approcher, voire dépasser, le seuil légal.</li>
+<li><span class="rep">C</span> Le niveau 3 est une contre-indication formelle à la conduite.</li>
+<li><span class="rep">B</span> Seul un vrai temps de sommeil restaure la vigilance ; les autres solutions ne font que masquer la somnolence.</li>
+<li><span class="rep">B</span> Il n'existe aucun seuil légal pour les stupéfiants : la présence suffit à constituer l'infraction.</li>
+<li><span class="rep">B</span> La conversation mobilise l'attention, même sans les mains : le champ visuel utile se rétrécit.</li>
+<li><span class="rep">C</span> Deux heures de conduite continue représentent la limite raisonnable de vigilance.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 12 ============ -->
+<section class="chap" id="ch12">
+<div class="chap-head">
+  <span class="borne">12</span>
+  <div><span class="fil">Chapitre 12</span><h2>Le permis de conduire catégorie B</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Définir le permis B, savoir quels véhicules il autorise, connaître les conditions d'obtention, les autres catégories et les mesures qui frappent le permis en cas d'infraction.</p>
+
+<h3>12.1 Définition</h3>
+<p>Le permis de conduire est un <strong>titre administratif officiel et personnel</strong>, délivré par l'autorité compétente, qui atteste que son titulaire possède les connaissances théoriques, les aptitudes pratiques et les conditions médicales requises pour conduire une catégorie donnée de véhicules sur la voie publique.</p>
+<p>Le <strong>permis catégorie B</strong> autorise la conduite des <strong>véhicules automobiles affectés au transport de personnes ou de marchandises</strong> dont :</p>
+<ul>
+<li>le <strong>poids total autorisé en charge (PTAC) n'excède pas 3 500 kg</strong> ;</li>
+<li>le nombre de places assises, <strong>outre celle du conducteur, n'excède pas huit</strong> (soit 9 places au total) ;</li>
+<li>l'attelage d'une <strong>remorque dont le PTAC ne dépasse pas 750 kg</strong> est autorisé ; au-delà, une extension est nécessaire ⚠.</li>
+</ul>
+<div class="memo"><span class="lab">Les trois chiffres du permis B</span>
+<strong>3 500 kg</strong> de PTAC · <strong>9 places</strong> conducteur compris · <strong>750 kg</strong> de remorque.</div>
+
+<h3>12.2 Les catégories de permis</h3>
+<table>
+<thead><tr><th>Catégorie</th><th>Véhicules autorisés ⚠</th></tr></thead>
+<tbody>
+<tr><td><strong>A1 / A2 / A3</strong></td><td>Deux-roues et tricycles à moteur, par tranches de cylindrée (voir chapitre 10)</td></tr>
+<tr><td><strong>B</strong></td><td>Véhicules ≤ 3 500 kg, ≤ 9 places, remorque ≤ 750 kg</td></tr>
+<tr><td><strong>C</strong></td><td>Véhicules de transport de marchandises de plus de 3 500 kg</td></tr>
+<tr><td><strong>D</strong></td><td>Véhicules de transport en commun de plus de 9 places</td></tr>
+<tr><td><strong>E</strong></td><td>Extension « remorque lourde » associée à B, C ou D (B+E, C+E, D+E)</td></tr>
+<tr><td><strong>F</strong></td><td>Catégorie particulière : véhicules aménagés pour personnes handicapées, engins spéciaux ou agricoles selon les pays</td></tr>
+</tbody>
+</table>
+
+<h3>12.3 Conditions d'obtention</h3>
+<ol>
+<li><strong>Âge minimal</strong> : 18 ans pour la catégorie B ⚠.</li>
+<li><strong>Aptitude physique</strong> : visite médicale (vision, audition, absence d'affection incompatible).</li>
+<li><strong>Formation</strong> dans une auto-école agréée : cours théoriques (code) et leçons de conduite.</li>
+<li><strong>Épreuve théorique</strong> : QCM portant sur le code de la route, la sécurité, la mécanique et le secourisme.</li>
+<li><strong>Épreuve pratique</strong> : manœuvres (créneau, marche arrière, demi-tour, démarrage en côte) et conduite en circulation.</li>
+<li><strong>Dossier</strong> : pièce d'identité, photos, certificat médical, justificatifs et frais.</li>
+</ol>
+
+<h3>12.4 Validité, perte et sanctions</h3>
+<ul>
+<li>Le permis doit être <strong>présenté à toute réquisition</strong> des forces de l'ordre, avec la carte grise et l'attestation d'assurance.</li>
+<li><strong>Perte ou vol</strong> : déclaration aux autorités et demande de duplicata.</li>
+<li><strong>Période probatoire</strong> : dans de nombreux pays, le conducteur novice est soumis pendant 1 à 3 ans à des règles renforcées (vitesse réduite, alcoolémie abaissée, signe distinctif à l'arrière) ⚠.</li>
+<li><strong>Mesures possibles en cas d'infraction</strong> : amende, retrait de points (là où le permis à points existe), <strong>suspension</strong> (temporaire), <strong>annulation</strong> (le permis est détruit ; il faut le repasser), <strong>immobilisation</strong> du véhicule, mise en fourrière, peines de prison pour les faits les plus graves (conduite en état d'ivresse avec blessures, délit de fuite, homicide involontaire).</li>
+<li>La <strong>conduite sans permis</strong> et la <strong>conduite sans assurance</strong> sont des délits distincts, tous deux lourdement sanctionnés.</li>
+</ul>
+
+<div class="qcm">
+<h4>QCM — Chapitre 12 (7 questions)</h4>
+<div class="q"><p>1. Le permis B autorise la conduite de véhicules dont le PTAC n'excède pas :</p>
+<ul><li><b>A.</b> 2 500 kg</li><li><b>B.</b> 3 500 kg</li><li><b>C.</b> 5 000 kg</li><li><b>D.</b> 7 500 kg</li></ul></div>
+<div class="q"><p>2. Avec le permis B, le nombre de places assises maximum est de :</p>
+<ul><li><b>A.</b> 5 places</li><li><b>B.</b> 9 places, conducteur compris</li><li><b>C.</b> 12 places</li><li><b>D.</b> illimité</li></ul></div>
+<div class="q"><p>3. La remorque attelée en permis B simple ne doit pas dépasser :</p>
+<ul><li><b>A.</b> 500 kg</li><li><b>B.</b> 750 kg</li><li><b>C.</b> 1 000 kg</li><li><b>D.</b> 3 500 kg</li></ul></div>
+<div class="q"><p>4. Les véhicules de transport en commun de plus de 9 places relèvent de la catégorie :</p>
+<ul><li><b>A.</b> B</li><li><b>B.</b> C</li><li><b>C.</b> D</li><li><b>D.</b> F</li></ul></div>
+<div class="q"><p>5. L'annulation du permis signifie :</p>
+<ul><li><b>A.</b> une interdiction temporaire de conduire, le permis étant rendu ensuite</li><li><b>B.</b> que le titre est supprimé et qu'il faut repasser les épreuves</li><li><b>C.</b> une simple amende</li><li><b>D.</b> un avertissement</li></ul></div>
+<div class="q"><p>6. Lors d'un contrôle, je dois présenter :</p>
+<ul><li><b>A.</b> le permis seulement</li><li><b>B.</b> le permis, la carte grise et l'attestation d'assurance</li><li><b>C.</b> une pièce d'identité seulement</li><li><b>D.</b> rien du tout</li></ul></div>
+<div class="q"><p>7. Le permis de conduire est :</p>
+<ul><li><b>A.</b> transmissible à un proche</li><li><b>B.</b> un titre personnel et incessible</li><li><b>C.</b> valable pour toutes les catégories de véhicules</li><li><b>D.</b> facultatif hors agglomération</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> 3 500 kg est la limite qui sépare la catégorie B de la catégorie C.</li>
+<li><span class="rep">B</span> Huit passagers plus le conducteur ; au-delà, c'est du transport en commun (catégorie D).</li>
+<li><span class="rep">B</span> Au-delà de 750 kg, une extension de type B+E est requise ⚠.</li>
+<li><span class="rep">C</span> D = transport en commun ; C = marchandises lourdes ; E = remorques lourdes.</li>
+<li><span class="rep">B</span> La suspension est temporaire, l'annulation supprime le droit de conduire et impose de tout repasser.</li>
+<li><span class="rep">B</span> Les trois documents forment le trio exigible à toute réquisition.</li>
+<li><span class="rep">B</span> Prêter son permis ou conduire avec celui d'un autre constitue une infraction.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 13 ============ -->
+<section class="chap" id="ch13">
+<div class="chap-head">
+  <span class="borne">13</span>
+  <div><span class="fil">Chapitre 13</span><h2>Le changement de direction</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Exécuter proprement un changement de direction à droite, à gauche, un changement de file, un demi-tour et une marche arrière, en appliquant toujours la même méthode.</p>
+
+<h3>13.1 La méthode universelle en cinq temps</h3>
+<p>Quelle que soit la manœuvre, l'ordre est <strong>toujours</strong> le même. Retiens-le comme une check-list :</p>
+<ol>
+<li><strong>Contrôler</strong> : rétroviseur intérieur, rétroviseur extérieur du côté de la manœuvre, puis <strong>angle mort</strong>.</li>
+<li><strong>Avertir</strong> : clignotant, suffisamment tôt (au moins <strong>30 m avant en agglomération, 100 m hors agglomération</strong> ⚠) mais pas trop tôt, pour ne pas induire les autres en erreur.</li>
+<li><strong>Se placer</strong> : à droite pour tourner à droite, près de l'axe pour tourner à gauche.</li>
+<li><strong>Ralentir</strong> : freiner <em>avant</em> le virage, adapter le rapport de boîte.</li>
+<li><strong>Tourner et contrôler</strong> : regarder où l'on va, surveiller piétons et deux-roues, puis éteindre le clignotant.</li>
+</ol>
+<div class="memo"><span class="lab">Formule mnémotechnique</span>
+« <strong>C.A.P.R.T.</strong> » : <strong>C</strong>ontrôler, <strong>A</strong>vertir, se <strong>P</strong>lacer, <strong>R</strong>alentir, <strong>T</strong>ourner. Aucune de ces étapes ne peut être sautée, et l'ordre ne s'inverse pas : on regarde <em>avant</em> de mettre le clignotant, et on met le clignotant <em>avant</em> de se déporter.</div>
+
+<h3>13.2 Tourner à droite</h3>
+<figure>
+<svg viewBox="0 0 660 280" role="img" aria-label="Tourner à droite et à gauche">
+ <rect width="660" height="280" fill="#EDEFF2"/>
+ <!-- gauche : tourner à droite -->
+ <g>
+  <rect x="20" y="0" width="110" height="280" fill="#3A3F46"/>
+  <rect x="20" y="110" width="280" height="90" fill="#3A3F46"/>
+  <path d="M75 0v110M75 200v80" stroke="#fff" stroke-width="3" stroke-dasharray="14 12"/>
+  <path d="M130 155h170" stroke="#fff" stroke-width="3" stroke-dasharray="14 12"/>
+  <path d="M100 260 V190 Q100 175 120 175 H285" fill="none" stroke="#F5B301" stroke-width="4"/>
+  <path d="M285 175l-14-7v14z" fill="#F5B301"/>
+  <rect x="86" y="240" width="28" height="42" rx="4" fill="#0B5FA5"/>
+  <text x="30" y="24" font-family="Arial Narrow, Arial" font-size="14" font-weight="bold" fill="#fff">À DROITE</text>
+  <text x="150" y="238" font-family="Arial Narrow, Arial" font-size="12.5" fill="#171A1F">Je serre à droite,</text>
+  <text x="150" y="254" font-family="Arial Narrow, Arial" font-size="12.5" fill="#171A1F">virage court et serré.</text>
+ </g>
+ <!-- droite : tourner à gauche -->
+ <g transform="translate(340,0)">
+  <rect x="180" y="0" width="110" height="280" fill="#3A3F46"/>
+  <rect x="10" y="110" width="280" height="90" fill="#3A3F46"/>
+  <path d="M235 0v110M235 200v80" stroke="#fff" stroke-width="3" stroke-dasharray="14 12"/>
+  <path d="M10 155h170" stroke="#fff" stroke-width="3" stroke-dasharray="14 12"/>
+  <path d="M212 280 V180 Q212 133 175 133 H14" fill="none" stroke="#F5B301" stroke-width="4"/>
+  <path d="M14 133l14-7v14z" fill="#F5B301"/>
+  <rect x="198" y="240" width="28" height="42" rx="4" fill="#D2202F"/>
+  <text x="190" y="24" font-family="Arial Narrow, Arial" font-size="14" font-weight="bold" fill="#fff">À GAUCHE</text>
+  <text x="20" y="238" font-family="Arial Narrow, Arial" font-size="12.5" fill="#171A1F">Je me place près de l'axe,</text>
+  <text x="20" y="254" font-family="Arial Narrow, Arial" font-size="12.5" fill="#171A1F">je laisse passer ceux d'en face,</text>
+  <text x="20" y="270" font-family="Arial Narrow, Arial" font-size="12.5" fill="#171A1F">virage long.</text>
+ </g>
+</svg>
+<figcaption>Figure 13.1 — Placement et trajectoire selon la direction prise</figcaption>
+</figure>
+<ul>
+<li>Je me <strong>serre à droite</strong> bien avant l'intersection, ce qui empêche un deux-roues de se glisser à ma droite.</li>
+<li>Je contrôle <strong>impérativement l'angle mort droit</strong> : cyclistes et motocyclistes y disparaissent.</li>
+<li>Je ralentis franchement : le virage est <strong>court et serré</strong>.</li>
+<li>Je cède le passage aux <strong>piétons</strong> qui traversent la voie où je m'engage.</li>
+</ul>
+
+<h3>13.3 Tourner à gauche</h3>
+<ul>
+<li><strong>Hors agglomération et sur route à double sens</strong> : je me place près de l'axe médian, sans le franchir, en laissant si possible passer les véhicules qui me suivent.</li>
+<li>Je <strong>cède le passage aux véhicules venant en sens inverse</strong> : ils sont prioritaires, y compris les deux-roues, souvent sous-estimés en vitesse.</li>
+<li>Je m'arrête <strong>roues droites</strong> pendant l'attente : si je suis percuté par l'arrière avec les roues braquées, je pars dans la voie d'en face.</li>
+<li>Le virage est <strong>long</strong> : je ne coupe pas la trajectoire, je m'engage dans la voie de droite de la route abordée.</li>
+<li>En sens unique, je me place le long du bord gauche.</li>
+</ul>
+
+<h3>13.4 Changer de file</h3>
+<p>Sur une chaussée à plusieurs voies : contrôle du rétroviseur, clignotant, contrôle de l'angle mort, puis déport souple sans imposer de freinage aux autres. Le changement de file est interdit dans un carrefour, sur un passage piétons et en franchissant une ligne continue.</p>
+
+<h3>13.5 Le demi-tour</h3>
+<p>Le demi-tour est autorisé lorsqu'il n'est pas expressément interdit et que la visibilité est suffisante des deux côtés. Il est <strong>interdit</strong> : sur autoroute et route pour automobiles, sur les ponts et dans les tunnels, aux passages à niveau, au sommet d'une côte, dans un virage sans visibilité, en franchissant une ligne continue.</p>
+<h4>Procédure</h4>
+<ol>
+<li>Choisir un endroit dégagé et bien visible ; ne jamais le faire sur une intersection encombrée.</li>
+<li>Clignotant, contrôles complets (avant, arrière, angles morts, piétons).</li>
+<li>Manœuvre lente, en une ou trois fois selon la largeur de la chaussée.</li>
+<li>Céder le passage à tous : durant le demi-tour, <strong>je ne suis prioritaire sur personne</strong>.</li>
+</ol>
+
+<h3>13.6 La marche arrière</h3>
+<ul>
+<li>Manœuvre exceptionnelle et lente, sur une <strong>courte distance</strong>.</li>
+<li><strong>Interdite</strong> sur autoroute, sur route pour automobiles et dans les carrefours.</li>
+<li>Regarder <strong>par la lunette arrière</strong>, en tournant le buste — les rétroviseurs et la caméra ne montrent pas tout, en particulier les enfants de petite taille.</li>
+<li>Faire le tour du véhicule avant de reculer dans une zone où des enfants peuvent jouer.</li>
+</ul>
+<div class="attention"><span class="lab">Erreurs fréquentes à l'examen</span>
+Clignotant oublié ou laissé allumé après la manœuvre · Angle mort non contrôlé · Coupure du virage à gauche · Roues braquées pendant l'attente · Freinage <em>dans</em> le virage au lieu d'avant · Vitesse d'approche trop élevée.</div>
+
+<div class="qcm">
+<h4>QCM — Chapitre 13 (7 questions)</h4>
+<div class="q"><p>1. L'ordre correct des opérations avant de tourner est :</p>
+<ul><li><b>A.</b> tourner, avertir, contrôler</li><li><b>B.</b> contrôler, avertir, se placer, ralentir, tourner</li><li><b>C.</b> avertir, tourner, contrôler</li><li><b>D.</b> se placer, tourner, avertir</li></ul></div>
+<div class="q"><p>2. Pour tourner à gauche sur une route à double sens, je me place :</p>
+<ul><li><b>A.</b> le long du trottoir de droite</li><li><b>B.</b> près de l'axe médian, sans le franchir</li><li><b>C.</b> sur la voie de sens inverse</li><li><b>D.</b> au milieu de la chaussée</li></ul></div>
+<div class="q"><p>3. En attendant de tourner à gauche, je garde mes roues :</p>
+<ul><li><b>A.</b> braquées à gauche pour gagner du temps</li><li><b>B.</b> droites</li><li><b>C.</b> braquées à droite</li><li><b>D.</b> peu importe</li></ul></div>
+<div class="q"><p>4. Avant de tourner à droite, le contrôle le plus important est :</p>
+<ul><li><b>A.</b> le rétroviseur intérieur uniquement</li><li><b>B.</b> l'angle mort droit, où peuvent se trouver cyclistes et motocyclistes</li><li><b>C.</b> le compteur de vitesse</li><li><b>D.</b> le rétroviseur gauche</li></ul></div>
+<div class="q"><p>5. Le demi-tour est interdit :</p>
+<ul><li><b>A.</b> en agglomération uniquement</li><li><b>B.</b> sur autoroute, ponts, tunnels, passages à niveau et sommets de côte</li><li><b>C.</b> partout</li><li><b>D.</b> la nuit seulement</li></ul></div>
+<div class="q"><p>6. Pendant un demi-tour, je suis prioritaire :</p>
+<ul><li><b>A.</b> sur les véhicules venant de droite</li><li><b>B.</b> sur personne</li><li><b>C.</b> sur les piétons</li><li><b>D.</b> sur les deux-roues</li></ul></div>
+<div class="q"><p>7. Le freinage avant un virage doit se faire :</p>
+<ul><li><b>A.</b> au milieu du virage</li><li><b>B.</b> avant d'entrer dans le virage, en ligne droite</li><li><b>C.</b> à la sortie du virage</li><li><b>D.</b> il ne faut jamais freiner</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> C.A.P.R.T. : le regard précède toujours l'action, et le clignotant précède le déport.</li>
+<li><span class="rep">B</span> Ce placement libère la voie de droite et annonce clairement l'intention.</li>
+<li><span class="rep">B</span> Roues droites : en cas de choc arrière, le véhicule n'est pas projeté dans la circulation en sens inverse.</li>
+<li><span class="rep">B</span> Le « piège du deux-roues à droite » est une cause majeure d'accidents graves.</li>
+<li><span class="rep">B</span> Ces lieux cumulent absence de visibilité et impossibilité de manœuvrer.</li>
+<li><span class="rep">B</span> Toute manœuvre exceptionnelle se fait sans aucune priorité.</li>
+<li><span class="rep">B</span> Freiner en virage déstabilise le véhicule et fait perdre l'adhérence disponible pour tourner.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ CHAPITRE 14 ============ -->
+<section class="chap" id="ch14">
+<div class="chap-head">
+  <span class="borne">14</span>
+  <div><span class="fil">Chapitre 14</span><h2>Les panneaux : catalogue</h2></div>
+</div>
+<p class="obj"><b>Objectifs du chapitre</b> Décoder n'importe quel panneau à partir de sa forme et de sa couleur, mémoriser les panneaux les plus fréquents et comprendre le rôle des panonceaux.</p>
+
+<h3>14.1 Lire un panneau sans le connaître</h3>
+<p>La <strong>forme</strong> et la <strong>couleur</strong> donnent la nature du message ; le <strong>pictogramme</strong> donne le détail. Un candidat qui maîtrise ce tableau peut interpréter un panneau qu'il n'a jamais vu.</p>
+<table>
+<thead><tr><th>Forme et couleur</th><th>Famille</th><th>Message</th><th>Implantation</th></tr></thead>
+<tbody>
+<tr><td>Triangle à bord rouge, pointe en haut</td><td>Danger</td><td>« Attention, voici ce qui arrive »</td><td>150 m avant hors agglomération, 50 m en agglomération ⚠</td></tr>
+<tr><td>Cercle à bord rouge</td><td>Interdiction</td><td>« C'est interdit »</td><td>Au début de la zone concernée</td></tr>
+<tr><td>Cercle bleu plein</td><td>Obligation</td><td>« Tu dois faire ceci »</td><td>Au début de la zone concernée</td></tr>
+<tr><td>Carré ou rectangle bleu</td><td>Indication / service</td><td>« Voici une information utile »</td><td>Sur place</td></tr>
+<tr><td>Cercle blanc barré de gris</td><td>Fin de prescription</td><td>« L'interdiction précédente cesse »</td><td>Fin de zone</td></tr>
+<tr><td>Triangle pointe en bas / octogone</td><td>Priorité</td><td>Cédez le passage / STOP</td><td>À l'intersection</td></tr>
+<tr><td>Fond jaune</td><td>Temporaire ou priorité</td><td>Chantier, déviation ; losange = route prioritaire</td><td>Zone de travaux</td></tr>
+<tr><td>Rectangle blanc sous le panneau</td><td>Panonceau</td><td>Précise la portée, la distance, la catégorie visée</td><td>Sous le panneau principal</td></tr>
+</tbody>
+</table>
+
+<h3>14.2 Panneaux de danger (triangle rouge)</h3>
+<div class="panneaux">
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><path d="M44 76V60q0-10 12-10" fill="none" stroke="#000" stroke-width="7"/><path d="M53 40l14 10-14 10z" fill="#000"/></svg>Virage à droite</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><path d="M24 72q26-32 52 0" fill="none" stroke="#000" stroke-width="7"/></svg>Cassis ou dos d'âne</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><rect x="34" y="46" width="32" height="14" rx="3" fill="#000"/><circle cx="41" cy="63" r="4" fill="#000"/><circle cx="59" cy="63" r="4" fill="#000"/><path d="M28 70q4-6 8 0t8 0M56 70q4-6 8 0t8 0" fill="none" stroke="#000" stroke-width="3"/></svg>Chaussée glissante</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><circle cx="48" cy="42" r="5" fill="#000"/><path d="M48 48v14M48 62l-6 12M48 62l6 12M40 54h16" stroke="#000" stroke-width="4" stroke-linecap="round"/><path d="M62 74h12M66 68h12M70 62h12" stroke="#000" stroke-width="3"/></svg>Passage pour piétons</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><circle cx="40" cy="44" r="5" fill="#000"/><path d="M40 50v12M40 62l-6 12M40 62l6 12M33 55h14" stroke="#000" stroke-width="4" stroke-linecap="round"/><circle cx="62" cy="48" r="4" fill="#000"/><path d="M62 53v10M62 63l-5 11M62 63l5 11M56 57h12" stroke="#000" stroke-width="3.5" stroke-linecap="round"/></svg>Enfants · sortie d'école</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><circle cx="45" cy="42" r="5" fill="#000"/><path d="M45 48v13M45 61l-5 13M45 61l6 13M45 52l14-8" stroke="#000" stroke-width="4" stroke-linecap="round"/><path d="M58 40l10 6-16 22" stroke="#000" stroke-width="4" fill="none"/></svg>Travaux</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><rect x="40" y="34" width="20" height="42" rx="4" fill="none" stroke="#000" stroke-width="3"/><circle cx="50" cy="43" r="4.5" fill="#D2202F"/><circle cx="50" cy="55" r="4.5" fill="#F5B301"/><circle cx="50" cy="67" r="4.5" fill="#1B7F5A"/></svg>Feux tricolores</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><path d="M26 74V48h6v20h42V48h6v26z" fill="#000"/><rect x="30" y="52" width="44" height="6" fill="#000"/></svg>Passage à niveau à barrières</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><path d="M30 58h32v10H30z" fill="#000"/><path d="M62 58l9-5v15h-9z" fill="#000"/><path d="M64 53v-6M70 53v-6" stroke="#000" stroke-width="3"/><path d="M33 68v9M42 68v9M52 68v9M60 68v9" stroke="#000" stroke-width="4"/><path d="M30 59l-7-7" stroke="#000" stroke-width="3"/></svg>Traversée d'animaux</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><path d="M32 40l10 34M68 40l-10 34" stroke="#000" stroke-width="5"/><path d="M42 74h16" stroke="#000" stroke-width="5"/></svg>Rétrécissement de chaussée</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><path d="M50 38v24" stroke="#000" stroke-width="7" stroke-linecap="round"/><circle cx="50" cy="72" r="4.5" fill="#000"/></svg>Autres dangers</div>
+ <div class="pan"><svg width="82" height="74" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-danger" xlink:href="#s-danger" width="100" height="90"/><path d="M26 52l48 22H26z" fill="#000"/><text x="50" y="46" font-size="15" font-family="Arial Narrow, Arial" font-weight="bold" text-anchor="middle" fill="#000">10%</text></svg>Descente dangereuse</div>
+</div>
+
+<h3>14.3 Panneaux d'interdiction (cercle rouge)</h3>
+<div class="panneaux">
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="50" cy="50" r="47" fill="#D2202F"/><rect x="18" y="42" width="64" height="16" fill="#fff"/></svg>Sens interdit</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-interdit" xlink:href="#s-interdit" width="100" height="100"/></svg>Circulation interdite dans les deux sens</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-interdit" xlink:href="#s-interdit" width="100" height="100"/><text x="50" y="64" font-size="40" font-family="Arial Narrow, Arial" font-weight="bold" text-anchor="middle" fill="#000">50</text></svg>Vitesse limitée à 50</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-interdit" xlink:href="#s-interdit" width="100" height="100"/><rect x="24" y="52" width="26" height="14" rx="3" fill="#000"/><rect x="52" y="40" width="26" height="14" rx="3" fill="#D2202F"/></svg>Dépassement interdit</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="50" cy="50" r="47" fill="#D2202F"/><circle cx="50" cy="50" r="40" fill="#0B5FA5"/><path d="M24 76 76 24" stroke="#D2202F" stroke-width="9"/></svg>Stationnement interdit</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="50" cy="50" r="47" fill="#D2202F"/><circle cx="50" cy="50" r="40" fill="#0B5FA5"/><path d="M24 76 76 24M24 24l52 52" stroke="#D2202F" stroke-width="8"/></svg>Arrêt et stationnement interdits</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-interdit" xlink:href="#s-interdit" width="100" height="100"/><path d="M22 60V46h30v-8h16l10 14v8z" fill="#000"/><circle cx="33" cy="64" r="5" fill="#000"/><circle cx="66" cy="64" r="5" fill="#000"/></svg>Accès interdit aux poids lourds</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-interdit" xlink:href="#s-interdit" width="100" height="100"/><circle cx="46" cy="34" r="5" fill="#000"/><path d="M46 40v16M46 56l-7 14M46 56l7 14M38 45h16" stroke="#000" stroke-width="4" stroke-linecap="round"/><path d="M22 78 78 22" stroke="#D2202F" stroke-width="8"/></svg>Accès interdit aux piétons</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-interdit" xlink:href="#s-interdit" width="100" height="100"/><path d="M30 44h14l16-12v36L44 56H30z" fill="#000"/><path d="M66 40q8 10 0 20" fill="none" stroke="#000" stroke-width="4"/><path d="M22 78 78 22" stroke="#D2202F" stroke-width="8"/></svg>Avertisseur sonore interdit</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="50" cy="50" r="47" fill="#9AA0A8"/><circle cx="50" cy="50" r="41" fill="#fff"/><path d="M26 74 74 26" stroke="#5C636D" stroke-width="7"/></svg>Fin d'interdiction</div>
+</div>
+
+<h3>14.4 Panneaux d'obligation (cercle bleu)</h3>
+<div class="panneaux">
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-oblig" xlink:href="#s-oblig" width="100" height="100"/><path d="M50 74V38" stroke="#fff" stroke-width="9"/><path d="M50 22l16 22H34z" fill="#fff"/></svg>Direction obligatoire : tout droit</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-oblig" xlink:href="#s-oblig" width="100" height="100"/><path d="M40 78V56q0-10 12-10h10" fill="none" stroke="#fff" stroke-width="9"/><path d="M58 32l22 16-22 16z" fill="#fff"/></svg>Direction obligatoire : à droite</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-oblig" xlink:href="#s-oblig" width="100" height="100"/><g transform="translate(100,0) scale(-1,1)"><path d="M64 22v34q0 18-18 18H30" fill="none" stroke="#fff" stroke-width="9"/><path d="M34 58L14 74l20 16z" fill="#fff"/></g></svg>Contournement obligatoire par la droite</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-oblig" xlink:href="#s-oblig" width="100" height="100"/><circle cx="30" cy="64" r="13" fill="none" stroke="#fff" stroke-width="5"/><circle cx="70" cy="64" r="13" fill="none" stroke="#fff" stroke-width="5"/><path d="M30 64l12-18h12M42 46l14 18" stroke="#fff" stroke-width="4" fill="none"/><circle cx="58" cy="30" r="5" fill="#fff"/></svg>Piste cyclable obligatoire</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-oblig" xlink:href="#s-oblig" width="100" height="100"/><text x="50" y="64" font-size="38" font-family="Arial Narrow, Arial" font-weight="bold" text-anchor="middle" fill="#fff">30</text></svg>Vitesse minimale obligatoire</div>
+</div>
+
+<h3>14.5 Panneaux d'indication et de service (carré bleu)</h3>
+<div class="panneaux">
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-indic" xlink:href="#s-indic" width="100" height="100"/><path d="M50 16 84 50 50 84 16 50Z" fill="#fff"/><circle cx="46" cy="40" r="4" fill="#0B5FA5"/><path d="M46 45v11M46 56l-5 12M46 56l6 12M39 49h14" stroke="#0B5FA5" stroke-width="3.5" stroke-linecap="round"/><path d="M56 70h10M60 64h10" stroke="#0B5FA5" stroke-width="3"/></svg>Passage pour piétons</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-indic" xlink:href="#s-indic" width="100" height="100"/><text x="50" y="72" font-size="56" font-family="Arial" font-weight="bold" text-anchor="middle" fill="#fff">P</text></svg>Parc de stationnement</div>
+ <div class="pan"><svg width="112" height="52" viewBox="0 0 200 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="3" y="3" width="194" height="84" rx="4" fill="#0B5FA5" stroke="#fff" stroke-width="5"/><path d="M40 45h100" stroke="#fff" stroke-width="12"/><path d="M140 27l30 18-30 18z" fill="#fff"/></svg>Sens unique</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-indic" xlink:href="#s-indic" width="100" height="100"/><path d="M50 84V40" stroke="#fff" stroke-width="9"/><path d="M30 40h40" stroke="#D2202F" stroke-width="9"/></svg>Voie sans issue (impasse)</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-indic" xlink:href="#s-indic" width="100" height="100"/><rect x="26" y="30" width="30" height="46" fill="#fff"/><rect x="33" y="37" width="16" height="12" fill="#0B5FA5"/><path d="M60 76V44l10-8v34" fill="#fff"/><rect x="62" y="30" width="6" height="8" fill="#fff"/></svg>Station-service</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-indic" xlink:href="#s-indic" width="100" height="100"/><rect x="42" y="24" width="16" height="52" fill="#fff"/><rect x="24" y="42" width="52" height="16" fill="#fff"/></svg>Poste de secours · hôpital</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-indic" xlink:href="#s-indic" width="100" height="100"/><path d="M20 84c14-40 46-40 60 0" fill="none" stroke="#fff" stroke-width="8"/><path d="M14 52h72" stroke="#fff" stroke-width="7"/></svg>Autoroute</div>
+ <div class="pan"><svg width="76" height="76" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#s-indic" xlink:href="#s-indic" width="100" height="100"/><path d="M18 64V52h12l10-12h22l9 12h9v12z" fill="#fff"/><circle cx="34" cy="66" r="7" fill="#fff"/><circle cx="68" cy="66" r="7" fill="#fff"/><circle cx="34" cy="66" r="3" fill="#0B5FA5"/><circle cx="68" cy="66" r="3" fill="#0B5FA5"/></svg>Route pour automobiles</div>
+</div>
+
+<h3>14.6 Les panonceaux</h3>
+<p>Placés <strong>sous</strong> un panneau, ils en précisent le sens. Sans le panonceau, le panneau reste valable ; sans le panneau, le panonceau ne veut rien dire.</p>
+<div class="panneaux">
+ <div class="pan"><svg width="112" height="46" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="3" y="3" width="194" height="74" fill="#fff" stroke="#171A1F" stroke-width="5"/><text x="100" y="55" font-size="34" font-family="Arial Narrow, Arial" text-anchor="middle" fill="#171A1F">300 m</text></svg>Distance : le danger ou la prescription commence dans 300 m</div>
+ <div class="pan"><svg width="112" height="46" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="3" y="3" width="194" height="74" fill="#fff" stroke="#171A1F" stroke-width="5"/><text x="100" y="55" font-size="30" font-family="Arial Narrow, Arial" text-anchor="middle" fill="#171A1F">sur 5 km</text></svg>Étendue : la prescription s'applique sur 5 km</div>
+ <div class="pan"><svg width="112" height="46" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="3" y="3" width="194" height="74" fill="#fff" stroke="#171A1F" stroke-width="5"/><path d="M40 55h80v-16h-80z" fill="#171A1F"/><circle cx="58" cy="60" r="7" fill="#171A1F"/><circle cx="104" cy="60" r="7" fill="#171A1F"/></svg>Catégorie visée : concerne les poids lourds</div>
+ <div class="pan"><svg width="112" height="46" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="3" y="3" width="194" height="74" fill="#fff" stroke="#171A1F" stroke-width="5"/><path d="M30 40h120" stroke="#171A1F" stroke-width="9"/><path d="M150 24l24 16-24 16z" fill="#171A1F"/></svg>Direction : indique le côté concerné</div>
+</div>
+<div class="memo"><span class="lab">Règle de portée</span>
+Un panneau d'interdiction s'applique <strong>jusqu'à la prochaine intersection</strong>, sauf mention contraire d'un panonceau ou d'un panneau de fin. Les panneaux d'entrée et de sortie d'agglomération valent aussi début et fin des règles de l'agglomération (vitesse, usage de l'avertisseur, stationnement).</div>
+
+<div class="qcm">
+<h4>QCM — Chapitre 14 (8 questions)</h4>
+<div class="q"><p>1. Un panneau triangulaire à bord rouge annonce :</p>
+<ul><li><b>A.</b> une interdiction</li><li><b>B.</b> un danger</li><li><b>C.</b> une obligation</li><li><b>D.</b> un service</li></ul></div>
+<div class="q"><p>2. Un cercle bleu plein avec une flèche blanche indique :</p>
+<ul><li><b>A.</b> une interdiction de tourner</li><li><b>B.</b> une direction obligatoire</li><li><b>C.</b> une indication de service</li><li><b>D.</b> une fin de prescription</li></ul></div>
+<div class="q"><p>3. Un cercle rouge avec une barre blanche horizontale signifie :</p>
+<ul><li><b>A.</b> stationnement interdit</li><li><b>B.</b> sens interdit</li><li><b>C.</b> circulation interdite dans les deux sens</li><li><b>D.</b> route barrée</li></ul></div>
+<div class="q"><p>4. Hors agglomération, un panneau de danger est implanté environ :</p>
+<ul><li><b>A.</b> 10 m avant le danger</li><li><b>B.</b> 50 m avant</li><li><b>C.</b> 150 m avant</li><li><b>D.</b> sur le danger lui-même</li></ul></div>
+<div class="q"><p>5. Un panonceau « sur 5 km » placé sous un panneau de dépassement interdit signifie :</p>
+<ul><li><b>A.</b> que le dépassement est interdit pendant 5 km</li><li><b>B.</b> que le danger est à 5 km</li><li><b>C.</b> qu'il faut rouler 5 km/h</li><li><b>D.</b> qu'il reste 5 km de route</li></ul></div>
+<div class="q"><p>6. Un panneau rond bordé de rouge, entièrement blanc à l'intérieur :</p>
+<ul><li><b>A.</b> annonce une aire de repos</li><li><b>B.</b> interdit la circulation dans les deux sens</li><li><b>C.</b> indique un sens unique</li><li><b>D.</b> ne signifie rien</li></ul></div>
+<div class="q"><p>7. Sauf indication contraire, un panneau d'interdiction s'applique :</p>
+<ul><li><b>A.</b> sur 100 m</li><li><b>B.</b> jusqu'à la prochaine intersection</li><li><b>C.</b> sur toute la commune</li><li><b>D.</b> pendant une heure</li></ul></div>
+<div class="q"><p>8. Le losange jaune bordé de blanc signifie :</p>
+<ul><li><b>A.</b> danger temporaire</li><li><b>B.</b> route prioritaire</li><li><b>C.</b> stationnement payant</li><li><b>D.</b> déviation</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type</summary>
+<ol>
+<li><span class="rep">B</span> Triangle + rouge = avertissement : le panneau prévient, il n'ordonne pas.</li>
+<li><span class="rep">B</span> Le bleu plein est la couleur de l'obligation ; le rouge celle de l'interdiction.</li>
+<li><span class="rep">B</span> Le sens interdit s'adresse à celui qui le voit ; l'autre sens est autorisé.</li>
+<li><span class="rep">C</span> Environ 150 m hors agglomération et 50 m en agglomération ⚠, sauf panonceau de distance.</li>
+<li><span class="rep">A</span> Le panonceau d'étendue prolonge la prescription sur la distance indiquée.</li>
+<li><span class="rep">B</span> Aucun véhicule ne peut circuler dans un sens ni dans l'autre.</li>
+<li><span class="rep">B</span> La règle de base est la portée jusqu'à la prochaine intersection.</li>
+<li><span class="rep">B</span> Le losange jaune annonce le caractère prioritaire de la route ; barré, il en marque la fin.</li>
+</ol>
+</details>
+</div>
+</section>
+
+<!-- ============ EXAMEN BLANC ============ -->
+<section class="chap" id="examen">
+<div class="chap-head" style="background:var(--asphalte)">
+  <span class="borne" style="color:var(--asphalte)">EX</span>
+  <div><span class="fil" style="color:var(--ambre)">Évaluation finale</span><h2>Examen blanc — 30 questions</h2></div>
+</div>
+<p class="obj"><b>Règle du jeu</b> 30 questions couvrant les 14 chapitres. Une seule bonne réponse par question. Temps conseillé : 30 minutes, soit une minute par question. Note-tes réponses sur une feuille, puis ouvre le corrigé. <strong>Seuil de réussite conseillé : 25 bonnes réponses sur 30.</strong></p>
+
+<div class="qcm">
+<h4>Questions 1 à 30</h4>
+<div class="q"><p>1. Un agent me tourne le dos, bras tendu horizontalement. Je dois :</p>
+<ul><li><b>A.</b> avancer</li><li><b>B.</b> m'arrêter</li><li><b>C.</b> tourner à droite</li><li><b>D.</b> reculer</li></ul></div>
+<div class="q"><p>2. Le franchissement d'une ligne continue est autorisé :</p>
+<ul><li><b>A.</b> pour dépasser un véhicule lent</li><li><b>B.</b> jamais</li><li><b>C.</b> la nuit</li><li><b>D.</b> en cas d'urgence personnelle</li></ul></div>
+<div class="q"><p>3. Je sors d'une station-service pour rejoindre la route :</p>
+<ul><li><b>A.</b> j'ai la priorité à droite</li><li><b>B.</b> je cède le passage</li><li><b>C.</b> je suis prioritaire si je mets le clignotant</li><li><b>D.</b> j'ai la priorité sur les piétons</li></ul></div>
+<div class="q"><p>4. Dans un carrefour à sens giratoire signalé, je cède le passage :</p>
+<ul><li><b>A.</b> à ma droite</li><li><b>B.</b> aux véhicules déjà engagés dans l'anneau</li><li><b>C.</b> à personne</li><li><b>D.</b> aux véhicules qui entrent</li></ul></div>
+<div class="q"><p>5. Avant de dépasser, mon dernier contrôle porte sur :</p>
+<ul><li><b>A.</b> le compteur</li><li><b>B.</b> l'angle mort gauche</li><li><b>C.</b> la radio</li><li><b>D.</b> le rétroviseur droit</li></ul></div>
+<div class="q"><p>6. L'écart latéral minimal pour dépasser un cycliste en agglomération est de :</p>
+<ul><li><b>A.</b> 0,50 m</li><li><b>B.</b> 1 m</li><li><b>C.</b> 2 m</li><li><b>D.</b> 3 m</li></ul></div>
+<div class="q"><p>7. Le stationnement devant une entrée carrossable d'autrui est :</p>
+<ul><li><b>A.</b> autorisé 10 minutes</li><li><b>B.</b> gênant et interdit</li><li><b>C.</b> autorisé la nuit</li><li><b>D.</b> autorisé le dimanche</li></ul></div>
+<div class="q"><p>8. Un véhicule laissé plus de sept jours au même endroit est en stationnement :</p>
+<ul><li><b>A.</b> gênant</li><li><b>B.</b> dangereux</li><li><b>C.</b> abusif</li><li><b>D.</b> régulier</li></ul></div>
+<div class="q"><p>9. À 50 km/h sur sol sec, ma distance d'arrêt est d'environ :</p>
+<ul><li><b>A.</b> 15 m</li><li><b>B.</b> 25 m</li><li><b>C.</b> 40 m</li><li><b>D.</b> 80 m</li></ul></div>
+<div class="q"><p>10. Sur chaussée mouillée, la distance de freinage est :</p>
+<ul><li><b>A.</b> identique</li><li><b>B.</b> multipliée par deux</li><li><b>C.</b> divisée par deux</li><li><b>D.</b> multipliée par dix</li></ul></div>
+<div class="q"><p>11. La règle des deux secondes sert à évaluer :</p>
+<ul><li><b>A.</b> le temps de réaction</li><li><b>B.</b> la distance de sécurité avec le véhicule qui précède</li><li><b>C.</b> la durée d'un dépassement</li><li><b>D.</b> le temps de démarrage</li></ul></div>
+<div class="q"><p>12. Sur autoroute, la marche arrière est :</p>
+<ul><li><b>A.</b> autorisée sur la BAU</li><li><b>B.</b> interdite en toutes circonstances</li><li><b>C.</b> autorisée si j'ai raté ma sortie</li><li><b>D.</b> autorisée la nuit</li></ul></div>
+<div class="q"><p>13. Sur la voie d'accélération d'une autoroute, je dois :</p>
+<ul><li><b>A.</b> m'arrêter en bout de voie</li><li><b>B.</b> accélérer pour atteindre la vitesse du flux et m'insérer sans priorité</li><li><b>C.</b> rouler à 50 km/h</li><li><b>D.</b> forcer le passage</li></ul></div>
+<div class="q"><p>14. En panne sur autoroute, j'enfile mon gilet :</p>
+<ul><li><b>A.</b> après être sorti du véhicule</li><li><b>B.</b> avant de sortir du véhicule</li><li><b>C.</b> une fois derrière la glissière</li><li><b>D.</b> ce n'est pas nécessaire</li></ul></div>
+<div class="q"><p>15. Le feu de brouillard arrière est interdit :</p>
+<ul><li><b>A.</b> par brouillard</li><li><b>B.</b> sous la pluie</li><li><b>C.</b> sous la neige</li><li><b>D.</b> en agglomération uniquement</li></ul></div>
+<div class="q"><p>16. La profondeur minimale des sculptures d'un pneu est de :</p>
+<ul><li><b>A.</b> 1 mm</li><li><b>B.</b> 1,6 mm</li><li><b>C.</b> 2,5 mm</li><li><b>D.</b> 4 mm</li></ul></div>
+<div class="q"><p>17. L'ABS permet essentiellement :</p>
+<ul><li><b>A.</b> de freiner plus court en toutes circonstances</li><li><b>B.</b> de garder le contrôle de la direction pendant un freinage d'urgence</li><li><b>C.</b> d'éviter la panne sèche</li><li><b>D.</b> de démarrer plus vite</li></ul></div>
+<div class="q"><p>18. Le temps moteur du cycle à quatre temps est :</p>
+<ul><li><b>A.</b> l'admission</li><li><b>B.</b> la compression</li><li><b>C.</b> l'explosion</li><li><b>D.</b> l'échappement</li></ul></div>
+<div class="q"><p>19. Le circuit de graissage sert à :</p>
+<ul><li><b>A.</b> produire l'étincelle</li><li><b>B.</b> réduire les frottements, refroidir et nettoyer le moteur</li><li><b>C.</b> alimenter en carburant</li><li><b>D.</b> recharger la batterie</li></ul></div>
+<div class="q"><p>20. Après un accident, la première action est :</p>
+<ul><li><b>A.</b> soigner les blessés</li><li><b>B.</b> protéger la zone</li><li><b>C.</b> prendre des photos</li><li><b>D.</b> appeler son assurance</li></ul></div>
+<div class="q"><p>21. Une victime inconsciente qui respire doit être placée :</p>
+<ul><li><b>A.</b> assise</li><li><b>B.</b> en position latérale de sécurité</li><li><b>C.</b> debout</li><li><b>D.</b> sur le ventre, tête tournée vers le sol</li></ul></div>
+<div class="q"><p>22. Le casque à moto doit être :</p>
+<ul><li><b>A.</b> simplement posé sur la tête</li><li><b>B.</b> homologué et attaché, pour le conducteur et le passager</li><li><b>C.</b> obligatoire seulement hors agglomération</li><li><b>D.</b> facultatif à faible vitesse</li></ul></div>
+<div class="q"><p>23. Le permis A1 concerne les véhicules dont la cylindrée n'excède pas :</p>
+<ul><li><b>A.</b> 50 cm³</li><li><b>B.</b> 125 cm³</li><li><b>C.</b> 250 cm³</li><li><b>D.</b> 500 cm³</li></ul></div>
+<div class="q"><p>24. L'élimination de l'alcool dans le sang est d'environ :</p>
+<ul><li><b>A.</b> 0,5 g/l par heure</li><li><b>B.</b> 0,10 à 0,15 g/l par heure</li><li><b>C.</b> 1 g/l par heure</li><li><b>D.</b> instantanée après un café</li></ul></div>
+<div class="q"><p>25. Un médicament portant un pictogramme rouge de niveau 3 :</p>
+<ul><li><b>A.</b> n'a aucun effet sur la conduite</li><li><b>B.</b> interdit de conduire</li><li><b>C.</b> impose seulement de la prudence</li><li><b>D.</b> concerne uniquement les motards</li></ul></div>
+<div class="q"><p>26. Le permis B autorise un véhicule dont le PTAC est au maximum de :</p>
+<ul><li><b>A.</b> 1 500 kg</li><li><b>B.</b> 3 500 kg</li><li><b>C.</b> 7 500 kg</li><li><b>D.</b> sans limite</li></ul></div>
+<div class="q"><p>27. En attendant de tourner à gauche, mes roues doivent être :</p>
+<ul><li><b>A.</b> braquées à gauche</li><li><b>B.</b> droites</li><li><b>C.</b> braquées à droite</li><li><b>D.</b> indifférent</li></ul></div>
+<div class="q"><p>28. Le clignotant doit être actionné, en agglomération, au moins :</p>
+<ul><li><b>A.</b> 5 m avant la manœuvre</li><li><b>B.</b> 30 m avant</li><li><b>C.</b> 200 m avant</li><li><b>D.</b> pendant la manœuvre</li></ul></div>
+<div class="q"><p>29. Un cercle bleu barré d'un seul trait rouge signifie :</p>
+<ul><li><b>A.</b> arrêt et stationnement interdits</li><li><b>B.</b> stationnement interdit</li><li><b>C.</b> parking gratuit</li><li><b>D.</b> zone de livraison</li></ul></div>
+<div class="q"><p>30. Le triangle rouge pointe en bas signifie :</p>
+<ul><li><b>A.</b> STOP</li><li><b>B.</b> cédez le passage</li><li><b>C.</b> route prioritaire</li><li><b>D.</b> danger</li></ul></div>
+
+<details class="corrige"><summary>Voir le corrigé type complet et le barème</summary>
+<ol>
+<li><span class="rep">B</span> Face ou dos de l'agent = arrêt. <em>(ch. 1)</em></li>
+<li><span class="rep">B</span> La ligne continue ne se franchit ni ne se chevauche, dans aucun sens. <em>(ch. 1)</em></li>
+<li><span class="rep">B</span> Sortant d'un lieu non ouvert à la circulation publique, on n'a aucune priorité. <em>(ch. 2)</em></li>
+<li><span class="rep">B</span> La priorité appartient à l'anneau, donc aux véhicules venant de la gauche. <em>(ch. 2)</em></li>
+<li><span class="rep">B</span> L'angle mort gauche est le dernier contrôle avant de déboîter. <em>(ch. 3)</em></li>
+<li><span class="rep">B</span> 1 m en agglomération, 1,50 m hors agglomération. <em>(ch. 3)</em></li>
+<li><span class="rep">B</span> C'est un stationnement gênant, sanctionné et susceptible de mise en fourrière. <em>(ch. 4)</em></li>
+<li><span class="rep">C</span> Le stationnement abusif se caractérise par la durée. <em>(ch. 4)</em></li>
+<li><span class="rep">C</span> 15 m de réaction + 25 m de freinage = 40 m environ. <em>(ch. 5)</em></li>
+<li><span class="rep">B</span> Sur sol mouillé, elle double : à 90 km/h, on passe de 81 m à environ 160 m. <em>(ch. 5)</em></li>
+<li><span class="rep">B</span> Deux secondes de trajet, trois sous la pluie. <em>(ch. 5)</em></li>
+<li><span class="rep">B</span> Marche arrière et demi-tour sont interdits sur autoroute sans exception. <em>(ch. 6)</em></li>
+<li><span class="rep">B</span> L'insertion n'est jamais prioritaire, mais elle doit se faire à la vitesse du trafic. <em>(ch. 6)</em></li>
+<li><span class="rep">B</span> Le gilet se met dans l'habitacle, avant l'exposition à la circulation. <em>(ch. 6)</em></li>
+<li><span class="rep">B</span> Sous la pluie, il éblouit le conducteur suivant : il est réservé au brouillard et à la neige. <em>(ch. 7)</em></li>
+<li><span class="rep">B</span> 1,6 mm, repéré par les témoins d'usure. <em>(ch. 7)</em></li>
+<li><span class="rep">B</span> L'ABS empêche le blocage des roues et conserve la directivité. <em>(ch. 7)</em></li>
+<li><span class="rep">C</span> L'explosion (3<sup>e</sup> temps) est le seul temps producteur d'énergie. <em>(ch. 8)</em></li>
+<li><span class="rep">B</span> L'huile lubrifie, refroidit et nettoie ; sa perte détruit le moteur. <em>(ch. 8)</em></li>
+<li><span class="rep">B</span> P.A.S. : Protéger, Alerter, Secourir — dans cet ordre. <em>(ch. 9)</em></li>
+<li><span class="rep">B</span> La PLS protège les voies aériennes. <em>(ch. 9)</em></li>
+<li><span class="rep">B</span> Non attaché, le casque ne protège pas. <em>(ch. 10)</em></li>
+<li><span class="rep">A</span> A1 : jusqu'à 50 cm³ ⚠. <em>(ch. 10)</em></li>
+<li><span class="rep">B</span> Environ 0,10 à 0,15 g/l par heure ; rien ne l'accélère. <em>(ch. 11)</em></li>
+<li><span class="rep">B</span> Le niveau 3 est une contre-indication absolue. <em>(ch. 11)</em></li>
+<li><span class="rep">B</span> 3 500 kg, 9 places, 750 kg de remorque : les trois chiffres du permis B. <em>(ch. 12)</em></li>
+<li><span class="rep">B</span> Roues droites, pour ne pas être projeté en face en cas de choc arrière. <em>(ch. 13)</em></li>
+<li><span class="rep">B</span> Au moins 30 m en agglomération, 100 m hors agglomération ⚠. <em>(ch. 13)</em></li>
+<li><span class="rep">B</span> Un trait = stationnement interdit ; deux traits croisés = arrêt et stationnement interdits. <em>(ch. 14)</em></li>
+<li><span class="rep">B</span> Pointe en bas = cédez le passage ; l'octogone rouge = STOP. <em>(ch. 14)</em></li>
+</ol>
+<p style="margin-top:1rem"><strong>Barème indicatif :</strong> 28 à 30 → prêt pour l'examen · 25 à 27 → révise les chapitres où tu as chuté · 20 à 24 → reprends les chapitres 1, 2, 5 et 14 · moins de 20 → reprends le manuel dans l'ordre, chapitre par chapitre, avec les QCM de fin de chapitre.</p>
+</details>
+</div>
+</section>
+
+<!-- ============ ANNEXES ============ -->
+<section class="chap" id="lexique">
+<div class="chap-head" style="background:var(--asphalte-2)">
+  <span class="borne" style="color:var(--asphalte-2)">AN</span>
+  <div><span class="fil" style="color:var(--ambre)">Annexes</span><h2>Fiches de révision &amp; lexique</h2></div>
+</div>
+
+<h3>A. Les chiffres à connaître par cœur ⚠</h3>
+<table>
+<thead><tr><th>Notion</th><th>Valeur de référence</th></tr></thead>
+<tbody>
+<tr><td>Temps de réaction</td><td>1 seconde</td></tr>
+<tr><td>Distance de réaction</td><td>(V ÷ 10) × 3 mètres</td></tr>
+<tr><td>Distance de freinage sur sol sec</td><td>(V ÷ 10)² mètres — doublée sur sol mouillé</td></tr>
+<tr><td>Distance de sécurité</td><td>2 secondes (3 s sous la pluie)</td></tr>
+<tr><td>Visibilité inférieure à 50 m</td><td>Vitesse maximale : 50 km/h partout</td></tr>
+<tr><td>Écart latéral au dépassement</td><td>1 m en agglomération · 1,50 m hors agglomération</td></tr>
+<tr><td>Clignotant</td><td>30 m avant en agglomération · 100 m hors agglomération</td></tr>
+<tr><td>Usure minimale des pneus</td><td>1,6 mm</td></tr>
+<tr><td>Alcoolémie maximale</td><td>0,5 g/l de sang (0,2 g/l pour les novices)</td></tr>
+<tr><td>Élimination de l'alcool</td><td>0,10 à 0,15 g/l par heure</td></tr>
+<tr><td>Pause sur long trajet</td><td>20 minutes toutes les 2 heures</td></tr>
+<tr><td>Permis B</td><td>3 500 kg · 9 places · remorque 750 kg</td></tr>
+<tr><td>Triangle de présignalisation</td><td>À 30 m au moins du véhicule</td></tr>
+<tr><td>Réanimation cardio-pulmonaire</td><td>30 compressions / 2 insufflations</td></tr>
+</tbody>
+</table>
+
+<h3>B. Les formules mnémotechniques du manuel</h3>
+<ul>
+<li><strong>A.F.P.M.</strong> — Agent, Feux, Panneaux, Marquage : la hiérarchie de la signalisation.</li>
+<li><strong>P.A.S.</strong> — Protéger, Alerter, Secourir : l'ordre du secourisme.</li>
+<li><strong>C.A.P.R.T.</strong> — Contrôler, Avertir, se Placer, Ralentir, Tourner : tout changement de direction.</li>
+<li><strong>A.C.E.É.</strong> — Admission, Compression, Explosion, Échappement : le cycle à quatre temps.</li>
+<li><strong>Les six temps du dépassement</strong> — Observer, Avertir, Déboîter, Doubler, Contrôler, se Rabattre.</li>
+</ul>
+
+<h3>C. Petit lexique</h3>
+<table>
+<thead><tr><th>Terme</th><th>Définition</th></tr></thead>
+<tbody>
+<tr><td><strong>Agglomération</strong></td><td>Espace sur lequel sont groupés des immeubles bâtis, délimité par les panneaux d'entrée et de sortie portant le nom de la localité</td></tr>
+<tr><td><strong>Angle mort</strong></td><td>Zone autour du véhicule qu'aucun rétroviseur ne couvre ; se contrôle par un coup d'œil par-dessus l'épaule</td></tr>
+<tr><td><strong>BAU</strong></td><td>Bande d'arrêt d'urgence</td></tr>
+<tr><td><strong>Chaussée</strong></td><td>Partie de la route affectée à la circulation des véhicules</td></tr>
+<tr><td><strong>Croisement</strong></td><td>Rencontre de deux véhicules circulant en sens inverse</td></tr>
+<tr><td><strong>Dépassement</strong></td><td>Fait de doubler un véhicule circulant dans le même sens</td></tr>
+<tr><td><strong>Force centrifuge</strong></td><td>Force qui déporte le véhicule vers l'extérieur d'un virage, proportionnelle au carré de la vitesse</td></tr>
+<tr><td><strong>Frein moteur</strong></td><td>Ralentissement obtenu en levant le pied et en rétrogradant</td></tr>
+<tr><td><strong>PTAC</strong></td><td>Poids total autorisé en charge : masse maximale du véhicule chargé</td></tr>
+<tr><td><strong>PLS</strong></td><td>Position latérale de sécurité</td></tr>
+<tr><td><strong>Suraccident</strong></td><td>Nouvel accident survenant sur les lieux d'un accident déjà produit</td></tr>
+<tr><td><strong>Zone de rencontre</strong></td><td>Zone où le piéton est prioritaire sur la chaussée et où la vitesse est limitée à 20 km/h</td></tr>
+</tbody>
+</table>
+
+<h3>D. Plan de révision en 3 semaines</h3>
+<table>
+<thead><tr><th>Semaine</th><th>Chapitres</th><th>Travail</th></tr></thead>
+<tbody>
+<tr><td><strong>Semaine 1 — les règles</strong></td><td>1, 2, 14</td><td>Apprendre les familles de panneaux et la hiérarchie ; refaire les QCM jusqu'à 100 %</td></tr>
+<tr><td><strong>Semaine 2 — la conduite</strong></td><td>3, 4, 5, 6, 13</td><td>Mémoriser les distances et les manœuvres ; s'auto-interroger à l'oral</td></tr>
+<tr><td><strong>Semaine 3 — le véhicule et l'humain</strong></td><td>7, 8, 9, 10, 11, 12</td><td>Fiches sur la mécanique et le secourisme ; passer l'examen blanc en conditions réelles</td></tr>
+</tbody>
+</table>
+
+<div class="fin">
+<p><b>Comment utiliser ce manuel.</b> Lis un chapitre, ferme le document, écris de mémoire les points clés, puis fais le QCM sans regarder. Une réponse fausse n'est pas un échec : c'est exactement l'endroit où relire. Refais l'examen blanc à trois jours d'intervalle — la mémoire se construit par la répétition espacée, pas par la relecture.</p>
+<p><b>Rappel.</b> Les valeurs marquées ⚠ dépendent de la législation nationale. Vérifie-les auprès de ton auto-école ou du service des permis de conduire avant l'examen. Le code de la route de ton pays reste la seule référence officielle.</p>
+</div>
+
+</section>
+
+</div><!-- /wrap -->
+</body>
+</html>
