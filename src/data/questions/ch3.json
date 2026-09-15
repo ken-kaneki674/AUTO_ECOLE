@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ch3-q1",
+    "question": "Un obstacle se trouve sur ma voie et un véhicule arrive en face :",
+    "choices": ["je passe en premier", "je cède le passage et j'attends", "je klaxonne pour qu'il s'écarte", "je monte sur le trottoir"],
+    "correct": 1,
+    "explanation": "L'obstacle étant de mon côté, la voie de sens inverse ne m'appartient pas : je m'arrête avant l'obstacle."
+  },
+  {
+    "id": "ch3-q2",
+    "question": "Avant de me rabattre après un dépassement, je dois :",
+    "choices": ["compter jusqu'à trois", "voir le véhicule dépassé entièrement dans mon rétroviseur intérieur", "attendre qu'il klaxonne", "me rabattre immédiatement"],
+    "correct": 1,
+    "explanation": "Voir le véhicule en entier dans le rétroviseur intérieur garantit un espace suffisant pour se rabattre."
+  },
+  {
+    "id": "ch3-q3",
+    "question": "Le dépassement est-il autorisé au sommet d'une côte ?",
+    "choices": ["oui si la ligne est discontinue", "non, la visibilité est insuffisante", "oui de jour", "oui si je klaxonne"],
+    "correct": 1,
+    "explanation": "L'absence de visibilité interdit le dépassement, même si le marquage l'autorise."
+  },
+  {
+    "id": "ch3-q4",
+    "question": "Je suis en train d'être dépassé. Je dois :",
+    "choices": ["accélérer", "serrer à droite et maintenir ma vitesse", "freiner brusquement", "me déporter à gauche"],
+    "correct": 1,
+    "explanation": "Le dépassé doit faciliter la manœuvre : serrer à droite, sans accélérer."
+  },
+  {
+    "id": "ch3-q5",
+    "question": "Le dépassement par la droite est autorisé lorsque :",
+    "choices": ["le véhicule devant roule lentement", "le véhicule devant a mis son clignotant gauche et s'est déporté pour tourner", "je suis pressé", "la voie de droite est libre"],
+    "correct": 1,
+    "explanation": "C'est le cas le plus classique ; les autres cas concernent les files ininterrompues et le tramway."
+  },
+  {
+    "id": "ch3-q6",
+    "question": "L'écart latéral minimal pour dépasser un cycliste hors agglomération est de :",
+    "choices": ["0,50 m", "1 m", "1,50 m", "3 m"],
+    "correct": 2,
+    "explanation": "1 m en agglomération, 1,50 m hors agglomération ; à défaut de place, on renonce au dépassement."
+  },
+  {
+    "id": "ch3-q7",
+    "question": "La nuit, je croise un véhicule. Je dois :",
+    "choices": ["rester en feux de route", "passer en feux de croisement", "éteindre mes feux", "allumer mes feux de brouillard"],
+    "correct": 1,
+    "explanation": "Les feux de route éblouissent et créent un danger mutuel ; on repasse en croisement dès que l'on aperçoit un véhicule."
+  },
+  {
+    "id": "ch3-q8",
+    "question": "Je suis ébloui par un véhicule en sens inverse :",
+    "choices": ["je ferme les yeux une seconde", "je ralentis et je fixe le bord droit de la chaussée", "j'allume mes feux de route en réponse", "je freine brusquement"],
+    "correct": 1,
+    "explanation": "Le regard se porte sur la ligne de rive droite, qui sert de guide pendant les quelques secondes d'éblouissement."
+  }
+]

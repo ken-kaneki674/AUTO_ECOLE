@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ch4-q1",
+    "question": "Un panneau rond bleu barré de deux traits rouges croisés signifie :",
+    "choices": ["stationnement interdit", "arrêt et stationnement interdits", "stationnement payant", "zone bleue"],
+    "correct": 1,
+    "explanation": "Deux traits = deux interdictions (arrêt + stationnement) ; un seul trait n'interdit que le stationnement."
+  },
+  {
+    "id": "ch4-q2",
+    "question": "Le stationnement au sommet d'une côte est qualifié de :",
+    "choices": ["gênant", "dangereux", "abusif", "autorisé"],
+    "correct": 1,
+    "explanation": "Le manque de visibilité crée un risque d'accident : le stationnement est dangereux."
+  },
+  {
+    "id": "ch4-q3",
+    "question": "Je m'immobilise pour laisser descendre un passager, moteur tournant, au volant. Il s'agit :",
+    "choices": ["d'un stationnement", "d'un arrêt", "d'un stationnement abusif", "d'un stationnement gênant"],
+    "correct": 1,
+    "explanation": "Immobilisation momentanée avec conducteur au volant pour la descente d'un passager = arrêt."
+  },
+  {
+    "id": "ch4-q4",
+    "question": "Sur une chaussée à double sens, je peux stationner :",
+    "choices": ["des deux côtés indifféremment", "uniquement du côté droit, dans le sens de la circulation", "à gauche si la place est libre", "en double file"],
+    "correct": 1,
+    "explanation": "Le stationnement se fait à droite, dans le sens de la marche ; les deux côtés ne sont possibles qu'en sens unique lorsque c'est autorisé."
+  },
+  {
+    "id": "ch4-q5",
+    "question": "En stationnement alterné semi-mensuel, du 1er au 15 du mois, je stationne :",
+    "choices": ["côté pair", "côté impair", "des deux côtés", "nulle part"],
+    "correct": 1,
+    "explanation": "Du 1er au 15 : côté impair ; du 16 à la fin : côté pair."
+  },
+  {
+    "id": "ch4-q6",
+    "question": "En stationnement en bataille, la manière la plus sûre est :",
+    "choices": ["entrer en marche avant, sortir en marche arrière", "entrer en marche arrière, sortir en marche avant", "peu importe", "se garer en travers"],
+    "correct": 1,
+    "explanation": "On entre en marche arrière pour repartir en marche avant, avec une visibilité bien meilleure."
+  },
+  {
+    "id": "ch4-q7",
+    "question": "Avant d'ouvrir ma portière côté chaussée, je dois :",
+    "choices": ["klaxonner", "contrôler le rétroviseur et l'angle mort", "ouvrir vite pour ne pas gêner", "allumer les warnings uniquement"],
+    "correct": 1,
+    "explanation": "L'ouverture de portière sans contrôle est une des causes majeures d'accidents graves de deux-roues."
+  }
+]

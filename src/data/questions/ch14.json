@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ch14-q1",
+    "question": "Un panneau triangulaire à bord rouge annonce :",
+    "choices": ["une interdiction", "un danger", "une obligation", "un service"],
+    "correct": 1,
+    "explanation": "Triangle + rouge = avertissement : le panneau prévient, il n'ordonne pas."
+  },
+  {
+    "id": "ch14-q2",
+    "question": "Un cercle bleu plein avec une flèche blanche indique :",
+    "choices": ["une interdiction de tourner", "une direction obligatoire", "une indication de service", "une fin de prescription"],
+    "correct": 1,
+    "explanation": "Le bleu plein est la couleur de l'obligation ; le rouge celle de l'interdiction."
+  },
+  {
+    "id": "ch14-q3",
+    "question": "Un cercle rouge avec une barre blanche horizontale signifie :",
+    "choices": ["stationnement interdit", "sens interdit", "circulation interdite dans les deux sens", "route barrée"],
+    "correct": 1,
+    "explanation": "Le sens interdit s'adresse à celui qui le voit ; l'autre sens est autorisé."
+  },
+  {
+    "id": "ch14-q4",
+    "question": "Hors agglomération, un panneau de danger est implanté environ :",
+    "choices": ["10 m avant le danger", "50 m avant", "150 m avant", "sur le danger lui-même"],
+    "correct": 2,
+    "explanation": "Environ 150 m hors agglomération et 50 m en agglomération, sauf panonceau de distance."
+  },
+  {
+    "id": "ch14-q5",
+    "question": "Un panonceau « sur 5 km » placé sous un panneau de dépassement interdit signifie :",
+    "choices": ["que le dépassement est interdit pendant 5 km", "que le danger est à 5 km", "qu'il faut rouler 5 km/h", "qu'il reste 5 km de route"],
+    "correct": 0,
+    "explanation": "Le panonceau d'étendue prolonge la prescription sur la distance indiquée."
+  },
+  {
+    "id": "ch14-q6",
+    "question": "Un panneau rond bordé de rouge, entièrement blanc à l'intérieur :",
+    "choices": ["annonce une aire de repos", "interdit la circulation dans les deux sens", "indique un sens unique", "ne signifie rien"],
+    "correct": 1,
+    "explanation": "Aucun véhicule ne peut circuler dans un sens ni dans l'autre."
+  },
+  {
+    "id": "ch14-q7",
+    "question": "Sauf indication contraire, un panneau d'interdiction s'applique :",
+    "choices": ["sur 100 m", "jusqu'à la prochaine intersection", "sur toute la commune", "pendant une heure"],
+    "correct": 1,
+    "explanation": "La règle de base est la portée jusqu'à la prochaine intersection."
+  },
+  {
+    "id": "ch14-q8",
+    "question": "Le losange jaune bordé de blanc signifie :",
+    "choices": ["danger temporaire", "route prioritaire", "stationnement payant", "déviation"],
+    "correct": 1,
+    "explanation": "Le losange jaune annonce le caractère prioritaire de la route ; barré, il en marque la fin."
+  }
+]

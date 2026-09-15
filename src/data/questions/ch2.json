@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ch2-q1",
+    "question": "À un carrefour sans aucune signalisation, un véhicule arrive à ma droite :",
+    "choices": ["je passe le premier car je vais tout droit", "je lui cède le passage", "le plus rapide passe", "je klaxonne et je passe"],
+    "correct": 1,
+    "explanation": "Aucune signalisation = priorité à droite, quelle que soit la direction que l'on prend."
+  },
+  {
+    "id": "ch2-q2",
+    "question": "Le panneau STOP m'impose :",
+    "choices": ["de ralentir seulement", "l'immobilisation complète du véhicule", "de m'arrêter uniquement si un véhicule arrive", "de céder le passage à droite seulement"],
+    "correct": 1,
+    "explanation": "Le STOP exige l'arrêt total, roues bloquées, à la hauteur de la ligne ; l'absence de véhicule ne dispense pas de l'arrêt."
+  },
+  {
+    "id": "ch2-q3",
+    "question": "Dans un carrefour à sens giratoire signalé « Cédez le passage » :",
+    "choices": ["les entrants sont prioritaires", "les véhicules déjà dans l'anneau sont prioritaires", "la priorité à droite s'applique", "il n'y a aucune règle"],
+    "correct": 1,
+    "explanation": "Le giratoire inverse la règle : on cède à sa gauche, aux véhicules engagés dans l'anneau."
+  },
+  {
+    "id": "ch2-q4",
+    "question": "Je sors d'un parking pour rejoindre la route :",
+    "choices": ["j'ai la priorité à droite", "je cède le passage à tous les usagers de la route", "je suis prioritaire si je mets le clignotant", "je suis prioritaire sur les piétons"],
+    "correct": 1,
+    "explanation": "Sortant d'un lieu non ouvert à la circulation publique, je n'ai aucune priorité, y compris sur les piétons du trottoir que je traverse."
+  },
+  {
+    "id": "ch2-q5",
+    "question": "Une ambulance arrive derrière moi, gyrophare et sirène en marche, alors que je suis au feu rouge :",
+    "choices": ["je reste immobile, le rouge s'impose à tous", "je me range prudemment pour la laisser passer, même si je dois dégager légèrement", "j'accélère pour la précéder", "je passe au rouge derrière elle"],
+    "correct": 1,
+    "explanation": "Le véhicule prioritaire en mission prime sur le feu ; je dégage sans commettre d'infraction dangereuse ni franchir le feu."
+  },
+  {
+    "id": "ch2-q6",
+    "question": "Sur une route de montagne étroite, qui cède le passage ?",
+    "choices": ["celui qui monte", "celui qui descend", "le plus gros véhicule", "le plus rapide"],
+    "correct": 1,
+    "explanation": "Celui qui descend cède, car le redémarrage en côte est plus difficile et plus risqué."
+  },
+  {
+    "id": "ch2-q7",
+    "question": "Le panneau en losange jaune signifie :",
+    "choices": ["fin de route prioritaire", "route prioritaire", "danger", "priorité à droite"],
+    "correct": 1,
+    "explanation": "Le losange jaune = route prioritaire ; barré d'un trait noir, il en marque la fin."
+  },
+  {
+    "id": "ch2-q8",
+    "question": "Un bus quitte son arrêt en agglomération, clignotant allumé :",
+    "choices": ["je le dépasse rapidement", "je ralentis et je le laisse s'insérer", "il doit attendre que la voie soit vide", "je klaxonne"],
+    "correct": 1,
+    "explanation": "En agglomération, le bus qui quitte son arrêt bénéficie d'une facilité de réinsertion."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ch5-q1",
+    "question": "La distance d'arrêt est égale à :",
+    "choices": ["la distance de freinage seule", "la distance de réaction + la distance de freinage", "deux fois la distance de réaction", "la distance de sécurité"],
+    "correct": 1,
+    "explanation": "On ne s'arrête jamais au moment où l'on décide de freiner : le temps de réaction consomme déjà des dizaines de mètres."
+  },
+  {
+    "id": "ch5-q2",
+    "question": "À 90 km/h sur sol sec, ma distance de freinage est d'environ :",
+    "choices": ["27 m", "45 m", "81 m", "120 m"],
+    "correct": 2,
+    "explanation": "(90 ÷ 10)² = 9 × 9 = 81 m sur sol sec — le double environ sur sol mouillé."
+  },
+  {
+    "id": "ch5-q3",
+    "question": "Si je double ma vitesse, ma distance de freinage :",
+    "choices": ["double", "triple", "est multipliée par quatre", "ne change pas"],
+    "correct": 2,
+    "explanation": "La distance de freinage varie avec le carré de la vitesse."
+  },
+  {
+    "id": "ch5-q4",
+    "question": "La distance de sécurité minimale correspond à :",
+    "choices": ["une longueur de voiture", "2 secondes de trajet", "10 mètres", "30 mètres quelle que soit la vitesse"],
+    "correct": 1,
+    "explanation": "La règle des 2 secondes s'adapte automatiquement à la vitesse ; on passe à 3 s sous la pluie."
+  },
+  {
+    "id": "ch5-q5",
+    "question": "En cas d'aquaplanage, je dois :",
+    "choices": ["freiner fort", "braquer pour reprendre la trajectoire", "lever le pied, tenir le volant droit, ne pas freiner", "accélérer"],
+    "correct": 2,
+    "explanation": "Freiner ou braquer sur un film d'eau provoque la perte totale de contrôle."
+  },
+  {
+    "id": "ch5-q6",
+    "question": "Par visibilité inférieure à 50 m (brouillard épais), la vitesse est limitée à :",
+    "choices": ["30 km/h", "50 km/h sur toutes les routes", "70 km/h", "aucune limitation particulière"],
+    "correct": 1,
+    "explanation": "Sous 50 m de visibilité, la vitesse maximale est de 50 km/h partout, autoroute comprise."
+  },
+  {
+    "id": "ch5-q7",
+    "question": "Un piéton renversé à 50 km/h :",
+    "choices": ["est rarement blessé", "a environ une chance sur deux d'être tué", "est toujours indemne", "est protégé par le pare-chocs"],
+    "correct": 1,
+    "explanation": "D'où l'intérêt majeur des zones limitées à 30 km/h autour des écoles et des marchés."
+  },
+  {
+    "id": "ch5-q8",
+    "question": "Le temps de réaction moyen d'un conducteur en bonne forme est d'environ :",
+    "choices": ["0,1 seconde", "1 seconde", "3 secondes", "5 secondes"],
+    "correct": 1,
+    "explanation": "Environ 1 seconde ; ce temps double sous l'effet de l'alcool, de la fatigue ou du téléphone."
+  }
+]

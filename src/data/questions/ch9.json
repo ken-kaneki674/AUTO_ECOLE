@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ch9-q1",
+    "question": "L'ordre correct de l'intervention est :",
+    "choices": ["Secourir, Alerter, Protéger", "Protéger, Alerter, Secourir", "Alerter, Protéger, Secourir", "Protéger, Secourir, Alerter"],
+    "correct": 1,
+    "explanation": "Protéger d'abord évite le suraccident, qui fait souvent plus de victimes que l'accident initial."
+  },
+  {
+    "id": "ch9-q2",
+    "question": "Une victime est inconsciente mais respire. Je la place :",
+    "choices": ["sur le dos, jambes surélevées", "en position latérale de sécurité", "assise contre un arbre", "je la laisse dans le véhicule sans rien faire"],
+    "correct": 1,
+    "explanation": "La PLS empêche l'étouffement par la langue ou les vomissements ; on surveille ensuite la respiration."
+  },
+  {
+    "id": "ch9-q3",
+    "question": "Face à une hémorragie abondante, le geste immédiat est :",
+    "choices": ["donner à boire", "comprimer la plaie sans relâcher", "nettoyer la plaie à l'alcool", "attendre les secours sans rien faire"],
+    "correct": 1,
+    "explanation": "La compression directe et continue est le geste qui sauve ; on n'interrompt pas pour aller chercher un pansement."
+  },
+  {
+    "id": "ch9-q4",
+    "question": "Le casque d'un motocycliste blessé :",
+    "choices": ["se retire toujours immédiatement", "se laisse en place, sauf nécessité vitale et alors à deux sauveteurs", "se retire pour identifier la victime", "se retire s'il gêne la circulation"],
+    "correct": 1,
+    "explanation": "Le retrait du casque risque d'aggraver une lésion cervicale."
+  },
+  {
+    "id": "ch9-q5",
+    "question": "Le rythme de la réanimation cardio-pulmonaire chez l'adulte est :",
+    "choices": ["5 compressions / 1 insufflation", "15 compressions / 3 insufflations", "30 compressions / 2 insufflations", "50 compressions / 5 insufflations"],
+    "correct": 2,
+    "explanation": "30 / 2, environ 100 à 120 compressions par minute, sans interrompre plus de quelques secondes."
+  },
+  {
+    "id": "ch9-q6",
+    "question": "Sur une brûlure, j'applique :",
+    "choices": ["de l'huile", "du dentifrice", "de l'eau tempérée qui ruisselle", "de la glace directement sur la peau"],
+    "correct": 2,
+    "explanation": "Le refroidissement à l'eau limite l'extension de la brûlure ; tout corps gras est à proscrire."
+  },
+  {
+    "id": "ch9-q7",
+    "question": "Dans mon message d'alerte, il faut indiquer :",
+    "choices": ["uniquement le nombre de véhicules", "le lieu précis, la nature de l'accident, le nombre et l'état des victimes", "la marque des voitures", "le nom de mon assureur"],
+    "correct": 1,
+    "explanation": "Une alerte imprécise retarde les secours : le lieu exact est l'information la plus critique."
+  }
+]

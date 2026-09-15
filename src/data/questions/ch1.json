@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ch1-q1",
+    "question": "Le feu est vert mais un agent, face à moi, tend le bras horizontalement. Je dois :",
+    "choices": ["passer, le feu vert est prioritaire", "m'arrêter", "klaxonner puis passer", "reculer"],
+    "correct": 1,
+    "explanation": "L'agent est au sommet de la hiérarchie : son geste annule le feu vert."
+  },
+  {
+    "id": "ch1-q2",
+    "question": "Un feu jaune clignotant signifie :",
+    "choices": ["arrêt absolu", "le carrefour n'est plus régulé, j'applique la signalisation en place ou la priorité à droite", "j'ai la priorité sur tous", "la route est barrée"],
+    "correct": 1,
+    "explanation": "Le jaune clignotant ne donne aucune priorité : il rend le carrefour à la règle commune (souvent la priorité à droite)."
+  },
+  {
+    "id": "ch1-q3",
+    "question": "La ligne mixte : je peux la franchir…",
+    "choices": ["jamais", "toujours", "si la ligne discontinue est de mon côté", "uniquement la nuit"],
+    "correct": 2,
+    "explanation": "On obéit toujours à la ligne située du côté du véhicule ; le rabattement doit se faire avant la fin de la discontinue."
+  },
+  {
+    "id": "ch1-q4",
+    "question": "Le marquage au sol de couleur jaune indique :",
+    "choices": ["une signalisation temporaire ou une interdiction d'arrêt", "une voie réservée aux taxis", "un marquage effacé", "une piste cyclable"],
+    "correct": 0,
+    "explanation": "Le jaune est la couleur du provisoire (chantier) et des interdictions d'arrêt en bordure."
+  },
+  {
+    "id": "ch1-q5",
+    "question": "Un agent vu de profil, bras baissés :",
+    "choices": ["m'ordonne l'arrêt", "me laisse passer", "ne signifie rien", "m'ordonne de reculer"],
+    "correct": 1,
+    "explanation": "Profil = passage libre ; face ou dos = arrêt."
+  },
+  {
+    "id": "ch1-q6",
+    "question": "Au feu jaune fixe, je peux poursuivre ma route :",
+    "choices": ["toujours", "si je suis trop engagé pour m'arrêter sans danger", "si je suis pressé", "si aucun véhicule n'arrive"],
+    "correct": 1,
+    "explanation": "L'arrêt au jaune fixe est la règle ; l'exception est le risque de choc arrière si l'on freine trop tard."
+  },
+  {
+    "id": "ch1-q7",
+    "question": "Les zébras (hachures blanches) :",
+    "choices": ["sont des places de stationnement", "délimitent une zone interdite à la circulation et au stationnement", "signalent une école", "indiquent un arrêt de bus"],
+    "correct": 1,
+    "explanation": "Les zébras protègent une zone de manœuvre ou un îlot : on ne les emprunte ni ne s'y arrête."
+  },
+  {
+    "id": "ch1-q8",
+    "question": "Classe dans l'ordre de priorité : feux tricolores, marquage au sol, agent, panneaux.",
+    "choices": ["panneaux → agent → feux → marquage", "agent → feux → panneaux → marquage", "feux → agent → marquage → panneaux", "marquage → panneaux → feux → agent"],
+    "correct": 1,
+    "explanation": "Ordre mémo : « Agent, Feux, Panneaux, Marquage » — A F P M."
+  }
+]
