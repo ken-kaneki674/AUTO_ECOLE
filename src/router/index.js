@@ -31,11 +31,8 @@ const router = createRouter({
       name: 'benin-chapitre',
       component: () => import('../views/BeninChapterView.vue'),
     },
-    {
-      path: '/benin/examen',
-      name: 'benin-examen',
-      component: () => import('../views/BeninExamView.vue'),
-    },
+    // Ancienne adresse de l'examen officiel, fusionné dans l'examen blanc.
+    { path: '/benin/examen', redirect: { name: 'examen' } },
   ],
   scrollBehavior() {
     return { top: 0 }

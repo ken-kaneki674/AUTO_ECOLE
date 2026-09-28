@@ -82,7 +82,7 @@ function goToPage(index) {
           <router-link v-else-if="next" :to="{ name: 'benin-chapitre', params: { id: String(next.num) } }">
             Chapitre {{ next.roman }} : {{ next.title }} →
           </router-link>
-          <router-link v-else :to="{ name: 'benin-examen' }">Passer l’examen blanc Bénin →</router-link>
+          <router-link v-else :to="{ name: 'examen' }">Passer l’examen blanc →</router-link>
         </nav>
         <p v-if="page === 0 && previous" style="margin-top:1rem">
           <router-link :to="{ name: 'benin-chapitre', params: { id: String(previous.num) } }">

@@ -8,7 +8,7 @@ Application web en **Vue 3 + Vite**, sans backend : tout tourne dans le navigate
 
 - **14 chapitres de cours** illustrés : signalisation, priorités, croisements et dépassements, arrêt et stationnement, vitesse, autoroute, équipement, mécanique, secourisme, deux-roues, permis B, catalogue des panneaux…
 - **QCM corrigés** à la fin de chaque chapitre, avec suivi de la progression.
-- **Examen blanc** de 30 questions et barème indicatif.
+- **Examen blanc** de 20 ou 40 questions tirées au hasard (≈ 3/4 du manuel DGTT, 1/4 du cours) : une question à la fois, chronomètre, correction à la fin, résultats par thème et historique des scores.
 - **Lexique** et fiches de révision.
 - **Recherche** dans les chapitres et les questions.
 - **Valeurs réglementaires béninoises** (vitesses, alcoolémie, numéros d'urgence…) centralisées dans `src/data/valeursBenin.js`. Celles qui viennent du manuel de la DGTT citent leur source ; les autres sont marquées « ⚠ à vérifier ».
@@ -21,7 +21,6 @@ La section « Questions officielles » donne accès à la banque de questions du
 - **340 questions à réponses multiples** : on coche toutes les bonnes réponses, puis on valide ;
 - **220 questions illustrées** par les panneaux et schémas du manuel ;
 - les généralités du chapitre I (définitions, catégories de permis, abréviations) ;
-- un **examen blanc de 40 questions** tirées au hasard.
 
 Les questions dont le corrigé est incohérent dans le manuel, ou dont l'illustration n'a pas pu être récupérée, sont marquées **« ⚠ à vérifier »**.
 

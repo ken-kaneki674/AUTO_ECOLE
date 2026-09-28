@@ -17,7 +17,7 @@ import ProgressBadge from './ProgressBadge.vue'
       </li>
       <li>
         <router-link :to="{ name: 'examen' }">
-          <span class="n">EX</span> Examen blanc : 30 questions
+          <span class="n">EX</span> Examen blanc chronométré (20 ou 40 questions)
         </router-link>
       </li>
       <li>

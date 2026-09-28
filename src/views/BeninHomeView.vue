@@ -44,8 +44,8 @@ import {
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'benin-examen' }">
-              <span class="n">EX</span> Examen blanc Bénin : 40 questions tirées au hasard
+            <router-link :to="{ name: 'examen' }">
+              <span class="n">EX</span> Examen blanc : questions tirées au hasard, chronométré
             </router-link>
           </li>
         </ol>
