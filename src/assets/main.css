@@ -69,14 +69,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible,summary:focus-visi
 .search-results .kind{font-family:var(--font-titre);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--bleu);display:block;margin-bottom:2px}
 .search-empty{padding:12px;font-size:.85rem;color:#5C636D}
 
-/* ---------- BASCULE RÉGION ---------- */
-.region-toggle{display:flex;align-items:center;gap:6px;font-family:var(--font-titre);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase}
-.region-toggle button{
-  background:#20242b;color:#C9CDD4;border:1px solid #4A505A;padding:5px 10px;border-radius:2px;cursor:pointer;
-}
-.region-toggle button[aria-pressed="true"]{background:var(--ambre);color:var(--asphalte);border-color:var(--ambre)}
-
-/* ---------- VALEUR RÉGIONALISÉE ---------- */
+/* ---------- VALEUR RÉGLEMENTAIRE ---------- */
 .region-value{white-space:nowrap}
 .region-value .flag{
   color:var(--rouge);cursor:help;margin-left:2px;font-size:.85em;

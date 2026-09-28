@@ -2,7 +2,7 @@
 import MemoBox from '../components/MemoBox.vue'
 import AttentionBox from '../components/AttentionBox.vue'
 import QcmBlock from '../components/QcmBlock.vue'
-import RegionValue from '../components/RegionValue.vue'
+import ValeurBenin from '../components/ValeurBenin.vue'
 import questions from '../data/questions/ch13.json'
 </script>
 
@@ -18,7 +18,7 @@ import questions from '../data/questions/ch13.json'
 <p>Quelle que soit la manœuvre, l'ordre est <strong>toujours</strong> le même. Retiens-le comme une check-list :</p>
 <ol>
 <li><strong>Contrôler</strong> : rétroviseur intérieur, rétroviseur extérieur du côté de la manœuvre, puis <strong>angle mort</strong>.</li>
-<li><strong>Avertir</strong> : clignotant, suffisamment tôt (au moins <strong><RegionValue k="distance_clignotant_agglomeration" /> en agglomération, <RegionValue k="distance_clignotant_hors_agglomeration" /> hors agglomération</strong>) mais pas trop tôt, pour ne pas induire les autres en erreur.</li>
+<li><strong>Avertir</strong> : clignotant, suffisamment tôt (au moins <strong><ValeurBenin k="distance_clignotant_agglomeration" /> en agglomération, <ValeurBenin k="distance_clignotant_hors_agglomeration" /> hors agglomération</strong>) mais pas trop tôt, pour ne pas induire les autres en erreur.</li>
 <li><strong>Se placer</strong> : à droite pour tourner à droite, près de l'axe pour tourner à gauche.</li>
 <li><strong>Ralentir</strong> : freiner <em>avant</em> le virage, adapter le rapport de boîte.</li>
 <li><strong>Tourner et contrôler</strong> : regarder où l'on va, surveiller piétons et deux-roues, puis éteindre le clignotant.</li>

@@ -14,7 +14,7 @@ import questions from '../data/questions/ch3.json'
 <p class="obj"><b>Objectifs du chapitre</b> Croiser en sécurité dans toutes les configurations, connaître les six temps du dépassement, savoir où le dépassement est interdit et quand il peut se faire par la droite.</p>
 
 <h3>3.1 Le croisement</h3>
-<p>Croiser, c'est rencontrer un véhicule circulant <strong>en sens inverse</strong>. Dans les pays à conduite à droite (Bénin, France, la plupart des pays d'Afrique de l'Ouest francophone), <strong>on croise par la droite</strong> : chaque conducteur serre son côté droit.</p>
+<p>Croiser, c'est rencontrer un véhicule circulant <strong>en sens inverse</strong>. Au Bénin, où l'on circule à droite, <strong>on croise par la droite</strong> : chaque conducteur serre son côté droit.</p>
 <h4>Les règles du croisement</h4>
 <ol>
 <li><strong>Se déporter à droite</strong> sans mordre sur l'accotement meuble ni sur le trottoir.</li>

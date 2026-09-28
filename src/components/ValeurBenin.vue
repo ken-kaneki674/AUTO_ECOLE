@@ -1,16 +1,19 @@
 <script setup>
 import { computed } from 'vue'
-import { useRegion } from '../composables/useRegion.js'
-import { regionValues } from '../data/regionValues.js'
+import { valeursBenin } from '../data/valeursBenin.js'
 
 const props = defineProps({
   k: { type: String, required: true },
 })
 
-const { region } = useRegion()
-
-const entry = computed(() => regionValues[props.k])
-const value = computed(() => entry.value?.[region.value] ?? '—')
+const entry = computed(() => valeursBenin[props.k])
+const title = computed(() => {
+  const e = entry.value
+  if (!e) return undefined
+  return e.verified
+    ? `${e.label} — ${e.source}`
+    : `${e.label} : valeur à vérifier auprès du code de la route en vigueur`
+})
 </script>
 
 <template>
@@ -18,10 +21,10 @@ const value = computed(() => entry.value?.[region.value] ?? '—')
     v-if="entry"
     class="region-value"
     :class="{ unverified: !entry.verified }"
-  >{{ value }}<sup
+    :title="title"
+  >{{ entry.value }}<sup
       v-if="!entry.verified"
       class="flag"
-      :title="`${entry.label} : valeur à vérifier auprès du code de la route en vigueur`"
       aria-label="valeur à vérifier"
     >⚠</sup></span>
   <span v-else class="region-value">{{ k }}</span>

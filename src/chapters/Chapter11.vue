@@ -2,7 +2,7 @@
 import MemoBox from '../components/MemoBox.vue'
 import AttentionBox from '../components/AttentionBox.vue'
 import QcmBlock from '../components/QcmBlock.vue'
-import RegionValue from '../components/RegionValue.vue'
+import ValeurBenin from '../components/ValeurBenin.vue'
 import questions from '../data/questions/ch11.json'
 </script>
 
@@ -24,7 +24,7 @@ import questions from '../data/questions/ch11.json'
 <li><strong>Fausse assurance</strong> : le conducteur se croit plus performant alors qu'il l'est beaucoup moins.</li>
 </ul>
 <MemoBox label="Chiffres clés ⚠">
-Taux maximal autorisé couramment retenu : <strong><RegionValue k="alcoolemie_generale" /></strong> (soit 0,25 mg/l d'air expiré), abaissé à <strong><RegionValue k="alcoolemie_novice" /></strong> pour les conducteurs novices et les transports en commun dans plusieurs pays.<br>
+Taux maximal autorisé couramment retenu : <strong><ValeurBenin k="alcoolemie_generale" /></strong>, abaissé à <strong><ValeurBenin k="alcoolemie_novice" /></strong> pour les conducteurs novices et les transports en commun.<br>
 Un « verre standard » (un demi de bière, un ballon de vin, une dose d'alcool fort) fait monter le taux d'environ <strong>0,20 à 0,25 g/l</strong>.<br>
 L'élimination est lente : environ <strong>0,10 à 0,15 g/l par heure</strong>. Rien ne l'accélère : ni le café, ni la douche froide, ni le sport, ni le fait de manger.
 </MemoBox>

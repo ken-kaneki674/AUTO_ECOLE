@@ -1,6 +1,6 @@
 # Code de la route de A à Z
 
-Manuel interactif de préparation à l'examen théorique du permis de conduire (catégorie B et deux-roues A1 / A2 / A3), pensé pour le **Bénin / espace UEMOA** avec une bascule vers les valeurs **France**.
+Manuel interactif de préparation à l'examen théorique du permis de conduire **au Bénin** (catégorie B et deux-roues A1 / A2 / A3), avec la banque de questions officielle de la DGTT.
 
 Application web en **Vue 3 + Vite**, sans backend : tout tourne dans le navigateur et la progression est enregistrée localement (`localStorage`).
 
@@ -11,11 +11,11 @@ Application web en **Vue 3 + Vite**, sans backend : tout tourne dans le navigate
 - **Examen blanc** de 30 questions et barème indicatif.
 - **Lexique** et fiches de révision.
 - **Recherche** dans les chapitres et les questions.
-- **Sélecteur de région Bénin / France** : les valeurs qui changent d'un pays à l'autre (vitesses, alcoolémie, numéros d'urgence…) s'adaptent. Voir `src/data/regionValues.js`.
+- **Valeurs réglementaires béninoises** (vitesses, alcoolémie, numéros d'urgence…) centralisées dans `src/data/valeursBenin.js`. Celles qui viennent du manuel de la DGTT citent leur source ; les autres sont marquées « ⚠ à vérifier ».
 
-### Questions officielles du Bénin
+### Questions officielles de l'examen
 
-Quand la région **Bénin** est sélectionnée, une section supplémentaire donne accès à la banque de questions du *Manuel du candidat à l'examen du permis de conduire* (Ministère des Travaux Publics et des Transports, DGTT, édition 2011) :
+La section « Questions officielles » donne accès à la banque de questions du *Manuel du candidat à l'examen du permis de conduire* (Ministère des Travaux Publics et des Transports, DGTT, édition 2011) :
 
 - **919 questions** avec le corrigé du manuel, réparties dans les chapitres II à XI ;
 - **340 questions à réponses multiples** : on coche toutes les bonnes réponses, puis on valide ;
@@ -41,13 +41,13 @@ npm run preview   # prévisualisation du build
 ```
 src/
 ├── chapters/            Chapter1.vue … Chapter14.vue — contenu des cours
-├── components/          QcmBlock, RegionToggle, SearchBar, encadrés (Astuce, Attention, Mémo…)
-├── composables/         useQuizProgress (progression), useRegion, useSearch
+├── components/          QcmBlock, ValeurBenin, SearchBar, encadrés (Astuce, Attention, Mémo…)
+├── composables/         useQuizProgress (progression), useSearch
 ├── data/
 │   ├── questions/       QCM des chapitres (ch1.json … ch14.json) et examen.json
 │   ├── benin/           banque officielle du Bénin (générée, voir ci-dessous) et meta.js
 │   ├── chapters/        métadonnées des chapitres
-│   └── regionValues.js  valeurs réglementaires Bénin / France
+│   └── valeursBenin.js  valeurs réglementaires béninoises
 ├── router/              routes (/, /chapitre/:id, /examen, /lexique, /benin…)
 └── views/               pages
 public/benin/signs/      illustrations extraites du manuel DGTT

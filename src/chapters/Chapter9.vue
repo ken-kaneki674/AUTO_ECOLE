@@ -1,7 +1,7 @@
 <script setup>
 import AttentionBox from '../components/AttentionBox.vue'
 import QcmBlock from '../components/QcmBlock.vue'
-import RegionValue from '../components/RegionValue.vue'
+import ValeurBenin from '../components/ValeurBenin.vue'
 import questions from '../data/questions/ch9.json'
 </script>
 
@@ -50,10 +50,10 @@ Ce chapitre est un rappel théorique destiné à l'examen du code. Il ne remplac
 <thead><tr><th>Qui appeler</th><th>Que dire</th></tr></thead>
 <tbody>
 <tr><td>
-<strong>Police secours : <RegionValue k="numero_police" /></strong><br>
-<strong>Sapeurs-pompiers : <RegionValue k="numero_pompiers" /></strong><br>
-<strong>Secours médicaux : <RegionValue k="numero_samu" /></strong><br>
-<em>⚠ Vérifie les numéros en vigueur dans ton pays et note-les dans ton téléphone.</em>
+<strong>Police secours : <ValeurBenin k="numero_police" /></strong><br>
+<strong>Sapeurs-pompiers : <ValeurBenin k="numero_pompiers" /></strong><br>
+<strong>Secours médicaux : <ValeurBenin k="numero_samu" /></strong><br>
+<em>⚠ Vérifie ces numéros auprès de ton auto-école et note-les dans ton téléphone.</em>
 </td><td>
 1. <strong>Qui</strong> je suis et d'où j'appelle (numéro de rappel).<br>
 2. <strong>Où</strong> exactement : route, sens, point kilométrique, repère visible.<br>

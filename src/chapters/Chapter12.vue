@@ -1,7 +1,7 @@
 <script setup>
 import MemoBox from '../components/MemoBox.vue'
 import QcmBlock from '../components/QcmBlock.vue'
-import RegionValue from '../components/RegionValue.vue'
+import ValeurBenin from '../components/ValeurBenin.vue'
 import questions from '../data/questions/ch12.json'
 </script>
 
@@ -19,7 +19,7 @@ import questions from '../data/questions/ch12.json'
 <ul>
 <li>le <strong>poids total autorisé en charge (PTAC) n'excède pas 3 500 kg</strong> ;</li>
 <li>le nombre de places assises, <strong>outre celle du conducteur, n'excède pas huit</strong> (soit 9 places au total) ;</li>
-<li>l'attelage d'une <strong>remorque dont le PTAC ne dépasse pas <RegionValue k="remorque_ptac_sans_extension" /></strong> est autorisé ; au-delà, une extension est nécessaire.</li>
+<li>l'attelage d'une <strong>remorque dont le PTAC ne dépasse pas <ValeurBenin k="remorque_ptac_sans_extension" /></strong> est autorisé ; au-delà, une extension est nécessaire.</li>
 </ul>
 <MemoBox label="Les trois chiffres du permis B">
 <strong>3 500 kg</strong> de PTAC · <strong>9 places</strong> conducteur compris · <strong>750 kg</strong> de remorque.
@@ -27,20 +27,23 @@ import questions from '../data/questions/ch12.json'
 
 <h3>12.2 Les catégories de permis</h3>
 <div class="table-scroll"><table>
-<thead><tr><th>Catégorie</th><th>Véhicules autorisés ⚠</th></tr></thead>
+<thead><tr><th>Catégorie</th><th>Véhicules autorisés</th><th>Âge minimal</th></tr></thead>
 <tbody>
-<tr><td><strong>A1 / A2 / A3</strong></td><td>Deux-roues et tricycles à moteur, par tranches de cylindrée (voir chapitre 10)</td></tr>
-<tr><td><strong>B</strong></td><td>Véhicules ≤ 3 500 kg, ≤ 9 places, remorque ≤ 750 kg</td></tr>
-<tr><td><strong>C</strong></td><td>Véhicules de transport de marchandises de plus de 3 500 kg</td></tr>
-<tr><td><strong>D</strong></td><td>Véhicules de transport en commun de plus de 9 places</td></tr>
-<tr><td><strong>E</strong></td><td>Extension « remorque lourde » associée à B, C ou D (B+E, C+E, D+E)</td></tr>
-<tr><td><strong>F</strong></td><td>Catégorie particulière : véhicules aménagés pour personnes handicapées, engins spéciaux ou agricoles selon les pays</td></tr>
+<tr><td><strong>A1 / A2 / A3</strong></td><td>Deux-roues, tricycles et quadricycles à moteur, par tranches de cylindrée (voir chapitre 10)</td><td>16 / 18 / 21 ans</td></tr>
+<tr><td><strong>B</strong></td><td>Transport de personnes ou de marchandises, PTAC ≤ 3,5 t ou 8 places hors conducteur ; remorque ≤ 750 kg</td><td>18 ans</td></tr>
+<tr><td><strong>C</strong></td><td>Transport de marchandises ou de matériel, PTAC ≤ 18 t</td><td>21 ans</td></tr>
+<tr><td><strong>C1</strong></td><td>Transport de marchandises ou de matériel, PTAC &gt; 18 t</td><td>21 ans</td></tr>
+<tr><td><strong>Dr (TCR)</strong></td><td>Transport en commun de 18 places au plus, PTAC ≤ 3,5 t</td><td>21 ans</td></tr>
+<tr><td><strong>D</strong></td><td>Transport en commun de plus de 18 places, PTAC &gt; 3,5 t</td><td>21 ans</td></tr>
+<tr><td><strong>E</strong></td><td>Remorque de plus de 750 kg attelée à un véhicule de catégorie B (E(B))</td><td>—</td></tr>
+<tr><td><strong>F</strong></td><td>Réservé aux personnes en situation de handicap physique</td><td>—</td></tr>
 </tbody>
 </table></div>
+<p>Source : manuel du candidat de la DGTT (édition 2011), chapitre I, et questions Q681, Q689 et Q694.</p>
 
 <h3>12.3 Conditions d'obtention</h3>
 <ol>
-<li><strong>Âge minimal</strong> : <RegionValue k="age_minimum_permis_b" /> pour la catégorie B.</li>
+<li><strong>Âge minimal</strong> : <ValeurBenin k="age_minimum_permis_b" /> pour la catégorie B.</li>
 <li><strong>Aptitude physique</strong> : visite médicale (vision, audition, absence d'affection incompatible).</li>
 <li><strong>Formation</strong> dans une auto-école agréée : cours théoriques (code) et leçons de conduite.</li>
 <li><strong>Épreuve théorique</strong> : QCM portant sur le code de la route, la sécurité, la mécanique et le secourisme.</li>
@@ -52,7 +55,7 @@ import questions from '../data/questions/ch12.json'
 <ul>
 <li>Le permis doit être <strong>présenté à toute réquisition</strong> des forces de l'ordre, avec la carte grise et l'attestation d'assurance.</li>
 <li><strong>Perte ou vol</strong> : déclaration aux autorités et demande de duplicata.</li>
-<li><strong>Période probatoire</strong> : dans de nombreux pays, le conducteur novice est soumis pendant 1 à 3 ans à des règles renforcées (vitesse réduite, alcoolémie abaissée, signe distinctif à l'arrière) ⚠.</li>
+<li><strong>Période probatoire</strong> : pendant sa première année de permis, le conducteur novice ne doit pas dépasser <ValeurBenin k="vitesse_novice" /> sur route (110 km/h sur autoroute), selon le manuel de la DGTT.</li>
 <li><strong>Mesures possibles en cas d'infraction</strong> : amende, retrait de points (là où le permis à points existe), <strong>suspension</strong> (temporaire), <strong>annulation</strong> (le permis est détruit ; il faut le repasser), <strong>immobilisation</strong> du véhicule, mise en fourrière, peines de prison pour les faits les plus graves (conduite en état d'ivresse avec blessures, délit de fuite, homicide involontaire).</li>
 <li>La <strong>conduite sans permis</strong> et la <strong>conduite sans assurance</strong> sont des délits distincts, tous deux lourdement sanctionnés.</li>
 </ul>

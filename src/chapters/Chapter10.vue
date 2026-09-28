@@ -1,5 +1,4 @@
 <script setup>
-import AttentionBox from '../components/AttentionBox.vue'
 import MemoBox from '../components/MemoBox.vue'
 import AstuceBox from '../components/AstuceBox.vue'
 import QcmBlock from '../components/QcmBlock.vue'
@@ -16,16 +15,14 @@ import questions from '../data/questions/ch10.json'
 
 <h3>10.1 Les catégories de permis deux-roues</h3>
 <div class="table-scroll"><table>
-<thead><tr><th>Catégorie</th><th>Véhicules concernés</th><th>Âge minimal ⚠</th></tr></thead>
+<thead><tr><th>Catégorie</th><th>Véhicules concernés</th><th>Âge minimal</th></tr></thead>
 <tbody>
-<tr><td><strong>A1</strong></td><td>Cyclomoteurs et vélomoteurs dont la cylindrée n'excède pas <strong>50 cm³</strong></td><td>Souvent 16 ans</td></tr>
-<tr><td><strong>A2</strong></td><td>Motocyclettes de cylindrée moyenne, généralement <strong>jusqu'à 125 cm³</strong></td><td>Souvent 18 ans</td></tr>
-<tr><td><strong>A3</strong></td><td>Motocyclettes de <strong>plus de 125 cm³</strong>, avec ou sans side-car, et tricycles à moteur</td><td>Souvent 18 ans</td></tr>
+<tr><td><strong>A1</strong></td><td>Vélomoteurs ou cyclomoteurs de <strong>75 cm³ au plus</strong></td><td>16 ans</td></tr>
+<tr><td><strong>A2</strong></td><td>Motocyclettes ou quadricycles de <strong>75 à 400 cm³</strong></td><td>18 ans</td></tr>
+<tr><td><strong>A3</strong></td><td>Motocycles, tricycles ou quadricycles de <strong>plus de 400 cm³</strong></td><td>21 ans</td></tr>
 </tbody>
 </table></div>
-<AttentionBox label="⚠ À vérifier">
-Les seuils de cylindrée, de puissance et d'âge varient selon les législations nationales (Bénin, Togo, Côte d'Ivoire, France…). Le découpage A1 / A2 / A3 présenté ici correspond au modèle en vigueur dans plusieurs pays d'Afrique de l'Ouest francophone. Confirme les valeurs exactes auprès de ton auto-école ou du service des permis.
-</AttentionBox>
+<p>Source : manuel du candidat de la DGTT (édition 2011), chapitre I, et questions Q661, Q667 et Q669.</p>
 
 <h3>10.2 L'équipement du motocycliste</h3>
 <ul>
@@ -69,7 +66,7 @@ Devant (trajectoire), autour (portières, piétons, véhicules qui débouchent),
 <h3>10.5 Interdictions et règles spécifiques</h3>
 <ul>
 <li>Les cyclomoteurs (moins de 50 cm³) sont <strong>interdits sur autoroute</strong> et sur les routes pour automobiles.</li>
-<li>La remontée de files entre les véhicules est <strong>interdite ou strictement encadrée</strong> selon les pays ⚠ : elle reste dans tous les cas très dangereuse.</li>
+<li>La remontée de files entre les véhicules est <strong>très dangereuse</strong> : elle reste dans tous les cas très dangereuse.</li>
 <li>Le transport de plus d'un passager, le transport d'un enfant sans dispositif adapté et le transport de charges instables sont interdits.</li>
 <li>Circuler sur le trottoir, entre deux files à vive allure ou sans casque expose à des sanctions lourdes et à l'immobilisation du véhicule.</li>
 </ul>

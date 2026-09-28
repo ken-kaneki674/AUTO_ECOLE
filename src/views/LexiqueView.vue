@@ -1,5 +1,5 @@
 <script setup>
-import RegionValue from '../components/RegionValue.vue'
+import ValeurBenin from '../components/ValeurBenin.vue'
 </script>
 
 <template>
@@ -20,13 +20,13 @@ import RegionValue from '../components/RegionValue.vue'
       <tr><td>Distance de sécurité</td><td>2 secondes (3 s sous la pluie)</td></tr>
       <tr><td>Visibilité inférieure à 50 m</td><td>Vitesse maximale : 50 km/h partout</td></tr>
       <tr><td>Écart latéral au dépassement</td><td>1 m en agglomération · 1,50 m hors agglomération</td></tr>
-      <tr><td>Clignotant</td><td><RegionValue k="distance_clignotant_agglomeration" /> en agglomération · <RegionValue k="distance_clignotant_hors_agglomeration" /> hors agglomération</td></tr>
+      <tr><td>Clignotant</td><td><ValeurBenin k="distance_clignotant_agglomeration" /> en agglomération · <ValeurBenin k="distance_clignotant_hors_agglomeration" /> hors agglomération</td></tr>
       <tr><td>Usure minimale des pneus</td><td>1,6 mm</td></tr>
-      <tr><td>Alcoolémie maximale</td><td><RegionValue k="alcoolemie_generale" /> (novices : <RegionValue k="alcoolemie_novice" />)</td></tr>
+      <tr><td>Alcoolémie maximale</td><td><ValeurBenin k="alcoolemie_generale" /> (novices : <ValeurBenin k="alcoolemie_novice" />)</td></tr>
       <tr><td>Élimination de l'alcool</td><td>0,10 à 0,15 g/l par heure</td></tr>
       <tr><td>Pause sur long trajet</td><td>20 minutes toutes les 2 heures</td></tr>
-      <tr><td>Permis B</td><td>3 500 kg · 9 places · remorque <RegionValue k="remorque_ptac_sans_extension" /></td></tr>
-      <tr><td>Triangle de présignalisation</td><td><RegionValue k="distance_triangle_agglomeration" /> en agglomération · <RegionValue k="distance_triangle_hors_agglomeration" /> hors agglomération</td></tr>
+      <tr><td>Permis B</td><td>3 500 kg · 9 places · remorque <ValeurBenin k="remorque_ptac_sans_extension" /></td></tr>
+      <tr><td>Triangle de présignalisation</td><td><ValeurBenin k="distance_triangle_agglomeration" /> en agglomération · <ValeurBenin k="distance_triangle_hors_agglomeration" /> hors agglomération</td></tr>
       <tr><td>Réanimation cardio-pulmonaire</td><td>30 compressions / 2 insufflations</td></tr>
       </tbody>
       </table></div>
@@ -71,7 +71,7 @@ import RegionValue from '../components/RegionValue.vue'
 
       <div class="fin">
         <p><b>Comment utiliser ce manuel.</b> Lis un chapitre, ferme le document, écris de mémoire les points clés, puis fais le QCM sans regarder. Une réponse fausse n'est pas un échec : c'est exactement l'endroit où relire. Refais l'examen blanc à trois jours d'intervalle — la mémoire se construit par la répétition espacée, pas par la relecture.</p>
-        <p><b>Rappel.</b> Les valeurs marquées ⚠ dépendent de la législation nationale. Vérifie-les auprès de ton auto-école ou du service des permis de conduire avant l'examen. Le code de la route de ton pays reste la seule référence officielle.</p>
+        <p><b>Rappel.</b> Les valeurs marquées ⚠ ne sont pas précisées par le manuel officiel de la DGTT. Vérifie-les auprès de ton auto-école ou du service des permis de conduire avant l'examen. Le code de la route béninois en vigueur reste la seule référence officielle.</p>
       </div>
     </section>
   </div>

@@ -1,7 +1,7 @@
 <script setup>
 import AttentionBox from '../components/AttentionBox.vue'
 import QcmBlock from '../components/QcmBlock.vue'
-import RegionValue from '../components/RegionValue.vue'
+import ValeurBenin from '../components/ValeurBenin.vue'
 import questions from '../data/questions/ch6.json'
 </script>
 
@@ -50,7 +50,7 @@ import questions from '../data/questions/ch6.json'
 <tr><td><strong>Sens de circulation</strong></td><td>Souvent double sens sur une même chaussée</td><td>Chaussées le plus souvent séparées</td><td>Chaussées <strong>toujours</strong> séparées par un terre-plein</td></tr>
 <tr><td><strong>Croisements</strong></td><td>Carrefours à niveau, entrées riveraines</td><td>Carrefours dénivelés ou giratoires</td><td><strong>Aucun croisement à niveau</strong> : uniquement des échangeurs</td></tr>
 <tr><td><strong>Accès</strong></td><td>Tous usagers autorisés</td><td>Véhicules à moteur pouvant dépasser une vitesse minimale</td><td>Réservée aux véhicules à moteur capables d'atteindre 80 km/h en palier</td></tr>
-<tr><td><strong>Vitesse maximale</strong></td><td><RegionValue k="vitesse_hors_agglomeration" /></td><td><RegionValue k="vitesse_voie_express" /></td><td><RegionValue k="vitesse_autoroute" /></td></tr>
+<tr><td><strong>Vitesse maximale</strong></td><td><ValeurBenin k="vitesse_hors_agglomeration" /></td><td><ValeurBenin k="vitesse_voie_express" /></td><td><ValeurBenin k="vitesse_autoroute" /></td></tr>
 <tr><td><strong>Signalisation directionnelle</strong></td><td>Panneaux blancs (routes locales) ou verts (grandes liaisons)</td><td>Panneaux bleus ou verts</td><td>Panneaux <strong>bleus</strong></td></tr>
 <tr><td><strong>BAU</strong></td><td>Non</td><td>Parfois</td><td>Oui</td></tr>
 </tbody>

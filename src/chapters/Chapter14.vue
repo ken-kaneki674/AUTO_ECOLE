@@ -1,7 +1,7 @@
 <script setup>
 import MemoBox from '../components/MemoBox.vue'
 import QcmBlock from '../components/QcmBlock.vue'
-import RegionValue from '../components/RegionValue.vue'
+import ValeurBenin from '../components/ValeurBenin.vue'
 import questions from '../data/questions/ch14.json'
 </script>
 
@@ -18,7 +18,7 @@ import questions from '../data/questions/ch14.json'
 <div class="table-scroll"><table>
 <thead><tr><th>Forme et couleur</th><th>Famille</th><th>Message</th><th>Implantation</th></tr></thead>
 <tbody>
-<tr><td>Triangle à bord rouge, pointe en haut</td><td>Danger</td><td>« Attention, voici ce qui arrive »</td><td><RegionValue k="distance_triangle_hors_agglomeration" /> hors agglomération, <RegionValue k="distance_triangle_agglomeration" /> en agglomération</td></tr>
+<tr><td>Triangle à bord rouge, pointe en haut</td><td>Danger</td><td>« Attention, voici ce qui arrive »</td><td><ValeurBenin k="distance_panneau_danger_hors_agglomeration" /> hors agglomération, <ValeurBenin k="distance_panneau_danger_agglomeration" /> en agglomération</td></tr>
 <tr><td>Cercle à bord rouge</td><td>Interdiction</td><td>« C'est interdit »</td><td>Au début de la zone concernée</td></tr>
 <tr><td>Cercle bleu plein</td><td>Obligation</td><td>« Tu dois faire ceci »</td><td>Au début de la zone concernée</td></tr>
 <tr><td>Carré ou rectangle bleu</td><td>Indication / service</td><td>« Voici une information utile »</td><td>Sur place</td></tr>

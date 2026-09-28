@@ -3,7 +3,7 @@ import MemoBox from '../components/MemoBox.vue'
 import AttentionBox from '../components/AttentionBox.vue'
 import AstuceBox from '../components/AstuceBox.vue'
 import QcmBlock from '../components/QcmBlock.vue'
-import RegionValue from '../components/RegionValue.vue'
+import ValeurBenin from '../components/ValeurBenin.vue'
 import questions from '../data/questions/ch5.json'
 </script>
 
@@ -20,18 +20,29 @@ import questions from '../data/questions/ch5.json'
 
 <h3>5.2 Les limitations de vitesse</h3>
 <div class="table-scroll"><table>
-<thead><tr><th>Type de voie</th><th>Temps sec</th><th>Pluie / chaussée mouillée</th><th>Visibilité &lt; 50 m</th></tr></thead>
+<thead><tr><th>Type de voie</th><th>Vitesse maximale</th></tr></thead>
 <tbody>
-<tr><td>Agglomération</td><td><RegionValue k="vitesse_agglomeration" /> (60 sur certains axes ; 30 en zone apaisée)</td><td>50 km/h</td><td>50 km/h</td></tr>
-<tr><td>Route à double sens</td><td><RegionValue k="vitesse_hors_agglomeration" /></td><td>80 km/h</td><td>50 km/h</td></tr>
-<tr><td>Route pour automobiles (voie express)</td><td><RegionValue k="vitesse_voie_express" /></td><td>100 km/h</td><td>50 km/h</td></tr>
-<tr><td>Autoroute</td><td><RegionValue k="vitesse_autoroute" /></td><td>110 km/h</td><td>50 km/h</td></tr>
+<tr><td>Agglomération</td><td><ValeurBenin k="vitesse_agglomeration" /></td></tr>
+<tr><td>Route à double sens</td><td><ValeurBenin k="vitesse_hors_agglomeration" /></td></tr>
+<tr><td>Route pour automobiles (voie express)</td><td><ValeurBenin k="vitesse_voie_express" /></td></tr>
+<tr><td>Autoroute</td><td><ValeurBenin k="vitesse_autoroute" /></td></tr>
+<tr><td>Conducteur dont le permis a moins d'un an</td><td><ValeurBenin k="vitesse_novice" /> sur route</td></tr>
+</tbody>
+</table></div>
+<p>Le manuel de la DGTT fixe aussi des limitations en rase campagne pour les <strong>véhicules de transport en commun</strong> selon leur poids :</p>
+<div class="table-scroll"><table>
+<thead><tr><th>Poids du véhicule de transport en commun</th><th>Vitesse maximale en rase campagne</th></tr></thead>
+<tbody>
+<tr><td>de 10 à 15 t</td><td>90 km/h</td></tr>
+<tr><td>de 15 à 19 t</td><td>75 km/h</td></tr>
+<tr><td>de 19 à 26 t</td><td>65 km/h</td></tr>
+<tr><td>plus de 26 t</td><td>60 km/h</td></tr>
 </tbody>
 </table></div>
 <AttentionBox label="⚠ À vérifier">
-Ces valeurs sont celles du référentiel francophone le plus courant. Au Bénin et dans plusieurs pays de la sous-région, les limitations en agglomération et hors agglomération peuvent différer (souvent 60 km/h en ville, 90 km/h hors agglomération, et des limitations locales plus basses à proximité des écoles et des marchés). Retiens le <strong>raisonnement</strong>, vérifie les <strong>chiffres</strong> dans le code applicable chez toi.
+Les vitesses marquées ⚠ ne sont pas précisées par le manuel de la DGTT : pour l'autoroute et la route pour automobiles, il renvoie à la réglementation en vigueur. Des limitations locales plus basses s'appliquent souvent à proximité des écoles et des marchés. Retiens le <strong>raisonnement</strong> et confirme les <strong>chiffres</strong> auprès de ton auto-école.
 </AttentionBox>
-<p>D'autres limitations s'appliquent en permanence : véhicules lourds, véhicules tractant une remorque, conducteurs novices (souvent limités à la vitesse « pluie »), transports en commun.</p>
+<p>D'autres limitations s'appliquent en permanence : véhicules lourds, véhicules tractant une remorque, conducteurs novices, transports en commun. Par temps de pluie ou de faible visibilité, la vitesse doit être réduite.</p>
 
 <h3>5.3 La distance d'arrêt</h3>
 <p>La distance d'arrêt est la somme de deux distances :</p>
