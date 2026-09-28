@@ -20,7 +20,11 @@ La section « Questions officielles » donne accès à la banque de questions du
 - **919 questions** avec le corrigé du manuel, réparties dans les chapitres II à XI ;
 - **340 questions à réponses multiples** : on coche toutes les bonnes réponses, puis on valide ;
 - **220 questions illustrées** par les panneaux et schémas du manuel ;
-- les généralités du chapitre I (définitions, catégories de permis, abréviations) ;
+- les généralités du chapitre I (définitions, catégories de permis, abréviations), en sections repliables ;
+- un **tableau de bord** : questions faites, taux de réussite, erreurs à revoir, points faibles, bouton « Reprendre » ;
+- une **recherche** sur toute la banque par numéro (`Q518`), code de panneau (`B6a1`) ou mot-clé ;
+- des **filtres de révision** (jamais faites, ratées, avec image, réponses multiples) et un **mode 1 par 1** avec correction immédiate, par chapitre ou sur toute la banque (`/benin/entrainement`) ;
+- un **catalogue des panneaux** (`/benin/panneaux`) : les 255 illustrations du manuel, reliées à leurs questions.
 
 Les questions dont le corrigé est incohérent dans le manuel, ou dont l'illustration n'a pas pu être récupérée, sont marquées **« ⚠ à vérifier »**.
 
@@ -40,8 +44,8 @@ npm run preview   # prévisualisation du build
 ```
 src/
 ├── chapters/            Chapter1.vue … Chapter14.vue — contenu des cours
-├── components/          QcmBlock, ValeurBenin, SearchBar, encadrés (Astuce, Attention, Mémo…)
-├── composables/         useQuizProgress (progression), useSearch
+├── components/          QuestionItem, QcmBlock, QuestionTrainer, BeninQuestionSet, BeninSearch, ValeurBenin, encadrés…
+├── composables/         useQuizProgress (progression), useExamSession, useBeninSelection, useSearch
 ├── data/
 │   ├── questions/       QCM des chapitres (ch1.json … ch14.json) et examen.json
 │   ├── benin/           banque officielle du Bénin (générée, voir ci-dessous) et meta.js

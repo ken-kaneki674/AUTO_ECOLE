@@ -2,7 +2,7 @@ import { computed, ref, shallowRef } from 'vue'
 import { searchIndex } from '../data/searchIndex.js'
 import { beninChapters, loadBeninChapter, isPlayable } from '../data/benin/meta.js'
 
-function normalize(str) {
+export function normalize(str) {
   return str
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')

@@ -237,6 +237,80 @@ figcaption{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.06em;co
 .bj-pager{display:flex;flex-wrap:wrap;gap:6px;margin:1.6rem 0 0}
 .bj-pager button{font-family:var(--font-tech);font-size:.8rem;background:#fff;border:1px solid var(--ligne);padding:6px 10px;border-radius:2px;cursor:pointer;min-height:36px}
 .bj-pager button[aria-current="page"]{background:var(--asphalte);color:#fff;border-color:var(--asphalte)}
+/* Tableau de bord */
+.bj-dash{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:1.4rem}
+.bj-tile{background:#fff;border:1px solid var(--ligne);border-top:4px solid var(--vert);padding:14px 16px;display:flex;flex-direction:column;gap:4px;border-radius:3px}
+.bj-tile .v{font-family:var(--font-titre);font-size:1.9rem;line-height:1;color:var(--asphalte)}
+.bj-tile .v small{font-size:.9rem;color:#5C636D}
+.bj-tile .l{font-size:.85rem;color:#5C636D}
+.bj-tile .bar,.bj-card .bar{height:6px;background:var(--ligne);border-radius:3px;overflow:hidden;margin-top:4px}
+.bj-tile .bar > span,.bj-card .bar > span{display:block;height:100%;background:var(--vert)}
+.bj-tile.good{border-top-color:var(--vert)}
+.bj-tile.mid{border-top-color:var(--ambre)}
+.bj-tile.low{border-top-color:var(--rouge)}
+.bj-actions{display:flex;flex-wrap:wrap;gap:0;margin-top:.8rem}
+.bj-actions .exam-btn{text-decoration:none;display:inline-flex;align-items:center}
+.bj-weak{font-size:.92rem;margin:.6rem 0 0}
+
+/* Recherche */
+.bj-search{margin-top:1.6rem}
+.bj-search-label{display:block;font-family:var(--font-titre);text-transform:uppercase;letter-spacing:.1em;font-size:.75rem;color:var(--bleu);margin-bottom:6px}
+.bj-search input{width:100%;box-sizing:border-box;font:inherit;padding:12px 14px;border:2px solid var(--asphalte);border-radius:3px;background:#fff;min-height:48px}
+
+/* Cartes des chapitres */
+.bj-cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.bj-card{display:flex;flex-direction:column;gap:6px;height:100%;box-sizing:border-box;background:#fff;border:1px solid var(--ligne);border-radius:3px;padding:14px 16px;text-decoration:none;color:var(--asphalte)}
+.bj-card:hover{border-color:var(--vert);box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.bj-card .n{align-self:flex-start;font-family:var(--font-titre);font-size:.9rem;background:var(--vert);color:#fff;padding:2px 8px;border-radius:2px}
+.bj-card .t{font-weight:bold;line-height:1.3}
+.bj-card .meta{font-size:.82rem;color:#5C636D}
+.bj-card .score{font-family:var(--font-tech);font-size:.78rem;color:#5C636D;margin-top:auto}
+.bj-card .score.good{color:var(--vert)}
+.bj-card .score.mid{color:#8a6400}
+.bj-card .score.low{color:var(--rouge)}
+.bj-card.special{background:var(--papier);border-style:dashed}
+.bj-card.special .n{background:var(--asphalte)}
+
+/* Filtres et modes */
+.bj-toolbar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin-top:1.4rem}
+.bj-chips{display:flex;flex-wrap:wrap;gap:6px}
+.bj-chip{font:inherit;font-size:.85rem;background:#fff;border:1px solid var(--ligne);border-radius:999px;padding:6px 12px;cursor:pointer;min-height:36px}
+.bj-chip span{font-family:var(--font-tech);font-size:.75rem;color:#5C636D;margin-left:4px}
+.bj-chip[aria-pressed="true"]{background:var(--asphalte);color:#fff;border-color:var(--asphalte)}
+.bj-chip[aria-pressed="true"] span{color:var(--ambre)}
+.bj-chip[disabled]{opacity:.45;cursor:default}
+.bj-mode{display:inline-flex;border:1px solid var(--asphalte);border-radius:3px;overflow:hidden}
+.bj-mode button{font-family:var(--font-titre);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;background:#fff;border:none;padding:8px 14px;cursor:pointer;min-height:36px}
+.bj-mode button[aria-pressed="true"]{background:var(--asphalte);color:#fff}
+.bj-replay{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;background:#FFF4D6;border:1px solid var(--ambre);padding:10px 14px;margin-top:1rem;border-radius:3px;font-size:.92rem}
+
+/* Entraînement 1 par 1 */
+.trainer{margin-top:1.2rem}
+.trainer-bar{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;align-items:center;background:var(--asphalte);color:#fff;padding:10px 16px;border-radius:3px 3px 0 0;font-size:.92rem}
+.trainer-bar strong{color:var(--ambre)}
+.trainer-bar .progress-badge{color:#C9CDD4}
+.trainer-card{background:#fff;border:2px solid var(--asphalte);border-top:none;padding:6px 22px 20px}
+.trainer-empty{background:#fff;border:1px dashed var(--ligne);padding:20px;text-align:center;color:#5C636D}
+
+/* Généralités repliables */
+.bj-details{background:#fff;border:1px solid var(--ligne);border-radius:3px;margin:.5rem 0;padding:0 16px}
+.bj-details summary{cursor:pointer;padding:12px 0;font-weight:bold;min-height:24px}
+.bj-details[open] summary{border-bottom:1px solid var(--ligne);margin-bottom:.6rem}
+.bj-details[open]{padding-bottom:12px}
+
+/* Catalogue des panneaux */
+.bj-signs{list-style:none;margin:1rem 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}
+.bj-signs button{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:6px;background:#fff;border:1px solid var(--ligne);border-radius:3px;padding:10px 6px;cursor:pointer;font:inherit}
+.bj-signs button:hover,.bj-signs button[aria-pressed="true"]{border-color:var(--vert);box-shadow:0 0 0 2px var(--vert) inset}
+.bj-signs img{width:80px;height:80px;object-fit:contain}
+.bj-signs span{font-family:var(--font-tech);font-size:.72rem;color:#5C636D;text-align:center;word-break:break-word}
+.bj-sign-detail{position:relative;display:grid;grid-template-columns:180px 1fr;gap:18px;background:#fff;border:2px solid var(--vert);border-radius:3px;padding:18px;margin-top:1rem;scroll-margin-top:12px}
+.bj-sign-detail > img{width:180px;max-height:200px;object-fit:contain}
+.bj-sign-detail h3{margin-top:0}
+.bj-sign-detail ul{padding-left:1.1rem;font-size:.92rem}
+.bj-sign-detail .exam-btn{text-decoration:none;display:inline-flex}
+.bj-close{position:absolute;top:10px;right:10px}
+
 .bj-filters{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:1rem 0 0;font-size:.9rem}
 .bj-defs{columns:2;column-gap:30px;font-size:.93rem}
 .bj-defs dt{font-weight:bold;margin-top:.6rem;break-after:avoid}
@@ -255,6 +329,11 @@ hr.sep{border:none;border-top:1px solid var(--ligne);margin:44px 0}
   .menu-toggle{display:inline-block;margin-left:auto}
   .search-bar{max-width:none;flex-basis:100%;order:3}
   .bj-defs{columns:1}
+  .bj-dash{grid-template-columns:1fr 1fr}
+  .bj-dash .bj-tile:first-child{grid-column:1 / -1}
+  .bj-sign-detail{grid-template-columns:1fr}
+  .bj-sign-detail > img{justify-self:center}
+  .trainer-card{padding:6px 14px 16px}
 }
 @media(min-width:641px){
   .menu-toggle{display:none}

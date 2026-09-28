@@ -31,10 +31,22 @@ const router = createRouter({
       name: 'benin-chapitre',
       component: () => import('../views/BeninChapterView.vue'),
     },
+    {
+      path: '/benin/entrainement',
+      name: 'benin-entrainement',
+      component: () => import('../views/BeninPracticeView.vue'),
+    },
+    {
+      path: '/benin/panneaux',
+      name: 'benin-panneaux',
+      component: () => import('../views/BeninSignsView.vue'),
+    },
     // Ancienne adresse de l'examen officiel, fusionné dans l'examen blanc.
     { path: '/benin/examen', redirect: { name: 'examen' } },
   ],
-  scrollBehavior() {
+  scrollBehavior(to, from) {
+    // Un simple changement de paramètres (filtre, page…) ne remonte pas en haut.
+    if (to.path === from.path) return false
     return { top: 0 }
   },
 })

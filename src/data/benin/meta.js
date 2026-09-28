@@ -45,6 +45,53 @@ export function isPlayable(question) {
   return question.choices.length >= 2 && question.correct.length > 0
 }
 
+export function beninAllQuestionIds() {
+  return beninChapters.flatMap((c) => beninQuestionIds(c.num))
+}
+
+// Toute la banque jouable, chaque question portant le numéro de son chapitre.
+let bankPromise = null
+export function loadBeninBank() {
+  bankPromise ??= Promise.all(
+    beninChapters.map(async (chapter) =>
+      (await loadBeninChapter(chapter.num))
+        .filter(isPlayable)
+        .map((q) => ({ ...q, chapter: chapter.num }))
+    )
+  ).then((lists) => lists.flat())
+  return bankPromise
+}
+
+// Filtres de révision. `answers` est l'état de useQuizProgress().
+export const BENIN_FILTERS = [
+  { id: 'toutes', label: 'Toutes', matches: () => true },
+  { id: 'nouvelles', label: 'Jamais faites', matches: (q, answers) => !answers[q.id] },
+  { id: 'ratees', label: 'Ratées', matches: (q, answers) => answers[q.id]?.correct === false },
+  { id: 'images', label: 'Avec image', matches: (q) => Boolean(q.images?.length) },
+  { id: 'multiples', label: 'Réponses multiples', matches: (q) => q.correct.length > 1 },
+]
+
+export function findFilter(id) {
+  return BENIN_FILTERS.find((f) => f.id === id) ?? BENIN_FILTERS[0]
+}
+
+// Point de reprise : dernier chapitre / page / mode consultés.
+const RESUME_KEY = 'code-route-benin-reprise'
+export function saveResume(value) {
+  try {
+    localStorage.setItem(RESUME_KEY, JSON.stringify(value))
+  } catch {
+    // stockage indisponible
+  }
+}
+export function loadResume() {
+  try {
+    return JSON.parse(localStorage.getItem(RESUME_KEY) ?? 'null')
+  } catch {
+    return null
+  }
+}
+
 // Chapitre I du manuel : généralités.
 export const beninGeneralites = {
   abreviations: [
