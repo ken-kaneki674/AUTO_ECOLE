@@ -1,12 +1,16 @@
 import { computed, ref, watch } from 'vue'
+import { useQuizProgress } from './useQuizProgress.js'
+import { EXAM_THEMES } from '../data/examPool.js'
 
 const SESSION_KEY = 'code-route-exam-session'
 const HISTORY_KEY = 'code-route-exam-history'
-const HISTORY_SIZE = 10
+const HISTORY_SIZE = 20
 
 export const EXAM_SIZES = [20, 40]
 export const SECONDS_PER_QUESTION = 60
 export const PASS_RATE = 0.85 // seuil indicatif : 34/40, 17/20
+// Alertes de temps restant, en secondes.
+export const TIME_ALERTS = [300, 60]
 
 function read(key, fallback) {
   try {
@@ -32,7 +36,8 @@ function sameAnswer(selected = [], correct) {
 }
 
 // Session en cours, partagée par toute l'application et reprise après rechargement.
-// { keys, answers: { key: [indices] }, flagged: [keys], current, startedAt, deadline, finishedAt }
+// { keys, config, answers: { key: [indices] }, flagged: [keys], current, startedAt, deadline,
+//   pausedAt, alerts: [secondes déjà signalées], lastAlert: { seconds, at }, finishedAt }
 const session = ref(read(SESSION_KEY, null))
 const history = ref(read(HISTORY_KEY, []))
 watch(session, (value) => write(SESSION_KEY, value), { deep: true })
@@ -59,18 +64,40 @@ export function useExamSession(poolRef) {
     return session.value.finishedAt ? 'resultats' : 'en-cours'
   })
 
+  const paused = computed(() => Boolean(session.value?.pausedAt))
+
   const remaining = computed(() => {
     const deadline = session.value?.deadline
     if (!deadline) return null
-    const end = session.value.finishedAt ?? now.value
+    const end = session.value.finishedAt ?? session.value.pausedAt ?? now.value
     return Math.max(0, Math.round((deadline - end) / 1000))
   })
+
+  // Message d'alerte affiché une dizaine de secondes après le passage d'un seuil.
+  const alertMessage = computed(() => {
+    const last = session.value?.lastAlert
+    if (!last || status.value !== 'en-cours' || now.value - last.at > 10000) return null
+    return last.seconds >= 60 ? `Plus que ${last.seconds / 60} minute(s) !` : `Plus que ${last.seconds} secondes !`
+  })
+
+  function checkAlerts() {
+    const s = session.value
+    if (!s?.deadline || s.pausedAt || s.finishedAt) return
+    for (const seconds of TIME_ALERTS) {
+      if (remaining.value <= seconds && remaining.value > 0 && !s.alerts?.includes(seconds)) {
+        s.alerts = [...(s.alerts ?? []), seconds]
+        s.lastAlert = { seconds, at: Date.now() }
+      }
+    }
+  }
 
   function startTicker() {
     if (ticker) return
     ticker = setInterval(() => {
       now.value = Date.now()
-      if (status.value === 'en-cours' && remaining.value === 0) finish()
+      if (status.value !== 'en-cours' || paused.value) return
+      checkAlerts()
+      if (remaining.value === 0) finish()
     }, 1000)
   }
 
@@ -79,10 +106,13 @@ export function useExamSession(poolRef) {
     ticker = null
   }
 
-  function start(keys, { timed }) {
+  function start(keys, { timed, config = {} }) {
     const startedAt = Date.now()
     session.value = {
       keys,
+      config,
+      alerts: [],
+      pausedAt: null,
       answers: {},
       flagged: [],
       current: 0,
@@ -91,6 +121,21 @@ export function useExamSession(poolRef) {
       finishedAt: null,
     }
     now.value = startedAt
+  }
+
+  function pause() {
+    if (session.value && !session.value.pausedAt) session.value.pausedAt = Date.now()
+  }
+
+  // La durée de la pause est rendue au chronomètre et retirée du temps passé.
+  function resume() {
+    const s = session.value
+    if (!s?.pausedAt) return
+    const pausedFor = Date.now() - s.pausedAt
+    if (s.deadline) s.deadline += pausedFor
+    s.startedAt += pausedFor
+    s.pausedAt = null
+    now.value = Date.now()
   }
 
   function toggleChoice(key, index) {
@@ -122,8 +167,13 @@ export function useExamSession(poolRef) {
       if (d.ok) g.correct += 1
       groups.set(g.name, g)
     }
+    const themes = EXAM_THEMES.map((t) => {
+      const list = detail.filter((d) => d.question.theme === t.id)
+      return { id: t.id, label: t.label, total: list.length, correct: list.filter((d) => d.ok).length }
+    }).filter((t) => t.total)
     return {
       detail,
+      themes,
       correct,
       total,
       answered: detail.filter((d) => d.selected.length).length,
@@ -135,17 +185,39 @@ export function useExamSession(poolRef) {
     }
   })
 
+  const { answerQuestion } = useQuizProgress()
+
   function finish() {
     if (!session.value || session.value.finishedAt) return
+    if (session.value.pausedAt) resume()
     session.value.finishedAt = Math.min(Date.now(), session.value.deadline ?? Infinity)
     const r = results.value
+    // Les réponses de l'examen comptent dans la progression : les erreurs
+    // apparaissent ensuite dans « Réviser mes erreurs ».
+    for (const d of r.detail) {
+      if (d.selected.length) answerQuestion(d.question.key, d.selected, d.question.correct)
+    }
     history.value = [
-      { date: session.value.finishedAt, correct: r.correct, total: r.total, duration: r.duration, passed: r.passed },
+      {
+        date: session.value.finishedAt,
+        correct: r.correct,
+        total: r.total,
+        duration: r.duration,
+        passed: r.passed,
+        config: session.value.config ?? {},
+        timed: Boolean(session.value.deadline),
+        themes: r.themes.map(({ label, correct, total }) => ({ label, correct, total })),
+      },
       ...history.value,
     ].slice(0, HISTORY_SIZE)
   }
 
   function reset() {
+    session.value = null
+  }
+
+  // Abandon : l'examen est effacé sans être compté dans l'historique.
+  function abandon() {
     session.value = null
   }
 
@@ -159,8 +231,13 @@ export function useExamSession(poolRef) {
     questions,
     status,
     remaining,
+    paused,
+    alertMessage,
     results,
     start,
+    pause,
+    resume,
+    abandon,
     toggleChoice,
     toggleFlag,
     goTo,

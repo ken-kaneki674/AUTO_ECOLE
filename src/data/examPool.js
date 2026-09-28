@@ -3,6 +3,21 @@
 import { chapters, chapterRoute } from './chapters/chapter-meta.js'
 import { beninChapters, loadBeninChapter, isPlayable } from './benin/meta.js'
 
+// Thèmes de l'examen : chaque thème regroupe des chapitres du cours et du manuel DGTT.
+export const EXAM_THEMES = [
+  { id: 'signalisation', label: 'Signalisation', cours: [1, 14], dgtt: [2] },
+  { id: 'priorites', label: 'Priorités, croisement, dépassement', cours: [2, 3], dgtt: [3] },
+  { id: 'manoeuvres', label: 'Arrêt, stationnement, vitesse, manœuvres', cours: [4, 5, 13], dgtt: [4] },
+  { id: 'routes', label: 'Routes pour automobiles et autoroutes', cours: [6], dgtt: [5] },
+  { id: 'conducteur', label: 'Conducteur : alcool, secourisme, infractions', cours: [9, 11], dgtt: [6] },
+  { id: 'permis', label: 'Permis et catégories de véhicules', cours: [10, 12], dgtt: [7, 8, 9, 10] },
+  { id: 'vehicule', label: 'Véhicule, mécanique, entretien', cours: [7, 8], dgtt: [11] },
+]
+
+function themeOf(source, chapterNum) {
+  return EXAM_THEMES.find((t) => t[source].includes(chapterNum))?.id
+}
+
 const courseModules = import.meta.glob('./questions/*.json', { eager: true, import: 'default' })
 
 function toList(value) {
@@ -23,6 +38,7 @@ function courseQuestions() {
   return [...byId.values()].map(({ q, chapter }) => ({
     key: q.id,
     source: 'cours',
+    theme: themeOf('cours', chapter.num),
     group: `Cours · ${chapter.num}. ${chapter.title}`,
     to: chapterRoute(chapter.id),
     question: q.question,
@@ -43,6 +59,7 @@ async function officialQuestions() {
         .map((q) => ({
           key: q.id,
           source: 'dgtt',
+          theme: themeOf('dgtt', chapter.num),
           num: q.num,
           group: `Manuel DGTT · ${chapter.roman}. ${chapter.title}`,
           to: { name: 'benin-chapitre', params: { id: String(chapter.num) } },
@@ -76,10 +93,22 @@ function shuffle(list) {
   return copy
 }
 
-export function drawQuestions(pool, size) {
-  const official = shuffle(pool.filter((q) => q.source === 'dgtt'))
-  const course = shuffle(pool.filter((q) => q.source === 'cours'))
-  const nbCourse = Math.min(course.length, size - Math.round(size * OFFICIAL_SHARE))
+// Réglages du contenu : { source: 'mixte' | 'dgtt' | 'cours', themes: [ids] }.
+// Sans thème sélectionné, tous les thèmes sont retenus.
+export function filterPool(pool, { source = 'mixte', themes = [] } = {}) {
+  return pool.filter(
+    (q) => (source === 'mixte' || q.source === source) && (!themes.length || themes.includes(q.theme))
+  )
+}
+
+export function drawQuestions(pool, size, config = {}) {
+  const candidates = filterPool(pool, config)
+  if (config.source && config.source !== 'mixte') return shuffle(candidates).slice(0, size).map((q) => q.key)
+  const official = shuffle(candidates.filter((q) => q.source === 'dgtt'))
+  const course = shuffle(candidates.filter((q) => q.source === 'cours'))
+  // ~3/4 de questions officielles, complétées par le cours (ou l'inverse si un
+  // thème manque de questions d'une source).
+  const nbCourse = Math.min(course.length, Math.max(size - Math.round(size * OFFICIAL_SHARE), size - official.length))
   const picked = [...official.slice(0, size - nbCourse), ...course.slice(0, nbCourse)]
   return shuffle(picked).map((q) => q.key)
 }
