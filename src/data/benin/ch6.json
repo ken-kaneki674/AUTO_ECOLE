@@ -142,8 +142,9 @@
    "d’arrêter le traitement médical",
    "de se renseigner auprès de son médecin"
   ],
-  "correct": [],
-  "needsReview": true
+  "correct": [
+   2
+  ]
  },
  {
   "id": "bj-q519",

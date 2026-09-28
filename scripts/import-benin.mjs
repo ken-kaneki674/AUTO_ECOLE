@@ -18,6 +18,11 @@ const outDir = join(root, 'src/data/benin')
 const ROMAN = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8, IX: 9, X: 10, XI: 11 }
 const LETTERS = 'abcdefgh'
 
+// Corrigés du manuel erronés, remplacés à la main (lettres du manuel).
+const CORRECTIONS = {
+  518: 'c', // le manuel indique « e », qui n'existe pas ; la bonne réponse est de consulter son médecin
+}
+
 // Mentions qui supposent une illustration à côté de la question.
 const NEEDS_IMAGE = /\b(ce panneau|ces panneaux|cette signalisation|ce panonceau|ce signal|cette balise|ces balises|ce marquage|cette image|ci-contre|ci-dessous|ci-dessus|cette situation|ce geste|ce feu|cette figure|ce dessin|ce schéma|ce véhicule|cet agent)\b/i
 const SIGN_CODE = /\b(?:AB|AK|[ABCJKMDEF])\s?-?\d{1,2}(?:[a-z]\d?)?(?:-\d)?\b/g
@@ -83,7 +88,7 @@ function parseBlock(num, body) {
     }
   }
 
-  const answerLetters = parseAnswer(answerLine)
+  const answerLetters = parseAnswer(CORRECTIONS[num] ?? answerLine)
   const questionText = clean(question.join(' '))
   let cleanChoices = choices.map(clean)
   let letters = choiceLetters
