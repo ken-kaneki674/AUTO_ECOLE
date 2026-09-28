@@ -1,0 +1,1496 @@
+[
+ {
+  "id": "bj-q405",
+  "num": 405,
+  "question": "A bord d’un véhicule de tourisme, pour tourner à droite, je dois :",
+  "choices": [
+   "Serrer ma droite",
+   "Serrer ma gauche",
+   "Me déporter au milieu de la chaussée"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q406",
+  "num": 406,
+  "question": "Pour tourner à droite, je dois :",
+  "choices": [
+   "Accélérer",
+   "Mettre le clignotant à droite",
+   "Ralentir"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q407",
+  "num": 407,
+  "question": "A bord d’un véhicule de tourisme pour tourner à gauche sur une chaussée à double sens, je dois :",
+  "choices": [
+   "Serrer ma droite",
+   "Me déporter au milieu de la chaussée",
+   "Serrer ma gauche"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q408",
+  "num": 408,
+  "question": "A bord d’un véhicule de tourisme pour tourner à gauche sur une chaussée à sens unique, je dois :",
+  "choices": [
+   "Serrer ma droite et mettre le clignotant à gauche",
+   "Respecter les règles de priorité",
+   "Serrer ma gauche"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q409",
+  "num": 409,
+  "question": "Je dois réduire ma vitesse",
+  "choices": [
+   "A l’approche d’un virage",
+   "A la hauteur d’une ligne continue",
+   "A l’approche d’une intersection"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q410",
+  "num": 410,
+  "question": "Je dois réduire ma vitesse",
+  "choices": [
+   "A la sortie d’une agglomération",
+   "A la vue d’un panneau de limitation de vitesse",
+   "Pendant le dépassement",
+   "A l’approche d’un passage à niveau"
+  ],
+  "correct": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q411",
+  "num": 411,
+  "question": "La bande rouge discontinue de blanc le long du trottoir, interdit :",
+  "choices": [
+   "L’arrêt",
+   "Le stationnement",
+   "L’arrêt pour les véhicules légers"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q412",
+  "num": 412,
+  "question": "Après combien de jours le stationnement devient-il abusif ?",
+  "choices": [
+   "10 jours",
+   "7 jours",
+   "4 jours",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q413",
+  "num": 413,
+  "question": "Le panneau B7b :",
+  "choices": [
+   "Interdit le stationnement à tout véhicule à moteur sauf les camions",
+   "Interdit l’accès à tous les véhicules à moteur",
+   "Interdit l’accès à tous les véhicules sauf les camions"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B7b"
+  ],
+  "images": [
+   "/benin/signs/244eb7bacef6.webp"
+  ]
+ },
+ {
+  "id": "bj-q414",
+  "num": 414,
+  "question": "A la vue du panneau B6d :",
+  "choices": [
+   "Je ne peux pas m’arrêter",
+   "Je ne peux pas m’arrêter mais je peux stationner",
+   "Je ne peux ni m’arrêter ni stationner"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "signs": [
+   "B6d"
+  ],
+  "images": [
+   "/benin/signs/be400c5ff657.webp"
+  ]
+ },
+ {
+  "id": "bj-q415",
+  "num": 415,
+  "question": "Dans quels cas peut-on utiliser le frein moteur ?",
+  "choices": [
+   "Pour s’arrêter",
+   "Pour ralentir",
+   "Pour aborder un virage",
+   "Pour aborder une descente dangereuse"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q416",
+  "num": 416,
+  "question": "Que signifie le panneau B9c ?",
+  "choices": [
+   "Accès interdit aux chevaux",
+   "Accès interdit aux véhicules agricoles à moteur",
+   "Accès interdit aux véhicules à traction animale"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B9c"
+  ],
+  "images": [
+   "/benin/signs/db89a9703248.webp"
+  ]
+ },
+ {
+  "id": "bj-q417",
+  "num": 417,
+  "question": "Quels sont les éléments qui imposent la réduction de vitesse au conducteur ?",
+  "choices": [
+   "Ralentisseur (dos d’âne)",
+   "Virage",
+   "Voie en terre",
+   "Travaux"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q418",
+  "num": 418,
+  "question": "Pour adapter ma vitesse, je dois tenir compte :",
+  "choices": [
+   "De l’importance du trafic",
+   "De certains risques prévisibles",
+   "De la visibilité",
+   "De la ceinture de sécurité"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q419",
+  "num": 419,
+  "question": "L’accès des autoroutes est interdit aux véhicules qui ne peuvent pas atteindre :",
+  "choices": [
+   "80km/h",
+   "60km/h",
+   "40km/h"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q420",
+  "num": 420,
+  "question": "En quoi consiste l’énergie cinétique ?",
+  "choices": [
+   "La force qui pousse le véhicule même quand on accélère plus",
+   "La force qui pousse le véhicule quand il est à l’arrêt",
+   "La force qui pousse le véhicule quand il est sur une montée"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q421",
+  "num": 421,
+  "question": "Quels effets peuvent entraîner l’énergie cinétique",
+  "choices": [
+   "Elle rend le freinage plus long",
+   "Elle rend plus difficile le changement de direction",
+   "Elle diminue la distance de freinage"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q422",
+  "num": 422,
+  "question": "Quel risque peut causer une réduction anormale de vitesse ?",
+  "choices": [
+   "Surprendre les autres usagers venant de l’arrière",
+   "Faciliter le dépassement des autres usagers",
+   "Surprendre les usagers venant en sens inverse"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q423",
+  "num": 423,
+  "question": "En circulant en convoi, je dois ?",
+  "choices": [
+   "Respecter la vitesse imposée",
+   "Quitter le convoi à volonté",
+   "Observer la vitesse de sécurité"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q424",
+  "num": 424,
+  "question": "Pour aborder un virage dangereux, je dois réduire ma vitesse :",
+  "choices": [
+   "Avant le virage",
+   "Dans le virage",
+   "Après le virage"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q425",
+  "num": 425,
+  "question": "Quelles sont les causes qui peuvent amener le conducteur à circuler à une allure anormalement réduite",
+  "choices": [
+   "Ennuis mécaniques",
+   "Défaut de klaxon",
+   "Etat de la chaussée"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q426",
+  "num": 426,
+  "question": "Quelle est l’utilité du panneau d’imposition de vitesse minimal sur autoroute",
+  "choices": [
+   "Régler le flux de circulation",
+   "Réduire les risques d’accidents",
+   "Faciliter les contrôles des forces de sécurité"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q427",
+  "num": 427,
+  "question": "A quelle vitesse peut-on rouler à la vue du panneau",
+  "choices": [
+   "A 30 km/h",
+   "A plus de 30 km/h",
+   "A la vitesse réglementaire",
+   "A moins de 30 km/h",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "images": [
+   "/benin/signs/da9100170e18.webp"
+  ]
+ },
+ {
+  "id": "bj-q428",
+  "num": 428,
+  "question": "Le stationnement est dangereux",
+  "choices": [
+   "Dans un virage",
+   "Derrière les véhicules en stationnement",
+   "A proximité d’une intersection"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q429",
+  "num": 429,
+  "question": "Sur une route hors agglomération, les véhicules peuvent stationner :",
+  "choices": [
+   "Sur le côté droit seulement",
+   "Sur le côté droit ou sur le côté gauche",
+   "Sur les accotements",
+   "Sur le côté gauche seulement"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q430",
+  "num": 430,
+  "question": "Dans une rue à sens unique, les véhicules peuvent stationner :",
+  "choices": [
+   "Sur le côté droit seulement",
+   "Sur le côté droit ou sur le côté gauche",
+   "Sur le côté gauche seulement"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q431",
+  "num": 431,
+  "question": "A l’approche d’un virage à courbure très prononcée et bordé d’arbres, je dois tenir compte de :",
+  "choices": [
+   "La force centrifuge",
+   "L’adhérence",
+   "La visibilité"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q432",
+  "num": 432,
+  "question": "Dans un virage pour une bonne adhérence des pneus, je dois rouler :",
+  "choices": [
+   "En deuxième vitesse",
+   "En troisième vitesse",
+   "En quatrième vitesse"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q433",
+  "num": 433,
+  "question": "La ligne jaune continue sur la bordure du trottoir :",
+  "choices": [
+   "Interdit le stationnement",
+   "Autorise l’arrêt",
+   "Indique une zone d’arrêt de bus"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q434",
+  "num": 434,
+  "question": "La ligne jaune discontinue sur la bordure du trottoir :",
+  "choices": [
+   "Interdit le stationnement",
+   "Autorise l’arrêt",
+   "Indique une zone d’arrêt de bus"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q435",
+  "num": 435,
+  "question": "Quels sont les risques auxquels je m’expose en abordant un virage à vive allure ?",
+  "choices": [
+   "Je risque de déraper et de me retrouver hors de la chaussée",
+   "Je risque de déraper et de heurter l’usager venant en sens inverse",
+   "Je risque de casser le pare-brise à cause du vent latéral"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q436",
+  "num": 436,
+  "question": "Quelles précautions prendre pour aborder un virage ?",
+  "choices": [
+   "Je passe rapidement en tenant fortement mon volant",
+   "Je maintiens ma vive allure en serrant fortement mon volant",
+   "Je réduis ma vive allure en maintenant ma droite"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q437",
+  "num": 437,
+  "question": "La ligne jaune brisée en bordure de la chaussée :",
+  "choices": [
+   "Interdit le dépassement",
+   "Autorise le dépassement",
+   "Indique une zone d’arrêt de bus"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q438",
+  "num": 438,
+  "question": "Sur une route en rase campagne les véhicules peuvent stationner :",
+  "choices": [
+   "Sur le côté droit seulement",
+   "Sur le côté droit ou sur le côté gauche",
+   "Sur le côté gauche seulement"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q439",
+  "num": 439,
+  "question": "Pour prendre un usager de la route, je m’arrête :",
+  "choices": [
+   "Sur la chaussée avec clignotant",
+   "Sur l’accotement avec les feux de détresse",
+   "Avec mon clignotant droit en me positionnant sur l’accotement",
+   "Avec mon clignotant droit en serrant ma droite"
+  ],
+  "correct": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q440",
+  "num": 440,
+  "question": "Quelle est la toute première opération à effectuer par le conducteur pour immobiliser son véhicule roulant en prise directe",
+  "choices": [
+   "Débrayer",
+   "Freiner",
+   "Mettre le levier au point mort"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q441",
+  "num": 441,
+  "question": "A la vue d’un obstacle inopiné à vive allure :",
+  "choices": [
+   "Je débraie et je freine",
+   "Je freine en bloquant les roues",
+   "Je freine franchement et je débraie au dernier moment"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q442",
+  "num": 442,
+  "question": "Où peut-on faire un demi-tour ?",
+  "choices": [
+   "Sur un pont",
+   "Sur une chaussée à sens unique",
+   "Dans un virage",
+   "Sur une chaussée à double sens de circulation"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q443",
+  "num": 443,
+  "question": "Où peut-on faire la marche arrière ?",
+  "choices": [
+   "Sur un pont",
+   "Sur une chaussée à sens unique",
+   "Sur l’accotement ou sur le trottoir"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q444",
+  "num": 444,
+  "question": "En marche arrière, peut-on rentrer dans un sens interdit ?",
+  "choices": [
+   "Oui",
+   "Non"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q445",
+  "num": 445,
+  "question": "La peinture jaune continue sur la bordure du trottoir signifie que :",
+  "choices": [
+   "L’arrêt et le stationnement sont interdits jusqu’à la prochaine intersection",
+   "L’arrêt et le stationnement sont interdits à la hauteur de ce trottoir",
+   "Seul l’arrêt est autorisé"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q446",
+  "num": 446,
+  "question": "Après avoir heurté un cycliste, je freine et m’arrête après 81 mètres. Je roulais donc à quelle vitesse ?",
+  "choices": [
+   "60 km/h",
+   "90 km/h",
+   "70 km/h"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q447",
+  "num": 447,
+  "question": "La distance de freinage dépend :",
+  "choices": [
+   "Du type de revêtement",
+   "Du temps de réaction",
+   "De la vitesse",
+   "De l’état des pneumatiques",
+   "De l’état des amortisseurs"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q448",
+  "num": 448,
+  "question": "Quels sont les facteurs qui augmentent le temps de réaction ?",
+  "choices": [
+   "La fatigue",
+   "L’état d’ivresse",
+   "Le manque de visibilité",
+   "L’état des pneumatiques"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q449",
+  "num": 449,
+  "question": "Par temps de pluie, pour m’arrêter j’appuie sur la pédale de frein :",
+  "choices": [
+   "Aussi fort que quand la chaussée est sèche",
+   "Moins fort que quand la chaussée est sèche",
+   "Plus fort que quand la chaussée est sèche"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q450",
+  "num": 450,
+  "question": "Les zébras sont réservés pour :",
+  "choices": [
+   "Le stationnement d’urgence",
+   "L’arrêt d’urgence",
+   "Tourner et changer de direction",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q451",
+  "num": 451,
+  "question": "Je dois réduire ma vitesse :",
+  "choices": [
+   "A la vue d’un panneau de limitation de vitesse",
+   "Pendant le dépassement",
+   "En passant d’une zone éclairée à une zone d’ombre",
+   "A la sortie d’une agglomération",
+   "A l’approche d’une intersection"
+  ],
+  "correct": [
+   0,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "bj-q452",
+  "num": 452,
+  "question": "A la vue du panneau B43 :",
+  "choices": [
+   "Je respecte une vitesse de 30 km/h obligatoirement",
+   "Je peux faire plus de 30 km/h",
+   "Je peux faire moins de 30 km/h"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "B43"
+  ],
+  "images": [
+   "/benin/signs/284e7591a069.webp"
+  ]
+ },
+ {
+  "id": "bj-q453",
+  "num": 453,
+  "question": "Quelles sont les précautions à prendre pour aborder un virage ?",
+  "choices": [
+   "Garder la même vitesse pour vite aborder le virage",
+   "Ralentir avant d’aborder le virage",
+   "Rouler au milieu de la chaussée avant d’atteindre le virage",
+   "Bien serrer la droite avant d’aborder le virage"
+  ],
+  "correct": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q454",
+  "num": 454,
+  "question": "Que signifie le panneau B2c ?",
+  "choices": [
+   "Interdit de tourner à gauche",
+   "Interdit de faire marche arrière",
+   "Interdit de faire demi-tour jusqu’à la prochaine intersection incluse",
+   "Interdit de faire marche arrière jusqu’à la prochaine intersection incluse"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B2c"
+  ],
+  "images": [
+   "/benin/signs/c4f7794a9eaf.webp"
+  ]
+ },
+ {
+  "id": "bj-q455",
+  "num": 455,
+  "question": "A la vue du panneau B6a1 :",
+  "choices": [
+   "Je peux stationner avant ou après le panneau",
+   "Je peux stationner après le panneau",
+   "Je peux stationner avant le panneau",
+   "Je ne peux stationner ni avant ni après le panneau"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B6a1"
+  ],
+  "images": [
+   "/benin/signs/bc47257650b2.webp"
+  ]
+ },
+ {
+  "id": "bj-q456",
+  "num": 456,
+  "question": "A la vue du panneau B21b :",
+  "choices": [
+   "Je peux tourner à droite",
+   "Je peux tourner à gauche",
+   "Je peux faire demi-tour",
+   "Je vais tout droit à la prochaine intersection"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "signs": [
+   "B21b"
+  ],
+  "images": [
+   "/benin/signs/9a65a568374f.webp"
+  ]
+ },
+ {
+  "id": "bj-q457",
+  "num": 457,
+  "question": "Que signifie le panneau B43",
+  "choices": [
+   "Stationnement interdit à 30m devant le panneau",
+   "Stationnement interdit à 30m après le panneau",
+   "Fin de vitesse minimale obligatoire"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B43"
+  ],
+  "images": [
+   "/benin/signs/da9100170e18.webp"
+  ]
+ },
+ {
+  "id": "bj-q458",
+  "num": 458,
+  "question": "La voie de stockage permet aux conducteurs de tourner :",
+  "choices": [
+   "A gauche sans gêner les véhicules venant en sens inverse",
+   "A droite sans gêner les véhicules venant en sens inverse",
+   "Au milieu sans gêner les véhicules venant en sens inverse"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q459",
+  "num": 459,
+  "question": "Sur les bandes et les pistes cyclables :",
+  "choices": [
+   "Les automobilistes peuvent s’arrêter pour prendre un passager",
+   "Les piétons peuvent circuler",
+   "Les autos peuvent stationner en cas de panne",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q460",
+  "num": 460,
+  "question": "Pour suivre un véhicule qui roule à 90 km/h l’intervalle minimal de sécurité à conserver derrière ce véhicule est de :",
+  "choices": [
+   "10m environ",
+   "15m environ",
+   "25m environ"
+  ],
+  "correct": [
+   2
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q461",
+  "num": 461,
+  "question": "Il commence à pleuvoir, l’adhérence de mes pneumatiques sur la chaussée est :",
+  "choices": [
+   "Aussi bonne que s’il avait plu toute la journée",
+   "Moins bonne que s’il avait plu toute la journée",
+   "Meilleure que s’il avait plu toute la journée"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q462",
+  "num": 462,
+  "question": "La bifurcation, c’est la division d’une autoroute en :",
+  "choices": [
+   "Quatre autoroutes",
+   "Deux autoroutes",
+   "Cinq autoroutes",
+   "Trois autoroutes"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q463",
+  "num": 463,
+  "question": "Le contrôle de la durée d’un stationnement à une durée limitée peut se faire :",
+  "choices": [
+   "Par horodateur",
+   "Par disque de stationnement",
+   "Par parcmètre"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q464",
+  "num": 464,
+  "question": "La rétrogradation permet de :",
+  "choices": [
+   "Ralentir le véhicule dans une descente",
+   "Repartir après un ralentissement",
+   "Arrêter le véhicule en circulation"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q465",
+  "num": 465,
+  "question": "En marche normale :",
+  "choices": [
+   "Je dois rouler au milieu de la chaussée",
+   "Je dois rouler à gauche de la chaussée",
+   "Je dois rouler près du bord droit de la chaussée autant que la permettent son profil et son état",
+   "Je dois rouler sur le trottoir"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q466",
+  "num": 466,
+  "question": "En cas d’éclatement d’un pneumatique :",
+  "choices": [
+   "Je freine fortement pour m’arrêter",
+   "Je décélère progressivement en maintenant la trajectoire",
+   "Je contre braque rapidement pour éviter une tête à queue"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q467",
+  "num": 467,
+  "question": "Le conducteur d’un véhicule qui dérape sur une chaussée glissante doit :",
+  "choices": [
+   "Freiner fort pour stopper le véhicule",
+   "Braquer calmement pour ramener le véhicule dans sa trajectoire",
+   "Accélérer franchement pour redonner de l’adhérence aux roues arrière"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q468",
+  "num": 468,
+  "question": "Que signifie le panneau C12 ?",
+  "choices": [
+   "Obligation d’aller tout droit après le panneau",
+   "Obligation d’aller tout droit jusqu’à la prochaine intersection",
+   "Circulation à sens unique"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "C12"
+  ],
+  "images": [
+   "/benin/signs/efe246f9769f.webp"
+  ]
+ },
+ {
+  "id": "bj-q469",
+  "num": 469,
+  "question": "Le stationnement est dangereux :",
+  "choices": [
+   "Derrière les véhicules en stationnement",
+   "A proximité d’une intersection",
+   "Sur les accotements",
+   "Au sommet de côte",
+   "Dans les virages"
+  ],
+  "correct": [
+   1,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "bj-q470",
+  "num": 470,
+  "question": "A bord d’un véhicule de tourisme pour, tourner à gauche sur une chaussée à double sens, je dois :",
+  "choices": [
+   "Mettre le clignotant à gauche et céder le passage à droite",
+   "Ralentir et serrer la gauche",
+   "Tourner sans respecter la priorité à droite"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q471",
+  "num": 471,
+  "question": "Comment accéder à l’autoroute ?",
+  "choices": [
+   "Par voie d’accès",
+   "Par voie de décélération",
+   "Par voie d’accélération"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q472",
+  "num": 472,
+  "question": "La route à grande circulation perd sa priorité :",
+  "choices": [
+   "En agglomération",
+   "A l’entrée d’une ville",
+   "En dehors de l’agglomération"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q473",
+  "num": 473,
+  "question": "Quelle est la vitesse maximale sur une route à grande circulation pour un candidat dont le permis a moins d’un an d’âge",
+  "choices": [
+   "60 km/h",
+   "90 km/h",
+   "120 km/h"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q474",
+  "num": 474,
+  "question": "A quoi sert la voie d’accélération ?",
+  "choices": [
+   "Permet d’atteindre la vitesse minimale autorisée sur autoroute",
+   "Permet de quitter l’autoroute",
+   "Permet de dépasser les usagers lents"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q475",
+  "num": 475,
+  "question": "Que signifie l’arrêt d’urgence ?",
+  "choices": [
+   "Immobilisation forcée",
+   "Arrêt pour faire descendre un passager",
+   "Arrêt d’autobus"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q476",
+  "num": 476,
+  "question": "La bande d’arrêt d’urgence est utilisée :",
+  "choices": [
+   "Pour s’arrêter en cas de panne",
+   "Pour s’arrêter et prendre un passager",
+   "Pour s’arrêter en cas de malaise"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q477",
+  "num": 477,
+  "question": "Quelles sont les manœuvres interdites sur autoroute ?",
+  "choices": [
+   "Dépassement",
+   "Demi-tour",
+   "Marche arrière"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q478",
+  "num": 478,
+  "question": "Le panneau triangle pointe en bas au début d’une voie d’accélération :",
+  "choices": [
+   "oblige les usagers circulant sur autoroute à me céder le passage",
+   "oblige à céder le passage aux usagers de l’autoroute",
+   "oblige à marquer l’arrêt"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q479",
+  "num": 479,
+  "question": "Les différentes parties d’une rue sont :",
+  "choices": [
+   "Chaussée, accotement",
+   "Chaussée, terre-plein central, accotement",
+   "Chaussée, trottoirs",
+   "Terre plein-central, chaussée, trottoirs"
+  ],
+  "correct": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q480",
+  "num": 480,
+  "question": "Le trottoir est la partie d’une rue réservée :",
+  "choices": [
+   "Pour les vendeuses",
+   "Pour les piétons",
+   "Pour le dépassement en cas de bouchon"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q481",
+  "num": 481,
+  "question": "La chaussée est la partie d’une route réservée :",
+  "choices": [
+   "A la circulation de gros camions uniquement",
+   "A la circulation des véhicules",
+   "A la circulation des taxis uniquement"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q482",
+  "num": 482,
+  "question": "La voie est :",
+  "choices": [
+   "Une partie de la chaussée ou le dépassement est possible",
+   "Une partie de la chaussée réservée pour la circulation des véhicules",
+   "Une partie de la chaussée réservée pour la circulation dans un sens"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q483",
+  "num": 483,
+  "question": "Où doit-on stationner en cas d’ennui mécanique sur l’autoroute ?",
+  "choices": [
+   "Sur le terre- plein",
+   "Sur la bande d’arrêt d’urgence",
+   "Sur l’aire de repos"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q484",
+  "num": 484,
+  "question": "La vitesse maximale autorisée sur une autoroute est :",
+  "choices": [
+   "90km/h",
+   "200km/h",
+   "60km/h",
+   "Fonction de la législation en vigueur dans chaque pays"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q485",
+  "num": 485,
+  "question": "La vitesse maximale autorisée sur une route pour automobile est :",
+  "choices": [
+   "90km/h",
+   "130km/h",
+   "110km/h",
+   "Fonction de la législation en vigueur dans chaque pays"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q486",
+  "num": 486,
+  "question": "La vitesse maximale autorisée en agglomération est :",
+  "choices": [
+   "70km/h",
+   "50km/h",
+   "90km/h",
+   "100km/h"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q487",
+  "num": 487,
+  "question": "Je suis en panne de carburant sur l’autoroute :",
+  "choices": [
+   "Je vais à pied chercher du carburant à la station-service la plus proche",
+   "Je me fais remorquer par un autre usager jusqu’à la station-service la plus proche",
+   "J’utilise la cabine d’appel d’urgence pour me faire dépanner",
+   "Je place mon triangle de pré-signalisation"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q488",
+  "num": 488,
+  "question": "Mon véhicule tombe en panne sur l’autoroute :",
+  "choices": [
+   "je gare sur la bande d’arrêt d’urgence",
+   "J’attends un véhicule de dépannage",
+   "Je fais du stop pour demander de l’aide",
+   "Je vais à pied jusqu'à la prochaine borne d’appel"
+  ],
+  "correct": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "bj-q489",
+  "num": 489,
+  "question": "La circulation sur les bandes d’arrêt d’urgence de l’autoroute est autorisée :",
+  "choices": [
+   "Aux ambulances effectuant un transport urgent de blessés",
+   "A tous les véhicules en cas d’embouteillage",
+   "Aux services d’entretien se rendant sur un lieu d’intervention",
+   "Aux véhicules prioritaires en mission."
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q490",
+  "num": 490,
+  "question": "Sur autoroute les bornes d’appel d’urgence sont placées à :",
+  "choices": [
+   "tous les kilomètres",
+   "tous les deux kilomètres",
+   "tous les trois kilomètres",
+   "tous les cinq kilomètres"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q491",
+  "num": 491,
+  "question": "Quel doit être le comportement d’un conducteur à la sortie d’une autoroute ?",
+  "choices": [
+   "réduire sa vitesse",
+   "se réadapter à la vitesse normale",
+   "tenir compte des intersections et de la présence des autres usagers",
+   "utiliser son avertisseur sonore pour dégager la voie"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q492",
+  "num": 492,
+  "question": "L’accès à l’autoroute est interdit à certaines catégories d’usagers : lesquels ?",
+  "choices": [
+   "piétons",
+   "cyclomoteurs",
+   "véhicules agricoles",
+   "cavaliers",
+   "véhicules lents"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "bj-q493",
+  "num": 493,
+  "question": "Quels sont les usagers dont l’accès à l’autoroute est interdit ?",
+  "choices": [
+   "piétons",
+   "motocyclette",
+   "cavaliers",
+   "véhicules de tourisme",
+   "véhicules lents"
+  ],
+  "correct": [
+   0,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "bj-q494",
+  "num": 494,
+  "question": "Pour effectuer un changement de voie à droite, je contrôle :",
+  "choices": [
+   "le rétroviseur droit",
+   "le rétroviseur gauche",
+   "en vision directe, à droite",
+   "le rétroviseur intérieur"
+  ],
+  "correct": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "bj-q495",
+  "num": 495,
+  "question": "La circulation est établie en files, je peux changer de voie pour :",
+  "choices": [
+   "prendre une voie qui circule plus vite",
+   "préparer un changement de direction"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q496",
+  "num": 496,
+  "question": "Une jonction d’autoroute est :",
+  "choices": [
+   "Le raccordement de deux autoroutes",
+   "La séparation d’une autoroute en deux branches",
+   "Le raccordement d’une autoroute et d’une voie d’insertion"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q497",
+  "num": 497,
+  "question": "Une autoroute est toujours une route :",
+  "choices": [
+   "A sens unique",
+   "A trois voies de circulation",
+   "Interdite aux piétons, cyclistes et cyclomotoristes"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q498",
+  "num": 498,
+  "question": "Une voie pour véhicules lents est réservée :",
+  "choices": [
+   "aux poids-lourds uniquement",
+   "aux véhicules dont la vitesse est inférieure à 60km/h",
+   "aux véhicules dont la vitesse est inférieure à 80 km/h"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q499",
+  "num": 499,
+  "question": "Sur les chaussées d’autoroute à 3 voies, il est permis de dépasser :",
+  "choices": [
+   "Par la droite",
+   "Par la gauche",
+   "Du côté souhaité"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q500",
+  "num": 500,
+  "question": "Les routes à accès règlementé sont toutes :",
+  "choices": [
+   "A chaussées séparées et à sens unique",
+   "A vitesse limité à 110 km/h",
+   "A chaussées à double sens",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q501",
+  "num": 501,
+  "question": "Quels sont les types de stationnement ?",
+  "choices": [
+   "Bataille – créneau – perpendiculaire",
+   "Bataille – épi – créneau",
+   "Epi – créneau – oblique",
+   "En double file – épi – parallèle"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q502",
+  "num": 502,
+  "question": "A quoi sert le terre-plein central ?",
+  "choices": [
+   "A stationner",
+   "A exposer les marchandises",
+   "A faire un demi-tour",
+   "A séparer deux chaussées"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q503",
+  "num": 503,
+  "question": "En quittant le stationnement en marche normale pour intégrer la circulation, je dois :",
+  "choices": [
+   "Utiliser le rétroviseur de droite",
+   "Mettre le clignotant de gauche, utiliser le rétroviseur de gauche et m’engager avec prudence",
+   "M’engager rapidement"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q504",
+  "num": 504,
+  "question": "En sortant d’un garage pour intégrer la circulation, je dois :",
+  "choices": [
+   "Céder le passage aux usagers venant de la droite seulement",
+   "Céder le passage aux usagers venant de la gauche seulement",
+   "Céder le passage aux usagers venant de la droite et de la gauche"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q505",
+  "num": 505,
+  "question": "En sortant d’un garage pour intégrer la circulation, quelle est la toute première précaution à prendre ?",
+  "choices": [
+   "Jeter un coup d’œil à gauche",
+   "Klaxonner",
+   "Jeter un coup d’œil à droite"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q506",
+  "num": 506,
+  "question": "En descendant une pente, on doit utiliser :",
+  "choices": [
+   "Le frein à pied seulement",
+   "Le frein à pied et le frein moteur",
+   "Le frein à pied et le frein à main"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q507",
+  "num": 507,
+  "question": "Dans une descente, le frein à moteur sera puissant si :",
+  "choices": [
+   "Je reste en quatrième vitesse",
+   "Je passe en cinquième vitesse",
+   "Je passe en deuxième"
+  ],
+  "correct": [
+   2
+  ]
+ }
+]

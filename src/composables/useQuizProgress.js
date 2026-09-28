@@ -27,9 +27,18 @@ watch(
   { deep: true }
 )
 
+// `correct` vaut un indice (une seule bonne réponse) ou un tableau d'indices
+// (questions à réponses multiples, comme dans le manuel officiel du Bénin).
+export function toIndexList(value) {
+  return (Array.isArray(value) ? value : [value]).slice().sort((a, b) => a - b)
+}
+
 export function useQuizProgress() {
-  function answerQuestion(questionId, selectedIndex, correctIndex) {
-    answers[questionId] = { selected: selectedIndex, correct: selectedIndex === correctIndex }
+  function answerQuestion(questionId, selected, correct) {
+    const chosen = toIndexList(selected)
+    const expected = toIndexList(correct)
+    const isCorrect = chosen.length === expected.length && chosen.every((v, i) => v === expected[i])
+    answers[questionId] = { selected, correct: isCorrect }
   }
 
   function getAnswer(questionId) {

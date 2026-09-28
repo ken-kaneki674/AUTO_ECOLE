@@ -1,0 +1,155 @@
+[
+ {
+  "id": "bj-q679",
+  "num": 679,
+  "question": "Pour tourner à droite je dois :",
+  "choices": [
+   "Accélérer",
+   "Mettre le clignotant",
+   "Ralentir"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q680",
+  "num": 680,
+  "question": "Pour tourner à gauche sur une chaussée à double sens je dois :",
+  "choices": [
+   "Serrer ma droite",
+   "Me déporter au milieu",
+   "Serrer ma gauche"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q681",
+  "num": 681,
+  "question": "Le PTAC de ma remorque est de 800kg ; le poids à vide de ma voiture est 700kg :",
+  "choices": [
+   "pour tracter ma remorque je dois détenir le permis E (B)",
+   "je dois mettre à l’arrière de ma remorque une plaque d’immatriculation identique à celle de ma voiture",
+   "pour tracter ma remorque je dois détenir le permis C",
+   "ma remorque doit porter sa propre plaque d’immatriculation"
+  ],
+  "correct": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "bj-q682",
+  "num": 682,
+  "question": "A la vue du panneau B14 :",
+  "choices": [
+   "Je peux rouler à plus de 50km/h",
+   "Je ne peux pas rouler à moins de 50km/h",
+   "Je peux rouler à 50km/h strictement",
+   "Je ne suis pas concerné pas cette signalisation",
+   "Je peux rouler à moins de 50km/h"
+  ],
+  "correct": [
+   2,
+   4
+  ],
+  "signs": [
+   "B14"
+  ],
+  "images": [
+   "/benin/signs/63b61d9259b7.webp"
+  ]
+ },
+ {
+  "id": "bj-q683",
+  "num": 683,
+  "question": "Avec mon permis de conduire catégorie B :",
+  "choices": [
+   "je peux conduire un véhicule dont le PTAC est inférieur ou égal à 3,5T",
+   "je peux conduire tous les véhicules",
+   "je ne peux conduire que les véhicules dont le PTAC est compris entre 3,5T et 18T",
+   "je peux conduire une camionnette dont le PTAC est égal ou inférieur à 3,5T"
+  ],
+  "correct": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "bj-q684",
+  "num": 684,
+  "question": "Avec le permis de conduire catégorie B, je peux conduire un véhicule :",
+  "choices": [
+   "poids lourd",
+   "autobus",
+   "poids léger"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q685",
+  "num": 685,
+  "question": "Ma voiture mesure 4m de long, comment transporter de jour, une échelle de 5m ?",
+  "choices": [
+   "Je fais dépasser l’échelle de 0,5m à l’avant et 0,5m à l’arrière",
+   "Je fais dépasser l’échelle de 1m à l’avant",
+   "Je fais dépasser l’échelle de 1m à l’arrière"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q686",
+  "num": 686,
+  "question": "Mon permis de conduire a 8mois d’âge, je ne peux rouler à plus de :",
+  "choices": [
+   "100km/h",
+   "120km/h",
+   "90km/h",
+   "60km/h"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q687",
+  "num": 687,
+  "question": "A la vue du panneau B14 :",
+  "choices": [
+   "Je peux rouler à plus de 50km/h",
+   "je peux rouler à moins de 50km/h",
+   "Je peux rouler à 50km/h strictement",
+   "Je ne suis pas concerné pas cette signalisation"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "B14"
+  ],
+  "images": [
+   "/benin/signs/63b61d9259b7.webp"
+  ]
+ },
+ {
+  "id": "bj-q688",
+  "num": 688,
+  "question": "La remorque doit avoir sa propre carte grise si le PTAC est supérieur à :",
+  "choices": [
+   "450kg",
+   "500kg",
+   "400kg"
+  ],
+  "correct": [
+   1
+  ]
+ }
+]

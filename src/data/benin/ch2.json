@@ -1,0 +1,3552 @@
+[
+ {
+  "id": "bj-q1",
+  "num": 1,
+  "question": "Quelles sont les différentes signalisations Routières ?",
+  "choices": [
+   "La signalisation Verticale, Horizontale, Lumineuses et les signes des Agents",
+   "Les intersections en X, en Y, et en T",
+   "Les lignes continues les lignes discontinues et les lignes mixtes."
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q2",
+  "num": 2,
+  "question": "La signalisation horizontale est :",
+  "choices": [
+   "L’ensemble des marques peintes sur la chaussée",
+   "L’ensemble des signes des agents de sécurité",
+   "L’ensemble des règles applicables en agglomération"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q3",
+  "num": 3,
+  "question": "La ligne continue blanche centrale :",
+  "choices": [
+   "Autorise le dépassement",
+   "Interdit le dépassement",
+   "Est réservée pour l’arrêt des bus"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q4",
+  "num": 4,
+  "question": "La ligne discontinue blanche centrale :",
+  "choices": [
+   "Interdit la circulation à droite",
+   "Autorise le dépassement",
+   "Est réservée pour l’arrêt des bus"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q5",
+  "num": 5,
+  "question": "Les traits de la ligne discontinue blanche centrale hors agglomération ont une longueur de :",
+  "choices": [
+   "20m",
+   "1,33m",
+   "3m"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q6",
+  "num": 6,
+  "question": "La ligne mixte autorise le dépassement :",
+  "choices": [
+   "Si la ligne discontinue est plus proche du conducteur",
+   "Si la ligne continue est plus proche du conducteur",
+   "Si la chaussée est assez large"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q7",
+  "num": 7,
+  "question": "La ligne jaune continue sur la bordure du trottoir :",
+  "choices": [
+   "Interdit le stationnement",
+   "Autorise l’arrêt",
+   "Indique une zone d’arrêt de bus"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q8",
+  "num": 8,
+  "question": "L’intervalle entre deux traits d’une ligne discontinue blanche centrale est de :",
+  "choices": [
+   "10m",
+   "5m",
+   "15m"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q9",
+  "num": 9,
+  "question": "La ligne jaune discontinue sur la bordure du trottoir :",
+  "choices": [
+   "Interdit le stationnement",
+   "Autorise l’arrêt",
+   "Indique une zone d’arrêt de bus"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q10",
+  "num": 10,
+  "question": "La ligne jaune brisée en bordure de la chaussée :",
+  "choices": [
+   "Interdit le dépassement",
+   "Autorise le dépassement",
+   "Indique une zone d’arrêt de bus"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q11",
+  "num": 11,
+  "question": "A la vue de la flèche de rabattement, je dois :",
+  "choices": [
+   "M’arrêter",
+   "Serrer ma droite",
+   "Rétrograder",
+   "Dépasser"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q12",
+  "num": 12,
+  "question": "La circulation sur les bandes d’arrêt d’urgence de l’autoroute est autorisée :",
+  "choices": [
+   "Aux ambulances effectuant un transport urgent de blessés",
+   "A tous les véhicules en cas d’embouteillage",
+   "Aux services d’entretien se rendant sur un lieu d’intervention",
+   "Aux véhicules prioritaires en mission"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q13",
+  "num": 13,
+  "question": "La bande rouge discontinue de blanc le long du trottoir, interdit :",
+  "choices": [
+   "L’arrêt",
+   "Le stationnement",
+   "L’arrêt pour les véhicules légers"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q14",
+  "num": 14,
+  "question": "Sur les lignes hachurées appelées zébras :",
+  "choices": [
+   "Je peux stationner",
+   "Je peux circuler",
+   "Je ne peux ni stationner, ni circuler, ni m’arrêter",
+   "Je peux m’arrêter"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q15",
+  "num": 15,
+  "question": "A la vue du panneau C13",
+  "choices": [
+   "Je suis sur un chemin sans issue.",
+   "Je suis prioritaire à la prochaine intersection",
+   "Je dois aller tout droit seulement"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "C13"
+  ],
+  "images": [
+   "/benin/signs/b1647ff53aa5.webp"
+  ]
+ },
+ {
+  "id": "bj-q16",
+  "num": 16,
+  "question": "A la rencontre du panneau \"STOP\" que dois-je faire ?",
+  "choices": [
+   "Je cède le passage à droite",
+   "Je cède le passage à droite et à gauche",
+   "Je m’arrête avant le panneau et je cède le passage aux usagers venant de ma droite et de ma gauche",
+   "Je m’arrête après le panneau et je cède le passage aux usagers venant de ma gauche et de ma droite"
+  ],
+  "correct": [
+   3
+  ],
+  "images": [
+   "/benin/signs/6335291276c4.webp"
+  ]
+ },
+ {
+  "id": "bj-q17",
+  "num": 17,
+  "question": "Que signifie le panneau A15 c ?",
+  "choices": [
+   "Voie réservée aux chevaux",
+   "Endroits fréquentés par les animaux domestiques",
+   "Passage de cavaliers."
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A15"
+  ],
+  "images": [
+   "/benin/signs/47dfefb79950.webp"
+  ]
+ },
+ {
+  "id": "bj-q18",
+  "num": 18,
+  "question": "Que m’indique le panneau A19 ?",
+  "choices": [
+   "Chute de grêle",
+   "Chute de neige",
+   "Risque de chute de pierres sur la chaussée.",
+   "Présence de pierres sur la chaussée"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "signs": [
+   "A19"
+  ],
+  "images": [
+   "/benin/signs/17d75c5ef4d7.webp"
+  ]
+ },
+ {
+  "id": "bj-q19",
+  "num": 19,
+  "question": "Que signifie le panneau A21a ?",
+  "choices": [
+   "Voie réservée aux cyclistes",
+   "Débouché de cyclistes ou cyclomotoristes venant de droite ou de gauche",
+   "Débouché de cyclistes ou de cyclomotoristes venant de droite seulement."
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A21a"
+  ],
+  "images": [
+   "/benin/signs/42ded7807ccb.webp"
+  ]
+ },
+ {
+  "id": "bj-q20",
+  "num": 20,
+  "question": "Devant le panneau triangulaire pointe en bas, que dois-je faire ?",
+  "choices": [
+   "Je cède le passage à droite et à gauche",
+   "Je cède le passage à droite seulement",
+   "Je passe"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
+   "/benin/signs/acc9c77a4847.webp"
+  ]
+ },
+ {
+  "id": "bj-q21",
+  "num": 21,
+  "question": "Qu’indique le panneau triangulaire portant une flèche barrée ?",
+  "choices": [
+   "Arrêt obligatoire",
+   "Priorité à droite",
+   "Priorité à gauche",
+   "Priorité de passage"
+  ],
+  "correct": [
+   3
+  ],
+  "images": [
+   "/benin/signs/f3e82cdee5e5.webp"
+  ]
+ },
+ {
+  "id": "bj-q22",
+  "num": 22,
+  "question": "A la vue du panneau AB6 que dois-je faire à la prochaine intersection ?",
+  "choices": [
+   "Je m’arrête",
+   "Je cède le passage à droite",
+   "Je passe",
+   "Je cède le passage à gauche"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "AB6"
+  ],
+  "images": [
+   "/benin/signs/1398a9b56631.webp"
+  ]
+ },
+ {
+  "id": "bj-q23",
+  "num": 23,
+  "question": "Que m’indique le panneau A1d1 ?",
+  "choices": [
+   "Succession de virage dont le 1er est à droite à 5 km",
+   "Succession de virage sur 5 km dont le 1er est à gauche",
+   "Succession de virage sur 5 km dont le 1er est à droite"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A1d1"
+  ],
+  "images": [
+   "/benin/signs/dc75e4c3ebc0.webp"
+  ]
+ },
+ {
+  "id": "bj-q24",
+  "num": 24,
+  "question": "Que signifie le panneau A3a1 ?",
+  "choices": [
+   "Chaussée rétrécie par la gauche à 200m",
+   "Chaussée rétrécie par la droite sur 200m",
+   "Chaussée rétrécie par la gauche sur 200m",
+   "Chaussée rétrécie par la droite à 200m"
+  ],
+  "correct": [
+   3
+  ],
+  "signs": [
+   "A3a1"
+  ],
+  "images": [
+   "/benin/signs/c0380391f1b4.webp"
+  ]
+ },
+ {
+  "id": "bj-q25",
+  "num": 25,
+  "question": "A la vue du panneau triangulaire pointe en bas à une intersection, quel genre de panneau peuvent rencontrer les usagers venant de gauche et de droite ?",
+  "choices": [
+   "Panneau \"STOP\"",
+   "Panneau losange fond jaune barré",
+   "Panneau flèche barrée",
+   "Panneau losange fond jaune"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "images": [
+   "/benin/signs/acc9c77a4847.webp"
+  ]
+ },
+ {
+  "id": "bj-q26",
+  "num": 26,
+  "question": "En agglomération, les panneaux de danger sont implantés à quelle distance du danger ?",
+  "choices": [
+   "150m",
+   "200m",
+   "50m",
+   "250m"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q27",
+  "num": 27,
+  "question": "En rase campagne, à quelle distance sont implantés les panneaux de danger ?",
+  "choices": [
+   "50m",
+   "150m",
+   "200m",
+   "250m"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q28",
+  "num": 28,
+  "question": "Que dois-je faire devant un panneau de danger ?",
+  "choices": [
+   "Augmenter ma vitesse",
+   "Réduire ma vitesse",
+   "Maintenir ma vitesse"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q29",
+  "num": 29,
+  "question": "Devant un panneau de danger :",
+  "choices": [
+   "Je peux marquer un arrêt",
+   "Je peux stationner",
+   "Je ne peux ni m’arrêter ni stationner"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q30",
+  "num": 30,
+  "question": "Quel danger signale le panneau A21b ?",
+  "choices": [
+   "Voie réservée aux cyclistes",
+   "Voie interdite aux cyclistes",
+   "Débouché de cyclistes venant de gauche seulement",
+   "Débouché de cyclistes venant de gauche ou de droite"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A21b"
+  ],
+  "images": [
+   "/benin/signs/13ab92c1269f.webp"
+  ]
+ },
+ {
+  "id": "bj-q31",
+  "num": 31,
+  "question": "Quel danger signale le panneau A20 ?",
+  "choices": [
+   "Débouché sur un pont mobile",
+   "Débouché sur un quai ou une berge",
+   "Descente dangereuse"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A20"
+  ],
+  "images": [
+   "/benin/signs/b33f9b98bd9b.webp"
+  ]
+ },
+ {
+  "id": "bj-q32",
+  "num": 32,
+  "question": "Quel danger signale le panneau A16 ?",
+  "choices": [
+   "Débouché sur un quai ou une berge",
+   "Descente dangereuse",
+   "Débouché sur un pont mobile",
+   "Débouché sur un quai ou une berge"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A16"
+  ],
+  "images": [
+   "/benin/signs/0a8dd0d651ee.webp"
+  ]
+ },
+ {
+  "id": "bj-q33",
+  "num": 33,
+  "question": "Quel danger signale le panneau A6 ?",
+  "choices": [
+   "Descente dangereuse",
+   "Débouché sur un pont mobile",
+   "Débouché sur un quai ou une berge"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A6"
+  ],
+  "images": [
+   "/benin/signs/1ab1541e2168.webp"
+  ]
+ },
+ {
+  "id": "bj-q34",
+  "num": 34,
+  "question": "Que signifie le panneau B6a1 ?",
+  "choices": [
+   "Stationnement interdit avant le panneau",
+   "Arrêt et stationnement interdits",
+   "Stationnement interdit à partir du panneau"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B6a1"
+  ],
+  "images": [
+   "/benin/signs/1a8f370194ab.webp"
+  ]
+ },
+ {
+  "id": "bj-q35",
+  "num": 35,
+  "question": "A la vue du panneau B6a1 :",
+  "choices": [
+   "Je peux m’arrêter avant ou après le panneau",
+   "Je peux stationner après le panneau",
+   "Je peux stationner avant le panneau"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "signs": [
+   "B6a1"
+  ],
+  "images": [
+   "/benin/signs/40f02e064bc3.webp"
+  ]
+ },
+ {
+  "id": "bj-q36",
+  "num": 36,
+  "question": "A la vue du panneau B6b1",
+  "choices": [
+   "Je peux stationner dans la première rue à droite après le panneau",
+   "Je peux stationner dans la rue où se trouve le panneau mais à gauche",
+   "Je ne peux stationner nulle part dans la rue où se trouve le panneau"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B6b1"
+  ],
+  "images": [
+   "/benin/signs/dfcc7bf0208b.webp"
+  ]
+ },
+ {
+  "id": "bj-q37",
+  "num": 37,
+  "question": "Le panneau B0",
+  "choices": [
+   "M’interdit de circuler dans les deux sens",
+   "M’interdit quelque chose qui sera indiqué après",
+   "M’oblige à faire demi-tour si possible"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "signs": [
+   "B0"
+  ],
+  "images": [
+   "/benin/signs/85aceb3930ad.webp"
+  ]
+ },
+ {
+  "id": "bj-q38",
+  "num": 38,
+  "question": "Le panneau B7a :",
+  "choices": [
+   "Interdit aux motocyclistes de dépasser les voitures",
+   "Interdit l’accès aux autos et aux motos",
+   "Interdit l’accès aux deux roues"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B7a"
+  ],
+  "images": [
+   "/benin/signs/2ff26d9d74f8.webp"
+  ]
+ },
+ {
+  "id": "bj-q39",
+  "num": 39,
+  "question": "A la vue du panneau B25 :",
+  "choices": [
+   "Je peux rouler à 25km/h",
+   "Je peux rouler à 40km/h",
+   "Je dois rouler au moins à 30 km/h"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "B25"
+  ],
+  "images": [
+   "/benin/signs/cce95b03c61e.webp"
+  ]
+ },
+ {
+  "id": "bj-q40",
+  "num": 40,
+  "question": "Le panneau B21-1 m’oblige à :",
+  "choices": [
+   "Tourner à droite à la prochaine intersection",
+   "Tourner à droite avant le panneau",
+   "Tourner à droite après le panneau"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B21-1"
+  ],
+  "images": [
+   "/benin/signs/c82dc18eb04d.webp"
+  ]
+ },
+ {
+  "id": "bj-q41",
+  "num": 41,
+  "question": "La balise J4 annonce :",
+  "choices": [
+   "Un virage très dangereux",
+   "Une déviation prochaine",
+   "Un rétrécissement de la chaussée"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "signs": [
+   "J4"
+  ],
+  "images": [
+   "/benin/signs/b6d400ce4d4b.webp"
+  ]
+ },
+ {
+  "id": "bj-q42",
+  "num": 42,
+  "question": "Sur les bandes et les pistes cyclables",
+  "choices": [
+   "Les automobilistes peuvent s’arrêter pour prendre un passager",
+   "Les piétons peuvent circuler",
+   "Les automobilistes peuvent stationner en cas de panne",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q43",
+  "num": 43,
+  "question": "Le panneau A25 signifie :",
+  "choices": [
+   "Carrefour à sens giratoire",
+   "Terre-plein à contourner par la droite",
+   "Céder le passage aux usagers venant de droite",
+   "Céder le passage aux usagers venant de gauche"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "signs": [
+   "A25"
+  ],
+  "images": [
+   "/benin/signs/b4b48467c975.webp",
+   "/benin/signs/f59a95463a0d.webp"
+  ]
+ },
+ {
+  "id": "bj-q44",
+  "num": 44,
+  "question": "Que signifie le panneau B15 ?",
+  "choices": [
+   "Chaussée à double sens",
+   "Céder le passage aux usagers venant en sens inverse",
+   "Circulation à sens unique"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B15"
+  ],
+  "images": [
+   "/benin/signs/053d4a601c59.webp"
+  ]
+ },
+ {
+  "id": "bj-q45",
+  "num": 45,
+  "question": "Quel danger signale le panneau A18 ?",
+  "choices": [
+   "Céder le passage aux usagers venant en sens inverse",
+   "Circulation dangereuse dans les deux sens",
+   "Chaussée rétrécie dans les deux sens"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A18"
+  ],
+  "images": [
+   "/benin/signs/f59a95463a0d.webp"
+  ]
+ },
+ {
+  "id": "bj-q46",
+  "num": 46,
+  "question": "A quelle distance du danger est implanté le panneau A18 ?",
+  "choices": [
+   "150m",
+   "50m",
+   "0m"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A18"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q47",
+  "num": 47,
+  "question": "A la rencontre du panneau B15, quel panneau l’usager en sens inverse aurait rencontré ?",
+  "choices": [
+   "Le panneau \"sens interdit\"",
+   "Le panneau \"chaussée rétrécie\"",
+   "Le panneau \"priorité par rapport à la circulation venant en sens inverse\""
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B15"
+  ],
+  "images": [
+   "/benin/signs/053d4a601c59.webp"
+  ]
+ },
+ {
+  "id": "bj-q48",
+  "num": 48,
+  "question": "A la vue du panneau B1, quel panneau l’usager venant en sens inverse aurait rencontré ?",
+  "choices": [
+   "Le panneau \"priorité par rapport à la circulation venant en sens inverse\"",
+   "Le panneau \"céder le passage à la circulation venant en sens inverse\"",
+   "Le panneau \"circulation à sens unique\""
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B1"
+  ],
+  "images": [
+   "/benin/signs/23074976838f.webp"
+  ]
+ },
+ {
+  "id": "bj-q49",
+  "num": 49,
+  "question": "Que signifie le panneau B8 ?",
+  "choices": [
+   "Voie réservée aux véhicules de transport de marchandises",
+   "Voie réservée aux véhicules de transport en commun de personnes",
+   "Accès interdit aux véhicules de transport de marchandises"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B8"
+  ],
+  "images": [
+   "/benin/signs/eccd7df6add9.webp"
+  ]
+ },
+ {
+  "id": "bj-q50",
+  "num": 50,
+  "question": "Que signifie le panneau B18a",
+  "choices": [
+   "Accès interdit aux véhicules transportant des produits explosifs ou facilement inflammables",
+   "Accès interdit aux véhicules transportant des produits de nature à polluer les eaux",
+   "Accès interdit aux véhicules transportant des matières dangereuses"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "B18a"
+  ],
+  "images": [
+   "/benin/signs/503104f8b897.webp"
+  ]
+ },
+ {
+  "id": "bj-q51",
+  "num": 51,
+  "question": "A la vue du panneau A1c, je ralentis",
+  "choices": [
+   "Avant chaque virage",
+   "Dans chaque virage",
+   "Après chaque virage"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "A1c"
+  ],
+  "images": [
+   "/benin/signs/e53499433f6f.webp"
+  ]
+ },
+ {
+  "id": "bj-q52",
+  "num": 52,
+  "question": "En présence du panneau \"stationnement interdit\", je suis autorisé à",
+  "choices": [
+   "Stationner avant le panneau",
+   "Stationner après le panneau",
+   "Stationner avant la prochaine intersection"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q53",
+  "num": 53,
+  "question": "Que signifie le panneau B12(1)",
+  "choices": [
+   "Accès interdit à 10km au véhicule dont la hauteur avec ou sans chargement dépasse 3,5m",
+   "Accès interdit sur 10km au véhicule dont la hauteur avec ou sans chargement dépasse 3,5m",
+   "Accès interdit au véhicule dont la hauteur avec ou sans chargement dépasse 3,5m",
+   "Vitesse limitée à 10km/h aux véhicules dont la hauteur avec ou sans chargement dépasse 3,5m"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "B12"
+  ],
+  "images": [
+   "/benin/signs/e3cffe4c6508.webp"
+  ]
+ },
+ {
+  "id": "bj-q54",
+  "num": 54,
+  "question": "Que signifie le panneau B34a",
+  "choices": [
+   "Dépassement interdit aux camions",
+   "Fin d’interdiction de dépasser aux véhicules de transport de marchandise dont le PTAC excède 3,5T",
+   "Interdiction de dépasser tout véhicule",
+   "Fin d’interdiction de dépasser"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B34a"
+  ],
+  "images": [
+   "/benin/signs/bd180dc73ed2.webp"
+  ]
+ },
+ {
+  "id": "bj-q55",
+  "num": 55,
+  "question": "Que signifie le panneau B45",
+  "choices": [
+   "Accès interdit aux véhicules de transport en commun de personnes",
+   "Stationnement interdit aux véhicules de transport en commun de personnes",
+   "Fin de voie réservée aux véhicules de transport en commun de personnes",
+   "Arrêt interdit aux véhicules de transport en commun de personnes"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B45"
+  ],
+  "images": [
+   "/benin/signs/6402f2556ffb.webp"
+  ]
+ },
+ {
+  "id": "bj-q56",
+  "num": 56,
+  "question": "Que signifie le panneau B27",
+  "choices": [
+   "Arrêt d’autobus",
+   "Parking réservé aux autobus",
+   "Voie réservée aux véhicules de transport en commun de personnes",
+   "Arrêt obligatoire aux autobus"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B27"
+  ],
+  "images": [
+   "/benin/signs/03dafa7260bc.webp"
+  ]
+ },
+ {
+  "id": "bj-q57",
+  "num": 57,
+  "question": "Que signifie le panneau B9g ?",
+  "choices": [
+   "Accès interdit aux cyclomoteurs",
+   "Accès interdit aux motocyclistes",
+   "Accès interdit aux cyclomoteurs et aux motocyclistes",
+   "Voie réservée aux cyclomoteurs"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "B9g"
+  ],
+  "images": [
+   "/benin/signs/20f47aebd40d.webp"
+  ]
+ },
+ {
+  "id": "bj-q58",
+  "num": 58,
+  "question": "Que signifie le panneau B10a ?",
+  "choices": [
+   "Accès interdit aux véhicules dont la longueur dépasse 10m avec ou sans chargement",
+   "Accès interdit uniquement aux véhicules de transport de marchandises dont la longueur dépasse 10m",
+   "Accès interdit uniquement aux véhicules de transport en commun de personnes dont la longueur dépasse 10m"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "B10a"
+  ],
+  "images": [
+   "/benin/signs/27c1d669d820.webp"
+  ]
+ },
+ {
+  "id": "bj-q59",
+  "num": 59,
+  "question": "Que signifie le panneau B14(3) ?",
+  "choices": [
+   "Vitesse limitée à 60km/h pour les deux roues",
+   "Vitesse limitée à 60km/h pour les cyclomoteurs",
+   "Vitesse limitée à 60km/h pour les motocyclettes",
+   "Vitesse limitée à 60km/h pour les cyclomoteurs et les motocyclettes"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B14"
+  ],
+  "images": [
+   "/benin/signs/bfc9e912490d.webp"
+  ]
+ },
+ {
+  "id": "bj-q60",
+  "num": 60,
+  "question": "Le panneau B29(2) :",
+  "choices": [
+   "Ne concerne pas les motocyclettes roulant à moins de 60km/h",
+   "Concerne tout véhicule à moteur roulant à moins de 60km/h",
+   "Concerne seulement les véhicules automobiles roulant à moins de 60km/h"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B29"
+  ],
+  "images": [
+   "/benin/signs/3bce26495c07.webp"
+  ]
+ },
+ {
+  "id": "bj-q61",
+  "num": 61,
+  "question": "Le panneau B8 interdit l’accès :",
+  "choices": [
+   "A tout véhicule de transport de marchandises",
+   "Aux véhicules de transport de marchandises dont le PTAC est supérieur à 3,5T",
+   "A tout véhicule de transport"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "signs": [
+   "B8"
+  ],
+  "images": [
+   "/benin/signs/7fc206a82387.webp"
+  ]
+ },
+ {
+  "id": "bj-q62",
+  "num": 62,
+  "question": "Que signifie le panneau B13 ?",
+  "choices": [
+   "Accès interdit aux véhicules pesant 5,5T",
+   "Accès interdit aux véhicules pesant plus de 5,5T",
+   "Accès interdit aux véhicules pesant moins de 5,5T"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B13"
+  ],
+  "images": [
+   "/benin/signs/1b138506fe57.webp"
+  ]
+ },
+ {
+  "id": "bj-q63",
+  "num": 63,
+  "question": "Le panneau B14(4) concerne",
+  "choices": [
+   "Les véhicules de transport en commun de personnes",
+   "Les véhicules de transport de marchandises",
+   "Tout véhicule de transport",
+   "Tout véhicule de tourisme"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B14"
+  ],
+  "images": [
+   "/benin/signs/fe8c956a2697.webp"
+  ]
+ },
+ {
+  "id": "bj-q64",
+  "num": 64,
+  "question": "A la rencontre d’un panneau de danger, que dois-je faire ?",
+  "choices": [
+   "Accélérer et passer le danger signalé",
+   "Ralentir, serrer sa droite et passer en faisant attention au danger",
+   "Serrer sa droite, accélérer et passer",
+   "Faire demi-tour"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q65",
+  "num": 65,
+  "question": "A la rencontre du panneau A7, que dois-je faire ?",
+  "choices": [
+   "Accélérer et passer",
+   "Ralentir, serrer ma droite et passer avec prudence",
+   "Ralentir, serrer ma droite et klaxonner"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A7"
+  ],
+  "images": [
+   "/benin/signs/f605fc0f2bea.webp"
+  ]
+ },
+ {
+  "id": "bj-q66",
+  "num": 66,
+  "question": "A quoi peut-on s’attendre à la vue du panneau A7 ?",
+  "choices": [
+   "A voir les rails uniquement",
+   "A voir une barrière et des rails",
+   "A voir une barrière automatique"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A7"
+  ],
+  "images": [
+   "/benin/signs/f605fc0f2bea.webp"
+  ]
+ },
+ {
+  "id": "bj-q67",
+  "num": 67,
+  "question": "A quoi peut-on s’attendre après le panneau A8",
+  "choices": [
+   "A voir des rails et une barrière",
+   "A voir un panneau de position uniquement",
+   "A voir un panneau de position et des rails"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A8"
+  ],
+  "images": [
+   "/benin/signs/d5c237cc0cec.webp"
+  ]
+ },
+ {
+  "id": "bj-q68",
+  "num": 68,
+  "question": "Que doit-on faire à la vue du panneau A8",
+  "choices": [
+   "Accélérer et passer en vérifiant la gauche et la",
+   "Ralentir, regarder à gauche et à droite avant de traverser les rails",
+   "Accélérer et passer tout simplement"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A8"
+  ],
+  "images": [
+   "/benin/signs/b0a4cf660c74.webp"
+  ]
+ },
+ {
+  "id": "bj-q69",
+  "num": 69,
+  "question": "Que doit-on faire à la rencontre du panneau A13a ?",
+  "choices": [
+   "Passer en utilisant son avertisseur sonore pour faire dégager les enfants qui se trouveraient sur la route",
+   "Ralentir, faire attention aux enfants et s’arrêter au besoin pour les laisser passer",
+   "Klaxonner et passer rapidement"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A13a"
+  ],
+  "images": [
+   "/benin/signs/667d35acd1b0.webp"
+  ]
+ },
+ {
+  "id": "bj-q70",
+  "num": 70,
+  "question": "A la rencontre du panneau A3, que faire lorsqu’un véhicule arrive en sens inverse ?",
+  "choices": [
+   "S’arrêter et laisser le véhicule passer",
+   "Poursuivre sa route",
+   "Serrer sa droite, s’arrêter et laisser le véhicule passer"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A3"
+  ],
+  "images": [
+   "/benin/signs/d787c12eff65.webp"
+  ]
+ },
+ {
+  "id": "bj-q71",
+  "num": 71,
+  "question": "Que peut-on faire à la vue du panneau B1 ?",
+  "choices": [
+   "Poursuivre sa route en ralentissant",
+   "Garer son véhicule",
+   "Changer de direction",
+   "Faire demi-tour"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ],
+  "signs": [
+   "B1"
+  ],
+  "images": [
+   "/benin/signs/0bd7d9553510.webp"
+  ]
+ },
+ {
+  "id": "bj-q72",
+  "num": 72,
+  "question": "A la vue du panneau B3 :",
+  "choices": [
+   "Un véhicule peut dépasser un autre véhicule",
+   "Une voiture peut dépasser un camion",
+   "Un camion peut dépasser un autre camion",
+   "Aucun dépassement n’est autorisé"
+  ],
+  "correct": [
+   3
+  ],
+  "signs": [
+   "B3"
+  ],
+  "images": [
+   "/benin/signs/68a760170cb2.webp"
+  ]
+ },
+ {
+  "id": "bj-q73",
+  "num": 73,
+  "question": "A la rencontre du panneau B33, il est interdit",
+  "choices": [
+   "A un véhicule poids lourd, de dépasser une voiture",
+   "A un véhicule poids lourd, de dépasser un autre véhicule poids lourd",
+   "A un petit véhicule de dépasser un véhicule poids lourd B14 ?",
+   "A un véhicule poids lourd de croiser un véhicule léger"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "signs": [
+   "B33"
+  ],
+  "images": [
+   "/benin/signs/4783481d12a1.webp"
+  ]
+ },
+ {
+  "id": "bj-q74",
+  "num": 74,
+  "question": "A quelle vitesse peut-on rouler à la vue du panneau",
+  "choices": [
+   "A moins de 50km /h",
+   "A 50km/h",
+   "A plus de 50km/h"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "images": [
+   "/benin/signs/95ea0d652270.webp"
+  ]
+ },
+ {
+  "id": "bj-q75",
+  "num": 75,
+  "question": "Que doit-on faire à la vue du panneau B15 ?",
+  "choices": [
+   "Passer sans prendre en compte, l’usager venant en sens inverse",
+   "Passer en serrant sa droite",
+   "S’arrêter pour laisser l’usager venant en sens inverse"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B15"
+  ],
+  "images": [
+   "/benin/signs/1b45f9912dd1.webp"
+  ]
+ },
+ {
+  "id": "bj-q76",
+  "num": 76,
+  "question": "Que doit-on faire à la vue du panneau B21c1 ?",
+  "choices": [
+   "Tourner immédiatement à droite",
+   "Tourner à droite à la prochaine intersection",
+   "Tourner à droite avant le panneau"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B21c1"
+  ],
+  "images": [
+   "/benin/signs/efcd33cfb9c0.webp"
+  ]
+ },
+ {
+  "id": "bj-q77",
+  "num": 77,
+  "question": "A quelle vitesse peut-on rouler à la vue du panneau B25 ?",
+  "choices": [
+   "A moins de 30km/h",
+   "A la vitesse voulue",
+   "A 30km/h",
+   "A plus de 30km/h"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "signs": [
+   "B25"
+  ],
+  "images": [
+   "/benin/signs/0494904790e4.webp"
+  ]
+ },
+ {
+  "id": "bj-q78",
+  "num": 78,
+  "question": "Que m’indique le panneau B31 ?",
+  "choices": [
+   "La fin de toutes les intersections sauf le panneau \"STOP\"",
+   "La fin de tous les panneaux",
+   "La fin de tous les panneaux d’interdiction sauf ceux de stationnement et d’arrêt interdit"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B31"
+  ],
+  "images": [
+   "/benin/signs/f754a3f6ddee.webp"
+  ]
+ },
+ {
+  "id": "bj-q79",
+  "num": 79,
+  "question": "A quelle vitesse peut-on rouler à la vue du panneau",
+  "choices": [
+   "A n’importe quelle vitesse tout en respectant la règlementation en vigueur",
+   "A moins de 50km/h",
+   "A plus de 50km/h"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "images": [
+   "/benin/signs/01baf01a3071.webp"
+  ]
+ },
+ {
+  "id": "bj-q80",
+  "num": 80,
+  "question": "Qu’indique le panneau B34 ?",
+  "choices": [
+   "Le dépassement est interdit à tous véhicules",
+   "Il est mis fin à l’interdiction de dépasser à tout véhicule",
+   "Il est mis fin à l’interdiction aux petits véhicules seuls de se dépasser"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B34"
+  ],
+  "images": [
+   "/benin/signs/3b59610cb2f7.webp"
+  ]
+ },
+ {
+  "id": "bj-q81",
+  "num": 81,
+  "question": "Que doit-on faire à la rencontre du panneau G1 ?",
+  "choices": [
+   "Passer les rails très rapidement",
+   "Ralentir pour passer les rails",
+   "Ralentir, s’assurer qu’aucun train n’arrive ni de ni de gauche sur les rails avant de passer"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/6ad8b063613d.webp"
+  ]
+ },
+ {
+  "id": "bj-q82",
+  "num": 82,
+  "question": "Les feux tricolores s’allument dans l’ordre suivant :",
+  "choices": [
+   "Vert-jaune-rouge",
+   "Jaune-vert-rouge",
+   "Rouge-vert-jaune"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q83",
+  "num": 83,
+  "question": "Au feu vert :",
+  "choices": [
+   "Je passe sans ralentir",
+   "Je ralentis et je passe",
+   "Je ralentis et je m’arrête",
+   "Je cède le passage aux usagers venant de droite"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q84",
+  "num": 84,
+  "question": "Les feux tricolores s’allument dans l’ordre suivant :",
+  "choices": [
+   "Vert-jaune-rouge",
+   "Jaune-vert-rouge",
+   "Rouge-jaune-vert",
+   "Rouge-vert-jaune"
+  ],
+  "correct": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "bj-q85",
+  "num": 85,
+  "question": "A une intersection munie de feux tricolores dont le rouge est allumé, que faire ?",
+  "choices": [
+   "Je passe si je veux tourner à droite",
+   "Je ralentis et je passe si la voie est libre",
+   "Je m’arrête"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q86",
+  "num": 86,
+  "question": "A une intersection munie de feux tricolore où un agent de sécurité réglemente la circulation, que faire ?",
+  "choices": [
+   "Je suis les indications de l’agent de sécurité",
+   "Je respecte les feux",
+   "Je passe si le feu est au vert"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q87",
+  "num": 87,
+  "question": "Dans quel ordre s’allument les feux tricolores :",
+  "choices": [
+   "Rouge-jaune-vert",
+   "Jaune-vert-rouge",
+   "Vert-jaune-rouge"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q88",
+  "num": 88,
+  "question": "A une intersection munie de feux tricolores dont le feu vert est allumé, que dois-je faire ?",
+  "choices": [
+   "Je m’arrête",
+   "Je ralentis et je m’arrête",
+   "Je passe avec prudence"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q89",
+  "num": 89,
+  "question": "Le feu jaune annonce",
+  "choices": [
+   "Le feu vert",
+   "Le feu rouge",
+   "Le feu orange"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q90",
+  "num": 90,
+  "question": "A une distance raisonnable du feu orange fixe ; je me prépare",
+  "choices": [
+   "A passer",
+   "A m’arrêter",
+   "A céder le passage"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q91",
+  "num": 91,
+  "question": "A une intersection munie de feux tricolores où seul le feu jaune clignote :",
+  "choices": [
+   "Je m’arrête",
+   "Je ralentis et je passe",
+   "J’applique la règle de priorité à droite"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q92",
+  "num": 92,
+  "question": "Aux feux tricolores munis de panneau, dont le jaune seul clignote :",
+  "choices": [
+   "Je me conforme au panneau",
+   "Je me conforme au feu jaune clignotant",
+   "J’applique la priorité à droite"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q93",
+  "num": 93,
+  "question": "Aux feux tricolores dont le rouge est allumé :",
+  "choices": [
+   "Je passe avec prudence",
+   "Je m’arrête",
+   "Je ralentis, je serre ma droite et je tourne"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q94",
+  "num": 94,
+  "question": "Aux feux tricolores fonctionnant normalement et munis de panneau :",
+  "choices": [
+   "Je me conforme au panneau",
+   "Je me conforme aux feux",
+   "Je passe librement"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q95",
+  "num": 95,
+  "question": "A une intersection munie de feux tricolores où tous les feux sont éteints",
+  "choices": [
+   "Je pratique la règle de la priorité à droite",
+   "Je cède le passage à droite et à gauche",
+   "J’ai la priorité de passage"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q96",
+  "num": 96,
+  "question": "Quel est le rôle de l’agent de sécurité à l’intersection ?",
+  "choices": [
+   "Réglementer la circulation",
+   "Perturber la circulation",
+   "Contrôler les pièces",
+   "Surveiller les passants"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q97",
+  "num": 97,
+  "question": "Lorsque vous voyez de profil l’agent réglementant la circulation, que faire ?",
+  "choices": [
+   "Je m’arrête",
+   "Je cède le passage à droite",
+   "Je passe",
+   "Je ralentis pour céder le passage"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q98",
+  "num": 98,
+  "question": "Lorsque je vois de face ou de dos l’agent réglementant la circulation, que faire ?",
+  "choices": [
+   "Je passe",
+   "Je ralentis et je passe",
+   "Je m’arrête",
+   "J’accélère"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q99",
+  "num": 99,
+  "question": "Quand l’agent de sécurité réglementant la circulation lève le bras, que faire ?",
+  "choices": [
+   "Je passe si je suis engagé dans l’intersection",
+   "Je ralentis et je passe, si je le vois de face",
+   "Je ralentis et je m’arrête, si je le vois de face"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q100",
+  "num": 100,
+  "question": "De toutes les signalisations routières, laquelle prime sur les autres ?",
+  "choices": [
+   "La signalisation lumineuse",
+   "La signalisation horizontale",
+   "La signalisation verticale",
+   "Les signes des agents"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q101",
+  "num": 101,
+  "question": "A la vue de face ou de dos d’un agent réglementant la circulation :",
+  "choices": [
+   "Je passe",
+   "Je m’arrête",
+   "J’applique la règle de la priorité à droite"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q102",
+  "num": 102,
+  "question": "A la vue de profil d’un agent réglementant la circulation :",
+  "choices": [
+   "Je passe",
+   "Je m’arrête",
+   "J’applique la règle de priorité à droite"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q103",
+  "num": 103,
+  "question": "Le panneau triangle – flèche barrée (AB2) annonce que :",
+  "choices": [
+   "Les usagers venant de gauche et de droite ont la priorité de passage",
+   "Les usagers arrivant de gauche ou de droite perdent la priorité",
+   "Seuls les usagers arrivant de gauche perdent la priorité"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "AB2"
+  ],
+  "images": [
+   "/benin/signs/ae69b2842061.webp"
+  ]
+ },
+ {
+  "id": "bj-q104",
+  "num": 104,
+  "question": "A la vue de la signalisation «STOP\" (AB4), le conducteur doit :",
+  "choices": [
+   "Marquer un arrêt et céder le passage à gauche et à droite",
+   "Céder le passage à droite seulement",
+   "Marquer l’arrêt après le panneau"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "AB4"
+  ],
+  "images": [
+   "/benin/signs/cb826c119ff0.webp"
+  ]
+ },
+ {
+  "id": "bj-q105",
+  "num": 105,
+  "question": "Que faire à une intersection munie de feux tricolores dont le feu jaune clignote?",
+  "choices": [
+   "Céder le passage à ma gauche",
+   "Céder le passage à ma droite",
+   "Appliquer la priorité de passage"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q106",
+  "num": 106,
+  "question": "A la vue du panneau \"STOP\" ‘AB4), que dois-je faire ?",
+  "choices": [
+   "Je cède le passage à droite",
+   "Je cède le passage à droite et à gauche",
+   "Je m’arrête et je cède le passage aux usagers venant de ma droite et de ma gauche"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "AB4"
+  ],
+  "images": [
+   "/benin/signs/cb826c119ff0.webp"
+  ]
+ },
+ {
+  "id": "bj-q107",
+  "num": 107,
+  "question": "A la vue du panneau triangle pointe en bas (AB3a), que dois- faire ?",
+  "choices": [
+   "Je passe",
+   "Je cède le passage à droite seulement",
+   "Je cède le passage à droite et à gauche"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "AB3a"
+  ],
+  "images": [
+   "/benin/signs/bb8c6bd9f14a.webp"
+  ]
+ },
+ {
+  "id": "bj-q108",
+  "num": 108,
+  "question": "Le panneau B7b :",
+  "choices": [
+   "Interdit le stationnement à tout véhicule à moteur sauf camions",
+   "Interdit l’accès à tous les véhicules à moteur",
+   "Interdit l’accès à tous les véhicules sauf les camions"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B7b"
+  ],
+  "images": [
+   "/benin/signs/983d6d81891c.webp"
+  ]
+ },
+ {
+  "id": "bj-q109",
+  "num": 109,
+  "question": "A la vue du panneau B6d :",
+  "choices": [
+   "Je ne peux pas m’arrêter",
+   "Je ne peux pas m’arrêter mais je peux stationner",
+   "Je ne peux ni m’arrêter ni stationner"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "signs": [
+   "B6d"
+  ],
+  "images": [
+   "/benin/signs/be400c5ff657.webp"
+  ]
+ },
+ {
+  "id": "bj-q110",
+  "num": 110,
+  "question": "Que signifie le panneau B9c ?",
+  "choices": [
+   "Accès interdit aux chevaux",
+   "Accès interdit aux véhicules agricoles à moteur",
+   "Accès interdit aux véhicules à traction animal"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B9c"
+  ],
+  "images": [
+   "/benin/signs/db89a9703248.webp"
+  ]
+ },
+ {
+  "id": "bj-q111",
+  "num": 111,
+  "question": "A quelle vitesse peut-on rouler à la vue du panneau B43 ?",
+  "choices": [
+   "A 30 km/h",
+   "A plus de 30 km/h",
+   "A la vitesse réglementaire",
+   "A moins de 30 km/h",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "signs": [
+   "B43"
+  ],
+  "images": [
+   "/benin/signs/da9100170e18.webp"
+  ]
+ },
+ {
+  "id": "bj-q112",
+  "num": 112,
+  "question": "A la vue du panneau B43 :",
+  "choices": [
+   "Je respecte une vitesse de 30 km/h obligatoirement",
+   "Je peux faire plus de 30 km/h",
+   "Je peux faire moins de 30 km/h"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "B43"
+  ],
+  "images": [
+   "/benin/signs/da9100170e18.webp"
+  ]
+ },
+ {
+  "id": "bj-q113",
+  "num": 113,
+  "question": "Quelles sont les précautions à prendre pour aborder un virage ?",
+  "choices": [
+   "Garder la même vitesse pour vite aborder le virage",
+   "Ralentir avant d’aborder le virage",
+   "Rouler au milieu de la chaussée avant d’atteindre le virage",
+   "Bien serrer la droite avant d’aborder le virage"
+  ],
+  "correct": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q114",
+  "num": 114,
+  "question": "Que signifie le panneau B2c ?",
+  "choices": [
+   "Interdiction de tourner à gauche",
+   "Interdiction de faire marche arrière",
+   "Interdiction de faire demi-tour jusqu’à la prochaine intersection",
+   "Interdiction de faire marche arrière jusqu’à la prochaine intersection incluse"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B2c"
+  ],
+  "images": [
+   "/benin/signs/c4f7794a9eaf.webp"
+  ]
+ },
+ {
+  "id": "bj-q115",
+  "num": 115,
+  "question": "A la vue du panneau B6a1 :",
+  "choices": [
+   "Je peux stationner avant ou après le panneau",
+   "Je peux stationner après le panneau",
+   "Je peux stationner avant le panneau",
+   "Je ne peux stationner ni avant ni après le panneau"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B6a1"
+  ],
+  "images": [
+   "/benin/signs/bc47257650b2.webp"
+  ]
+ },
+ {
+  "id": "bj-q116",
+  "num": 116,
+  "question": "A la vue du panneau B21b :",
+  "choices": [
+   "Je peux tourner à droite",
+   "Je peux tourner à gauche",
+   "Je vais tout droit à la prochaine intersection"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B21b"
+  ],
+  "images": [
+   "/benin/signs/9a65a568374f.webp"
+  ]
+ },
+ {
+  "id": "bj-q117",
+  "num": 117,
+  "question": "Que signifie le panneau B43",
+  "choices": [
+   "Stationnement interdit à 30m devant le panneau Stationnement interdit à 30m après le panneau",
+   "Fin de vitesse minimale obligatoire"
+  ],
+  "correct": [],
+  "signs": [
+   "B43"
+  ],
+  "images": [
+   "/benin/signs/da9100170e18.webp"
+  ],
+  "needsReview": true
+ },
+ {
+  "id": "bj-q118",
+  "num": 118,
+  "question": "Que signifie le panneau C12 ?",
+  "choices": [
+   "Obligation d’aller tout droit après le panneau",
+   "Obligation d’aller tout droit jusqu’à la prochaine intersection",
+   "Circulation à sens unique"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "C12"
+  ],
+  "images": [
+   "/benin/signs/efe246f9769f.webp"
+  ]
+ },
+ {
+  "id": "bj-q119",
+  "num": 119,
+  "question": "Que signifie le panneau A21b ?",
+  "choices": [
+   "Voie réservée au cycliste",
+   "Voie interdite au cycliste",
+   "Débouché de cycliste venant de gauche seulement"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A21b"
+  ],
+  "images": [
+   "/benin/signs/06aab95159ee.webp"
+  ]
+ },
+ {
+  "id": "bj-q120",
+  "num": 120,
+  "question": "A la vue du panneau B14 :",
+  "choices": [
+   "Je peux rouler à plus de 50km/h",
+   "Je ne peux pas rouler à moins de 50km/h",
+   "Je peux rouler à 50km/h strictement",
+   "Je ne suis pas concerné pas cette signalisation",
+   "Je peux rouler à moins de 50km/h"
+  ],
+  "correct": [
+   2,
+   4
+  ],
+  "signs": [
+   "B14"
+  ],
+  "images": [
+   "/benin/signs/63b61d9259b7.webp"
+  ]
+ },
+ {
+  "id": "bj-q121",
+  "num": 121,
+  "question": "A la vue du panneau B14 :",
+  "choices": [
+   "Je peux rouler à plus de 50km/h",
+   "je peux rouler à moins de 50km/h",
+   "Je peux rouler à 50km/h strictement",
+   "Je ne suis pas concerner pas cette signalisation"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "B14"
+  ],
+  "images": [
+   "/benin/signs/63b61d9259b7.webp"
+  ]
+ },
+ {
+  "id": "bj-q122",
+  "num": 122,
+  "question": "En voiture à la vue du panneau B14 (3) hors agglomération :",
+  "choices": [
+   "Je peux rouler à plus de 60km/h",
+   "Je peux rouler à moins de 60km/h",
+   "Je peux rouler à 60km/h strictement",
+   "Je ne suis pas concerné par cette signalisation"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "signs": [
+   "B14"
+  ],
+  "images": [
+   "/benin/signs/c73a8a09d90c.webp"
+  ]
+ },
+ {
+  "id": "bj-q123",
+  "num": 123,
+  "question": "Quels sont les panneaux qui mettent fin à ce panneau (B3) ?",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ],
+  "imageChoices": true,
+  "signs": [
+   "B3"
+  ],
+  "images": [
+   "/benin/signs/928ff46e8f07.webp",
+   "/benin/signs/2b7cd60ab830.webp",
+   "/benin/signs/7683f273881f.webp",
+   "/benin/signs/ff392bd2c285.webp"
+  ]
+ },
+ {
+  "id": "bj-q124",
+  "num": 124,
+  "question": "A la vue du panneau indiquant l’entrée d’une localité, quelles sont les règles à observer ?",
+  "choices": [
+   "vitesse limitée à 50km/h",
+   "perte du caractère prioritaire de la route",
+   "usage de l’avertisseur sonore interdit, sauf cas de danger"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q125",
+  "num": 125,
+  "question": "Sur une chaussée à double sens comportant plus de deux voies, les flèches de rabattement peintes sur une voie :",
+  "choices": [
+   "me demande de quitter le plus tôt cette voie",
+   "m’annoncent la présence très proche d’une ligne continue",
+   "me demandent de garer sur l’accotement",
+   "me demandent de tourner à droite à la prochaine intersection"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q126",
+  "num": 126,
+  "question": "Sur une chaussée à plusieurs voies, des flèches de sélection aussi appelées flèches directionnelles peuvent jouer les rôles suivants :",
+  "choices": [
+   "m’indiquent la voie que je dois emprunter selon la direction ou je veux aller.je gagne cette voie dès la première flèche",
+   "pour tourner, je me place dans la voie comportant des flèches orientées vers la direction que je veux emprunter",
+   "pour aller tout droit, je me place dans la voie comportant des flèches droites",
+   "les voies peuvent comporter des flèches bifides (à deux pointes), donnant le choix entre deux directions",
+   "m’obligeant à m’arrêter pour chercher la direction dans laquelle je dois aller"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q127",
+  "num": 127,
+  "question": "A la vue du panneau A18-1:",
+  "choices": [
+   "La circulation est alternée à 150m",
+   "La circulation est alternée sur 150m",
+   "Circulation à double sens à 150m"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A18-1"
+  ],
+  "images": [
+   "/benin/signs/0dec3b0484bd.webp"
+  ]
+ },
+ {
+  "id": "bj-q128",
+  "num": 128,
+  "question": "A la vue du panneau B6a1 il est interdit :",
+  "choices": [
+   "de s’arrêter avant le panneau",
+   "de stationner avant le panneau",
+   "de s’arrêter après le panneau",
+   "de stationner après le panneau"
+  ],
+  "correct": [
+   3
+  ],
+  "signs": [
+   "B6a1"
+  ],
+  "images": [
+   "/benin/signs/172954299eed.webp"
+  ]
+ },
+ {
+  "id": "bj-q129",
+  "num": 129,
+  "question": "Les balises (J3) à anneau rouge :",
+  "choices": [
+   "Indiquent le régime de priorité à appliquer",
+   "Précisent la position d’une intersection",
+   "Délimitent la chaussée"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "J3"
+  ],
+  "images": [
+   "/benin/signs/012cf18674c3.webp"
+  ]
+ },
+ {
+  "id": "bj-q130",
+  "num": 130,
+  "question": "Cette signalisation indique :",
+  "choices": [
+   "une entrée d’agglomération",
+   "une fin d’interdiction de klaxonner",
+   "une limitation de vitesse",
+   "une interdiction de klaxonner"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q131",
+  "num": 131,
+  "question": "Le panneau (B31) peut mettre fin à une interdiction :",
+  "choices": [
+   "de dépasser",
+   "de s’arrêter",
+   "de stationner",
+   "de rouler à plus de 70km"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "signs": [
+   "B31"
+  ],
+  "images": [
+   "/benin/signs/f754a3f6ddee.webp"
+  ]
+ },
+ {
+  "id": "bj-q132",
+  "num": 132,
+  "question": "A la vue de ce panneau A 1c:",
+  "choices": [
+   "je vais aborder une succession de virage",
+   "je dois accélérer pour réduire les effets de la force centrifuge",
+   "je dois réduire ma vitesse avant le premier virage pour diminuer les effets de la force centrifuge"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "signs": [
+   "A1c"
+  ],
+  "images": [
+   "/benin/signs/427eef350a96.webp"
+  ]
+ },
+ {
+  "id": "bj-q133",
+  "num": 133,
+  "question": "Quelle couleur utilise-t-on pour distinguer la signalisation temporaire de la permanente ?",
+  "choices": [
+   "verte",
+   "rouge",
+   "jaune",
+   "bleue"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q134",
+  "num": 134,
+  "question": "Les feux bicolores permettent de réglementer :",
+  "choices": [
+   "la circulation par voie",
+   "la circulation par véhicule",
+   "la circulation par conducteur poids lourds"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q135",
+  "num": 135,
+  "question": "A la vue du panneau A7-1 je dois rencontrer un passage à niveau équipé de :",
+  "choices": [
+   "deux barrières à fonctionnement manuel",
+   "deux demi – barrière à fonctionnement automatique",
+   "deux demi – barrière à fonctionnement automatique avec feux clignotant"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A7-1"
+  ],
+  "images": [
+   "/benin/signs/54b0f6e7b695.webp"
+  ]
+ },
+ {
+  "id": "bj-q136",
+  "num": 136,
+  "question": "Le panneau B31 peut signaler la fin :",
+  "choices": [
+   "d’une route à caractère prioritaire",
+   "d’une limitation de vitesse",
+   "d’une interdiction de stationnement",
+   "d’une interdiction d’arrêter"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B31"
+  ],
+  "images": [
+   "/benin/signs/f754a3f6ddee.webp"
+  ]
+ },
+ {
+  "id": "bj-q137",
+  "num": 137,
+  "question": "A la vue du panneau AB2, j’ai la priorité :",
+  "choices": [
+   "a la prochaine intersection",
+   "A toutes les intersections",
+   "Seulement avant la prochaine intersection"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "AB2"
+  ],
+  "images": [
+   "/benin/signs/54b299ee6a6d.webp"
+  ]
+ },
+ {
+  "id": "bj-q138",
+  "num": 138,
+  "question": "A la vue du panneau AB7, je peux rencontrer un panneau :",
+  "choices": [
+   "Cédez le passage",
+   "Stop",
+   "Sens interdit",
+   "D’intersection de routes de même nature"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "signs": [
+   "AB7"
+  ],
+  "images": [
+   "/benin/signs/ddf32959ef83.webp"
+  ]
+ },
+ {
+  "id": "bj-q139",
+  "num": 139,
+  "question": "En rase campagne, le panneau AB1 est implanté à quelle distance de l’intersection ?",
+  "choices": [
+   "0m",
+   "30m",
+   "50m",
+   "150m",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ],
+  "signs": [
+   "AB1"
+  ],
+  "images": [
+   "/benin/signs/78f31937bff7.webp"
+  ]
+ },
+ {
+  "id": "bj-q140",
+  "num": 140,
+  "question": "En rase campagne, le panneau AB2 est implanté à combien de mètre environ de l’intersection :",
+  "choices": [
+   "100 mètres",
+   "50 mètres",
+   "150 mètres",
+   "0 mètres",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "AB2"
+  ],
+  "images": [
+   "/benin/signs/ae69b2842061.webp"
+  ]
+ },
+ {
+  "id": "bj-q141",
+  "num": 141,
+  "question": "En agglomération, le panneau AB2 est implanté à combien de mètre environ de l’intersection :",
+  "choices": [
+   "100 mètres",
+   "50 mètres",
+   "150 mètres",
+   "0 mètre",
+   "A proximité de l’intersection"
+  ],
+  "correct": [
+   4
+  ],
+  "signs": [
+   "AB2"
+  ],
+  "images": [
+   "/benin/signs/ae69b2842061.webp"
+  ]
+ },
+ {
+  "id": "bj-q142",
+  "num": 142,
+  "question": "Les feux tricolores permettent de réglementer :",
+  "choices": [
+   "la circulation aux intersections",
+   "la circulation par véhicule",
+   "la circulation par conducteur de poids lourd"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q143",
+  "num": 143,
+  "question": "A la vue de ce panneau (AK 22), je ralentis car :",
+  "choices": [
+   "je risque de déraper",
+   "je risque de projeter des gravillons sur autres véhicules",
+   "c’est un danger permanent"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "AK22"
+  ],
+  "images": [
+   "/benin/signs/9ba623b41fd9.webp"
+  ]
+ },
+ {
+  "id": "bj-q144",
+  "num": 144,
+  "question": "A la vue de cette signalisation (B5c)",
+  "choices": [
+   "je m’arrête à la hauteur du panneau",
+   "je ralentis et poursuis ma route",
+   "je ralentis et je m’arrête au poste de péage"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B5c"
+  ],
+  "images": [
+   "/benin/signs/15ae14b5ef79.webp"
+  ]
+ },
+ {
+  "id": "bj-q145",
+  "num": 145,
+  "question": "A la vue de cette signalisation (B14 et B25) je peux rouler à :",
+  "choices": [
+   "20km/",
+   "40km/h",
+   "50km/h",
+   "80km/h"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "B14",
+   "B25"
+  ],
+  "images": [
+   "/benin/signs/7f94f6f2660d.webp"
+  ]
+ },
+ {
+  "id": "bj-q146",
+  "num": 146,
+  "question": "Ce panneau (B1) indique que :",
+  "choices": [
+   "L’accès est interdit à tous les véhicules",
+   "L’accès est interdit aux véhicules à moteur seulement",
+   "La rue en sens inverse est à sens unique"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "signs": [
+   "B1"
+  ],
+  "images": [
+   "/benin/signs/42cb8bd65272.webp",
+   "/benin/signs/bd3799a9e56e.webp"
+  ]
+ },
+ {
+  "id": "bj-q147",
+  "num": 147,
+  "question": "Ce panneau (A13b) indique :",
+  "choices": [
+   "un passage pour piétons",
+   "l’obligation aux piétons d’emprunter la réservée",
+   "un seul passage pour piétons",
+   "plusieurs passages aux piétons sur 100m"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "signs": [
+   "A13b"
+  ],
+  "images": [
+   "/benin/signs/e8bdfd38f445.webp"
+  ]
+ },
+ {
+  "id": "bj-q148",
+  "num": 148,
+  "question": "La signalisation (B26) m’oblige à mettre les chaines à neige au moins sur les deux roues motrices :",
+  "choices": [
+   "oui",
+   "non"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "B26"
+  ],
+  "images": [
+   "/benin/signs/9d837a9e0e7f.webp"
+  ]
+ },
+ {
+  "id": "bj-q149",
+  "num": 149,
+  "question": "A la vue de ce panneau (B14) la limitation de vitesse concerne :",
+  "choices": [
+   "tous les véhicules",
+   "pas tous les véhicules",
+   "elle commence à hauteur du panneau",
+   "elle commence après le panneau"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "B14"
+  ],
+  "images": [
+   "/benin/signs/63b61d9259b7.webp"
+  ]
+ },
+ {
+  "id": "bj-q150",
+  "num": 150,
+  "question": "A la vue de ce panneau A15a1,",
+  "choices": [
+   "je peux rencontrer des animaux sauvages",
+   "je peux rencontre des animaux domestiques",
+   "je ralentis"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "A15a1"
+  ],
+  "images": [
+   "/benin/signs/8a7ccb41ba29.webp"
+  ]
+ },
+ {
+  "id": "bj-q151",
+  "num": 151,
+  "question": "A partir de ce panneau (B43), je peux rouler à :",
+  "choices": [
+   "plus de 30 km/h",
+   "moins de 30 km/h",
+   "la vitesse voulue, en respectant la règlementation en vigueur"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "signs": [
+   "B43"
+  ],
+  "images": [
+   "/benin/signs/284e7591a069.webp"
+  ]
+ },
+ {
+  "id": "bj-q152",
+  "num": 152,
+  "question": "Un panneau triangulaire indique :",
+  "choices": [
+   "un danger",
+   "une obligation",
+   "une interdiction",
+   "une indication"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q153",
+  "num": 153,
+  "question": "Un panneau rond bleu indique:",
+  "choices": [
+   "une obligation",
+   "une interdiction",
+   "une fin d’obligation",
+   "une fin d’interdiction"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q154",
+  "num": 154,
+  "question": "Un panneau rond rouge est",
+  "choices": [
+   "une obligation",
+   "une interdiction",
+   "une fin d’interdiction",
+   "une indication"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q155",
+  "num": 155,
+  "question": "Ce panneau (AK5):",
+  "choices": [
+   "est permanent",
+   "est temporaire",
+   "impose un ralentissement",
+   "n’impose pas un ralentissement"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "AK5"
+  ],
+  "images": [
+   "/benin/signs/0762c56fbe03.webp"
+  ]
+ },
+ {
+  "id": "bj-q156",
+  "num": 156,
+  "question": "Ce panneau (A1d) indique :",
+  "choices": [
+   "deux ou trois virages maximum",
+   "plusieurs virages",
+   "un virage"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A1d"
+  ],
+  "images": [
+   "/benin/signs/7ea77b64819f.webp"
+  ]
+ },
+ {
+  "id": "bj-q157",
+  "num": 157,
+  "question": "A la vue du panneau B21c2, que faire à la prochaine intersection ?",
+  "choices": [
+   "je peux tourner à gauche",
+   "je dois tourner à gauche"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B21c2"
+  ],
+  "images": [
+   "/benin/signs/abb4ba0b2f82.webp"
+  ]
+ },
+ {
+  "id": "bj-q158",
+  "num": 158,
+  "question": "Avec un panneau rond rouge, l’interdiction commence :",
+  "choices": [
+   "à hauteur du panneau",
+   "à 150m du panneau"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q159",
+  "num": 159,
+  "question": "Ce panneau (AK5) annonce des travaux :",
+  "choices": [
+   "oui",
+   "non",
+   "c’est un signal avancé",
+   "c’est un signal de position"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "signs": [
+   "AK5"
+  ],
+  "images": [
+   "/benin/signs/09b890e25217.webp"
+  ]
+ },
+ {
+  "id": "bj-q160",
+  "num": 160,
+  "question": "Ce panneau indique :",
+  "choices": [
+   "que le premier virage est à 150m",
+   "plusieurs virages à 500m",
+   "plusieurs virages sur 500m",
+   "Un ralentissement"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "images": [
+   "/benin/signs/71d74530c0c9.webp"
+  ]
+ },
+ {
+  "id": "bj-q161",
+  "num": 161,
+  "question": "Ce signal annonce :",
+  "choices": [
+   "un danger particulier",
+   "la pluie",
+   "que je dois ralentir et passer"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "images": [
+   "/benin/signs/89c9327ad4f0.webp"
+  ]
+ },
+ {
+  "id": "bj-q162",
+  "num": 162,
+  "question": "Les panneaux indiquant les itinéraires reliant des villes importantes par la route sont de couleur :",
+  "choices": [
+   "Banche",
+   "Verte",
+   "Bleue"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q163",
+  "num": 163,
+  "question": "Les itinéraires de délestage permettent :",
+  "choices": [
+   "D’éviter les bouchons",
+   "De faciliter la circulation",
+   "D’éviter les contrôles routiers"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q164",
+  "num": 164,
+  "question": "Les itinéraires de délestages sont",
+  "choices": [
+   "Obligatoires",
+   "Facultatifs",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q165",
+  "num": 165,
+  "question": "Les balises qui positionnent un virage sont :",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "imageChoices": true,
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q166",
+  "num": 166,
+  "question": "On appelle indices « informels », les informations données :",
+  "choices": [
+   "par la signalisation",
+   "par l’environnement en général"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q167",
+  "num": 167,
+  "question": "Ce panneau B6a1-1 indique que le stationnement est :",
+  "choices": [
+   "Limité à 1h30, payant",
+   "Gratuit, à durée limitée",
+   "Payant, à durée illimitée",
+   "Payant, à durée limitée"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B6a1-1"
+  ],
+  "images": [
+   "/benin/signs/bc47257650b2.webp",
+   "/benin/signs/d7ca57364a03.webp"
+  ]
+ },
+ {
+  "id": "bj-q168",
+  "num": 168,
+  "question": "A cette image Im1 P64, sur la ligne brisée à bord de ce véhicule, je peux :",
+  "choices": [
+   "m’arrêter",
+   "stationner",
+   "circuler"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/0694c6df8abd.webp"
+  ]
+ },
+ {
+  "id": "bj-q169",
+  "num": 169,
+  "question": "Les lignes brisées sur une chaussée servent à :",
+  "choices": [
+   "La circulation des bus",
+   "L’arrêt des bus",
+   "Le stationnement des bus",
+   "L’arrêt des camions"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q170",
+  "num": 170,
+  "question": "Sur cette image Im2 P64, la ligne jaune discontinue en bordure du trottoir :",
+  "choices": [
+   "Interdit l’arrêt",
+   "Autorise l’arrêt",
+   "Interdit le stationnement",
+   "Autorise le stationnement"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "images": [
+   "/benin/signs/bbde5fa65354.webp"
+  ]
+ },
+ {
+  "id": "bj-q171",
+  "num": 171,
+  "question": "Sur cette image Im2 P64 à bord de ce véhicule, je peux",
+  "choices": [
+   "m’arrêter",
+   "stationner",
+   "circuler"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "images": [
+   "/benin/signs/bbde5fa65354.webp"
+  ]
+ },
+ {
+  "id": "bj-q172",
+  "num": 172,
+  "question": "Sur cette image Im3 P64 à bord de ce véhicule je peux :",
+  "choices": [
+   "avancer à la limite de la ligne transversale",
+   "avancer à la limite de la chaussée",
+   "Franchir la ligne transversale"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
+   "/benin/signs/232a73825419.webp"
+  ]
+ },
+ {
+  "id": "bj-q173",
+  "num": 173,
+  "question": "Sur cette image Im4 P64 à bord de ce véhicule je peux:",
+  "choices": [
+   "m’arrêter à la limite de la ligne transversale",
+   "franchir la ligne transversale avant de céder le passage",
+   "franchir la ligne transversale en l’absence de tout véhicule"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "images": [
+   "/benin/signs/1e043f6b31b9.webp"
+  ]
+ },
+ {
+  "id": "bj-q174",
+  "num": 174,
+  "question": "Sur cette image Im4 P64 à bord de ce véhicule, je peux :",
+  "choices": [
+   "m’arrêter immédiatement",
+   "avancer à la limite de la ligne transversale",
+   "avancer à la limite de la chaussée abordée",
+   "Franchir la ligne transversale"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "images": [
+   "/benin/signs/1e043f6b31b9.webp"
+  ]
+ },
+ {
+  "id": "bj-q175",
+  "num": 175,
+  "question": "En présence d’un marquage jaune et d’un marquage blanc, je respecte :",
+  "choices": [
+   "Le marquage jaune",
+   "Le marquage blanc"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q176",
+  "num": 176,
+  "question": "Les lignes de rive sur une route à double sens et sur autoroute sont identiques :",
+  "choices": [
+   "A gauche",
+   "A droite",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q177",
+  "num": 177,
+  "question": "Un panneau de zone de stationnement placé sur le même support qu’un panneau d’entré d’agglomération peut concerner :",
+  "choices": [
+   "Plusieurs rues",
+   "Une seule rue",
+   "Toutes les rues de l’agglomération"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q178",
+  "num": 178,
+  "question": "En présence d’un panneau stop, je dois :",
+  "choices": [
+   "Marquer l’arrêt au niveau du panneau",
+   "Marquer l’arrêt au niveau de la ligne",
+   "Céder le passage à gauche",
+   "Céder le passage à droite"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q179",
+  "num": 179,
+  "question": "Ce panneau (B 22a) indique une voie réservée :",
+  "choices": [
+   "aux cycles uniquement",
+   "aux cyclistes et cyclomotoristes",
+   "à tous les véhicules"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "signs": [
+   "B22a"
+  ],
+  "images": [
+   "/benin/signs/9394ce125d9e.webp"
+  ]
+ },
+ {
+  "id": "bj-q180",
+  "num": 180,
+  "question": "L’interdiction de tourner à droite concerne :",
+  "choices": [
+   "tous les véhicules",
+   "tous les véhicules affectés au transport marchandises de plus de 6T",
+   "les véhicules affectés au transport de marchan6dtises dont le PTAC est supérieur à 3,5T"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/feaebd7e0f76.webp"
+  ]
+ },
+ {
+  "id": "bj-q181",
+  "num": 181,
+  "question": "La limitation de vitesse:",
+  "choices": [
+   "commence à la hauteur du panneau",
+   "commence à 150m du panneau",
+   "commence à 50m du panneau",
+   "concerne tous les véhicules"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "images": [
+   "/benin/signs/63b61d9259b7.webp"
+  ]
+ },
+ {
+  "id": "bj-q182",
+  "num": 182,
+  "question": "Ce panneau (AK4) indique une chaussée glissante",
+  "choices": [
+   "temporaire",
+   "permanente",
+   "concerne tous les véhicules",
+   "il faut ralentir"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ],
+  "signs": [
+   "AK4"
+  ],
+  "images": [
+   "/benin/signs/65133f218ffa.webp"
+  ]
+ },
+ {
+  "id": "bj-q183",
+  "num": 183,
+  "question": "La limitation de vitesse:",
+  "choices": [
+   "commence au panneau",
+   "commence à 300 mètres",
+   "s’étend sur 300 mètres"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "images": [
+   "/benin/signs/79aad2dfa9b2.webp"
+  ]
+ },
+ {
+  "id": "bj-q184",
+  "num": 184,
+  "question": "Une voie de la chaussée réservée aux cyclistes ou aux cyclomotoristes est :",
+  "choices": [
+   "une piste cyclable",
+   "une bande cyclable"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q185",
+  "num": 185,
+  "question": "Le franchissement ou le chevauchement d’une ligne continue :",
+  "choices": [
+   "est autorisé lors d’un changement de direction",
+   "est autorisé pour dépasser un deux – roues",
+   "est toujours interdit"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q186",
+  "num": 186,
+  "question": "Lorsque des panneaux accompagnent des feux, je respecte les panneaux si le feu est :",
+  "choices": [
+   "rouge",
+   "jaune clignotant",
+   "jaune fixe",
+   "éteint"
+  ],
+  "correct": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q187",
+  "num": 187,
+  "question": "L’agent vu de profil peut m’indiquer :",
+  "choices": [
+   "de passer",
+   "de m’arrêter",
+   "d’accélérer"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q188",
+  "num": 188,
+  "question": "Les panneaux qui ont la forme ronde peuvent être des panneaux :",
+  "choices": [
+   "d’obligation",
+   "d’indication",
+   "d’interdiction",
+   "de danger"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q189",
+  "num": 189,
+  "question": "Lorsque les panneaux de direction ont un fond jaune, il s’agit :",
+  "choices": [
+   "d’indication de direction provisoire",
+   "d’itinéraires prioritaires",
+   "d’indication urgente"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q190",
+  "num": 190,
+  "question": "Cette signalisation :",
+  "choices": [
+   "impose une limitation de vitesse aux transports marchandises",
+   "interdit accès à tous véhicules",
+   "interdit l’accès aux véhicules de transport de marchandises",
+   "impose la limitation de vitesse à tous véhicules"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "images": [
+   "/benin/signs/3109e5b55d35.webp",
+   "/benin/signs/6a35eba36eea.webp"
+  ]
+ },
+ {
+  "id": "bj-q191",
+  "num": 191,
+  "question": "Ce panneau A18 :",
+  "choices": [
+   "signale une circulation alternée",
+   "signale une circulation dans les deux sens",
+   "prend effet à 150 mètres environ",
+   "prend effet à partir du panneau"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "signs": [
+   "A18"
+  ],
+  "images": [
+   "/benin/signs/5da205d0b8a4.webp"
+  ]
+ },
+ {
+  "id": "bj-q192",
+  "num": 192,
+  "question": "Ce panneau A 13a indique :",
+  "choices": [
+   "la proximité d’une école",
+   "un endroit fréquenté par les enfants",
+   "un terrain de jeu",
+   "un marché"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "signs": [
+   "A13a"
+  ],
+  "images": [
+   "/benin/signs/667d35acd1b0.webp"
+  ]
+ },
+ {
+  "id": "bj-q193",
+  "num": 193,
+  "question": "A la vue du panneau A13b",
+  "choices": [
+   "Je passe derrière le piéton en laissant un intervalle d’au moins 1m",
+   "Je passe devant le piéton qui me voit bien, en laissant un intervalle d’au moins 1m",
+   "Je klaxonne pour obliger le piéton à vite traverser",
+   "Je m’arrête pour laisser passer le piéton"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "A13b"
+  ],
+  "images": [
+   "/benin/signs/81ef9470a882.webp"
+  ]
+ },
+ {
+  "id": "bj-q194",
+  "num": 194,
+  "question": "A la vue du panneau C12 quel panneau l’usager venant en sens inverse doit voir à l’autre bout de la chaussée?",
+  "choices": [
+   "Le panneau \"priorité par rapport à la circulation venant en sens inverse\"",
+   "Le panneau \"céder le passage à la circulation venant en sens inverse\"",
+   "Le panneau \"sens interdit\""
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "C12"
+  ],
+  "images": [
+   "/benin/signs/52bbb626ff4a.webp"
+  ]
+ },
+ {
+  "id": "bj-q195",
+  "num": 195,
+  "question": "Le panneau B7a :",
+  "choices": [
+   "Interdit le stationnement à tout véhicule léger et aux motocyclettes",
+   "Interdit l’accès aux véhicules à moteur à l’exception des cyclomoteurs",
+   "Interdit le stationnement à tout véhicule sauf les motocycles et les véhicules légers."
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B7a"
+  ],
+  "images": [
+   "/benin/signs/8d0774354dc6.webp"
+  ]
+ },
+ {
+  "id": "bj-q196",
+  "num": 196,
+  "question": "La bande jaune continue le long du trottoir interdit :",
+  "choices": [
+   "L’arrêt",
+   "Le stationnement",
+   "L’arrêt pour les véhicules légers seulement"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q197",
+  "num": 197,
+  "question": "La bande jaune discontinue le long du trottoir interdit :",
+  "choices": [
+   "L’arrêt",
+   "Le stationnement",
+   "L’arrêt pour les véhicules légers"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q198",
+  "num": 198,
+  "question": "A la rencontre du panneau \"arrêt et stationnement interdits\", l’interdiction finit",
+  "choices": [
+   "Avant le panneau",
+   "A partir du panneau",
+   "15 mètres après le panneau",
+   "A la prochaine intersection"
+  ],
+  "correct": [
+   3
+  ],
+  "images": [
+   "/benin/signs/be400c5ff657.webp"
+  ]
+ },
+ {
+  "id": "bj-q199",
+  "num": 199,
+  "question": "A la rencontre du panneau \"arrêt et stationnement interdits\", l’interdiction finit :",
+  "choices": [
+   "Avant la prochaine intersection",
+   "A la prochaine intersection",
+   "30 mètres après l’intersection"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/be400c5ff657.webp"
+  ]
+ },
+ {
+  "id": "bj-q200",
+  "num": 200,
+  "question": "Le panneau B2b :",
+  "choices": [
+   "Interdit de tourner à gauche à la prochaine intersection",
+   "Interdit de tourner à droite à la prochaine intersection",
+   "Oblige à tourner à droite à la prochaine intersection",
+   "Oblige à tourner à gauche à la prochaine intersection"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B2b"
+  ],
+  "images": [
+   "/benin/signs/18c01d002dbd.webp"
+  ]
+ },
+ {
+  "id": "bj-q201",
+  "num": 201,
+  "question": "Le panneau B2a",
+  "choices": [
+   "Interdit de tourner à gauche à la prochaine intersection",
+   "Interdit de tourner à gauche dans cette rue",
+   "Oblige à tourner à gauche à la prochaine intersection"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "B2a"
+  ],
+  "images": [
+   "/benin/signs/001f71953ce7.webp"
+  ]
+ },
+ {
+  "id": "bj-q202",
+  "num": 202,
+  "question": "A un feu tricolore, l’apparition de la flèche jaune clignotante, orientée vers la droite autorise les véhicules à tourner malgré le feu rouge, dans la voie située immédiatement à droite ; pour cela il faut :",
+  "choices": [
+   "se tourner de la file de droite",
+   "manœuvrer au ralentir",
+   "céder le passage aux piétons",
+   "céder le passage aux usagers venant de la gauche et ne pas gêner ceux venant de droite"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q203",
+  "num": 203,
+  "question": "Une bande sonore sur la chaussée est :",
+  "choices": [
+   "une ligne longitudinale constituée de plots délimitant les voies de circulation",
+   "une ligne uniquement réflectorisée",
+   "une ligne continue"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q204",
+  "num": 204,
+  "question": "Les bandes sonores sur la chaussée servent :",
+  "choices": [
+   "à alerter le conducteur qui s’écarte de sa trajectoire",
+   "à rompre la monotonie",
+   "à accélérer l’apparition des signes de fatigue",
+   "à sortir le conducteur de se tromper"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q205",
+  "num": 205,
+  "question": "Ce panneau signale :",
+  "choices": [
+   "une voie de détresse",
+   "une rue à sens unique",
+   "une voie sans issue",
+   "un parc de stationnement"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
+   "/benin/signs/e1fb3d574aec.webp"
+  ]
+ }
+]

@@ -1,6 +1,10 @@
 <script setup>
 import TableOfContents from '../components/TableOfContents.vue'
 import AttentionBox from '../components/AttentionBox.vue'
+import { useRegion } from '../composables/useRegion.js'
+import { beninQuestionCount } from '../data/benin/meta.js'
+
+const { region } = useRegion()
 </script>
 
 <template>
@@ -20,6 +24,14 @@ import AttentionBox from '../components/AttentionBox.vue'
   </header>
 
   <div class="wrap">
+    <router-link v-if="region === 'benin'" :to="{ name: 'benin' }" class="bj-callout">
+      <span class="n">BJ</span>
+      <span>
+        <strong>Questions officielles du Bénin</strong> — {{ beninQuestionCount() }} questions du manuel DGTT
+        (édition 2011) avec corrigés, et un examen blanc tiré au hasard.
+      </span>
+    </router-link>
+
     <TableOfContents />
 
     <AttentionBox label="Avertissement important" style="margin-top:26px">

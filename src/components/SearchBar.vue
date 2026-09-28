@@ -7,7 +7,7 @@ const { query, results } = useSearch()
 const router = useRouter()
 const open = ref(false)
 
-const kindLabels = { chapitre: 'Chapitre', question: 'Question', examen: 'Examen blanc' }
+const kindLabels = { chapitre: 'Chapitre', question: 'Question', examen: 'Examen blanc', 'question-benin': 'Question officielle' }
 
 function go(entry) {
   open.value = false

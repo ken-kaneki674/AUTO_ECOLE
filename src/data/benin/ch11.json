@@ -1,0 +1,1857 @@
+[
+ {
+  "id": "bj-q800",
+  "num": 800,
+  "question": "Lequel des quatre temps ci-après correspond au temps utile ou au temps moteur ?",
+  "choices": [
+   "Echappement",
+   "Admission",
+   "Explosion",
+   "Compression"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q801",
+  "num": 801,
+  "question": "Donnez la position des soupapes à l’explosion :",
+  "choices": [
+   "Les soupapes s’ouvrent",
+   "Les deux soupapes sont fermées",
+   "Les soupapes d’admission et d’échappement sont ouvertes"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q802",
+  "num": 802,
+  "question": "Donnez la position du piston à l’explosion :",
+  "choices": [
+   "Le piston monte",
+   "Le piston descend",
+   "Le piston est sur place"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q803",
+  "num": 803,
+  "question": "Quel est le rôle du carburateur ?",
+  "choices": [
+   "Le carburateur fournit du carburant",
+   "Le carburateur fait tourner le moteur",
+   "Le carburateur produit un mélange gazeux"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q804",
+  "num": 804,
+  "question": "Quel est le rôle de la batterie ?",
+  "choices": [
+   "La batterie génère le courant",
+   "La batterie fournit du courant à l’alternateur",
+   "La batterie accumule le courant",
+   "La batterie fournit l’énergie nécessaire au démarrage du moteur"
+  ],
+  "correct": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q805",
+  "num": 805,
+  "question": "Quel est le rôle du radiateur ?",
+  "choices": [
+   "Le radiateur conserve la chaleur du moteur",
+   "Le radiateur aère le moteur",
+   "Le radiateur contribue au refroidissement du moteur",
+   "Le radiateur fait tourner le ventilateur"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q806",
+  "num": 806,
+  "question": "Entre quels organes du moteur se situe la pompe à essence ?",
+  "choices": [
+   "Le radiateur et la pompe à eau",
+   "Le réservoir et le carburateur",
+   "Le filtre à air et le carburateur"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q807",
+  "num": 807,
+  "question": "Quel est le rôle de la bobine",
+  "choices": [
+   "la bobine transforme le courant primaire de la batterie en courant secondaire",
+   "La bobine réduit l’intensité électrique",
+   "La bobine régularise le courant"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q808",
+  "num": 808,
+  "question": "Quel est le rôle de l’allumeur ?",
+  "choices": [
+   "L’allumeur distribue du courant aux bougies",
+   "L’allumeur fournit du courant au démarreur",
+   "L’allumeur absorbe l’étincelle des bougies"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q809",
+  "num": 809,
+  "question": "Quel est le circuit d’allumage d’un moteur à essence ?",
+  "choices": [
+   "Batterie – bobine – allumeur – bougies",
+   "Démarreur – allumeur – batterie",
+   "Allumeur – bobine – vis platinée"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q810",
+  "num": 810,
+  "question": "De quels éléments le moteur tire-t-il sa force ?",
+  "choices": [
+   "Essence – air – courant électrique",
+   "Air – essence",
+   "Courant électrique – eau – essence"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q811",
+  "num": 811,
+  "question": "Quels dégâts peuvent provoquer l’échauffement excessif du moteur",
+  "choices": [
+   "Joint de culasse brûlé",
+   "Décalage du moteur",
+   "Culasse bombée",
+   "Batterie déchargée"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q812",
+  "num": 812,
+  "question": "Citer les feux obligatoires à l’arrière d’un véhicule de tourisme :",
+  "choices": [
+   "Deux feux de route – deux feux de croisement – deux feux indicateurs de changement de direction – deux feux de position - -deux feux stop",
+   "Deux feux de position – deux clignotants – deux feux stop – deux cataphotes – feux plaques d’immatriculation",
+   "Deux feux de position – deux clignotants – feu plaque d’immatriculation – deux feux stop – deux cataphotes – deux feux antibrouillard – deux feux de recule"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q813",
+  "num": 813,
+  "question": "Il est dangereux d’utiliser des pneumatiques usés parce qu’ils assurent :",
+  "choices": [
+   "une bonne adhérence",
+   "une mauvaise adhérence",
+   "une conduite aisée"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q814",
+  "num": 814,
+  "question": "Le véhicule de tourisme possède combien de sortes de freins ?",
+  "choices": [
+   "Quatre sortes",
+   "Deux sortes",
+   "Trois sortes"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q815",
+  "num": 815,
+  "question": "Le lit nacelle est un dispositif qui permet de transporter dans le véhicule les enfants de :",
+  "choices": [
+   "1 à 6 mois uniquement",
+   "0 à 9 mois",
+   "2 à 10mois",
+   "3 à 20mois"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q816",
+  "num": 816,
+  "question": "Le siège homologué (baquet, harnais, réceptacle) sert à transporter dans le véhicule les enfants de :",
+  "choices": [
+   "3 à 4 mois",
+   "4 à 5mois",
+   "6 à 8 mois",
+   "9 mois à 4 ans"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q817",
+  "num": 817,
+  "question": "Quels dégâts peuvent provoquer le manque d’huile à moteur ?",
+  "choices": [
+   "Bielles coulées",
+   "Moteur bloqué",
+   "Moteur tournant en sous-régime",
+   "Eclatement du disque d’embrayage"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q818",
+  "num": 818,
+  "question": "Quelle anomalie occasionne l’éclatement d’une durit à eau ?",
+  "choices": [
+   "Le refroidissement du moteur",
+   "L’emballement du moteur",
+   "L’échauffement du moteur"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q819",
+  "num": 819,
+  "question": "A quel ennui vous expose la rupture de la courroie d’alternateur ?",
+  "choices": [
+   "Le circuit de charge interrompue",
+   "La charge excessive",
+   "La charge suffisante"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q820",
+  "num": 820,
+  "question": "Combien de pompes permettent le bon fonctionnement d’un moteur à essence ?",
+  "choices": [
+   "2 pompes",
+   "3 pompes",
+   "4 pompes",
+   "5 pompes"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q821",
+  "num": 821,
+  "question": "Quelles sont les pompes qui contribuent au bon fonctionnement d’un moteur à essence ?",
+  "choices": [
+   "Pompe à essence",
+   "Pompe à huile",
+   "Pompe à air",
+   "Pompe à eau"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q822",
+  "num": 822,
+  "question": "Avec mon feu d’éclairage, la plaque minéralogique doit être lisible à une distance de :",
+  "choices": [
+   "50m",
+   "20m",
+   "30m"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q823",
+  "num": 823,
+  "question": "Par temps de brouillard, tout conducteur de véhicule circulant sur une route doit obligatoirement allumer :",
+  "choices": [
+   "Les feux de position",
+   "Les feux de route",
+   "Les feux de croisement"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q824",
+  "num": 824,
+  "question": "Par temps de forte pluie, tout conducteur de véhicule circulant sur une route, doit obligatoire allumer :",
+  "choices": [
+   "Les feux de position",
+   "Les feux de route",
+   "Les feux de croisement"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q825",
+  "num": 825,
+  "question": "Quand vérifie-t-on le niveau d’huile dans le moteur ?",
+  "choices": [
+   "Toutes les semaines",
+   "Tous les mois",
+   "Tous les milles kilomètres",
+   "Tous les jours"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q826",
+  "num": 826,
+  "question": "Quand vérifie-t-on le niveau de l’eau dans le radiateur ?",
+  "choices": [
+   "Toutes les semaines",
+   "Tous les jours",
+   "Tous les milles kilomètres",
+   "Seulement quand le moteur commence à se chauffer"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q827",
+  "num": 827,
+  "question": "Pour compléter le liquide de la batterie, j’utilise",
+  "choices": [
+   "L’eau de pluie",
+   "L’eau de mer",
+   "L’eau distillée",
+   "L’eau du robinet"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q828",
+  "num": 828,
+  "question": "Sur un véhicule ou trouve-t-on l’instrument qui indique la température de l’eau",
+  "choices": [
+   "Dans le moteur",
+   "Sur le radiateur",
+   "Au tableau de bord",
+   "Sur le filtre à air"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q829",
+  "num": 829,
+  "question": "Sur un véhicule ou trouve-t on l’instrument qui indique la pression de l’huile à moteur",
+  "choices": [
+   "Dans le moteur",
+   "Sur le tableau de bord",
+   "Sur le carter"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q830",
+  "num": 830,
+  "question": "Le moteur de votre véhicule roulant normalement s’éteint, de quoi peut provenir la panne ?",
+  "choices": [
+   "De l’insuffisance d’huile à moteur",
+   "De l’insuffisance d’eau dans le radiateur",
+   "De la faiblesse de la batterie",
+   "Du manque de carburant"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q831",
+  "num": 831,
+  "question": "La batterie montée sur le véhicule après une charge correcte ne démarre pas le moteur. Quelle peut être la cause ?",
+  "choices": [
+   "le manque d’eau sur la batterie",
+   "les cosses mal serrées sur les bornes",
+   "le manque de carburant",
+   "la défectuosité de l’alternateur"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q832",
+  "num": 832,
+  "question": "L’eau du radiateur bouillonne, que doit-on faire ?",
+  "choices": [
+   "Arrêter le moteur et mettre de l’eau dans le radiateur",
+   "Poursuivre sa route",
+   "Arrêter le moteur, le laisser se refroidir, mettre de l’eau et consulter après un garagiste",
+   "Arrêter le véhicule, ouvrir le radiateur pour laisser dégager la chaleur"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q833",
+  "num": 833,
+  "question": "Quelles sont les pièces administratives obligatoires d’un véhicule automobile ?",
+  "choices": [
+   "– La carte grise - le certificat d’assurance - la vignette de l’année en cours - la visite technique",
+   "– le permis de conduire - l’attestation de réglage phares - le papier d’achat - la quittance de la douane",
+   "–la visite technique - le permis de conduire - la quittance de la douane - l’attestation de réglage phares"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q834",
+  "num": 834,
+  "question": "Un véhicule de tourisme possède combien de roues ?",
+  "choices": [
+   "quatre",
+   "cinq",
+   "six",
+   "sept"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q835",
+  "num": 835,
+  "question": "Une automobile est autorisée à circuler :",
+  "choices": [
+   "Sans plaque d’immatriculation, avec assurance",
+   "Avec la plaque d’immatriculation portant le numéro du châssis",
+   "Avec la plaque d’immatriculation homologuée par le service chargé des transports"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q836",
+  "num": 836,
+  "question": "Quand utilise-t-on l’essuie glace ?",
+  "choices": [
+   "Par temps de pluie",
+   "Quand le pare brise est sale",
+   "Quand il fait sombre"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q837",
+  "num": 837,
+  "question": "Les feux de route servent à éclairer jusqu’à :",
+  "choices": [
+   "100m environ",
+   "30m environ",
+   "150m et au delà"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q838",
+  "num": 838,
+  "question": "Quels feux utilisez-vous la nuit, quand vous êtes derrière un autre usager à faible distance sur une route mal éclairée ?",
+  "choices": [
+   "Les feux de route",
+   "Les feux de croisement",
+   "Les feux de position"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q839",
+  "num": 839,
+  "question": "Quels feux utilisez-vous en stationnement en bordure d’une route mal éclairée ?",
+  "choices": [
+   "les feux de détresse",
+   "les feux de croisement",
+   "les feux de position"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q840",
+  "num": 840,
+  "question": "J’utilise mes feux de détresse pour :",
+  "choices": [
+   "indiquer que je vais tout droit",
+   "faire marche arrière",
+   "indiquer que je suis en panne",
+   "indiquer que je suis le dernier d’un convoi",
+   "indiquer que je suis pressé"
+  ],
+  "correct": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q841",
+  "num": 841,
+  "question": "Sans feux arrière la nuit :",
+  "choices": [
+   "Je peux circuler sur une chaussée à double sens",
+   "Je peux circuler sur une chaussée à sens unique",
+   "Je ne peux pas circuler"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q842",
+  "num": 842,
+  "question": "A quoi sert le triangle de pré-signalisation ?",
+  "choices": [
+   "A signaler la position d’un véhicule en panne sur la chaussée",
+   "A signaler la présence d’un véhicule en stationnement",
+   "A signaler un arrêt"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q843",
+  "num": 843,
+  "question": "A quoi sert l’extincteur ?",
+  "choices": [
+   "A éteindre un début d’incendie sur un véhicule",
+   "A secourir un blessé",
+   "A refroidir le moteur"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q844",
+  "num": 844,
+  "question": "La roue secours :",
+  "choices": [
+   "Est obligatoire pour tout déplacement",
+   "N’est pas obligatoire lorsqu’on circule en ville",
+   "Est obligatoire seulement pour les longs voyages"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q845",
+  "num": 845,
+  "question": "Que faut-il faire pour éviter de polluer l’environnement par le gaz d’échappement de votre moteur ?",
+  "choices": [
+   "Bien régler le moteur de mon véhicule",
+   "Utiliser un carburant de bonne qualité",
+   "Rouler à vive allure"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q846",
+  "num": 846,
+  "question": "Pour vidanger le moteur d’un véhicule bien entretenu, il faut tenir compte :",
+  "choices": [
+   "Du kilométrage parcouru",
+   "De la vitesse élevée",
+   "Du nombre de voyages effectués"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q847",
+  "num": 847,
+  "question": "La vérification de l’huile à frein se fait :",
+  "choices": [
+   "Tous les jours",
+   "Tous les mois",
+   "Au bon vouloir du conducteur"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q848",
+  "num": 848,
+  "question": "Qu’est-ce qui peut causer l’incendie sur un véhicule automobile ?",
+  "choices": [
+   "La chaleur ambiante",
+   "Un court-circuit",
+   "Des gouttes d’eau dans le moteur en marche",
+   "Fuite d’essence",
+   "Les flammes de la tuyauterie d’échappement"
+  ],
+  "correct": [
+   1,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "bj-q849",
+  "num": 849,
+  "question": "Quelles sont les causes d’usure prématurée des pneumatiques ?",
+  "choices": [
+   "La surcharge et le défaut de gonflage",
+   "Le démarrage violent et les coups de trottoir",
+   "L’utilisation des pneumatiques sur chaussées mouillées"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q850",
+  "num": 850,
+  "question": "Le rétroviseur extérieur côté droit est obligatoire sur :",
+  "choices": [
+   "tous véhicules",
+   "les véhicules de transport de marchandises",
+   "les véhicules de transport en commun de personnes",
+   "les machines agricoles"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q851",
+  "num": 851,
+  "question": "Les dispositifs réfléchissants placés à l’arrière du véhicule sont :",
+  "choices": [
+   "facultatifs",
+   "obligatoires",
+   "de couleur rouge",
+   "visibles la nuit par temps clair à une distance de 100m quand ils sont éclairés par les feux de route"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q852",
+  "num": 852,
+  "question": "Un chargement dépassant de plus d’un mètre à l’arrière d’un véhicule doit être signalé par :",
+  "choices": [
+   "Un dispositif réfléchissant rouge",
+   "Un feu rouge visible à 150m en cas de visibilité insuffisante",
+   "Un chiffon flottant",
+   "Une lanterne rouge"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q853",
+  "num": 853,
+  "question": "A quelle distance les feux de route éclairent t-ils, par temps normal ?",
+  "choices": [
+   "50m environ",
+   "100m environ",
+   "150m environ"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q854",
+  "num": 854,
+  "question": "Quels feux utilisez-vous lorsque votre véhicule suit un autre usager à faible distance ?",
+  "choices": [
+   "Feux de route",
+   "Feux de croisement",
+   "Feux de détresse"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q855",
+  "num": 855,
+  "question": "Le moteur au régime élevé fait des à coups, à quoi cela peut-il être dû ?",
+  "choices": [
+   "La batterie mal chargée",
+   "Les bougies défectueuses",
+   "L’allumeur déréglé",
+   "La vis platinée déréglée"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q856",
+  "num": 856,
+  "question": "Un véhicule automobile est équipé de combien de rétroviseurs obligatoires ?",
+  "choices": [
+   "Un",
+   "Deux",
+   "Trois"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q857",
+  "num": 857,
+  "question": "Que faut-il en cas de crevaison ?",
+  "choices": [
+   "Un cric",
+   "Une roue secours",
+   "Un extincteur"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q858",
+  "num": 858,
+  "question": "A quoi sert la ceinture de sécurité ?",
+  "choices": [
+   "Pour régler le siège",
+   "Permet de maintenir les bagages en sécurité",
+   "Maintient efficacement le conducteur et les passagers sur leur siège en cas d’accident, de collision ou de freinage brusque"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q859",
+  "num": 859,
+  "question": "Quel est le circuit d’alimentation en carburant d’un moteur à essence ?",
+  "choices": [
+   "Réservoir – pompe à essence – carburateur",
+   "Réservoir – carburateur – pompe à essence",
+   "Pompe à essence – réservoir – carburateur",
+   "Réservoir – Pompe à essence – pompe à injection - injecteurs"
+  ],
+  "correct": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "bj-q860",
+  "num": 860,
+  "question": "En cas de début d’incendie sur véhicule :",
+  "choices": [
+   "je jette de l’eau sur les flammes",
+   "je jette du sable ou de la terre à la base des flammes",
+   "j’utilise une couverture pour étouffer le feu",
+   "j’utilise l’extincteur"
+  ],
+  "correct": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q861",
+  "num": 861,
+  "question": "Sur mon véhicule, en roulant je peux contrôler visuellement :",
+  "choices": [
+   "certains niveaux",
+   "l’état des pneumatiques",
+   "l’état des courroies"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q862",
+  "num": 862,
+  "question": "En cas de crevaison, pour changer la roue :",
+  "choices": [
+   "je cale le véhicule et sors la roue secours, la clé de roue et le cric,",
+   "je desserre les écrous",
+   "je débloque et libère la roue crevée,",
+   "je mets la roue secours et resserrer les écroues,",
+   "je soulève le véhicule du coté de la crevaison."
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "bj-q863",
+  "num": 863,
+  "question": "Quelle pièce officielle permet d’identifier le propriétaire d’un véhicule ?",
+  "choices": [
+   "la police d’assurance",
+   "la carte grise",
+   "l’attestation de réglage phare"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q864",
+  "num": 864,
+  "question": "Pour un véhicule léger de transport privé la visite technique doit s’effectuer :",
+  "choices": [
+   "tous les ans",
+   "tous les six mois",
+   "tous les trois mois"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q865",
+  "num": 865,
+  "question": "A quoi sert le contrat d’assurance au tiers ?",
+  "choices": [
+   "A couvrir les dégâts causés lors d’un accident",
+   "A couvrir les surcharges",
+   "A couvrir les dégâts causés à autrui"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q866",
+  "num": 866,
+  "question": "Le contrat d’assurance est valable :",
+  "choices": [
+   "sans la visite technique",
+   "avec la visite technique",
+   "avec la vignette"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q867",
+  "num": 867,
+  "question": "La vignette fiscale est une pièce obligatoire :",
+  "choices": [
+   "pour tout véhicule",
+   "pour les véhicules de transport en commun de personnes",
+   "pour les véhicules de transport de marchandises",
+   "pour les véhicules administratifs"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q868",
+  "num": 868,
+  "question": "Lorsque les pneus sont neufs :",
+  "choices": [
+   "La tenue de route est améliorée",
+   "Le risque d’aquaplaning est écarté",
+   "L’adhérence est bonne",
+   "Le risque de dérapage augmente"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q869",
+  "num": 869,
+  "question": "L’absence de bouchon sur la valve d’une roue :",
+  "choices": [
+   "est dangereuse",
+   "peut diminuer l’étanchéité de la roue",
+   "permet de libérer une surpression d’air",
+   "permet d’augmenter l’air dans la roue"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q870",
+  "num": 870,
+  "question": "Il n’est pas obligatoire de mettre la ceinture de sécurité :",
+  "choices": [
+   "Si le véhicule est équipé de coussin de gonflage",
+   "Si la conduite s’effectue en agglomération",
+   "Si la conduite s’effectue sur un long trajet",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q871",
+  "num": 871,
+  "question": "La profondeur des rainures principales d’un pneu doit être au minimum de :",
+  "choices": [
+   "0,6mm",
+   "1,6mm",
+   "1,5mm"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q872",
+  "num": 872,
+  "question": "La portée minimale des feux doit être de :",
+  "choices": [
+   "30m pour les feux de croisement",
+   "45m pour les feux de croisement",
+   "100m pour les feux de route",
+   "150m pour les feux de route"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q873",
+  "num": 873,
+  "question": "Sur un même itinéraire et dans des conditions identiques, une voiture qui roule à 90km/h consomme à 130km/h :",
+  "choices": [
+   "la même quantité d’essence",
+   "moins d’essence",
+   "plus d’essence"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q874",
+  "num": 874,
+  "question": "La roue motrice est celle qui :",
+  "choices": [
+   "a un moteur",
+   "est relié au moteur et entraine le véhicule",
+   "tire le moteur",
+   "oriente le véhicule"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q875",
+  "num": 875,
+  "question": "Les roues motrices d’un véhicule peuvent être :",
+  "choices": [
+   "à l’avant",
+   "à l’arrière",
+   "à l’avant et à l’arrière",
+   "sur le porte-à-faux"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q876",
+  "num": 876,
+  "question": "Quand dit-on qu’un véhicule est à traction avant :",
+  "choices": [
+   "si les roues motrices sont à l’avant",
+   "si les roues motrices sont à l’arrière",
+   "si le moteur est à l’avant",
+   "si le moteur est à l’arrière"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q877",
+  "num": 877,
+  "question": "quand dit-on qu’un véhicule est à propulsion arrière :",
+  "choices": [
+   "si les roues motrices sont à l’avant",
+   "si les roues motrices sont à l’arrière",
+   "si le moteur est à l’avant",
+   "si le moteur est à l’arrière"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q878",
+  "num": 878,
+  "question": "Les roues directrices d’une voiture sont placées :",
+  "choices": [
+   "à l’avant",
+   "à l’arrière",
+   "à l’avant et à l’arrière",
+   "rien de tout ce qui précède"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q879",
+  "num": 879,
+  "question": "Par temps de brouillard, je peux allumer les feux :",
+  "choices": [
+   "de croisement",
+   "de route",
+   "de brouillard avant",
+   "de brouillard arrière"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q880",
+  "num": 880,
+  "question": "Des amortisseurs usés :",
+  "choices": [
+   "allongent la distance de freinage",
+   "diminuent la distance de freinage",
+   "compliquent la tenue de route"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q881",
+  "num": 881,
+  "question": "Dans une station service, l’extincteur est utilisable par :",
+  "choices": [
+   "le technicien préposé",
+   "le pompiste",
+   "le gardien",
+   "n’importe quel client",
+   "tout usager capable de s’en servir"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "bj-q882",
+  "num": 882,
+  "question": "Lors d’un contrôle routier, je dois présenter :",
+  "choices": [
+   "Mon permis de conduite",
+   "La carte grise",
+   "Ma carte d’identité",
+   "Ma carte de groupe sanguin",
+   "L’assurance et la visite technique"
+  ],
+  "correct": [
+   0,
+   1,
+   4
+  ]
+ },
+ {
+  "id": "bj-q883",
+  "num": 883,
+  "question": "La consommation du carburant augmente :",
+  "choices": [
+   "si le chargement fait cabrer l’avant du véhicule",
+   "si je charge des bagages sur le toit",
+   "si je tracte une caravane",
+   "rien de tout ce qui précède"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q884",
+  "num": 884,
+  "question": "Quel effet un sous gonflage peut-il avoir sur la durée de vie de la carcasse du pneumatique ?",
+  "choices": [
+   "usure plus rapide",
+   "la carcasse se fatigue plus vite",
+   "détérioration des composantes internes du pneu",
+   "usure de la partie centrale"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q885",
+  "num": 885,
+  "question": "Pour un bon fonctionnement de mes pneus je dois régulièrement vérifier :",
+  "choices": [
+   "la pression à froid",
+   "la présence du bouchon de valve",
+   "les écrous de fixation des roues",
+   "le compteur kilométrique"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q886",
+  "num": 886,
+  "question": "Quelle incidence un sous gonflage peut avoir sur le comportement d’un véhicule ?",
+  "choices": [
+   "tenue de route réduite",
+   "instabilité",
+   "risque de renversement",
+   "réduction de la consommation de carburant"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q887",
+  "num": 887,
+  "question": "Pour diminuer les risques en cas de verglas, je peux équiper mon véhicule :",
+  "choices": [
+   "de pneus spéciaux",
+   "de pneus à crampons",
+   "de chaînes"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q888",
+  "num": 888,
+  "question": "Par temps de pluie, pour voir et être vu, j’allume :",
+  "choices": [
+   "mes feux de route",
+   "mes feux de croisement",
+   "mes feux de brouillard avant",
+   "mon ou mes feux de brouillard arrière"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q889",
+  "num": 889,
+  "question": "Pour éviter la buée sur les vitres, je peux utiliser :",
+  "choices": [
+   "la ventilation et le chauffage",
+   "le dégivreur arrière",
+   "les essuie-glaces",
+   "le lave-glace"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q890",
+  "num": 890,
+  "question": "Les éléments qui permettent une meilleure visibilité sont :",
+  "choices": [
+   "le lave-glace",
+   "les essuie-glaces",
+   "le pare-soleil",
+   "les déflecteurs de vitres"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q891",
+  "num": 891,
+  "question": "Avant un voyage, je peux obtenir des renseignements sur la circulation par :",
+  "choices": [
+   "le téléphone",
+   "la radio",
+   "la carte routière"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q892",
+  "num": 892,
+  "question": "Les véhicules prioritaires sont équipés de feux :",
+  "choices": [
+   "Tournant bleus",
+   "Clignotant bleus",
+   "Tournants jaunes"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q893",
+  "num": 893,
+  "question": "Lorsqu’un voyant s’allume au tableau de bord en circulation, il s’agit :",
+  "choices": [
+   "d’un indice informel",
+   "d’un indice formel"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q894",
+  "num": 894,
+  "question": "Les indices inquiétants relatifs à mon véhicule peuvent se caractériser :",
+  "choices": [
+   "par une odeur",
+   "par un bruit",
+   "par un voyant bleu sur le tableau de bord"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q895",
+  "num": 895,
+  "question": "L’utilisation de la climatisation du véhicule a une influence :",
+  "choices": [
+   "Sur le confort",
+   "Sur la sécurité",
+   "Sur la consommation"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q896",
+  "num": 896,
+  "question": "Sur mon pare-brise, je dois apposer :",
+  "choices": [
+   "La vignette fiscale en haut, à droite",
+   "La vignette fiscale en bas, à droite",
+   "Le certificat d’assurance en bas, à droite",
+   "Le certificat d’assurance en bas à gauche"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q897",
+  "num": 897,
+  "question": "Mon assureur peut refuser de m’indemniser en totalité ou partiellement si :",
+  "choices": [
+   "Ma responsabilité est engagée",
+   "Je ne portais pas la ceinture",
+   "Je conduisais avec une alcoolémie positive",
+   "Je ne portais pas les lunettes mentionnées sur mon permis"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q898",
+  "num": 898,
+  "question": "Une différence importante de profondeur des rainures des pneus sur un même essieu a :",
+  "choices": [
+   "une influence sur la tenue de route",
+   "n’a pas d’influence sur la tenue de route",
+   "a une influence sur la suspension"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q899",
+  "num": 899,
+  "question": "Sur le même essieu d’un véhicule:",
+  "choices": [
+   "il n’est pas recommandé de monter des pneus de structures différentes",
+   "il n’est pas recommandé de monter des pneus de marques différentes",
+   "il est recommandé de monter des pneus de structures différentes",
+   "il est recommandé de monter des pneus de marques différentes"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q900",
+  "num": 900,
+  "question": "La suspension a pour rôle d’assurer :",
+  "choices": [
+   "le contact permanent du pneu avec la route",
+   "la stabilité du véhicule",
+   "le confort uniquement",
+   "la sécurité"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q901",
+  "num": 901,
+  "question": "L’état des pneumatiques peut se contrôler :",
+  "choices": [
+   "visuellement avant d’utiliser le véhicule",
+   "au moins une fois par mois avec un manomètre pour la pression",
+   "uniquement lors des opérations d’entretien prescrites par le constructeur"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q902",
+  "num": 902,
+  "question": "Que faire si le niveau du liquide de frein baisse régulièrement dans le réservoir :",
+  "choices": [
+   "je rajoute simplement du liquide",
+   "je fais immédiatement vérifier mon véhicule",
+   "j’attends la prochaine révision"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q903",
+  "num": 903,
+  "question": "La fréquence des opérations d’entretien :",
+  "choices": [
+   "est indiquée sur le carnet d’entretien du véhicule",
+   "varie selon les véhicules",
+   "est fixée par le conducteur"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q904",
+  "num": 904,
+  "question": "Sur une batterie dite sans entretien, je vérifie :",
+  "choices": [
+   "le niveau d’eau par transparence",
+   "l’état des cosses",
+   "rien, puisqu’elle est sans entretien"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q905",
+  "num": 905,
+  "question": "Si le niveau de liquide de refroidissement est très bas :",
+  "choices": [
+   "c’est dû à l’évaporation",
+   "je rajoute de l’eau simplement",
+   "je fais vérifier l’étanchéité du circuit"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q906",
+  "num": 906,
+  "question": "Je fais vérifier rapidement mon véhicule si je constate une baisse importante du niveau :",
+  "choices": [
+   "de l’huile à moteur",
+   "du liquide de frein",
+   "du liquide de refroidissement",
+   "du liquide de lave-glace"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q907",
+  "num": 907,
+  "question": "Il est recommandé d’avoir à bord du véhicule :",
+  "choices": [
+   "une lampe de poche",
+   "un tournevis",
+   "un chiffon",
+   "un bidon d’essence"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q908",
+  "num": 908,
+  "question": "Il est préférable, pour remorquer un véhicule",
+  "choices": [
+   "d’utiliser une corde solide",
+   "d’utiliser une barre fixée aux points d’ancrage prévus"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q909",
+  "num": 909,
+  "question": "La position du point mort concerne :",
+  "choices": [
+   "le levier de vitesse lorsqu’une vitesse n’est enclenchée",
+   "l’embrayage quant le moteur commence à entraîner les roues",
+   "la boîte de vitesse en prise directe"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q910",
+  "num": 910,
+  "question": "Pour que le moteur entraine les roues alors qu’une vitesse est enclenchée, il faut :",
+  "choices": [
+   "embrayer",
+   "débrayer"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q911",
+  "num": 911,
+  "question": "En marche normale, l’embrayage sert à :",
+  "choices": [
+   "passer les vitesses",
+   "démarrer le véhicule",
+   "ralentir le véhicule",
+   "exécuter une manœuvre"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q912",
+  "num": 912,
+  "question": "La liaison entre le moteur et les roues est établie sur le schéma :",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c"
+  ],
+  "correct": [
+   2
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/1bdadcb03aa6.webp"
+  ]
+ },
+ {
+  "id": "bj-q913",
+  "num": 913,
+  "question": "Le \"point de patinage\", c’est lorsque :",
+  "choices": [
+   "le moteur transmet toute son énergie aux roues",
+   "le moteur commence à entrainer les roues",
+   "le moteur tourne sans entrainer les roues"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q914",
+  "num": 914,
+  "question": "L’embrayage a pour Rôle",
+  "choices": [
+   "d’assurer la liaison progressive entre le moteur et les roues",
+   "de faire tourner le moteur plus vite",
+   "d’arrêter le véhicule"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q915",
+  "num": 915,
+  "question": "Un véhicule comporte obligatoirement :",
+  "choices": [
+   "un indicateur de vitesse",
+   "un compte –tours",
+   "un compteur kilométrique",
+   "une jauge de carburant"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q916",
+  "num": 916,
+  "question": "On appelle \"angle mort\" la partie de l’environnement que le conducteur :",
+  "choices": [
+   "voit dans ses rétroviseurs",
+   "voit directement au travers de son pare-brise",
+   "ne peut voir au travers du pare-brise ou dans ses rétroviseurs"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q917",
+  "num": 917,
+  "question": "L’importance de \"l’angle mort\" varie selon :",
+  "choices": [
+   "le type de véhicule",
+   "le nombre de vitres latérales",
+   "le réglage des rétroviseurs"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q918",
+  "num": 918,
+  "question": "Le frein moteur intervient dès qu’on :",
+  "choices": [
+   "lâche l’accélérateur",
+   "appuie sur la pédale de frein"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q919",
+  "num": 919,
+  "question": "Le conducteur doit intervenir le plus rapidement possible si l’un de ces voyants s’allume :",
+  "choices": [
+   "en circulation",
+   "alors qu’il met le contact"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
+   "/benin/signs/760904cde9f9.webp"
+  ]
+ },
+ {
+  "id": "bj-q920",
+  "num": 920,
+  "question": "Quelles sont les précautions à prendre en cas de crevaison :",
+  "choices": [
+   "baliser les lieux,",
+   "caler le véhicule,",
+   "faire appel à son mécanicien."
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q921",
+  "num": 921,
+  "question": "Quel type d’extincteur faut-il recommander pour combattre un feu d’hydrocarbure ?",
+  "choices": [
+   "extincteur à poudre",
+   "extincteur à eau",
+   "extincteur à mousse ou CO2",
+   "extincteur polyvalent ABC"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q922",
+  "num": 922,
+  "question": "Je fais contrôler le système de freinage :",
+  "choices": [
+   "Si la voiture se déporte à droite ou à gauche au freinage",
+   "Si la course de la pédale est trop longue",
+   "Si j’entends des grincements au freinage",
+   "Si mes feux de position ne s’allument pas au freinage"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q923",
+  "num": 923,
+  "question": "Pour réduire la consommation du carburant il faut :",
+  "choices": [
+   "avoir le système d’allumage bien régler",
+   "rouler avec porte-bagages chargé",
+   "rouler avec des pneumatiques bien gonflés",
+   "adapter la vitesse au régime du moteur"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q924",
+  "num": 924,
+  "question": "La pré-signalisation doit être indiquée par : a– les plaques d’immatriculation",
+  "choices": [
+   "les feux de croisement",
+   "le signal de détresse",
+   "le triangle de pré-signalisation"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q925",
+  "num": 925,
+  "question": "Quels sont les feux obligatoires à l’avant d’un véhicule de tourisme :",
+  "choices": [
+   "deux feux de route – deux feux de croisement – deux feux stop – deux feux de position – deux indicateurs de changement de direction – deux feux antibrouillard",
+   "deux phares – deux codes – deux clignotants – deux feux de position – feux plaque d’immatriculation – deux feux anti brouillard",
+   "deux feux de route – deux indicateurs de changement de direction – deux feux de croisement – deux feux de position"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q926",
+  "num": 926,
+  "question": "Quels sont les organes essentiels pour le fonctionnement d’un moteur à 4 temps ?",
+  "choices": [
+   "La batterie – le carburateur – l’alternateur",
+   "Les phares – le pneu – les feux de croisement",
+   "La boite régulatrice - l’allumeur et la bougie",
+   "Les feux stop – le rétroviseur – le klaxon"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q927",
+  "num": 927,
+  "question": "Quels sont dans l’ordre les 4 temps d’un moteur à essence ?",
+  "choices": [
+   "Admission – compression – échappement – explosion",
+   "Compression – admission – explosion – échappement",
+   "Admission – compression – explosion – échappement"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q928",
+  "num": 928,
+  "question": "Ce panonceau concerne les véhicules tractant une remorque d’un PTAC de :",
+  "choices": [
+   "Plus de 250 kilogrammes",
+   "240 kilogrammes",
+   "80 kilogrammes"
+  ],
+  "correct": [
+   0
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q929",
+  "num": 929,
+  "question": "Les feux de stop s’allument lorsque :",
+  "choices": [
+   "Je rétrograde",
+   "Je freine avec la pédale",
+   "J’enclenche la marche arrière",
+   "Je change de direction"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q930",
+  "num": 930,
+  "question": "Les éléments qui font partie de la suspension d’un véhicule automobile sont :",
+  "choices": [
+   "Les ressorts et la transmission",
+   "Les pneus",
+   "Les amortisseurs et la boite de vitesses",
+   "Les ressorts et les amortisseurs"
+  ],
+  "correct": [
+   1,
+   3
+  ]
+ }
+]

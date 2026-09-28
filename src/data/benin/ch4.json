@@ -1,0 +1,626 @@
+[
+ {
+  "id": "bj-q360",
+  "num": 360,
+  "question": "Sur une chaussée à double sens :",
+  "choices": [
+   "Je peux faire demi-tour",
+   "Je ne peux pas faire demi-tour",
+   "Je ne peux pas faire marche arrière"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q361",
+  "num": 361,
+  "question": "Les flèches de rabattement m’obligent :",
+  "choices": [
+   "A serrer ma gauche",
+   "A serrer ma droite",
+   "A quitter la chaussée",
+   "A réduire ma vitesse"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q362",
+  "num": 362,
+  "question": "Sur une chaussée à double sens comportant plus de deux voies, il est interdit d’emprunter :",
+  "choices": [
+   "La voie la plus à droite",
+   "La voie du milieu",
+   "La voie la plus à gauche"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q363",
+  "num": 363,
+  "question": "En quoi consiste l’arrêt ?",
+  "choices": [
+   "A l’immobilisation momentanée d’un véhicule, conducteur à bord",
+   "A l’immobilisation de longue durée d’un véhicule, conducteur éloigné",
+   "A l’immobilisation momentanée d’un véhicule, conducteur éloigné"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q364",
+  "num": 364,
+  "question": "Lors d’un arrêt :",
+  "choices": [
+   "Le conducteur est à côté du véhicule",
+   "Le conducteur s’éloigne du véhicule",
+   "Le conducteur est à bord du véhicule"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q365",
+  "num": 365,
+  "question": "En quoi consiste le stationnement",
+  "choices": [
+   "A l’immobilisation momentanée d’un véhicule, conducteur à bord",
+   "A l’immobilisation momentanée d’un véhicule, conducteur à côté",
+   "A l’immobilisation momentanée d’un véhicule, conducteur éloigné",
+   "A l’immobilisation de longue durée d’un véhicule"
+  ],
+  "correct": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q366",
+  "num": 366,
+  "question": "En présence du panneau de \"stationnement interdit\" je suis autorisé à :",
+  "choices": [
+   "Stationner avant le panneau",
+   "Stationner après le panneau",
+   "Stationner avant la prochaine intersection"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q367",
+  "num": 367,
+  "question": "A la rencontre du panneau \"arrêt et stationnement interdits\", l’interdiction commence :",
+  "choices": [
+   "Avant le panneau",
+   "A partir du panneau",
+   "15 m après le panneau"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q368",
+  "num": 368,
+  "question": "La distance de freinage augmente :",
+  "choices": [
+   "quand la chaussée est mouillée",
+   "quand les pneus sont usés",
+   "quand les rotules sont usées",
+   "quand la chaussée est rétrécie"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q369",
+  "num": 369,
+  "question": "A la vue d’un usager qui veut s’insérer dans la circulation :",
+  "choices": [
+   "je klaxonne",
+   "je ralentis",
+   "je fais un appel de feux",
+   "je change de voie"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q370",
+  "num": 370,
+  "question": "La distance d’arrêt augmente :",
+  "choices": [
+   "si le conducteur est fatigué",
+   "si la chaussée est légèrement mouillée",
+   "si les pneus sont usés",
+   "rien de tout ce qui précède"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q371",
+  "num": 371,
+  "question": "En cas de pluie, je risque :",
+  "choices": [
+   "l’aquaplaning",
+   "la glissade",
+   "le blocage des roues"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q372",
+  "num": 372,
+  "question": "Plus je roule vite et plus j’augmente :",
+  "choices": [
+   "le temps de réaction",
+   "la distance d’arrêt",
+   "la distance de freinage"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q373",
+  "num": 373,
+  "question": "La distance de freinage dépend :",
+  "choices": [
+   "de la vitesse",
+   "de l’adhérence",
+   "du temps de réaction",
+   "de l’état physique du conducteur",
+   "de l’état des amortisseurs"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q374",
+  "num": 374,
+  "question": "Un conducteur ayant l’intention de changer de direction doit :",
+  "choices": [
+   "ralentir",
+   "signaler son intention",
+   "klaxonner pour faire dégager les piétons engagés sur leur passage"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q375",
+  "num": 375,
+  "question": "Quel doit être votre comportement à l’approche d’un lieu-dit :",
+  "choices": [
+   "rouler vite",
+   "ralentir",
+   "klaxonner"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q376",
+  "num": 376,
+  "question": "Un conducteur ayant l’intention de changer de direction doit :",
+  "choices": [
+   "s’assurer que la route qu’il veut emprunter n’est pas en sens interdit",
+   "surveiller la route vers l’avant et l’arrière",
+   "signaler son intention à l’aide du clignotant",
+   "ralentir sans freiner brusquement pour ne pas surprendre les usagers qui le suivent",
+   "respecter les priorités de passage et notamment les piétons qui traversent"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "bj-q377",
+  "num": 377,
+  "question": "Pour adapter sa vitesse le conducteur doit tenir compte :",
+  "choices": [
+   "de l’importance du trafic",
+   "des risques prévisibles",
+   "de l’adhérence",
+   "de la visibilité",
+   "de sa propre vigilance"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "bj-q378",
+  "num": 378,
+  "question": "Un vent latéral violent est particulièrement dangereux :",
+  "choices": [
+   "lorsqu’il souffle par rafales",
+   "lors du passage de zones ventées en zones abritées",
+   "si je tracte une caravane",
+   "s’il souffle de face"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q380",
+  "num": 380,
+  "question": "Sur une voie d’insertion, j’accélère pour :",
+  "choices": [
+   "atteindre la vitesse de circulation de la chaussée abordée",
+   "M’engager sans ralentir la circulation",
+   "M’engager avant les usagers de la route abordée"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q381",
+  "num": 381,
+  "question": "Sur une voie d’insertion :",
+  "choices": [
+   "J’accélère, je mets le clignotant, je me place dans ma voie",
+   "J’accélère en contrôlant, je mets le clignotant dès que je peux m’insérer",
+   "J’accélère jusqu’au bout de la voie, je contrôle, je m’insère si je peux"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q382",
+  "num": 382,
+  "question": "Plus le rayon du virage est faible :",
+  "choices": [
+   "Plus le virage est serré",
+   "Plus le virage est large",
+   "Plus la force centrifuge est importante",
+   "Plus la force centrifuge est faible"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q383",
+  "num": 383,
+  "question": "Sur route, lorsque l’accotement de droite n’est pas praticable je peux stationner:",
+  "choices": [
+   "sur l’accotement de gauche",
+   "sur l’accotement de gauche en agglomération",
+   "sur la voie de droite"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q384",
+  "num": 384,
+  "question": "Lorsque l’arrêt est interdit :",
+  "choices": [
+   "le stationnement est interdit",
+   "le stationnement n’est pas interdit",
+   "le stationnement temporaire est interdit",
+   "seul le stationnement temporaire est autorisé"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q385",
+  "num": 385,
+  "question": "Le contrôle de la durée d’un stationnement payant peut se faire :",
+  "choices": [
+   "par horodateur",
+   "par disque de stationnement",
+   "par parcmètre"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q386",
+  "num": 386,
+  "question": "On appelle stationnement gênant le fait de stationner :",
+  "choices": [
+   "dans une voie réservée aux bus",
+   "devant une sortie de propriété",
+   "sur un pont",
+   "à proximité d’une voie ferrée"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q387",
+  "num": 387,
+  "question": "Ajuster sa vitesse aux circonstances, c’est ralentir suffisamment :",
+  "choices": [
+   "pour ne jamais dépasser la vitesse maximum autorisée",
+   "chaque fois que la visibilité est réduite",
+   "chaque fois que l’adhérence est réduite"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q388",
+  "num": 388,
+  "question": "Pour évaluer l’allure d’un autre usager venant en face, je prends en compte :",
+  "choices": [
+   "le type de véhicule",
+   "la vitesse de rapprochement",
+   "l’état du conducteur"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q389",
+  "num": 389,
+  "question": "Le temps de réaction est le temps nécessaire au conducteur pour :",
+  "choices": [
+   "percevoir et réagir",
+   "arrêter la voiture",
+   "évaluer l’allure d’un autre usager"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q390",
+  "num": 390,
+  "question": "Le temps de réaction a une durée d’environ :",
+  "choices": [
+   "un dixième de seconde",
+   "une seconde",
+   "dix secondes"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q391",
+  "num": 391,
+  "question": "Sur chaussée mouillée ou glissante, il y a augmentation de la distance :",
+  "choices": [
+   "Parcourue pendant le temps de réaction",
+   "De freinage",
+   "D’arrêt"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q392",
+  "num": 392,
+  "question": "A 90 km/h, dans des conditions normales, ma distance d’arrêt est d’environ :",
+  "choices": [
+   "25 mètres",
+   "54 mètres",
+   "81 mètres"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A90"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q393",
+  "num": 393,
+  "question": "La réglementation du stationnement a pour objet :",
+  "choices": [
+   "La sécurité",
+   "La fluidité de la circulation"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q394",
+  "num": 394,
+  "question": "Je suis en infraction si je suis en stationnement :",
+  "choices": [
+   "Dangereux",
+   "Abusif",
+   "Gênant"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q395",
+  "num": 395,
+  "question": "Dans quels cas faut-il réduire sa vitesse ?",
+  "choices": [
+   "Lorsqu’il n’y a pas de panneau de signalisation",
+   "Lorsque la route n’apparaît pas libre",
+   "Dans les descentes rapides",
+   "Lorsqu’on aborde une intersection",
+   "A l’approche des montées."
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q396",
+  "num": 396,
+  "question": "Lorsque je quitte momentanément mon véhicule pour acheter mon journal, je suis considéré comme étant :",
+  "choices": [
+   "En arrêt",
+   "En stationnement"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q397",
+  "num": 397,
+  "question": "En général, se ranger en bataille s’effectue :",
+  "choices": [
+   "En marche avant",
+   "En marche arrière"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q398",
+  "num": 398,
+  "question": "Pendant la durée de la période probatoire, la vitesse du conducteur sur une autoroute est ordinairement limitée à :",
+  "choices": [
+   "100 km/h",
+   "110 km/h",
+   "130 km/h"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q399",
+  "num": 399,
+  "question": "En cas de visibilité réduite à 50mètres, la vitesse ne peut excéder :",
+  "choices": [
+   "90 km/h",
+   "60 km/h",
+   "50 km/h"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q400",
+  "num": 400,
+  "question": "Sur une route de montagne, je stationne de préférence :",
+  "choices": [
+   "En côte, sur la chaussée",
+   "En descente, sur la chaussée",
+   "Sur une place d’évitement"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q401",
+  "num": 401,
+  "question": "En cas de défaillance du frein principal :",
+  "choices": [
+   "je rétrograde pour utiliser le frein moteur",
+   "je coupe le moteur pour arrêter le véhicule",
+   "je dose mon freinage à l’aide du frein à main déverrouillé"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q402",
+  "num": 402,
+  "question": "Un conducteur d’un véhicule qui dérape doit :",
+  "choices": [
+   "freiner fort pour stopper le véhicule",
+   "braquer calmement pour ramener le véhicule sur sa trajectoire",
+   "accélérer franchement pour redonner de l’adhérence aux roues arrière"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q403",
+  "num": 403,
+  "question": "Si mes roues mordent sur le bas côté de la route :",
+  "choices": [
+   "je freine fort et je corrige rapidement ma trajectoire",
+   "je freine légèrement et je reviens progressivement sur la chaussée"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q404",
+  "num": 404,
+  "question": "Lorsque je fais remorquer mon véhicule par un autre usager :",
+  "choices": [
+   "je ne dois pas dépasser la vitesse de 25 km/h",
+   "je dois signaler mon véhicule à l’aide des feux de détresse",
+   "je reste vigilant"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ }
+]

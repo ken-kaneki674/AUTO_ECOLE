@@ -1,0 +1,2358 @@
+[
+ {
+  "id": "bj-q206",
+  "num": 206,
+  "question": "Les véhicules prioritaires sont :",
+  "choices": [
+   "Police – Gendarmerie – corbillards en mission",
+   "SAMU – SMUR-Sapeur-pompier – Gendarmerie en mission",
+   "SAMU – corbillard – Police"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q207",
+  "num": 207,
+  "question": "Les feux tricolores fonctionnent, cependant l’agent de sécurité règlemente la circulation :",
+  "choices": [
+   "Je passe au feu vert",
+   "Je ne passe que si je suis autorisé par l’agent de sécurité",
+   "Je passe sans tenir compte ni du feu ni de l’agent de sécurité"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q208",
+  "num": 208,
+  "question": "A une intersection munie à la fois de panneau et de feu tricolore fonctionnant normalement :",
+  "choices": [
+   "Je me conforme à la fois au panneau et aux feux",
+   "Je ne me conforme ni à l’un ni à l’autre",
+   "Je me conforme uniquement aux feux"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q209",
+  "num": 209,
+  "question": "Quelles sont les grandes règles de priorité ?",
+  "choices": [
+   "La règle de courtoisie et le respect des agents de sécurité",
+   "Le respect des feux et la règle de priorité à droite",
+   "La priorité à droite, la priorité de passage et la perte de priorité"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q210",
+  "num": 210,
+  "question": "La priorité à droite consiste à :",
+  "choices": [
+   "Passer quand ma droite est libre",
+   "Passer quand ma gauche est libre",
+   "Serrer ma droite et tourner à droite"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q211",
+  "num": 211,
+  "question": "Que faire à une intersection sans signalisation ?",
+  "choices": [
+   "Céder le passage à droite",
+   "Céder le passage à gauche",
+   "Aller tout droit"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q212",
+  "num": 212,
+  "question": "Que faire à une intersection de routes de même nature ?",
+  "choices": [
+   "Céder le passage à droite",
+   "Aller tout droit",
+   "Céder le passage à droite et à gauche"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q213",
+  "num": 213,
+  "question": "Les indications des agents de sécurité prévalent sur :",
+  "choices": [
+   "Uniquement les feux tricolores",
+   "Toutes signalisations",
+   "Les règles de circulation",
+   "Les feux de signalisation"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q214",
+  "num": 214,
+  "question": "La priorité à droite consiste à :",
+  "choices": [
+   "Céder le passage à tout véhicule venant de gauche comme de droite",
+   "Céder le passage uniquement aux véhicules venant de la droite",
+   "Ne céder le passage à aucun véhicule"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q215",
+  "num": 215,
+  "question": "A l’intersection munie de feux tricolores dont le rouge est allumé, que dois- je faire ?",
+  "choices": [
+   "Je m’arrête",
+   "Je passe si je veux tourner à droite",
+   "Je ralentis et je passe si la voie est libre"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q216",
+  "num": 216,
+  "question": "A une distance raisonnable du feu jaune fixe, je me prépare à :",
+  "choices": [
+   "Appliquer la règle de priorité à droite",
+   "Passer",
+   "M’arrêter",
+   "Céder le passage"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q217",
+  "num": 217,
+  "question": "Lorsque je vois de face l’agent de sécurité réglementant la circulation :",
+  "choices": [
+   "Je passe",
+   "Je ralentis et je passe",
+   "J’applique la priorité à droite",
+   "Je ralentis et je m’arrête."
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q218",
+  "num": 218,
+  "question": "A cette intersection I17, quel doit être l’ordre de passage des véhicules ?",
+  "choices": [
+   "Jaune – vert – bleu",
+   "Bleu – vert – jaune",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/31bc7653b87b.webp"
+  ]
+ },
+ {
+  "id": "bj-q219",
+  "num": 219,
+  "question": "Au carrefour à sens giratoire en agglomération :",
+  "choices": [
+   "La priorité est toujours à droite",
+   "La priorité peut être donnée à droite et à gauche",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q220",
+  "num": 220,
+  "question": "A cette intersection I14, quel doit être l’ordre de passage des véhicules?",
+  "choices": [
+   "1. le véhicule bleu démarre, fait ¼ de tour et s’arrête 2. le véhicule rouge passe ensuite 3. le véhicule jaune passe 4. le véhicule bleu après",
+   "1. le véhicule bleu démarre, fait ¼ de tour et s’arrête 2. le véhicule jaune passe, 3. le véhicule rouge passe ensuite 4. le véhicule bleu passe après"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/7d1543eac4fa.webp"
+  ]
+ },
+ {
+  "id": "bj-q221",
+  "num": 221,
+  "question": "A une intersection munie de feux tricolores où un agent de sécurité réglemente la circulation, que dois-je faire ?",
+  "choices": [
+   "Je respecte les feux",
+   "Je passe si le feu est au vert",
+   "Je suis les indications de l’agent"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q222",
+  "num": 222,
+  "question": "A l’intersection d’une route revêtue et d’une route en terre, quelle est la règle de priorité à observer en agglomération ?",
+  "choices": [
+   "La priorité de passage",
+   "La perte de priorité",
+   "La priorité à droite"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q223",
+  "num": 223,
+  "question": "A l’intersection d’une route revêtue et d’une route en terre, quelle est la règle de priorité à observer hors agglomération par l’usager circulant sur la route en terre ?",
+  "choices": [
+   "La priorité de passage",
+   "La perte de priorité",
+   "La priorité à droite"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q224",
+  "num": 224,
+  "question": "Dans quels cas dois-je céder le passage aux usagers venant de gauche comme de droite ?",
+  "choices": [
+   "Devant le feu rouge",
+   "Devant le triangle pointe en bas",
+   "Devant le feu vert",
+   "Quand je roule sur une route prioritaire"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q225",
+  "num": 225,
+  "question": "Quel doit être l’ordre de passage des véhicules à cette intersection I3 ?",
+  "choices": [
+   "Le véhicule rouge, le véhicule jaune et le véhicule bleu",
+   "Le véhicule bleu, le véhicule jaune et le véhicule rouge",
+   "Les véhicules jaune, rouge et bleu"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/ab3382252287.webp"
+  ]
+ },
+ {
+  "id": "bj-q226",
+  "num": 226,
+  "question": "A cette intersection I7 :",
+  "choices": [
+   "Il faut appliquer la règle de la priorité à droite",
+   "Il faut appliquer la règle de courtoisie",
+   "La voiture jaune doit céder le passage à la rouge",
+   "La voiture rouge doit céder le passage à la jaune"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "images": [
+   "/benin/signs/6280929bf385.webp"
+  ]
+ },
+ {
+  "id": "bj-q227",
+  "num": 227,
+  "question": "A l’intersection I9 :",
+  "choices": [
+   "Le véhicule jaune peut tourner immédiatement à droite",
+   "Le véhicule jaune peut tourner immédiatement à gauche",
+   "Le véhicule jaune peut aller immédiatement tout droit"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
+   "/benin/signs/32409dc5fa7c.webp"
+  ]
+ },
+ {
+  "id": "bj-q228",
+  "num": 228,
+  "question": "A cette intersection I7, en agglomération, le véhicule rouge est sur la chaussée revêtue et le véhicule jaune est sur la chaussée en terre, quelle est la règle de priorité à observer ?",
+  "choices": [
+   "La règle de courtoisie",
+   "La règle de la priorité à droite",
+   "La règle de la perte de priorité",
+   "La règle de la priorité de passage"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/6280929bf385.webp"
+  ]
+ },
+ {
+  "id": "bj-q229",
+  "num": 229,
+  "question": "A cette intersection I7, hors agglomération, le véhicule rouge est sur la chaussée revêtue et le véhicule jaune est sur la chaussée en terre, quelle est la règle de priorité à appliquer ?",
+  "choices": [
+   "La priorité de passage par le véhicule rouge",
+   "La perte de priorité par le véhicule jaune",
+   "La priorité à droite par les deux véhicules",
+   "La règle de courtoisie par les deux véhicules"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "images": [
+   "/benin/signs/6280929bf385.webp"
+  ]
+ },
+ {
+  "id": "bj-q230",
+  "num": 230,
+  "question": "A cette intersection I8, quel doit être l’ordre de passage des véhicules ?",
+  "choices": [
+   "1. les véhicules, jaune, bleu et la moto passent simultanément 2. le véhicule rouge passe après",
+   "1. les véhicules jaune et bleu passent 2. le véhicule rouge passe 3. la moto passe après"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/eb4efebe0d2c.webp"
+  ]
+ },
+ {
+  "id": "bj-q231",
+  "num": 231,
+  "question": "A cette intersection I9, qui passera définitivement le premier ?",
+  "choices": [
+   "la moto",
+   "le véhicule rouge",
+   "le véhicule vert",
+   "le véhicule jaune"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/32409dc5fa7c.webp"
+  ]
+ },
+ {
+  "id": "bj-q232",
+  "num": 232,
+  "question": "A une intersection de route de même valeur où aucun usager n’a sa droite libre, s’applique :",
+  "choices": [
+   "la priorité de passage pour les usagers venant de droite et de gauche",
+   "le jeu de courtoisie et ensuite la règle de la priorité à droite",
+   "la perte de priorité de passage pour les usagers venant de face"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q233",
+  "num": 233,
+  "question": "A cette intersection I10, quel doit être l’ordre de passage des véhicules ?",
+  "choices": [
+   "1. la moto 2. le véhicule jaune ensuite 3. le véhicule bleu après",
+   "1. le véhicule jaune 2. le véhicule bleu ensuite 3. la moto après"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/d41eb18dce08.webp"
+  ]
+ },
+ {
+  "id": "bj-q234",
+  "num": 234,
+  "question": "A cette intersection I12, quel doit être l’ordre de passage des véhicules?",
+  "choices": [
+   "le véhicule bleu, le véhicule rouge et le véhicule vert",
+   "le véhicule vert démarre, fait ¼ de tour et s’arrête, le véhicule bleu tourne, le véhicule rouge passe et le vert continue",
+   "le véhicule rouge avance en suivant le véhicule bleu qui tourne puis le véhicule vert tourne après"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/0da384dc0bc3.webp"
+  ]
+ },
+ {
+  "id": "bj-q235",
+  "num": 235,
+  "question": "A cette intersection I18, quel doit être l’ordre de passage des véhicules?",
+  "choices": [
+   "- le véhicule orange marque un arrêt - les véhicules jaune, rouge et vert passent simultanément - le véhicule orange laisse passer les piétons et passera au feu vert.",
+   "– les véhicules jaune, rouge et vert passent simultanément - le véhicule orange qui a vu la flèche verte tourne à droite",
+   "- véhicule orange tourne immédiatement c) les véhicules jaune, rouge et vert passent simultanément"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
+   "/benin/signs/d4537627d7a9.webp",
+   "/benin/signs/bffe5744d9d2.webp",
+   "/benin/signs/b410766c74cc.webp",
+   "/benin/signs/7622d56f7f8d.webp"
+  ]
+ },
+ {
+  "id": "bj-q236",
+  "num": 236,
+  "question": "Avant cette intersection I6, quel panneau ont rencontré les véhicules jaune et rouge ?",
+  "choices": [
+   "panneau indiquant l’intersection d’une route à grande circulation",
+   "panneau indiquant le caractère prioritaire de la route"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q237",
+  "num": 237,
+  "question": "A cette intersection I17, quel sera l’ordre de passage ?",
+  "choices": [
+   "le véhicule jaune, le véhicule vert et le véhicule bleu",
+   "le véhicule bleu, le véhicule vert et le véhicule jaune",
+   "le véhicule bleu passe derrière le véhicule jaune et le véhicule vert après"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/31bc7653b87b.webp",
+   "/benin/signs/bc45f8a2cf6a.webp",
+   "/benin/signs/7b8b1524877b.webp"
+  ]
+ },
+ {
+  "id": "bj-q238",
+  "num": 238,
+  "question": "A cette intersection I22, quel sera l’ordre de passage ?",
+  "choices": [
+   "Les véhicules jaune et bleu passent simultanément le véhicule rouge laisse passer les piétons et tourne à droite",
+   "Le véhicule rouge tourne immédiatement à droite et les véhicules jaune et bleu passent après",
+   "Pendant que les véhicules jaune et bleu passent simultanément, le véhicule rouge tourne à droite"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
+   "/benin/signs/3e155018da04.webp"
+  ]
+ },
+ {
+  "id": "bj-q239",
+  "num": 239,
+  "question": "Au carrefour à sens giratoire en agglomération :",
+  "choices": [
+   "La priorité est toujours à droite",
+   "La priorité est donnée aux véhicules engagés dans le sens giratoire",
+   "La priorité peut être donnée à gauche et à droite"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q240",
+  "num": 240,
+  "question": "Sur cette image PN1, le véhicule bleu doit :",
+  "choices": [
+   "S’arrêter devant la demi-barrière et attendre le passage du train",
+   "Attendre que la demi-barrière s’élève et que le feu rouge s’éteigne avant de démarrer",
+   "Pouvoir se faufiler entre les demi-barrières pour partir après le passage du train"
+  ],
+  "correct": [
+   1
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q241",
+  "num": 241,
+  "question": "Sur cette image PN3, les véhicules rouge et bleu doivent :",
+  "choices": [
+   "Passer",
+   "Attendre devant le premier panneau de signalisation et passer après l’avion",
+   "Attendre devant le deuxième panneau de signalisation et ne passer qu’après l’extinction du feu"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/8992383f829d.webp"
+  ]
+ },
+ {
+  "id": "bj-q242",
+  "num": 242,
+  "question": "Sur cette image PN1, le véhicule jaune se situe à :",
+  "choices": [
+   "150m environ du passage à niveau",
+   "100m environ du passage à niveau",
+   "50m environ du passage à niveau"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/3e155018da04.webp"
+  ]
+ },
+ {
+  "id": "bj-q243",
+  "num": 243,
+  "question": "Sur une route où il y a un panneau STOP, l’arrêt se fait :",
+  "choices": [
+   "Exactement devant le panneau",
+   "A la limite de la visibilité en l’absence de ligne blanche au sol",
+   "Si à la ligne blanche, la visibilité est insuffisante, on marque un second arrêt à la limite de la chaussée abordée"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q244",
+  "num": 244,
+  "question": "A cette intersection I11, quel sera l’ordre de passage ?",
+  "choices": [
+   "1- la moto 2- le véhicule jaune ensuite 3- le véhicule rouge après",
+   "1- le véhicule jaune 2- le véhicule rouge ensuite 3- la moto après"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/c63ceac096e7.webp"
+  ]
+ },
+ {
+  "id": "bj-q245",
+  "num": 245,
+  "question": "A cette intersection I12, quel est le véhicule qui passera définitivement le premier ?",
+  "choices": [
+   "le véhicule rouge",
+   "le véhicule bleu",
+   "le véhicule vert"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/0da384dc0bc3.webp"
+  ]
+ },
+ {
+  "id": "bj-q246",
+  "num": 246,
+  "question": "A cette intersection I24, quel sera l’ordre de passage ?",
+  "choices": [
+   "1- le véhicule bleu 2- le véhicule rouge ensuite 3- le véhicule vert après",
+   "1- le véhicule vert 2- le véhicule bleu ensuite 3- le véhicule rouge après"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/9aa47e94f270.webp"
+  ]
+ },
+ {
+  "id": "bj-q247",
+  "num": 247,
+  "question": "A cette intersection I26, quel est le véhicule qui passera le premier ?",
+  "choices": [
+   "Le véhicule vert",
+   "Le véhicule Jaune",
+   "Le véhicule Rouge",
+   "Le véhicule bleu"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/9844f3872235.webp"
+  ]
+ },
+ {
+  "id": "bj-q248",
+  "num": 248,
+  "question": "Quel panneau verra le véhicule jaune à cette intersection I3 ?",
+  "choices": [
+   "Panneau d’intersection de deux routes de même nature",
+   "Panneau indiquant le caractère prioritaire d’une route",
+   "Aucun panneau"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
+   "/benin/signs/ab3382252287.webp"
+  ]
+ },
+ {
+  "id": "bj-q249",
+  "num": 249,
+  "question": "A cette intersection I14, quel est le véhicule qui passera définitivement le premier ?",
+  "choices": [
+   "Le véhicule bleu",
+   "Le véhicule Rouge",
+   "Le véhicule jaune"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/7d1543eac4fa.webp"
+  ]
+ },
+ {
+  "id": "bj-q250",
+  "num": 250,
+  "question": "A cette intersection I1, quel est l’ordre de passage ?",
+  "choices": [
+   "1- Le véhicule jaune 2- Le véhicule rouge 3- Le véhicule vert",
+   "1- Le véhicule rouge 2- Les véhicules jaune et vert ensuite"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/1d0cec3e3096.webp"
+  ]
+ },
+ {
+  "id": "bj-q251",
+  "num": 251,
+  "question": "A cette intersection I5, quel sera l’ordre de passage ?",
+  "choices": [
+   "1- le véhicule vert marque un arrêt 2- les véhicules rouge et jaune passent ensuite 3- enfin le véhicule vert passe",
+   "1- le véhicule rouge passe 2- le véhicule vert passe 3- le véhicule jaune passe après"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/07cc070b7898.webp"
+  ]
+ },
+ {
+  "id": "bj-q252",
+  "num": 252,
+  "question": "A cette intersection I14, quel sera l’ordre de passage ?",
+  "choices": [
+   "1- le véhicule bleu passe 2- le véhicule jaune passe ensuite 3- Enfin le véhicule rouge passe",
+   "1-le véhicule bleu démarre, fait un quart de tour et s’arrête 2- le véhicule rouge passe 3- le véhicule bleu passe ensuite 4- enfin le véhicule jaune passe",
+   "1- le véhicule bleu démarre fait un quart de tour et s’arrête 2- le véhicule jaune passe 3- le véhicule rouge passe ensuite 4 – enfin le véhicule bleu passe"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/7d1543eac4fa.webp"
+  ]
+ },
+ {
+  "id": "bj-q253",
+  "num": 253,
+  "question": "A cette intersection I23, quel sera l’ordre de passage ?",
+  "choices": [
+   "1- les véhicules vert et rouge passent 2- les véhicules jaune et bleu passent après",
+   "1- les véhicules jaune et bleu s’arrêtent 2-les véhicules vert et rouge passent 3- le véhicule bleu tourne",
+   "1- le véhicule bleu tourne 2- les véhicules vert et rouge passent 3- le véhicule jaune passe au feu vert"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/58aa4cbd7213.webp"
+  ]
+ },
+ {
+  "id": "bj-q254",
+  "num": 254,
+  "question": "A cette intersection I 26, quel sera l’ordre de passage ?",
+  "choices": [
+   "1- les véhicules jaune et vert passent 2- le véhicule bleu et le véhicule rouge marque un arrêt",
+   "1- les véhicules jaune, bleu et vert marquent un arrêt 2- le véhicule rouge passe 3- les véhicules qui auront le feu vert passeront après le véhicule rouge"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/9844f3872235.webp"
+  ]
+ },
+ {
+  "id": "bj-q255",
+  "num": 255,
+  "question": "Quel panneau le conducteur du véhicule vert peut rencontrer à cette intersection I15 ?",
+  "choices": [
+   "Panneau d’intersection de deux routes de même nature",
+   "Panneau d’intersection d’une route à grande circulation et d’une route secondaire",
+   "Panneau indiquant le caractère prioritaire d’une route",
+   "Panneau indiquant la fin du caractère prioritaire d’une route"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "images": [
+   "/benin/signs/5a992668411b.webp",
+   "/benin/signs/81c8f6a724c7.webp",
+   "/benin/signs/58aa4cbd7213.webp"
+  ]
+ },
+ {
+  "id": "bj-q256",
+  "num": 256,
+  "question": "A cette intersection I23, quel est le véhicule qui passera le dernier ?",
+  "choices": [
+   "Le véhicule jaune",
+   "Le véhicule Bleu",
+   "Les véhicules Jaune et bleu"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q257",
+  "num": 257,
+  "question": "A cette intersection I20, quel est le véhicule qui peut passer immédiatement ?",
+  "choices": [
+   "Le véhicule jaune",
+   "Le véhicule vert qui a sa droite libre",
+   "Aucun véhicule",
+   "Les véhicules vert et jaune"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/169d9a92bea1.webp"
+  ]
+ },
+ {
+  "id": "bj-q258",
+  "num": 258,
+  "question": "Que doit faire un conducteur qui est sur le point d’être dépassé ?",
+  "choices": [
+   "Il serre sa gauche sans accélérer",
+   "Il serre sa droite en accélérant",
+   "Il serre sa droite sans accélérer",
+   "Il reste au milieu de la chaussée en accélérant",
+   "Il serre sa droite en ralentissant"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q259",
+  "num": 259,
+  "question": "Dans quels cas est-il interdit de dépasser ?",
+  "choices": [
+   "Lorsque je gène un usager venant de derrière",
+   "Lorsque je suis au sommet d’une côte où dans un virage",
+   "Lorsque je suis en présence d’un panneau d’interdiction de dépasser",
+   "Lorsque je suis sur le point d’être dépassé"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "needsReview": true
+ },
+ {
+  "id": "bj-q260",
+  "num": 260,
+  "question": "La nuit, pour dépasser,",
+  "choices": [
+   "J’utilise mes avertisseurs sonores",
+   "J’utilise mes avertisseurs lumineux",
+   "Je ne fais rien de tout cela"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q261",
+  "num": 261,
+  "question": "Lorsque la ligne discontinue de la ligne mixte est plus proche du conducteur, on peut franchir cette ligne :",
+  "choices": [
+   "Pour tourner à droite",
+   "Pour tourner à gauche",
+   "Pour dépasser puis se rabattre"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q262",
+  "num": 262,
+  "question": "Quelle est la toute première précaution à observer pour effectuer un dépassement ?",
+  "choices": [
+   "S’assurer que l’on n’est pas dans un cas d’interdiction",
+   "Accélérer pour dépasser",
+   "Bien serrer sa droite"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q263",
+  "num": 263,
+  "question": "En général, de quel côté s’effectue le dépassement ?",
+  "choices": [
+   "Par la droite",
+   "Par la gauche",
+   "Du côté de votre choix",
+   "Du côté où c’est possible"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q264",
+  "num": 264,
+  "question": "Dans quel cas peut-on être autorisé, à dépasser par la droite ?",
+  "choices": [
+   "Quand on a une file ininterrompue de véhicules devant soi",
+   "Quand le véhicule à dépasser a déjà pris position pour tourner à gauche",
+   "En abordant une intersection",
+   "Sur une chaussée à sens unique"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q265",
+  "num": 265,
+  "question": "Quand est-ce que le dépassement est effectif ?",
+  "choices": [
+   "Quand l’usager dépassé apparaît dans le rétroviseur intérieur",
+   "Après avoir mis le clignotant à droite pour se rabattre",
+   "Quand on peut estimer soi-même que le dépassement est fait"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q266",
+  "num": 266,
+  "question": "En combien d’étape s’effectue le dépassement ?",
+  "choices": [
+   "En une étape",
+   "En deux étapes",
+   "En trois étapes"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q267",
+  "num": 267,
+  "question": "Citez deux cas d’interdiction de dépasser :",
+  "choices": [
+   "Devant un panneau interdisant de dépasser et sur une ligne continue",
+   "Devant un panneau interdisant de dépasser et sur une ligne discontinue",
+   "Sur des lignes mixtes dont la ligne discontinue se trouve du côté du conducteur"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q268",
+  "num": 268,
+  "question": "Sur une chaussée à 3 voies et à double sens, on utilise, pour dépasser :",
+  "choices": [
+   "La voie centrale",
+   "La voie la plus à gauche",
+   "La voie la plus à droite"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q269",
+  "num": 269,
+  "question": "Donner l’écart latéral minimal entre deux véhicules automobiles lors d’un dépassement",
+  "choices": [
+   "1m environ",
+   "0,50m environ",
+   "0,3m environ"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q270",
+  "num": 270,
+  "question": "Donner l’écart minimal à observer par un automobiliste qui dépasse un piéton ou un cycliste en agglomération:",
+  "choices": [
+   "1m environ",
+   "0,5m environ",
+   "2,0m environ"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q271",
+  "num": 271,
+  "question": "Quel serait votre comportement quand un usager s’apprête à vous dépasser ?",
+  "choices": [
+   "Je serre ma gauche",
+   "J’occupe l’axe médian de la chaussée",
+   "Je serre ma droite",
+   "Je ralentis"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q272",
+  "num": 272,
+  "question": "A la vue de ce panneau B3 je peux dépasser :",
+  "choices": [
+   "Tous véhicules à moteur qui me précèdent",
+   "Un motocycliste sans side-car",
+   "Un véhicule à traction animale",
+   "Un cyclomotoriste sans side-car"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ],
+  "signs": [
+   "B3"
+  ],
+  "images": [
+   "/benin/signs/15af4bc9aed2.webp"
+  ]
+ },
+ {
+  "id": "bj-q273",
+  "num": 273,
+  "question": "A la vue du panneau B3 :",
+  "choices": [
+   "J’accélère et je passe",
+   "Je ne dois pas dépasser",
+   "Je dois dépasser par la droite"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B3"
+  ],
+  "images": [
+   "/benin/signs/15af4bc9aed2.webp"
+  ]
+ },
+ {
+  "id": "bj-q274",
+  "num": 274,
+  "question": "Dans quels cas doit-on utiliser les clignotants ?",
+  "choices": [
+   "Lorsqu’on veut s’insérer dans la circulation",
+   "Lorsqu’on veut augmenter ou réduire sa vitesse",
+   "Lorsqu’on veut dépasser ou se rabattre",
+   "Lorsqu’on veut changer de direction",
+   "Lorsqu’on veut croiser"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q275",
+  "num": 275,
+  "question": "Dans quels cas utilise t- on ses feux de route ?",
+  "choices": [
+   "En agglomération dans une rue non éclairée",
+   "Lorsqu’on va croiser un autre usager",
+   "Lorsqu’on ne risque d’éblouir personne",
+   "Lorsqu’on quitte une zone éclairée pour une zone sombre"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q276",
+  "num": 276,
+  "question": "En rase campagne le dépassement est autorisé :",
+  "choices": [
+   "A proximité des intersections",
+   "Au sommet de côte",
+   "Dans les virages",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q277",
+  "num": 277,
+  "question": "Pour effectuer un dépassement :",
+  "choices": [
+   "J’avertis, je contrôle, puis je déboîte",
+   "Je contrôle, j’avertis et je déboîte",
+   "Je déboîte, j’avertis, je contrôle"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q278",
+  "num": 278,
+  "question": "Lors du dépassement d’un véhicule la nuit, je mets les feux de route,",
+  "choices": [
+   "Immédiatement après avoir déboîter",
+   "En arrivant à la hauteur du conducteur du véhicule à dépasser",
+   "Tout de suite après m’être rabattu"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q279",
+  "num": 279,
+  "question": "Comment prévenir l’usager à dépasser le jour ?",
+  "choices": [
+   "Par des appels sonores",
+   "Par des appels lumineux",
+   "Par le clignotant"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q280",
+  "num": 280,
+  "question": "Comment prévenir l’usager à dépasser la nuit ?",
+  "choices": [
+   "Par des appels sonores",
+   "Par des appels lumineux",
+   "Par le clignotant"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q281",
+  "num": 281,
+  "question": "A une intersection de deux routes de même nature peut-on dépasser par la gauche ?",
+  "choices": [
+   "On peut effectuer rapidement le dépassement",
+   "On ne peut pas effectuer le dépassement",
+   "On le peut si le véhicule qui me précède signal son intention de tourner à droite"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q282",
+  "num": 282,
+  "question": "Aux sommets d’une côte :",
+  "choices": [
+   "Je peux dépasser si ma voiture a une réserve d’accélération suffisante",
+   "Je peux dépasser à la hauteur d’une ligne continue",
+   "Je ne peux pas dépasser"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q283",
+  "num": 283,
+  "question": "Sur une chaussée à double sens comportant trois voies :",
+  "choices": [
+   "Je suis autorisé à dépasser en 3ème position lorsqu’aucun usager ne vient en face",
+   "Je suis autorisé à dépasser en 3ème position lorsque je juge suffisante la largeur de la chaussée",
+   "Je ne suis pas autorisé à dépasser en 3ème position"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q284",
+  "num": 284,
+  "question": "Au niveau des flèches de rabattement",
+  "choices": [
+   "Je suis autorisé à dépasser lorsqu’aucun usager ne vient en face",
+   "Je suis autorisé à dépasser lorsque je juge la largeur de la chaussée suffisante",
+   "Je ne suis pas autorisé à dépasser",
+   "Je suis autorisé si l’usager devant moi est trop lent"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q285",
+  "num": 285,
+  "question": "Au niveau d’une ligne continue accolée à une ligne discontinue plus proche du conducteur, peut-on effectuer le dépassement ?",
+  "choices": [
+   "On ne peut pas effectuer le dépassement",
+   "On peut effectuer le dépassement",
+   "On ne peut pas effectuer le dépassement la nuit"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q286",
+  "num": 286,
+  "question": "A quel passage à niveau le dépassement est-il autorisé ?",
+  "choices": [
+   "A un passage à niveau sans barrière",
+   "A un passage à niveau avec barrière à fonctionnement manuel",
+   "A un passage à niveau avec barrière à fonctionnement automatique",
+   "A aucun passage à niveau"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q287",
+  "num": 287,
+  "question": "Sur cette image D9",
+  "choices": [
+   "Le véhicule bleu est en infraction",
+   "Le véhicule bleu effectue une bonne manœuvre",
+   "Le véhicule bleu n’est pas en infraction",
+   "Le véhicule bleu effectue une mauvaise manœuvre"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "signs": [
+   "D9"
+  ],
+  "images": [
+   "/benin/signs/96b18bce5e95.webp"
+  ]
+ },
+ {
+  "id": "bj-q288",
+  "num": 288,
+  "question": "Sur cette chaussée D10 à trois voies et à double sens de circulation :",
+  "choices": [
+   "Le véhicule jaune est en infraction",
+   "Le véhicule jaune n’est pas en infraction",
+   "Le véhicule jaune effectue une bonne manœuvre",
+   "Le véhicule jaune effectue une mauvaise manœuvre"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "signs": [
+   "D10"
+  ],
+  "images": [
+   "/benin/signs/4c26e3e8f77b.webp",
+   "/benin/signs/604f0c4a9d2b.webp"
+  ]
+ },
+ {
+  "id": "bj-q290",
+  "num": 290,
+  "question": "Sur cette image D12",
+  "choices": [
+   "Le véhicule vert est en infraction",
+   "Le véhicule vert effectue une bonne manœuvre",
+   "Le véhicule vert n’est pas en infraction",
+   "Le véhicule vert effectue une mauvaise manœuvre"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "D12"
+  ],
+  "images": [
+   "/benin/signs/abbdc4b2d277.webp"
+  ]
+ },
+ {
+  "id": "bj-q291",
+  "num": 291,
+  "question": "Sur cette chaussée D13 à quatre voies et à double sens de circulation,",
+  "choices": [
+   "Le véhicule vert n’est pas en infraction",
+   "Le véhicule vert effectue une bonne manœuvre",
+   "Le véhicule vert effectue une mauvaise manœuvre",
+   "Le véhicule vert est en infraction"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "signs": [
+   "D13"
+  ],
+  "images": [
+   "/benin/signs/13e509eea0ff.webp"
+  ]
+ },
+ {
+  "id": "bj-q292",
+  "num": 292,
+  "question": "Sur cette chaussée D13 à quatre voies et à sens unique :",
+  "choices": [
+   "Le véhicule vert n’est pas en infraction",
+   "Le véhicule vert effectue une bonne manœuvre",
+   "Le véhicule vert effectue une mauvaise manœuvre",
+   "Le véhicule vert est en infraction"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "signs": [
+   "D13"
+  ],
+  "images": [
+   "/benin/signs/13e509eea0ff.webp"
+  ]
+ },
+ {
+  "id": "bj-q293",
+  "num": 293,
+  "question": "Sur cette image D9 :",
+  "choices": [
+   "Le véhicule bleu est en infraction",
+   "Le véhicule bleu n’est pas en infraction",
+   "Le véhicule bleu effectue une mauvaise manœuvre",
+   "Le véhicule bleu effectue une bonne manœuvre"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "signs": [
+   "D9"
+  ],
+  "images": [
+   "/benin/signs/96b18bce5e95.webp"
+  ]
+ },
+ {
+  "id": "bj-q294",
+  "num": 294,
+  "question": "Sur cette chaussée D10 à trois voies et à sens unique de circulation",
+  "choices": [
+   "Le véhicule jaune est en infraction",
+   "Le véhicule jaune effectue une bonne manœuvre",
+   "Le véhicule jaune effectue une mauvaise manœuvre",
+   "Le véhicule jaune n’est pas en infraction"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "signs": [
+   "D10"
+  ],
+  "images": [
+   "/benin/signs/4c26e3e8f77b.webp"
+  ]
+ },
+ {
+  "id": "bj-q295",
+  "num": 295,
+  "question": "Sur cette image D4",
+  "choices": [
+   "Le véhicule bleu est en infraction",
+   "Le véhicule bleu n’est pas en infraction",
+   "Le véhicule bleu effectue une bonne manœuvre",
+   "Le véhicule bleu effectue une mauvaise manœuvre"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "D4"
+  ],
+  "images": [
+   "/benin/signs/a9eee7dc87cc.webp"
+  ]
+ },
+ {
+  "id": "bj-q296",
+  "num": 296,
+  "question": "Sur une chaussée à plus de deux voies et à double sens de circulation, le dépassement est interdit :",
+  "choices": [
+   "Sur la voie se trouvant la plus à gauche",
+   "Sur la voie du milieu",
+   "Sur toutes les voies"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q297",
+  "num": 297,
+  "question": "Sur une chaussée à deux voies et à double sens, je peux circuler :",
+  "choices": [
+   "Sur la voie de gauche pour effectuer un dépassement",
+   "Sur la voie de gauche de façon continue",
+   "Sur la voie de droite seulement"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q298",
+  "num": 298,
+  "question": "Le franchissement ou le chevauchement de la ligne continue est autorisé :",
+  "choices": [
+   "A tout moment",
+   "A aucun moment",
+   "Pour effectuer un dépassement",
+   "Lorsque la chaussée est libre"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q299",
+  "num": 299,
+  "question": "Vous circulez par temps de grand vent ; pour dépasser un autre usager :",
+  "choices": [
+   "Vous diminuez l’écart latéral",
+   "Vous maintenez l’écart latéral",
+   "Vous augmentez l’écart latéral"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q300",
+  "num": 300,
+  "question": "Pour effectuer un croisement, je dois :",
+  "choices": [
+   "Accélérer",
+   "Ralentir",
+   "Serrer ma droite"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q301",
+  "num": 301,
+  "question": "Pour effectuer un croisement la nuit, je dois",
+  "choices": [
+   "Klaxonner",
+   "Circuler en phare",
+   "Circuler en code",
+   "Circuler en feux de détresse"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q302",
+  "num": 302,
+  "question": "Quel est le véhicule qui doit s’arrêter à temps à cause d’un croisement difficile sur un terrain plat ?",
+  "choices": [
+   "Le véhicule léger",
+   "Le véhicule encombrant",
+   "Le véhicule qui veut"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q303",
+  "num": 303,
+  "question": "Sur une pente, quel est le véhicule qui doit s’arrêter à temps à cause d’un croisement difficile ?",
+  "choices": [
+   "Le véhicule montant",
+   "Le véhicule descendant",
+   "Le véhicule qui le désire"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q304",
+  "num": 304,
+  "question": "En agglomération, quel est le véhicule qui doit s’arrêter à temps à cause d’un croisement difficile ?",
+  "choices": [
+   "L’autobus",
+   "Le véhicule qui le désire",
+   "Le camion"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q305",
+  "num": 305,
+  "question": "Lorsque deux véhicules de même catégorie se retrouvent sur une pente, lequel doit faire la marche arrière à cause d’un croisement difficile ?",
+  "choices": [
+   "Le véhicule montant",
+   "Le véhicule descendant",
+   "Le véhicule qui veut"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q306",
+  "num": 306,
+  "question": "Dans quels cas dois-je m’arrêter pour laisser passer l’usager venant en sens inverse ?",
+  "choices": [
+   "Devant le panneau \"chaussée rétrécie\" et un obstacle devant moi",
+   "Devant le panneau \"céder le passage\" aux usagers venant en sens inverse et devant un panneau \"chaussée rétrécie\"",
+   "Devant le panneau sens interdit et un obstacle devant moi"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q307",
+  "num": 307,
+  "question": "Sur une pente, quel est le véhicule qui doit faciliter le passage lors d’un croisement difficile ?",
+  "choices": [
+   "L’autobus chargé",
+   "Le camion",
+   "Le véhicule qui le désire"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q308",
+  "num": 308,
+  "question": "Sur une pente, quel est le véhicule qui doit faire la marche arrière à cause d’un croisement difficile ?",
+  "choices": [
+   "Le véhicule isolé",
+   "Le véhicule articulé",
+   "Le véhicule qui veut"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q309",
+  "num": 309,
+  "question": "La nuit, pour éviter d’être ébloui :",
+  "choices": [
+   "Je regarde le bord droit de la chaussée",
+   "Je ferme les yeux pendant un court instant",
+   "Je porte des verres teintés",
+   "J’allume mes feux de route"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q310",
+  "num": 310,
+  "question": "L’écart minimal de vitesse recommandé pour un véhicule qui veut effectuer le dépassement est de :",
+  "choices": [
+   "30km/h",
+   "25 km/h",
+   "40 km/h",
+   "20 km/h",
+   "10 km/h"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q311",
+  "num": 311,
+  "question": "Sur une chaussée à forte déclivité, quel est le véhicule qui doit s’arrêter à temps lorsque le croisement se révèle difficile ?",
+  "choices": [
+   "Le véhicule descendant",
+   "Le véhicule qui le désire",
+   "Le véhicule montant"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q312",
+  "num": 312,
+  "question": "Je laisse passer l’usager d’en face en m’arrêtant :",
+  "choices": [
+   "Quand se dresse un obstacle devant moi",
+   "Devant un panneau de circulation à sens unique",
+   "Quand je suis au volant d’un véhicule encombrant"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q313",
+  "num": 313,
+  "question": "Quel doit être mon comportement lorsqu’un usager manifeste son intention de me dépasser ?",
+  "choices": [
+   "Je ne l’empêche pas si la manœuvre est régulière",
+   "Je serre ma droite le plus possible",
+   "J’accélère",
+   "Je maintiens mon allure et, au besoin je ralentis",
+   "La nuit, je passe en feu de croisement quand il arrive à ma hauteur"
+  ],
+  "correct": [
+   0,
+   1,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "bj-q314",
+  "num": 314,
+  "question": "Dans quels cas devez vous céder le passage de gauche comme de droite ?",
+  "choices": [
+   "devant le feu vert ou jaune clignotant",
+   "devant le feu rouge",
+   "devant le panneau « STOP »",
+   "devant le panneau « Triangle pointe en bas »",
+   "en sortant d’un chemin de terre, d’un garage ou d’un parking"
+  ],
+  "correct": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "bj-q315",
+  "num": 315,
+  "question": "Hors agglomération, le panneau à caractère prioritaire est répété :",
+  "choices": [
+   "tous les 5km",
+   "après chaque intersection",
+   "tous les 2km",
+   "après chaque virage",
+   "tous les kilomètres"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q316",
+  "num": 316,
+  "question": "En agglomération, le panneau à caractère prioritaire est répété :",
+  "choices": [
+   "tous les 5 kilomètres",
+   "après chaque intersection",
+   "Tous les 2 kilomètres",
+   "Après chaque virage",
+   "Tous les kilomètres"
+  ],
+  "correct": [
+   4
+  ]
+ },
+ {
+  "id": "bj-q317",
+  "num": 317,
+  "question": "Quel est le but des ronds-points ?",
+  "choices": [
+   "faciliter l’écoulement des trafics",
+   "briser les vitesses",
+   "permettre le stationnement des véhicules"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q318",
+  "num": 318,
+  "question": "A quoi peut-on s’attendre lors d’un croisement ou dépassement d’un véhicule à deux roues ?",
+  "choices": [
+   "non respect des signaux",
+   "non respect des règles de priorité",
+   "des écarts sans avertir, sans contrôler"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q319",
+  "num": 319,
+  "question": "A cette intersection Im4 ; P55, l’usager se trouvant dans la voie du milieu peut :",
+  "choices": [
+   "tourner à droite",
+   "tourner à gauche",
+   "continuer tout droit"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/db7313d44734.webp"
+  ]
+ },
+ {
+  "id": "bj-q320",
+  "num": 320,
+  "question": "A cette intersection (Im5 ; P55) le véhicule bleu passe :",
+  "choices": [
+   "avant le véhicule blanc",
+   "après le véhicule blanc",
+   "le dernier"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/98359ff9f169.webp"
+  ]
+ },
+ {
+  "id": "bj-q321",
+  "num": 321,
+  "question": "A cette intersection (Im6 ; P65) quel est le véhicule qui passe le premier ?",
+  "choices": [
+   "le rouge",
+   "le jaune",
+   "le bleu"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/3b3a505fdf2f.webp"
+  ]
+ },
+ {
+  "id": "bj-q322",
+  "num": 322,
+  "question": "A cette intersection Im7 ; P65, quel est le véhicule qui peut passer immédiatement ?",
+  "choices": [
+   "le bleu",
+   "le jaune",
+   "le vert"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
+   "/benin/signs/0ca8d4e84c1b.webp"
+  ]
+ },
+ {
+  "id": "bj-q323",
+  "num": 323,
+  "question": "A cette intersection Im8 P55 le véhicule vert peut :",
+  "choices": [
+   "tourner immédiatement à droit",
+   "continuer tout droit",
+   "ne peut tourner immédiatement à droite"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/f65b28388304.webp"
+  ]
+ },
+ {
+  "id": "bj-q324",
+  "num": 324,
+  "question": "Pour me rabattre à droite après un dépassement, j’attends :",
+  "choices": [
+   "De ne plus voir le véhicule par la vitre latérale droite",
+   "De voir le véhicule dans mon rétroviseur droit",
+   "De voir le véhicule dans mon rétroviseur intérieur"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q325",
+  "num": 325,
+  "question": "La force centrifuge augmente proportionnellement:",
+  "choices": [
+   "Avec la vitesse",
+   "Avec le rayon de la courbe",
+   "Avec la charge du véhicule"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q326",
+  "num": 326,
+  "question": "A l’approche d’une intersection, sur une route à caractère prioritaire :",
+  "choices": [
+   "je peux dépasser un véhicule",
+   "je ne peux pas dépasser un véhicule",
+   "je ne peux pas dépasser lorsqu’il y a un marquage au sol l’interdisant"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q327",
+  "num": 327,
+  "question": "Je suis sur une route à caractère prioritaire, si je n’ai pas à céder le passage :",
+  "choices": [
+   "à droite aux intersections",
+   "à gauche aux intersections",
+   "à la prochaine intersection seulement"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q328",
+  "num": 328,
+  "question": "Pour ma sécurité et celle des autres, je dois circuler :",
+  "choices": [
+   "à droite dans ma voie",
+   "au centre de ma voie",
+   "à gauche dans ma voie"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q329",
+  "num": 329,
+  "question": "Dans un croisement à l’indonésienne, les véhicules se croisent :",
+  "choices": [
+   "par la droite",
+   "par la gauche"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q330",
+  "num": 330,
+  "question": "A une intersection sans signalisation, je dois céder le passage :",
+  "choices": [
+   "à gauche seulement",
+   "à droite seulement",
+   "à droite et à gauche",
+   "à aucun usager"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q331",
+  "num": 331,
+  "question": "En montagne, sur une route étroite, celui qui doit s’arrêter est :",
+  "choices": [
+   "Le véhicule qui monte",
+   "Le véhicule qui descend",
+   "Le véhicule le plus chargé",
+   "Le véhicule le moins chargé"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q332",
+  "num": 332,
+  "question": "Dans une longue et forte descente :",
+  "choices": [
+   "Je Freine en permanence pour ne pas prendre de vitesse",
+   "Je freine au début pour rétrograder et utiliser le frein moteur",
+   "Dans des lignes droites, je mets le levier de vitesse au point mort pour consommer moins de carburant"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/9884ffc020fe.webp",
+   "/benin/signs/7c6108de8598.webp"
+  ]
+ },
+ {
+  "id": "bj-q334",
+  "num": 334,
+  "question": "Donnez la règle à appliquer et l’ordre de véhicules :",
+  "choices": [
+   "perte de priorité",
+   "priorité de passage",
+   "priorité à droite",
+   "rouge, bleu, jaune",
+   "bleu, jaune, rouge"
+  ],
+  "correct": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q335",
+  "num": 335,
+  "question": "Sur cette image Im2 P47, donnez les règles à appliquer et l’ordre de passage des véhicules",
+  "choices": [
+   "priorité à droite",
+   "perte de priorité",
+   "priorité de passage",
+   "jaune et bleu simultanément puis rouge",
+   "rouge, jaune, bleu"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ],
+  "images": [
+   "/benin/signs/086e7ce38df5.webp"
+  ]
+ },
+ {
+  "id": "bj-q336",
+  "num": 336,
+  "question": "Sur cette image Im3 P47, donnez les règles à appliquer et l’ordre de passage des véhicules",
+  "choices": [
+   "priorité à droite",
+   "priorité de passage",
+   "perte de priorité",
+   "jaune, bleu, rouge",
+   "bleu, rouge, jaune"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "images": [
+   "/benin/signs/fc4184a066bb.webp"
+  ]
+ },
+ {
+  "id": "bj-q337",
+  "num": 337,
+  "question": "Sur cette image Im4 P47, donnez les règles à appliquer et l’ordre de passage des véhicules",
+  "choices": [
+   "perte de priorité",
+   "priorité de passage",
+   "courtoisie",
+   "jaune et rouge simultanément puis bleu et blanc après",
+   "Bleu et blanc simultanément puis rouge et jaune après"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "images": [
+   "/benin/signs/29229589ac7a.webp"
+  ]
+ },
+ {
+  "id": "bj-q338",
+  "num": 338,
+  "question": "Sur cette image Im5 P47, donnez les règles à appliquer et l’ordre de passage des véhicules",
+  "choices": [
+   "perte de priorité",
+   "priorité à droite",
+   "priorité de passage",
+   "bleue, rouge, jaune",
+   "bleu et jaune simultanément puis rouge après"
+  ],
+  "correct": [
+   0,
+   2,
+   4
+  ],
+  "images": [
+   "/benin/signs/2ca80bb9757c.webp"
+  ]
+ },
+ {
+  "id": "bj-q339",
+  "num": 339,
+  "question": "Sur cette image Im6 P47, donnez les règles à appliquer et l’ordre de passage des véhicules",
+  "choices": [
+   "priorité à droite",
+   "priorité de passage",
+   "perte de priorité",
+   "rouge d’abord, puis bleu et jaune après",
+   "bleu, rouge et jaune"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ],
+  "images": [
+   "/benin/signs/df1b6ae8e882.webp"
+  ]
+ },
+ {
+  "id": "bj-q340",
+  "num": 340,
+  "question": "Sur cette image Im7 P47, donnez les règles à appliquer et l’ordre de passage des véhicules",
+  "choices": [
+   "perte de priorité",
+   "priorité de passage",
+   "la priorité à droite",
+   "bleu, jaune, rouge",
+   "bleu et rouge simultanément, puis jaune après"
+  ],
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "images": [
+   "/benin/signs/2061d03aa307.webp"
+  ]
+ },
+ {
+  "id": "bj-q341",
+  "num": 341,
+  "question": "Sur cette image Im1 P49, choisissez le panneau manquant parmi les panneaux proposés",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d",
+   "Réponse e"
+  ],
+  "correct": [
+   0
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/bd1940df38d7.webp",
+   "/benin/signs/1e523655a612.webp",
+   "/benin/signs/87f244992fba.webp",
+   "/benin/signs/f493b87d8405.webp",
+   "/benin/signs/b74bfe32968f.webp",
+   "/benin/signs/7f1fa3a301ff.webp",
+   "/benin/signs/80d49df57f3d.webp",
+   "/benin/signs/ce47a3e72680.webp",
+   "/benin/signs/55469156796e.webp",
+   "/benin/signs/d0d0a0e11b0b.webp",
+   "/benin/signs/0771da14cc53.webp",
+   "/benin/signs/1690d934fc4a.webp"
+  ]
+ },
+ {
+  "id": "bj-q342",
+  "num": 342,
+  "question": "Sur cette image Im2 P49, choisissez le panneau manquant parmi les panneaux proposés",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d",
+   "Réponse e"
+  ],
+  "correct": [
+   1
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/45c54d55f5b9.webp",
+   "/benin/signs/1e523655a612.webp",
+   "/benin/signs/b9317d40e620.webp",
+   "/benin/signs/87f244992fba.webp",
+   "/benin/signs/b74bfe32968f.webp",
+   "/benin/signs/7f1fa3a301ff.webp",
+   "/benin/signs/501402ae5be1.webp",
+   "/benin/signs/81f967e3fd97.webp",
+   "/benin/signs/2222d73545fb.webp",
+   "/benin/signs/f86a3e85371a.webp",
+   "/benin/signs/02540f6e96ea.webp",
+   "/benin/signs/b0804b3c83c2.webp"
+  ]
+ },
+ {
+  "id": "bj-q343",
+  "num": 343,
+  "question": "Sur cette image Im3 P49, choisissez le panneau manquant parmi les panneaux proposés",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d",
+   "Réponse e"
+  ],
+  "correct": [
+   1,
+   4
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/6061b4b22174.webp",
+   "/benin/signs/1398a9b56631.webp",
+   "/benin/signs/1e523655a612.webp",
+   "/benin/signs/9d3d0baee0d5.webp",
+   "/benin/signs/5d7b78e3f79f.webp",
+   "/benin/signs/7f1fa3a301ff.webp",
+   "/benin/signs/607625f15c3c.webp",
+   "/benin/signs/6cdb69494e42.webp",
+   "/benin/signs/7ed65211cfb9.webp",
+   "/benin/signs/e3835d53bf02.webp",
+   "/benin/signs/bc2f80ca99a9.webp"
+  ]
+ },
+ {
+  "id": "bj-q344",
+  "num": 344,
+  "question": "Sur cette image, choisissez le panneau manquant parmi les panneaux proposés",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d",
+   "Réponse e"
+  ],
+  "correct": [
+   4
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/b64938e2dfc1.webp",
+   "/benin/signs/1398a9b56631.webp",
+   "/benin/signs/7d015b4b9a7c.webp",
+   "/benin/signs/1e523655a612.webp",
+   "/benin/signs/9d3d0baee0d5.webp",
+   "/benin/signs/5d7b78e3f79f.webp",
+   "/benin/signs/78f9df968970.webp",
+   "/benin/signs/06ae0b9f2900.webp",
+   "/benin/signs/8242a7f79ed9.webp",
+   "/benin/signs/e997f076f2db.webp",
+   "/benin/signs/a25f0afca3de.webp"
+  ]
+ },
+ {
+  "id": "bj-q345",
+  "num": 345,
+  "question": "Sur cette image Im5 P49, choisissez le panneau manquant parmi les panneaux proposés",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d",
+   "Réponse e"
+  ],
+  "correct": [
+   4
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/ffc906854718.webp",
+   "/benin/signs/1398a9b56631.webp",
+   "/benin/signs/7d015b4b9a7c.webp",
+   "/benin/signs/3b352188fe9d.webp",
+   "/benin/signs/9d3d0baee0d5.webp",
+   "/benin/signs/5d7b78e3f79f.webp",
+   "/benin/signs/58dfd3808672.webp",
+   "/benin/signs/b125ce07cf16.webp",
+   "/benin/signs/84b232973cbd.webp",
+   "/benin/signs/901041dc58f0.webp",
+   "/benin/signs/a3968432689f.webp"
+  ]
+ },
+ {
+  "id": "bj-q346",
+  "num": 346,
+  "question": "Sur cette image Im6 P49, choisi le panneau manquant parmi les panneaux proposés",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d",
+   "Réponse e"
+  ],
+  "correct": [
+   2
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/8853402cbe38.webp",
+   "/benin/signs/855df056453d.webp",
+   "/benin/signs/1e523655a612.webp",
+   "/benin/signs/9d3d0baee0d5.webp",
+   "/benin/signs/5d7b78e3f79f.webp",
+   "/benin/signs/a01a84ef8093.webp",
+   "/benin/signs/8c81e02ea56d.webp",
+   "/benin/signs/e25213fe681b.webp",
+   "/benin/signs/77de9d388314.webp",
+   "/benin/signs/548562b2ffed.webp",
+   "/benin/signs/5e6d820ed243.webp"
+  ]
+ },
+ {
+  "id": "bj-q347",
+  "num": 347,
+  "question": "Sur cette image Im7 P49, choisissez le panneau manquant parmi les panneaux proposés",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d",
+   "Réponse e"
+  ],
+  "correct": [
+   1
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/5673081fd471.webp",
+   "/benin/signs/fd5a3d627bed.webp",
+   "/benin/signs/1e523655a612.webp",
+   "/benin/signs/dbca6158b291.webp",
+   "/benin/signs/b9317d40e620.webp",
+   "/benin/signs/a01a84ef8093.webp",
+   "/benin/signs/6eb490f2bb6c.webp",
+   "/benin/signs/6eb391821857.webp",
+   "/benin/signs/81f967e3fd97.webp",
+   "/benin/signs/8a5f736a661d.webp",
+   "/benin/signs/492dadc24ed6.webp"
+  ]
+ },
+ {
+  "id": "bj-q348",
+  "num": 348,
+  "question": "Sur cette image Im8 P49, choisi le panneau manquant parmi les panneaux proposés",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c",
+   "Réponse d",
+   "Réponse e"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/4683c6b30e57.webp",
+   "/benin/signs/1e523655a612.webp",
+   "/benin/signs/dbca6158b291.webp",
+   "/benin/signs/b9317d40e620.webp",
+   "/benin/signs/5d7b78e3f79f.webp",
+   "/benin/signs/a01a84ef8093.webp",
+   "/benin/signs/c5dcafa7d03f.webp",
+   "/benin/signs/db3cd37fa5e3.webp",
+   "/benin/signs/c7d14883f415.webp",
+   "/benin/signs/a67a931fec28.webp",
+   "/benin/signs/90d45f585d1a.webp"
+  ]
+ },
+ {
+  "id": "bj-q349",
+  "num": 349,
+  "question": "Sur cette image Im N°1 P60:",
+  "choices": [
+   "nous sommes en présence d’une ligne d’avertissement",
+   "le véhicule bleu peut dépasser",
+   "le véhicule rouge peut s’arrêter sur la chaussée",
+   "la ligne de rive peut être franchie"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "images": [
+   "/benin/signs/e5e0df63afc3.webp"
+  ]
+ },
+ {
+  "id": "bj-q350",
+  "num": 350,
+  "question": "Sur cette image (Im 1 p57), quelle est la position de l’agent qui vous autorise le passage ?",
+  "choices": [
+   "Réponse a",
+   "Réponse b",
+   "Réponse c"
+  ],
+  "correct": [
+   0
+  ],
+  "imageChoices": true,
+  "images": [
+   "/benin/signs/8a698f6d2d84.webp",
+   "/benin/signs/1229f6063d16.webp",
+   "/benin/signs/d2d28fdab725.webp",
+   "/benin/signs/2f23ff677d11.webp"
+  ]
+ },
+ {
+  "id": "bj-q351",
+  "num": 351,
+  "question": "Quel est l’ordre de passage des véhicules à cette intersection (Im 2)",
+  "choices": [
+   "rouge- jaune – bleu – blanc",
+   "rouge et bleu simultanément puis blanc et jaune sur ordre de l’agent",
+   "jaune et blanc simultanément puis bleu et rouge sur ordre de l’agent"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/e46868ed51b3.webp"
+  ]
+ },
+ {
+  "id": "bj-q352",
+  "num": 352,
+  "question": "A cette intersection In 3, quel sera l’ordre de passage des véhicules ?",
+  "choices": [
+   "rouge – blanc- jaune –vert",
+   "bleu et rouge simultanément puis bleu et vert au feu vert",
+   "bleu et vert simultanément puis rouge et jaune sur l’ordre de l’agent"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/709968e7cab3.webp",
+   "/benin/signs/fc5a2e12bed7.webp",
+   "/benin/signs/c3ffaadd264c.webp",
+   "/benin/signs/49f49469765b.webp",
+   "/benin/signs/776797d9a1eb.webp",
+   "/benin/signs/0f32808ee3b5.webp",
+   "/benin/signs/64dcba9db5c0.webp",
+   "/benin/signs/84b189313ccf.webp",
+   "/benin/signs/c1189555428b.webp",
+   "/benin/signs/205ae10ef5a9.webp",
+   "/benin/signs/f0fdcfb67435.webp"
+  ]
+ },
+ {
+  "id": "bj-q359",
+  "num": 359,
+  "question": "Lorsque les véhicules que je croise roulent en feux de croisement, je prévois que je peux rencontrer :",
+  "choices": [
+   "une zone d’intempéries",
+   "un contrôle de vitesse",
+   "un contrôle routier"
+  ],
+  "correct": [
+   0
+  ]
+ }
+]

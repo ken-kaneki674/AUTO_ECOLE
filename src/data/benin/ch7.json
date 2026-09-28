@@ -1,0 +1,521 @@
+[
+ {
+  "id": "bj-q646",
+  "num": 646,
+  "question": "Sur une motocyclette, le passager :",
+  "choices": [
+   "Peut-être assis devant le conducteur",
+   "Peut-être assis dans la position dite « en amazone »",
+   "Doit être assis sur le siège arrière",
+   "Doit faire corps avec la moto et son conducteur"
+  ],
+  "correct": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q647",
+  "num": 647,
+  "question": "En cas de panne de ma motocyclette :",
+  "choices": [
+   "Je peux trainer ma moto sur le trottoir, le moteur arrêté",
+   "Je ne peux pas trainer ma moto sur le trottoir, le moteur arrêté",
+   "Je peux la garer sur le trottoir et attendre un dépanneur"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q648",
+  "num": 648,
+  "question": "Dans une circulation en files ininterrompues :",
+  "choices": [
+   "Je peux me faufiler entre les véhicules",
+   "Je peux me faufiler entre les véhicules si la circulation s’arrête",
+   "Je dois rester dans ma file sauf pour préparer un changement de direction"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q649",
+  "num": 649,
+  "question": "Avec mon véhicule à deux roues, je peux traverser une voie ferrée :",
+  "choices": [
+   "En passant par le portillon d’une barrière fermée avant le passage d’un train",
+   "En passant les demi-barrières fermées avant le passage du train",
+   "Après le relèvement de la barrière"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q650",
+  "num": 650,
+  "question": "Le clignotant est obligatoire :",
+  "choices": [
+   "Pour les cyclomoteurs",
+   "Pour les motocyclettes",
+   "Pour tous les véhicules à deux roues",
+   "Pour les automobiles seulement"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q651",
+  "num": 651,
+  "question": "Avec mon permis de conduire catégorie A1, je peux conduire des motocyclettes dont la cylindrée",
+  "choices": [
+   "N’excède pas 75cm3",
+   "Excède 75cm3",
+   "Est égale à 100cm3"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "A1"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q652",
+  "num": 652,
+  "question": "Avec mon permis de conduire catégorie A2, je peux conduire des motocyclettes dont la cylindrée",
+  "choices": [
+   "N’excède pas 450cm3",
+   "Excède 400cm3",
+   "Est inférieur à 400cm3",
+   "Est égale à 400cm3"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "signs": [
+   "A2"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q653",
+  "num": 653,
+  "question": "Avec mon permis de conduire catégorie A3, je peux conduire des motocyclettes dont la cylindrée",
+  "choices": [
+   "N’excède pas 450cm3",
+   "Excède 400cm3",
+   "Est inférieure à 400cm3",
+   "Est égale à 400cm3"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "signs": [
+   "A3"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q654",
+  "num": 654,
+  "question": "Quels sont les contrôles de niveau à effectuer avant le départ sur les motocyclettes dont la cylindrée est supérieure ou égale à 400cm3 ?",
+  "choices": [
+   "Niveau d’huile à moteur",
+   "Eau dans le radiateur",
+   "Essence dans le réservoir",
+   "Eau du bocal de l’essuie-glace"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q655",
+  "num": 655,
+  "question": "Dans quelle position met-on la motocyclette pour effectuer les contrôles de niveau ?",
+  "choices": [
+   "Sur la béquille centrale",
+   "Sur la béquille latérale",
+   "Couchée"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q656",
+  "num": 656,
+  "question": "En longeant les véhicules en stationnement, à quoi doit-on faire attention ?",
+  "choices": [
+   "Aux piétons qui pourraient surgir",
+   "Aux véhicules qui pourraient surgir",
+   "Aux portières qui pourraient s’ouvrir",
+   "Aux véhicules qui pourraient quitter leur stationnement"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q657",
+  "num": 657,
+  "question": "Les précautions à prendre pour la conduite d’une nouvelle motocyclette :",
+  "choices": [
+   "S’habituer progressivement",
+   "Augmenter la distance de sécurité",
+   "Réduire la distance de sécurité",
+   "Adopter une bonne position de conduite, de freinage et de tenue de route"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q658",
+  "num": 658,
+  "question": "Quels sont les contrôles à effectuer avant chaque départ ?",
+  "choices": [
+   "Position des béquilles",
+   "Bon ajustement du casque (conducteur et passager)",
+   "Resserrage des rayons",
+   "Réglage des rétroviseurs"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q659",
+  "num": 659,
+  "question": "Quels sont les différents types de casques pour les motocyclettes et les cyclomoteurs ?",
+  "choices": [
+   "Casque à couverture ignifugée",
+   "Casque intégral",
+   "Casque enveloppant",
+   "Casque étoilé"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q660",
+  "num": 660,
+  "question": "Quelle est la bonne position d’un conducteur à motocyclette ?",
+  "choices": [
+   "Etre bien assis sur la selle",
+   "Avoir les bras légèrement fléchis",
+   "Avoir le cou raide",
+   "Garder les genoux contre le réservoir"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q661",
+  "num": 661,
+  "question": "Quel est l’âge minimum pour un candidat à l’examen du permis de conduire A1",
+  "choices": [
+   "14ans",
+   "16ans",
+   "17ans"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "A1"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q662",
+  "num": 662,
+  "question": "Le feu stop est obligatoire :",
+  "choices": [
+   "Sur les cyclomoteurs",
+   "Sur les motocyclettes",
+   "Sur tous les véhicules à deux roues"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q663",
+  "num": 663,
+  "question": "Le rétroviseur est-il obligatoire pour les motocyclettes ?",
+  "choices": [
+   "Oui",
+   "Non"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q664",
+  "num": 664,
+  "question": "Combien de passagers un conducteur de deux roues peut-il transporter ?",
+  "choices": [
+   "deux",
+   "un",
+   "trois"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q665",
+  "num": 665,
+  "question": "Le port de casque est obligatoire sur les véhicules à deux roues :",
+  "choices": [
+   "Seulement quand je remorque un passager",
+   "Si je suis seul",
+   "Pour tous les occupants"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q666",
+  "num": 666,
+  "question": "Le port de casque protège contre :",
+  "choices": [
+   "Le soleil et la pluie",
+   "Le traumatisme crânien",
+   "La poussière"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q667",
+  "num": 667,
+  "question": "Quel est l’âge minimum du candidat à l’examen de permis de conduire A2 ?",
+  "choices": [
+   "15ans",
+   "20ans",
+   "18ans"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A2"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q668",
+  "num": 668,
+  "question": "Pour le transport d’un enfant de moins de 5ans sur une motocyclette il faut :",
+  "choices": [
+   "Avoir un simple siège",
+   "Avoir un siège muni de courroie-attache",
+   "Bien régler son casque"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q669",
+  "num": 669,
+  "question": "Quel est l’âge minimum pour un candidat à l’examen de permis de conduire A3 ?",
+  "choices": [
+   "17ans",
+   "18ans",
+   "21ans"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A3"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q670",
+  "num": 670,
+  "question": "Que signifie le panneau A21b ?",
+  "choices": [
+   "Voie réservée au cycliste",
+   "Voie interdite au cycliste",
+   "Débouché de cycliste venant de gauche seulement"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "A21b"
+  ],
+  "images": [
+   "/benin/signs/06aab95159ee.webp"
+  ]
+ },
+ {
+  "id": "bj-q671",
+  "num": 671,
+  "question": "Sur ma moto, à la vue du panneau B14(3) hors agglomération :",
+  "choices": [
+   "Je peux rouler à plus de 60km/h",
+   "Je peux rouler à moins de 60km/h",
+   "Je peux rouler à 60km/h strictement",
+   "Je ne suis pas concerné par cette signalisation"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "B14"
+  ],
+  "images": [
+   "/benin/signs/98a84acff7df.webp"
+  ]
+ },
+ {
+  "id": "bj-q672",
+  "num": 672,
+  "question": "Le panneau B14-3 :",
+  "choices": [
+   "concerne uniquement les conducteurs à moto",
+   "concerne tous les conducteurs sauf les motocyclistes",
+   "concerne aussi les 4 roues"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "B14-3"
+  ],
+  "images": [
+   "/benin/signs/228dcce1a6b7.webp"
+  ]
+ },
+ {
+  "id": "bj-q673",
+  "num": 673,
+  "question": "Le port de casque est obligatoire :",
+  "choices": [
+   "seulement en rase campagne ou la grande vitesse est possible",
+   "seulement en ville à cause du grand nombre de véhicules",
+   "seulement sur les voies pavées ou bitumées",
+   "rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q674",
+  "num": 674,
+  "question": "La circulation à deux de front pour les véhicules à deux roues :",
+  "choices": [
+   "Est autorisée sur les chaussées à double sens de circulation",
+   "Est autorisée sur les chaussées à sens unique de circulation",
+   "N’est pas autorisée",
+   "Est autorisée seulement sur les voies réservées aux véhicules à deux roues"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q675",
+  "num": 675,
+  "question": "Avec mon permis de conduire catégorie A2, je peux conduire des motocyclettes dont la cylindrée n’excède pas :",
+  "choices": [
+   "200cm3",
+   "400cm3",
+   "600cm3"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "signs": [
+   "A2"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q676",
+  "num": 676,
+  "question": "Les motocyclettes sont des véhicules à deux roues :",
+  "choices": [
+   "Avec moteur auxiliaire",
+   "Pourvus d’un moteur thermique",
+   "Dont la cylindrée ne dépasse pas 50cm3",
+   "Dont la cylindrée dépasse 50cm3"
+  ],
+  "correct": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q677",
+  "num": 677,
+  "question": "Les cyclomoteurs sont des véhicules à deux roues :",
+  "choices": [
+   "Pourvus d’un moteur thermique",
+   "Dont la cylindrée ne dépasse pas 50cm3",
+   "Dont la cylindrée dépasse 50cm3"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q678",
+  "num": 678,
+  "question": "Sont obligatoires sur les motocyclettes :",
+  "choices": [
+   "Les avertisseurs",
+   "les deux rétroviseurs",
+   "le rétroviseur gauche",
+   "le rétroviseur droit",
+   "le frein avant"
+  ],
+  "correct": [
+   0,
+   2,
+   4
+  ]
+ }
+]

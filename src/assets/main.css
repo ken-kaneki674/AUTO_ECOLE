@@ -167,6 +167,26 @@ figcaption{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.06em;co
 .q .feedback .rep{font-family:var(--font-tech);color:#fff;padding:0 6px;border-radius:2px;margin-right:6px}
 .q .feedback.ok .rep{background:var(--vert)}
 .q .feedback.ko .rep{background:var(--rouge)}
+.q .choice.is-pending{background:#EAF2FA;border-color:var(--bleu)}
+.q-images{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 .5rem}
+.q-images img{max-width:min(160px,40vw);max-height:160px;height:auto;object-fit:contain}
+.q-hint,.q-review{display:inline-block;margin-left:8px;font-family:var(--font-tech);font-weight:normal;font-size:.72rem;padding:1px 6px;border-radius:2px;vertical-align:middle}
+.q-hint{background:#EAF2FA;color:var(--bleu)}
+.q-review{background:#FFF4D6;color:#7a5600}
+.qcm-validate{margin:6px 0 0 8px;font-family:var(--font-titre);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;background:var(--bleu);color:#fff;border:none;padding:8px 14px;border-radius:2px;cursor:pointer;min-height:36px}
+.qcm-validate[disabled]{opacity:.45;cursor:default}
+
+/* ---------- Banque de questions Bénin ---------- */
+.bj-callout{display:flex;gap:14px;align-items:center;margin:34px 0 0;padding:16px 20px;background:#E9F5EF;border:1px solid var(--vert);border-left:6px solid var(--vert);border-radius:3px;color:var(--asphalte);text-decoration:none}
+.bj-callout:hover{background:#DDEFE6}
+.bj-callout .n{font-family:var(--font-titre);font-size:1.3rem;background:var(--vert);color:#fff;padding:6px 10px;border-radius:2px}
+.bj-pager{display:flex;flex-wrap:wrap;gap:6px;margin:1.6rem 0 0}
+.bj-pager button{font-family:var(--font-tech);font-size:.8rem;background:#fff;border:1px solid var(--ligne);padding:6px 10px;border-radius:2px;cursor:pointer;min-height:36px}
+.bj-pager button[aria-current="page"]{background:var(--asphalte);color:#fff;border-color:var(--asphalte)}
+.bj-filters{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:1rem 0 0;font-size:.9rem}
+.bj-defs{columns:2;column-gap:30px;font-size:.93rem}
+.bj-defs dt{font-weight:bold;margin-top:.6rem;break-after:avoid}
+.bj-defs dd{margin:0 0 .3rem;break-inside:avoid}
 
 hr.sep{border:none;border-top:1px solid var(--ligne);margin:44px 0}
 .fin{background:var(--asphalte);color:#C9CDD4;padding:30px 24px;margin-top:60px;font-size:.9rem;border-radius:3px}
@@ -180,6 +200,7 @@ hr.sep{border:none;border-top:1px solid var(--ligne);margin:44px 0}
   .site-nav.is-open{display:flex;flex-direction:column;width:100%}
   .menu-toggle{display:inline-block;margin-left:auto}
   .search-bar{max-width:none;flex-basis:100%;order:3}
+  .bj-defs{columns:1}
 }
 @media(min-width:641px){
   .menu-toggle{display:none}

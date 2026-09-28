@@ -1,0 +1,750 @@
+[
+ {
+  "id": "bj-q689",
+  "num": 689,
+  "question": "Quel est l’âge minimal du candidat au permis de conduire catégorie C1 ?",
+  "choices": [
+   "17ans",
+   "18ans",
+   "20ans",
+   "21ans"
+  ],
+  "correct": [
+   3
+  ],
+  "signs": [
+   "C1"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q690",
+  "num": 690,
+  "question": "Pour les transports exceptionnels la réglementation (concernant les pièces de grande longueur) prévoit que le chargement du véhicule isolé peut déborder de :",
+  "choices": [
+   "3m au plus à l’avant et 5m à l’arrière",
+   "4m au plus à l’avant et 7m à l’arrière",
+   "0m à l’avant et 6m à l’arrière"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q691",
+  "num": 691,
+  "question": "Un véhicule articulé est composé :",
+  "choices": [
+   "d’un véhicule tracteur et d’une remorque",
+   "d’un véhicule tracteur et d’une semi- remorque",
+   "d’un véhicule tracteur routier et d’une semi-remorque",
+   "d’un véhicule tracteur routier et d’une remorque"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q692",
+  "num": 692,
+  "question": "Un train double est composé :",
+  "choices": [
+   "d’un tracteur et d’une remorque",
+   "d’un tracteur routier et de deux semi-remorques",
+   "d’un véhicule articulé et d’une semi-remorque",
+   "d’un tracteur et d’une semi-remorque."
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q693",
+  "num": 693,
+  "question": "La longueur d’un véhicule articulé peut atteindre :",
+  "choices": [
+   "22m",
+   "26m",
+   "16,5m",
+   "18m"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q694",
+  "num": 694,
+  "question": "Quel est l’âge minimal du candidat au permis de conduire catégorie C ?",
+  "choices": [
+   "17ans",
+   "18ans",
+   "21ans"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q695",
+  "num": 695,
+  "question": "Les véhicules dont le PTAC dépasse 3,5T doivent être munis d’un appareil de contrôle appelé :",
+  "choices": [
+   "Totaliseur",
+   "Chrono tachygraphe",
+   "Ethylotest",
+   "Un contrôleur de pression des pneus"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q696",
+  "num": 696,
+  "question": "Le chrono tachygraphe permet l’enregistrement",
+  "choices": [
+   "Des tours des roues avant",
+   "De la vitesse du véhicule et la distance parcoure",
+   "Du temps de conduite et de repos"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q697",
+  "num": 697,
+  "question": "Pour conduire un véhicule de transport de marchandises ou de matériels dont le PTAC est compris entre 3,5 et18T, je dois :",
+  "choices": [
+   "Etre titulaire du permis de conduire catégorie B",
+   "Etre titulaire du permis de conduire catégorie B et E",
+   "Etre titulaire du permis de conduire catégorie C"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q698",
+  "num": 698,
+  "question": "Quel intervalle minimal entre deux véhicules poids lourds de plus de 7m de long qui se suivent, doivent-ils respecter lorsqu’ils roulent à la même vitesse ?",
+  "choices": [
+   "20m",
+   "30m",
+   "90m",
+   "Rien de tout cela"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q699",
+  "num": 699,
+  "question": "Avant d’aborder une descente rapide avec mon véhicule poids lourd, je dois :",
+  "choices": [
+   "Mettre le véhicule au point mort et freiner",
+   "Rétrograder et utiliser au maximum le frein moteur",
+   "Rester à la même vitesse"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q700",
+  "num": 700,
+  "question": "A bord d’un véhicule poids lourd et pour une hauteur de 4ou 5m du sol chargement compris, je dois :",
+  "choices": [
+   "Circuler sans aucune précaution",
+   "Circuler en jetant des coups d’œil sur les installations et passer",
+   "M’assurer que je peux circuler sans causer de dommage aux ouvrages d’art, aux installations aériennes situés au-dessus des voies publiques"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q701",
+  "num": 701,
+  "question": "Quelle longueur maximale peut atteindre le porte-à-faux arrière d’un véhicule poids lourd ou de transport en commun ?",
+  "choices": [
+   "3,5m",
+   "5m",
+   "2m"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q702",
+  "num": 702,
+  "question": "A quoi sert le ralentisseur sur un véhicule poids lourd ?",
+  "choices": [
+   "Permet de descendre à une allure réduite dans une longue et forte pente",
+   "Permet de freiner",
+   "Permet de s’arrêter",
+   "Permet d’éviter l’usure précoce des tambours et des garnitures"
+  ],
+  "correct": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "bj-q703",
+  "num": 703,
+  "question": "Le chargement de grande longueur peut dépasser l’extrémité avant du véhicule de :",
+  "choices": [
+   "1m",
+   "0m",
+   "1,5m"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q704",
+  "num": 704,
+  "question": "Le chargement de grande longueur peut dépasser au maximum l’extrémité arrière du véhicule de :",
+  "choices": [
+   "3m",
+   "5m",
+   "3,5m"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q705",
+  "num": 705,
+  "question": "Pour tourner à droite sur une chaussée à sens unique, je dois :",
+  "choices": [
+   "Serrer ma droite",
+   "Serrer ma gauche",
+   "Me déporter au milieu"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q706",
+  "num": 706,
+  "question": "Pour tourner à gauche sur une chaussée à sens unique, je dois",
+  "choices": [
+   "Serrer ma droite et mettre le clignotant à gauche",
+   "Respecter les règles de priorité",
+   "Serrer ma gauche et mettre le clignotant à gauche"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q707",
+  "num": 707,
+  "question": "Avec mon permis de conduire de la catégorie C :",
+  "choices": [
+   "Je peux conduire un véhicule de 15tonnes, chargement compris",
+   "Je peux conduire un véhicule de 20tonnes, chargement compris",
+   "Je peux conduire un minicar de 15places"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q708",
+  "num": 708,
+  "question": "Avec mon permis de conduire de la catégorie C1 :",
+  "choices": [
+   "Je peux conduire un car de 50 places",
+   "Je peux conduire un véhicule de 36tonnes, chargement compris",
+   "Je peux conduire un véhicule de 7tonnes, chargement compris"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "signs": [
+   "C1"
+  ],
+  "missingImage": true,
+  "needsReview": true
+ },
+ {
+  "id": "bj-q709",
+  "num": 709,
+  "question": "Sur une pente, quel est le véhicule qui doit faciliter le passage lors d’un croisement difficile ?",
+  "choices": [
+   "L’autobus",
+   "Le camion",
+   "le véhicule qui le désire"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q710",
+  "num": 710,
+  "question": "Que faut-il faire pour éviter de polluer l’environnement par le gaz de votre moteur ?",
+  "choices": [
+   "Bien régler les injecteurs de mon moteur",
+   "Utiliser un carburant de bonne qualité",
+   "Rouler à vive allure"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q711",
+  "num": 711,
+  "question": "Les feux de gabarit sont obligatoires sur les véhicules de largeur supérieure ou égale à :",
+  "choices": [
+   "2,10m",
+   "2,15m",
+   "2,20m",
+   "1,80m"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q712",
+  "num": 712,
+  "question": "Sur cette image PN2 le camion doit :",
+  "choices": [
+   "faire un demi-tour si sa hauteur est supérieure à 4,5m",
+   "ralentir, vérifier la gauche et la droite puis passer si sa hauteur ne dépasse pas 4,5m",
+   "passer sans danger"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "images": [
+   "/benin/signs/856a845cbfd3.webp"
+  ]
+ },
+ {
+  "id": "bj-q713",
+  "num": 713,
+  "question": "Les feux d’encombrement :",
+  "choices": [
+   "Sont toujours de couleur jaune",
+   "Sont de couleur blanche à l’avant",
+   "Eclairent à 400m",
+   "Sont de couleur rouge à l’arrière"
+  ],
+  "correct": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q714",
+  "num": 714,
+  "question": "L’intervalle de sécurité entre deux véhicules de plus de 7mètres de long permet :",
+  "choices": [
+   "D’éviter le choc en cas de freinage",
+   "De faciliter aux véhicules légers le dépassement",
+   "De mieux contrôler les organes de conduite"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q715",
+  "num": 715,
+  "question": "Sur la chaussée comportant trois (3) voies affectées à un même sens de circulation, les véhicules de 3,5T de PTAC et de plus de 7m de long doivent normalement :",
+  "choices": [
+   "Emprunter toutes les voies",
+   "Emprunter la voie de droite",
+   "Emprunter les deux voies les plus à gauche"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q716",
+  "num": 716,
+  "question": "Un véhicule articulé est composé :",
+  "choices": [
+   "d’un véhicule tracteur et d’une remorque",
+   "d’un véhicule tracteur et d’une semi-remorque",
+   "d’un véhicule tracteur routier et d’une remorque",
+   "rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q717",
+  "num": 717,
+  "question": "La longueur d’un véhicule articulé peut atteindre",
+  "choices": [
+   "22m",
+   "26m",
+   "18m",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q718",
+  "num": 718,
+  "question": "La longueur maximale d’un train double est de :",
+  "choices": [
+   "18m",
+   "22m",
+   "25m",
+   "16m"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q719",
+  "num": 719,
+  "question": "Quelle est la durée minimale obligatoire de repos pour un conducteur de véhicule de plus de 3,5T de PTAC après 4heures30mn de route ?",
+  "choices": [
+   "1h",
+   "45mn",
+   "55mn",
+   "1h30mn"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q720",
+  "num": 720,
+  "question": "En rase campagne, quel intervalle minimal de sécurité doit respecter deux véhicules de plus 3,5T de PTAC et de plus de 7m de long qui se suivent lorsqu’ils roulent à la même vitesse ?",
+  "choices": [
+   "40m environ",
+   "50m environ",
+   "60m environ",
+   "80m environ"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q721",
+  "num": 721,
+  "question": "Dans une descente dangereuse :",
+  "choices": [
+   "Je ralentis",
+   "J’utilise le ralentisseur",
+   "Je rétrograde",
+   "J’utilise le frein à main"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q722",
+  "num": 722,
+  "question": "A la rencontre de panneau B2a1, il est interdit :",
+  "choices": [
+   "à tout véhicule de transport de marchandises de tourner à gauche",
+   "aux véhicules de transport de marchandises le PTAC est inférieur à 3,5T de tourner à gauche",
+   "aux véhicules de transport de marchandises PTAC est supérieur à 3,5T de tourner à gauche",
+   "à tout véhicule de transport de tourner à gauche"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "signs": [
+   "B2a1"
+  ],
+  "images": [
+   "/benin/signs/001f71953ce7.webp",
+   "/benin/signs/0cc71367cd7f.webp"
+  ]
+ },
+ {
+  "id": "bj-q723",
+  "num": 723,
+  "question": "A la vue du panneau B3-3 il est interdit :",
+  "choices": [
+   "à un véhicule de transport de marchandise de dépasser un petit véhicule",
+   "aux véhicules de transport de marchandises dont PTAC excède 3,5T de dépasser tout véhicule à moteur à l’exception des véhicules à deux roues sans side-car",
+   "aux véhicules de transport de marchandises dont le PTAC est inférieur à 3,5T de dépasser tout petit véhicule",
+   "à un véhicule poids lourd de dépasser une voiture"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "signs": [
+   "B3-3"
+  ],
+  "images": [
+   "/benin/signs/b64d2289dbad.webp"
+  ]
+ },
+ {
+  "id": "bj-q724",
+  "num": 724,
+  "question": "Que signifie le panneau B8-1 :",
+  "choices": [
+   "voie réservée aux véhicules de transport de marchandises dont le PTAC est inférieur ou égal à 5,5T",
+   "accès interdit aux véhicules poids lourds dont le PTAC est égal à 5,5T",
+   "accès interdit aux véhicules de transport de marchandises dont le PTAC excède 5,5T"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B8-1"
+  ],
+  "images": [
+   "/benin/signs/7b625da0c7b5.webp"
+  ]
+ },
+ {
+  "id": "bj-q725",
+  "num": 725,
+  "question": "Que signifie le panneau B13a,",
+  "choices": [
+   "Accès interdit aux véhicules pesant 2,5T",
+   "Accès interdit aux véhicules pesant sur un essieu de 2,5T",
+   "Accès interdit aux véhicules pesant plus de 2,5T",
+   "Accès interdit aux véhicules pesant sur un essieu 2,5T"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B13a"
+  ],
+  "images": [
+   "/benin/signs/38ce80270600.webp"
+  ]
+ },
+ {
+  "id": "bj-q726",
+  "num": 726,
+  "question": "Le panneau B29-1 :",
+  "choices": [
+   "m’indique une signalisation de position à 500m",
+   "concerne tous les véhicules à moteur roulant à de 60km/h",
+   "m’indique une voie réservée aux véhicules lents à 500m"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B29-1"
+  ],
+  "images": [
+   "/benin/signs/8fc57440565a.webp"
+  ]
+ },
+ {
+  "id": "bj-q727",
+  "num": 727,
+  "question": "Que m’indique le panneau B18b ?",
+  "choices": [
+   "Accès interdit aux véhicules transportant plus certaine quantité de produits de nature à polluer",
+   "Accès interdit aux véhicules transportant plus certaine quantité de produits explosifs ou facilement inflammables."
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "B18b"
+  ],
+  "images": [
+   "/benin/signs/9f18a865ba21.webp"
+  ]
+ },
+ {
+  "id": "bj-q728",
+  "num": 728,
+  "question": "Effectuer un transport sous le régime « TIR » permet de simplifier le contrôle de :",
+  "choices": [
+   "La police sur la route",
+   "La douane aux frontières",
+   "La douane sur la route"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q729",
+  "num": 729,
+  "question": "Vous effectuez un transport sous convention TIR :",
+  "choices": [
+   "Toutes les portes à l’exception de celles de la cabine doivent être scellées",
+   "Le véhicule peut circuler sans bâche sans élingues",
+   "Les portes de la cabine doivent être scellées",
+   "Les élingues d’attache de la bâche doivent être scellées"
+  ],
+  "correct": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "bj-q730",
+  "num": 730,
+  "question": "La mention TIR peut être inscrite sur le véhicule pour un transport :",
+  "choices": [
+   "local",
+   "international",
+   "inter urbain"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q731",
+  "num": 731,
+  "question": "Le poids total autorisé en charge (P. T. A C) est inscrit sur :",
+  "choices": [
+   "la carte grise",
+   "la plaque de tare",
+   "la vignette fiscale",
+   "la quittance de la douane",
+   "la plaque du constructeur"
+  ],
+  "correct": [
+   0,
+   1,
+   4
+  ]
+ },
+ {
+  "id": "bj-q732",
+  "num": 732,
+  "question": "On appelle transports « exceptionnels » ceux dont les dimensions ou le poids du chargement dépassent les limites fixées par :",
+  "choices": [
+   "La Préfecture",
+   "La Direction Générale des transports terrestres",
+   "Le code de la route",
+   "Le ministère des transports"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q733",
+  "num": 733,
+  "question": "Quels sont les renseignements qu’on peut retrouver sur la plaque de tare ou de surface ?",
+  "choices": [
+   "Le poids à vide",
+   "Le poids total autorisé en charge",
+   "Le poids total roulant autorisé",
+   "La surface"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q734",
+  "num": 734,
+  "question": "Pour tourner à droite sur une chaussée à sens unique je dois :",
+  "choices": [
+   "Serrer ma droite",
+   "Serrer ma gauche",
+   "Me déporter au milieu de la chaussée"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q735",
+  "num": 735,
+  "question": "Pour tourner à droite, je dois :",
+  "choices": [
+   "Accélérer",
+   "Mettre le clignotant à droite",
+   "Ralentir"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q736",
+  "num": 736,
+  "question": "Pour tourner à droite sur une chaussée à double sens, je dois :",
+  "choices": [
+   "Serrer ma droite",
+   "Me déporter au milieu",
+   "Serrer ma gauche"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q737",
+  "num": 737,
+  "question": "Pour tourner à gauche sur une chaussée à double sens, je dois :",
+  "choices": [
+   "Mettre le clignotant à gauche, céder le passage à droite",
+   "Ralentir et serrer la gauche",
+   "Tourner sans respecter la priorité à droite"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q738",
+  "num": 738,
+  "question": "Pour tourner à gauche sur une chaussée à sens unique, je dois :",
+  "choices": [
+   "Serrer ma droite et mettre le clignotant à gauche",
+   "Respecter les règles de priorité",
+   "Serrer ma gauche"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ }
+]

@@ -1,0 +1,879 @@
+[
+ {
+  "id": "bj-q739",
+  "num": 739,
+  "question": "Pour tourner à gauche sur une chaussée à double sens, je dois :",
+  "choices": [
+   "Mettre le clignotant à gauche et appliquer la priorité à droite",
+   "Accélérer, mettre le clignotant à droite",
+   "Ralentir et tourner à gauche seulement"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q740",
+  "num": 740,
+  "question": "Pour tourner à gauche sur une chaussée à sens unique, je dois :",
+  "choices": [
+   "Serrer ma droite et mettre le clignotant à gauche",
+   "Respecter les règles de priorité",
+   "Serrer ma gauche"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q741",
+  "num": 741,
+  "question": "L’autocar est un véhicule de transport en commun de personnes destiné au :",
+  "choices": [
+   "Transport de passagers assis uniquement",
+   "Transport de marchandises sur une longue distance",
+   "Transport urbain",
+   "Transport de passagers debout",
+   "Transport de passagers assis sur une longue distance"
+  ],
+  "correct": [
+   0,
+   4
+  ]
+ },
+ {
+  "id": "bj-q742",
+  "num": 742,
+  "question": "L’autobus est un véhicule de transport en commun de personnes destiné au :",
+  "choices": [
+   "Transport de passagers assis uniquement",
+   "Transport sur une longue distance",
+   "Transport urbain",
+   "Transport de passagers debout ou assis",
+   "Transport de passagers assis sur une longue distance"
+  ],
+  "correct": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q743",
+  "num": 743,
+  "question": "Les feux de gabarit sont obligatoires sur les véhicules de largeur égale à :",
+  "choices": [
+   "2,10m",
+   "2,15m",
+   "2,20m",
+   "1,80m"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q744",
+  "num": 744,
+  "question": "Les feux d’encombrement :",
+  "choices": [
+   "Sont toujours de couleur jaune",
+   "Sont de couleur blanche à l’avant",
+   "Eclairent à 40m",
+   "Sont de couleur rouge à l’arrière"
+  ],
+  "correct": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q745",
+  "num": 745,
+  "question": "Quels sont les accessoires que le conducteur doit faire connaitre aux passagers avant de prendre la route ?",
+  "choices": [
+   "Le livre de bord et la carte grise",
+   "L’extincteur et la boîte de premiers secours",
+   "La manivelle et la roue-secours",
+   "Les triangles de pré signalisation"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q746",
+  "num": 746,
+  "question": "Quel est l’âge minimum du candidat à l’examen du permis de conduire catégorie D ?",
+  "choices": [
+   "18ans",
+   "20ans",
+   "21ans",
+   "25ans"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q747",
+  "num": 747,
+  "question": "Un conducteur de véhicule de transport en commun doit disposer d’une boîte de premiers secours :",
+  "choices": [
+   "Sous son siège",
+   "Cadenassée sous son siège",
+   "Dans le coffre à bagages",
+   "Cadenassé dans le porte-bagages intérieur"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q748",
+  "num": 748,
+  "question": "Que faire en cas d’accident d’un véhicule de transport en commun ?",
+  "choices": [
+   "Arrêter le moteur",
+   "Faire évacuer les passagers",
+   "Eviter la panique",
+   "Attendre la gendarmerie avant d’évacuer les blessés"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q749",
+  "num": 749,
+  "question": "Que faire en cas de panne d’un véhicule de transport en commun ?",
+  "choices": [
+   "Fermer le robinet de carburant",
+   "Couper le circuit électrique",
+   "Placer les triangles de pré signalisation",
+   "Alerter la gendarmerie"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q750",
+  "num": 750,
+  "question": "Que faire en cas d’incendie d’un véhicule de transport en commun ?",
+  "choices": [
+   "Rassurer les passagers pour éviter la panique",
+   "Chercher de l’eau pour éteindre l’incendie",
+   "Couper le circuit électrique",
+   "Mettre les feux de détresse",
+   "Briser les issues de secours en utilisant le marteau pic"
+  ],
+  "correct": [
+   0,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "bj-q751",
+  "num": 751,
+  "question": "Une boîte de premiers secours est :",
+  "choices": [
+   "Obligatoire dans les véhicules de transport en commun de personnes",
+   "Conseillée par les véhicules de transport en commun de personnes uniquement",
+   "Obligatoire dans le cas de transport des enfants uniquement"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q752",
+  "num": 752,
+  "question": "Le transport de voyageurs dans les remorques attelées à des véhicules de transport en commun est :",
+  "choices": [
+   "autorisé",
+   "toléré",
+   "interdit"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q753",
+  "num": 753,
+  "question": "En rase campagne, quelle est la vitesse maximale autorisée pour un véhicule de transport en commun pesant entre 10 et 15 tonnes ?",
+  "choices": [
+   "70km/h",
+   "90km/h",
+   "50km/h",
+   "60km/h"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q754",
+  "num": 754,
+  "question": "En rase campagne, quelle est la vitesse maximale autorisée pour un véhicule de transport en commun pesant entre 15 et19 tonne ?",
+  "choices": [
+   "60km/h",
+   "70km/h",
+   "75km/h",
+   "90km/h"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q755",
+  "num": 755,
+  "question": "En rase campagne, quelle est la vitesse maximale autorisée pour un véhicule de transport en commun pesant entre 19 et 26 tonnes ?",
+  "choices": [
+   "65km/h",
+   "60km/h",
+   "75km/h",
+   "85km/h"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q756",
+  "num": 756,
+  "question": "En rase campagne, quelle est la vitesse maximale autorisée pour un véhicule de transport en commun dont le poids est supérieur à 26 tonnes ?",
+  "choices": [
+   "85km/h",
+   "75km/h",
+   "65km/h",
+   "60km/h"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q757",
+  "num": 757,
+  "question": "Quelle est la durée maximale de conduite continue ?",
+  "choices": [
+   "2h",
+   "6h",
+   "4h30mn",
+   "5h30mn"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q758",
+  "num": 758,
+  "question": "Quelle est la durée maximale de conduite journalière ?",
+  "choices": [
+   "11h",
+   "9h",
+   "12h30mn",
+   "13h25mn"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q759",
+  "num": 759,
+  "question": "Les véhicules dont le PTAC dépasse 3,5T doivent être munis d’un appareil de contrôle appelé :",
+  "choices": [
+   "Ethylotest",
+   "Totaliseur",
+   "Chrono tachygraphe"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q760",
+  "num": 760,
+  "question": "Le chrono tachygraphe permet l’enregistrement :",
+  "choices": [
+   "Des tours des roues avant",
+   "De la vitesse du véhicule et de la distance parcourue",
+   "Du temps de conduite et de repos"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q761",
+  "num": 761,
+  "question": "L’intervalle de sécurité entre deux véhicules de plus de 3,5T et de plus de 7 mètres de long qui se suivent permet :",
+  "choices": [
+   "D’éviter le une collision en cas de freinage brusque",
+   "De faciliter le dépassement par les véhicules légers",
+   "De mieux contrôler les organes de conduite"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q762",
+  "num": 762,
+  "question": "Sur les chaussées comportant trois (3) voies affectées à un même sens de circulation, les véhicules de plus de 3,5T et les véhicules de plus de 7 mètres de long doivent normalement emprunter :",
+  "choices": [
+   "Toutes les voies",
+   "La voie de droite",
+   "Les deux voies les plus à gauche"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q763",
+  "num": 763,
+  "question": "L’utilisation d’un véhicule de transport de marchandises pour assurer le transport en commun de personnes est :",
+  "choices": [
+   "Autorisée",
+   "Interdite",
+   "Facultative"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q764",
+  "num": 764,
+  "question": "L’utilisation d’un véhicule de transport de marchandises pour assurer le transport en commun de personnes est :",
+  "choices": [
+   "interdite",
+   "facultative",
+   "autorisée après homologation des aménagements"
+  ],
+  "correct": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "bj-q765",
+  "num": 765,
+  "question": "Que signifie le panneau B34a ?",
+  "choices": [
+   "Dépassement interdit aux camions",
+   "Fin d’interdiction de dépasser aux véhicules de transport de marchandises de plus de 3,5T",
+   "Interdiction de dépasser tout véhicule",
+   "Fin d’interdiction de dépasser"
+  ],
+  "correct": [
+   1
+  ],
+  "signs": [
+   "B34a"
+  ],
+  "images": [
+   "/benin/signs/bd180dc73ed2.webp"
+  ]
+ },
+ {
+  "id": "bj-q766",
+  "num": 766,
+  "question": "Que signifie le panneau B45 ?",
+  "choices": [
+   "Accès interdit aux véhicules de transport en commun de personnes",
+   "Stationnement interdit aux véhicules de transport commun de personnes",
+   "Fin de voies réservées aux véhicules de transport en commun de personnes",
+   "Arrêt interdit aux véhicules de transport en commun de personnes"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B45"
+  ],
+  "images": [
+   "/benin/signs/6402f2556ffb.webp"
+  ]
+ },
+ {
+  "id": "bj-q767",
+  "num": 767,
+  "question": "Que signifie le panneau B27 ?",
+  "choices": [
+   "Arrêt d’autobus",
+   "Parking réservé aux autobus",
+   "Voie réservée aux autobus",
+   "Arrêt obligatoire aux autobus"
+  ],
+  "correct": [
+   2
+  ],
+  "signs": [
+   "B27"
+  ],
+  "images": [
+   "/benin/signs/774b4faef9fe.webp"
+  ]
+ },
+ {
+  "id": "bj-q768",
+  "num": 768,
+  "question": "Un chargement dépassant de plus d’un mètre à l’arrière doit être signalé par :",
+  "choices": [
+   "Un dispositif réfléchissant rouge",
+   "Un feu rouge visible à 150m en cas de visibilité insuffisante",
+   "Un chiffon flottant",
+   "Une lanterne rouge"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q769",
+  "num": 769,
+  "question": "Que signifie le panneau B10a ?",
+  "choices": [
+   "Accès interdit aux véhicules ou ensemble de véhicules dont la longueur dépasse 10m",
+   "Accès interdit uniquement aux véhicules de transport de marchandises dont la longueur dépasse 10m",
+   "Accès interdit uniquement aux véhicules de transport en commun de personnes dont la longueur dépasse 10m"
+  ],
+  "correct": [
+   0
+  ],
+  "signs": [
+   "B10a"
+  ],
+  "images": [
+   "/benin/signs/6cde8ec9f3e8.webp"
+  ]
+ },
+ {
+  "id": "bj-q770",
+  "num": 770,
+  "question": "Quelle est la vitesse maximale autorisée sur route pour automobile ?",
+  "choices": [
+   "90km/h",
+   "60km/h",
+   "130km/h",
+   "110km/h ou selon la législation en vigueur dans chaque pays"
+  ],
+  "correct": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q771",
+  "num": 771,
+  "question": "Quelle est la vitesse maximale autorisée en agglomération ?",
+  "choices": [
+   "70km/h",
+   "50km/h",
+   "90km/h",
+   "100km/h"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q772",
+  "num": 772,
+  "question": "Avec quelle catégorie de permis de conduire pouvez-vous conduire un taxi ?",
+  "choices": [
+   "C",
+   "C1",
+   "DR (TCR)"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q773",
+  "num": 773,
+  "question": "Quel est l’âge minimum du candidat au permis de conduire catégorie D ?",
+  "choices": [
+   "17ans",
+   "18ans",
+   "21ans"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q774",
+  "num": 774,
+  "question": "Quel intervalle minimal deux véhicules poids lourds long de plus de 7m doivent respecter entre eux lorsqu’ils roulent à la même vitesse ?",
+  "choices": [
+   "20m",
+   "30m",
+   "50m",
+   "Rien de tout cela"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q775",
+  "num": 775,
+  "question": "Avant d’aborder une descente rapide avec mon véhicule poids lourd, je dois :",
+  "choices": [
+   "Mettre le véhicule au point mort et freiner",
+   "Rétrograder et utiliser au maximum le frein moteur",
+   "Rester à la même vitesse"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q776",
+  "num": 776,
+  "question": "Avec les véhicules poids lourds ayant pour une hauteur de 4ou 5m du sol, chargement compris, je dois :",
+  "choices": [
+   "Circuler sans aucune précaution",
+   "Circuler en jetant des coups d’œil sur les installations et passer",
+   "M’assurer que je peux passer sans causer des dommages aux ouvrages d’art et aux installations aériennes, situés au-dessus des voies publiques"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q777",
+  "num": 777,
+  "question": "Quelle longueur maximale peut atteindre le porte-à-faux arrière d’un véhicule poids lourd ou de transport en commun ?",
+  "choices": [
+   "3,5m",
+   "5m",
+   "2m"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q778",
+  "num": 778,
+  "question": "Un véhicule de transport de marchandises peut être utilisé pour le transport en commun de personne si le conducteur est titulaire du permis :",
+  "choices": [
+   "Catégorie D",
+   "Catégorie C",
+   "Catégorie C1",
+   "Aucun permis ne l’autorise"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q779",
+  "num": 779,
+  "question": "A quoi sert le ralentisseur sur un véhicule poids lourd ?",
+  "choices": [
+   "Permet de descendre à une allure réduite dans une longue et forte descente",
+   "Permet de freiner",
+   "Permet de s’arrêter"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q780",
+  "num": 780,
+  "question": "De combien de mètres mon chargement de grande longueur peut-il dépasser l’extrémité avant du véhicule ?",
+  "choices": [
+   "1m",
+   "0m",
+   "0,5m"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q781",
+  "num": 781,
+  "question": "De combien de mètres au maximum votre chargement de grande longueur peut-il dépasser l’extrémité arrière du véhicule ?",
+  "choices": [
+   "3m",
+   "5m",
+   "3,5m"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q782",
+  "num": 782,
+  "question": "Quelle charge maximale autorisée peut supporter un essieu isolé ?",
+  "choices": [
+   "13tonnes",
+   "13,5tonnes",
+   "15tonnes"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q783",
+  "num": 783,
+  "question": "Dans la définition du poids à vide d’un véhicule on tient compte :",
+  "choices": [
+   "du poids du véhicule, avec le réservoir rempli uniquement",
+   "du poids du véhicule sans le carburant, sans bâche",
+   "du poids du véhicule, les réservoirs remplis avec les équipements de bord"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q784",
+  "num": 784,
+  "question": "La ceinture de sécurité doit être portée par :",
+  "choices": [
+   "le conducteur",
+   "les passagers d’un autocar",
+   "les passagers d’un autobus",
+   "les enfants à bord d’un véhicule de transport d’enfants"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bj-q785",
+  "num": 785,
+  "question": "Le coupe-batterie permet d’isoler :",
+  "choices": [
+   "les feux de détresse",
+   "les feux du véhicule",
+   "l’alimentation électrique du moteur"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q786",
+  "num": 786,
+  "question": "Quelle est la profondeur minimale des rainures principales d’un pneumatique de poids lourd ?",
+  "choices": [
+   "1mm",
+   "1,5mm",
+   "0,5mm"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q787",
+  "num": 787,
+  "question": "A l’intérieur d’un autocar, je peux transporter :",
+  "choices": [
+   "des sacs de maïs",
+   "des colis contenant des liquides inflammables",
+   "des colis contenant des couteaux et objets pointus",
+   "mon sac à main"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q788",
+  "num": 788,
+  "question": "Pour le transport des bagages dans un véhicule de transport en commun, j’utilise :",
+  "choices": [
+   "la soute pour tous les bagages",
+   "la remorque pour le transport des combustibles inflammables",
+   "le porte-bagage de l’intérieur pour les colis légers",
+   "le porte-bagage du dessus du toit pour les bagages légers"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bj-q789",
+  "num": 789,
+  "question": "J’utilise les feux de détresse d’un véhicule de transport en commun d’enfants :",
+  "choices": [
+   "lors de la montée et de la descente des enfants",
+   "lors de l’arrêt du véhicule",
+   "pour le transport d’enfants en excursion",
+   "pour signaler la présence à bord des enfants en fête"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q790",
+  "num": 790,
+  "question": "A partir de 55ans, quelle est la périodicité des visites médicales pour un conducteur de transport en commun :",
+  "choices": [
+   "1an",
+   "2ans",
+   "5ans"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "bj-q791",
+  "num": 791,
+  "question": "Quelle est la périodicité des visites médicales pour un conducteur de transport en commun dont l’âge est compris entre 45ans et55ans ?",
+  "choices": [
+   "1an",
+   "2ans",
+   "3ans",
+   "5ans"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q792",
+  "num": 792,
+  "question": "Quelle est la période des visites médicales pour un conducteur de transport en commun de moins de 45ans :",
+  "choices": [
+   "1an",
+   "2ans",
+   "3ans",
+   "5ans"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q793",
+  "num": 793,
+  "question": "Pour le calcul du nombre de personnes transportées, un enfant compte pour une demi-personne s’il est âgé de :",
+  "choices": [
+   "Moins de 10ans",
+   "Moins de12ans",
+   "Moins de14ans",
+   "Rien de tout ce qui précède"
+  ],
+  "correct": [
+   3
+  ]
+ },
+ {
+  "id": "bj-q794",
+  "num": 794,
+  "question": "Sur une pente, quel est le véhicule qui doit s’arrêter à temps à cause d’un croisement difficile ?",
+  "choices": [
+   "Le véhicule montant",
+   "Le véhicule descendant",
+   "Le véhicule qui le désire"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q795",
+  "num": 795,
+  "question": "En agglomération quel est le véhicule qui doit s’arrêter à temps à cause d’un croisement difficile ?",
+  "choices": [
+   "L’autobus",
+   "Le camion",
+   "Le véhicule qui le désire"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "bj-q796",
+  "num": 796,
+  "question": "Sur une pente, quel est le véhicule qui doit faire marche arrière à cause d’un croisement difficile ?",
+  "choices": [
+   "L’autobus",
+   "Le véhicule qui le désire",
+   "Le camion"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q797",
+  "num": 797,
+  "question": "Pour tourner à droite sur une route à double sens, je dois :",
+  "choices": [
+   "Serrer ma droite",
+   "Serrer ma gauche",
+   "Me déporter au milieu"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
+  "id": "bj-q798",
+  "num": 798,
+  "question": "Pour tourner à droite, je dois :",
+  "choices": [
+   "Accélérer",
+   "Mettre le clignotant à droite",
+   "Ralentir"
+  ],
+  "correct": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "bj-q799",
+  "num": 799,
+  "question": "Pour tourner à gauche sur une chaussée à double sens, je dois :",
+  "choices": [
+   "Serrer ma droite",
+   "Me déporter au milieu",
+   "Serrer ma gauche"
+  ],
+  "correct": [
+   1
+  ]
+ }
+]
