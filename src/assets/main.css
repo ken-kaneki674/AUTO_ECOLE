@@ -87,6 +87,26 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible,summary:focus-visi
 .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .badge{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.08em;border:1px solid #4A505A;color:#E6E8EB;padding:6px 12px;border-radius:2px}
 
+/* ---------- ACCUEIL ---------- */
+.home-cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.cta{font-family:var(--font-titre);font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:#fff;border:1px solid #6A717C;padding:12px 18px;border-radius:2px;min-height:44px;display:inline-flex;align-items:center}
+.cta:hover{border-color:#fff}
+.cta.primary{background:var(--ambre);border-color:var(--ambre);color:var(--asphalte)}
+.cta.primary:hover{background:#ffc62e}
+.home-section{margin-top:40px}
+.home-h2{font-size:1.1rem;letter-spacing:.2em;margin:0 0 14px;color:var(--asphalte-2)}
+.bj-tile.link{text-decoration:none;color:inherit}
+.bj-tile.link:hover{box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.bj-tile .k{font-family:var(--font-titre);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--bleu)}
+.home-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;counter-reset:none}
+.home-steps li{background:#fff;border:1px solid var(--ligne);border-radius:3px;padding:18px 18px 16px;display:flex;flex-direction:column;gap:6px}
+.home-steps .step{font-family:var(--font-titre);font-size:1.3rem;width:38px;height:38px;display:inline-flex;align-items:center;justify-content:center;background:var(--asphalte);color:var(--ambre);border-radius:50%}
+.home-steps h3{margin:.3rem 0 0;border:none;padding:0;font-size:1.05rem}
+.home-steps p{margin:0;font-size:.92rem;color:var(--asphalte-2);flex:1}
+.home-steps a{font-weight:bold}
+.bj-card.cours .n{background:var(--bleu)}
+.bj-card.cours:hover{border-color:var(--bleu)}
+
 /* ---------- SOMMAIRE ---------- */
 .toc{background:var(--papier-2);border:1px solid var(--ligne);padding:26px 26px 30px;margin:34px 0 10px}
 .toc h2{font-size:1.1rem;letter-spacing:.2em;margin:0 0 14px;color:var(--asphalte-2)}
@@ -231,9 +251,6 @@ figcaption{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.06em;co
 .h-verdict.ko{color:var(--rouge)}
 
 /* ---------- Banque de questions Bénin ---------- */
-.bj-callout{display:flex;gap:14px;align-items:center;margin:34px 0 0;padding:16px 20px;background:#E9F5EF;border:1px solid var(--vert);border-left:6px solid var(--vert);border-radius:3px;color:var(--asphalte);text-decoration:none}
-.bj-callout:hover{background:#DDEFE6}
-.bj-callout .n{font-family:var(--font-titre);font-size:1.3rem;background:var(--vert);color:#fff;padding:6px 10px;border-radius:2px}
 .bj-pager{display:flex;flex-wrap:wrap;gap:6px;margin:1.6rem 0 0}
 .bj-pager button{font-family:var(--font-tech);font-size:.8rem;background:#fff;border:1px solid var(--ligne);padding:6px 10px;border-radius:2px;cursor:pointer;min-height:36px}
 .bj-pager button[aria-current="page"]{background:var(--asphalte);color:#fff;border-color:var(--asphalte)}
@@ -329,6 +346,8 @@ hr.sep{border:none;border-top:1px solid var(--ligne);margin:44px 0}
   .menu-toggle{display:inline-block;margin-left:auto}
   .search-bar{max-width:none;flex-basis:100%;order:3}
   .bj-defs{columns:1}
+  .home-steps{grid-template-columns:1fr}
+  .cta{flex:1 1 100%;justify-content:center}
   .bj-dash{grid-template-columns:1fr 1fr}
   .bj-dash .bj-tile:first-child{grid-column:1 / -1}
   .bj-sign-detail{grid-template-columns:1fr}

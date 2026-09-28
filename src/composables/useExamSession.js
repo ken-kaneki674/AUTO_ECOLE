@@ -38,6 +38,11 @@ const history = ref(read(HISTORY_KEY, []))
 watch(session, (value) => write(SESSION_KEY, value), { deep: true })
 watch(history, (value) => write(HISTORY_KEY, value), { deep: true })
 
+// Historique seul (lecture), pour l'accueil.
+export function useExamHistory() {
+  return history
+}
+
 const now = ref(Date.now())
 let ticker = null
 
