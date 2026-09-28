@@ -250,6 +250,51 @@ figcaption{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.06em;co
 .h-verdict.ok{color:var(--vert)}
 .h-verdict.ko{color:var(--rouge)}
 
+/* ---------- Lexique ---------- */
+.lx-nav{display:flex;flex-wrap:wrap;gap:6px 16px;background:#fff;border:1px solid var(--ligne);border-top:none;padding:12px 20px;font-size:.92rem}
+#lexique h3,.lx-head{scroll-margin-top:12px}
+.lx-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px}
+.lx-head h3{margin-bottom:.6rem}
+.lx-legend{font-size:.85rem;color:#5C636D;margin:.2rem 0 .8rem}
+.lx-src{display:inline-block;font-family:var(--font-tech);font-size:.7rem;padding:1px 6px;border-radius:2px;white-space:nowrap;vertical-align:middle}
+.lx-src.dgtt{background:#E9F5EF;color:#12513a}
+.lx-src.cours{background:#EAF2FA;color:var(--bleu)}
+.lx-src-cell{width:1%;white-space:nowrap}
+.lx-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:.88rem;color:#5C636D;margin-bottom:10px}
+.lx-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.flash{display:flex;flex-direction:column;gap:8px;text-align:left;font:inherit;color:var(--asphalte);background:#fff;border:1px solid var(--ligne);border-left:4px solid var(--ambre);border-radius:3px;padding:14px 14px 12px;cursor:pointer;min-height:110px}
+.flash:hover{box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.flash.is-revealed{border-left-color:var(--vert);background:#FAFDFB}
+.flash-front{font-weight:bold;display:flex;flex-direction:column;gap:4px}
+.flash-back{font-size:1.02rem;color:#12513a;border-top:1px dashed var(--ligne);padding-top:8px;display:flex;flex-direction:column;gap:4px}
+.flash-hint{margin-top:auto;font-family:var(--font-titre);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--bleu)}
+.lx-theme{font-family:var(--font-titre);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:#5C636D;font-weight:normal}
+.lx-ref{font-family:var(--font-tech);font-size:.7rem;color:#5C636D}
+.lx-sigle{font-family:var(--font-titre);font-size:1.5rem;letter-spacing:.06em}
+.lx-letters{display:flex;flex-wrap:wrap;gap:4px;margin:1rem 0}
+.lx-letters button{font-family:var(--font-titre);min-width:36px;min-height:36px;background:#fff;border:1px solid var(--ligne);border-radius:2px;cursor:pointer}
+.lx-letters button:hover:not([disabled]){border-color:var(--asphalte)}
+.lx-letters button[disabled]{opacity:.3;cursor:default}
+.lx-group{display:grid;grid-template-columns:44px 1fr;gap:12px;border-top:1px solid var(--ligne);padding:12px 0;scroll-margin-top:12px}
+.lx-letter{font-family:var(--font-titre);font-size:1.6rem;color:var(--ambre);line-height:1}
+.lx-group dl{margin:0}
+.lx-group dt{font-weight:bold;margin-top:.5rem}
+.lx-group dt:first-child{margin-top:0}
+.lx-group dd{margin:.1rem 0 0;color:var(--asphalte-2);font-size:.95rem}
+.lx-plan{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.lx-plan li{background:#fff;border:1px solid var(--ligne);border-left:5px solid var(--ligne);border-radius:3px;padding:14px 16px}
+.lx-plan li.done{border-left-color:var(--vert)}
+.lx-plan li p{margin:.4rem 0 .6rem;font-size:.93rem;color:var(--asphalte-2)}
+.lx-plan-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}
+.lx-plan-final{border-left-color:var(--ambre) !important}
+.lx-chips{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:6px}
+.lx-chips-label{font-family:var(--font-titre);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:#5C636D;min-width:44px}
+.lx-chip{font-size:.82rem;text-decoration:none;color:var(--asphalte);background:var(--papier);border:1px solid var(--ligne);border-radius:999px;padding:4px 10px}
+.lx-chip small{font-family:var(--font-tech);color:#5C636D;margin-left:2px}
+.lx-chip:hover{border-color:var(--asphalte)}
+.lx-chip.started{border-color:var(--ambre);background:#FFF9E8}
+.lx-chip.done{border-color:var(--vert);background:#E9F5EF;color:#12513a}
+
 /* ---------- Banque de questions Bénin ---------- */
 .bj-pager{display:flex;flex-wrap:wrap;gap:6px;margin:1.6rem 0 0}
 .bj-pager button{font-family:var(--font-tech);font-size:.8rem;background:#fff;border:1px solid var(--ligne);padding:6px 10px;border-radius:2px;cursor:pointer;min-height:36px}
@@ -347,6 +392,7 @@ hr.sep{border:none;border-top:1px solid var(--ligne);margin:44px 0}
   .search-bar{max-width:none;flex-basis:100%;order:3}
   .bj-defs{columns:1}
   .home-steps{grid-template-columns:1fr}
+  .lx-group{grid-template-columns:30px 1fr;gap:8px}
   .cta{flex:1 1 100%;justify-content:center}
   .bj-dash{grid-template-columns:1fr 1fr}
   .bj-dash .bj-tile:first-child{grid-column:1 / -1}

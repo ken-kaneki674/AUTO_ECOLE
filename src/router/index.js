@@ -46,6 +46,7 @@ const router = createRouter({
   ],
   scrollBehavior(to, from) {
     // Un simple changement de paramètres (filtre, page…) ne remonte pas en haut.
+    if (to.hash) return { el: to.hash, top: 12, behavior: 'smooth' }
     if (to.path === from.path) return false
     return { top: 0 }
   },

@@ -1,5 +1,91 @@
 <script setup>
+import { computed, reactive, ref } from 'vue'
 import ValeurBenin from '../components/ValeurBenin.vue'
+import FlashCard from '../components/FlashCard.vue'
+import { chiffres, mnemos, lexique, planRevision } from '../data/lexique.js'
+import { chapters } from '../data/chapters/chapter-meta.js'
+import { chapterQuestionIds } from '../data/questionIds.js'
+import { beninChapters, beninQuestionIds } from '../data/benin/meta.js'
+import { useQuizProgress } from '../composables/useQuizProgress.js'
+import { normalize } from '../composables/useSearch.js'
+
+// ----- A. Chiffres clés : tableau ou fiches -----
+const chiffresMode = ref('tableau')
+const revealed = reactive({})
+const allChiffres = chiffres.flatMap((g) => g.items.map((item) => ({ ...item, theme: g.theme })))
+const cardOrder = ref(allChiffres)
+
+function toggle(key) {
+  revealed[key] = !revealed[key]
+}
+function hideAll() {
+  for (const key of Object.keys(revealed)) delete revealed[key]
+}
+function shuffleCards() {
+  const copy = [...cardOrder.value]
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[copy[i], copy[j]] = [copy[j], copy[i]]
+  }
+  cardOrder.value = copy
+  hideAll()
+}
+const revealedCount = computed(() => allChiffres.filter((c) => revealed[c.notion]).length)
+
+// ----- C. Lexique : recherche et index alphabétique -----
+const query = ref('')
+const letterOf = (term) => normalize(term)[0].toUpperCase()
+const filteredTerms = computed(() => {
+  const q = normalize(query.value.trim())
+  if (!q) return lexique
+  return lexique.filter((t) => normalize(`${t.terme} ${t.definition}`).includes(q))
+})
+const groups = computed(() => {
+  const map = new Map()
+  for (const t of filteredTerms.value) {
+    const letter = letterOf(t.terme)
+    if (!map.has(letter)) map.set(letter, [])
+    map.get(letter).push(t)
+  }
+  return [...map.entries()]
+})
+const allLetters = [...new Set(lexique.map((t) => letterOf(t.terme)))]
+const presentLetters = computed(() => new Set(groups.value.map(([l]) => l)))
+
+function scrollToSection(id) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
+function goToLetter(letter) {
+  scrollToSection(`lettre-${letter}`)
+}
+
+// ----- D. Plan de révision relié à la progression -----
+const { stats } = useQuizProgress()
+const plan = computed(() =>
+  planRevision.map((week) => {
+    const cours = week.cours.map((num) => {
+      const chapter = chapters.find((c) => c.num === num)
+      const s = stats(chapterQuestionIds(chapter.id))
+      return { ...chapter, ...s, done: s.total > 0 && s.answered === s.total }
+    })
+    const dgtt = week.dgtt.map((num) => {
+      const chapter = beninChapters.find((c) => c.num === num)
+      const s = stats(beninQuestionIds(num))
+      return { ...chapter, ...s, done: s.total > 0 && s.answered === s.total }
+    })
+    const items = [...cours, ...dgtt]
+    const total = items.reduce((sum, i) => sum + i.total, 0)
+    const answered = items.reduce((sum, i) => sum + i.answered, 0)
+    return {
+      ...week,
+      cours,
+      dgtt,
+      percent: total ? Math.round((answered / total) * 100) : 0,
+      done: items.every((i) => i.done),
+    }
+  })
+)
 </script>
 
 <template>
@@ -9,65 +95,159 @@ import ValeurBenin from '../components/ValeurBenin.vue'
         <span class="borne" style="color:var(--asphalte-2)">AN</span>
         <div><span class="fil" style="color:var(--ambre)">Annexes</span><h2>Fiches de révision &amp; lexique</h2></div>
       </div>
+      <nav class="lx-nav" aria-label="Sections de la page">
+        <a href="#chiffres" @click.prevent="scrollToSection('chiffres')">Chiffres clés</a>
+        <a href="#mnemos" @click.prevent="scrollToSection('mnemos')">Moyens mnémotechniques</a>
+        <a href="#termes" @click.prevent="scrollToSection('termes')">Lexique</a>
+        <a href="#plan" @click.prevent="scrollToSection('plan')">Plan de révision</a>
+      </nav>
 
-      <h3>A. Les chiffres à connaître par cœur</h3>
-      <div class="table-scroll"><table>
-      <thead><tr><th>Notion</th><th>Valeur de référence</th></tr></thead>
-      <tbody>
-      <tr><td>Temps de réaction</td><td>1 seconde</td></tr>
-      <tr><td>Distance de réaction</td><td>(V ÷ 10) × 3 mètres</td></tr>
-      <tr><td>Distance de freinage sur sol sec</td><td>(V ÷ 10)² mètres — doublée sur sol mouillé</td></tr>
-      <tr><td>Distance de sécurité</td><td>2 secondes (3 s sous la pluie)</td></tr>
-      <tr><td>Visibilité inférieure à 50 m</td><td>Vitesse maximale : 50 km/h partout</td></tr>
-      <tr><td>Écart latéral au dépassement</td><td>1 m en agglomération · 1,50 m hors agglomération</td></tr>
-      <tr><td>Clignotant</td><td><ValeurBenin k="distance_clignotant_agglomeration" /> en agglomération · <ValeurBenin k="distance_clignotant_hors_agglomeration" /> hors agglomération</td></tr>
-      <tr><td>Usure minimale des pneus</td><td>1,6 mm</td></tr>
-      <tr><td>Alcoolémie maximale</td><td><ValeurBenin k="alcoolemie_generale" /> (novices : <ValeurBenin k="alcoolemie_novice" />)</td></tr>
-      <tr><td>Élimination de l'alcool</td><td>0,10 à 0,15 g/l par heure</td></tr>
-      <tr><td>Pause sur long trajet</td><td>20 minutes toutes les 2 heures</td></tr>
-      <tr><td>Permis B</td><td>3 500 kg · 9 places · remorque <ValeurBenin k="remorque_ptac_sans_extension" /></td></tr>
-      <tr><td>Triangle de présignalisation</td><td><ValeurBenin k="distance_triangle_agglomeration" /> en agglomération · <ValeurBenin k="distance_triangle_hors_agglomeration" /> hors agglomération</td></tr>
-      <tr><td>Réanimation cardio-pulmonaire</td><td>30 compressions / 2 insufflations</td></tr>
-      </tbody>
-      </table></div>
+      <!-- A. Chiffres clés -->
+      <div class="lx-head" id="chiffres">
+        <h3>A. Les chiffres à connaître par cœur</h3>
+        <div class="bj-mode" role="group" aria-label="Affichage des chiffres">
+          <button type="button" :aria-pressed="chiffresMode === 'tableau'" @click="chiffresMode = 'tableau'">Tableau</button>
+          <button type="button" :aria-pressed="chiffresMode === 'fiches'" @click="chiffresMode = 'fiches'">Fiches</button>
+        </div>
+      </div>
+      <p class="lx-legend">
+        <span class="lx-src dgtt">DGTT</span> chiffre donné par le manuel officiel (numéro de la question) ·
+        <span class="lx-src cours">Cours</span> règle générale du cours ·
+        <span class="region-value"><sup class="flag">⚠</sup></span> valeur à vérifier
+      </p>
 
-      <h3>B. Les formules mnémotechniques du manuel</h3>
-      <ul>
-      <li><strong>A.F.P.M.</strong> — Agent, Feux, Panneaux, Marquage : la hiérarchie de la signalisation.</li>
-      <li><strong>P.A.S.</strong> — Protéger, Alerter, Secourir : l'ordre du secourisme.</li>
-      <li><strong>C.A.P.R.T.</strong> — Contrôler, Avertir, se Placer, Ralentir, Tourner : tout changement de direction.</li>
-      <li><strong>A.C.E.É.</strong> — Admission, Compression, Explosion, Échappement : le cycle à quatre temps.</li>
-      <li><strong>Les six temps du dépassement</strong> — Observer, Avertir, Déboîter, Doubler, Contrôler, se Rabattre.</li>
-      </ul>
+      <template v-if="chiffresMode === 'tableau'">
+        <div v-for="group in chiffres" :key="group.theme" class="table-scroll">
+          <table>
+            <thead><tr><th colspan="3">{{ group.theme }}</th></tr></thead>
+            <tbody>
+              <tr v-for="item in group.items" :key="item.notion">
+                <td>{{ item.notion }}</td>
+                <td><strong><ValeurBenin v-if="item.k" :k="item.k" /><template v-else>{{ item.valeur }}</template></strong></td>
+                <td class="lx-src-cell">
+                  <span v-if="item.source === 'dgtt'" class="lx-src dgtt" :title="`Manuel DGTT, ${item.ref}`">DGTT {{ item.ref }}</span>
+                  <span v-else-if="item.source === 'cours'" class="lx-src cours">Cours</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </template>
 
-      <h3>C. Petit lexique</h3>
-      <div class="table-scroll"><table>
-      <thead><tr><th>Terme</th><th>Définition</th></tr></thead>
-      <tbody>
-      <tr><td><strong>Agglomération</strong></td><td>Espace sur lequel sont groupés des immeubles bâtis, délimité par les panneaux d'entrée et de sortie portant le nom de la localité</td></tr>
-      <tr><td><strong>Angle mort</strong></td><td>Zone autour du véhicule qu'aucun rétroviseur ne couvre ; se contrôle par un coup d'œil par-dessus l'épaule</td></tr>
-      <tr><td><strong>BAU</strong></td><td>Bande d'arrêt d'urgence</td></tr>
-      <tr><td><strong>Chaussée</strong></td><td>Partie de la route affectée à la circulation des véhicules</td></tr>
-      <tr><td><strong>Croisement</strong></td><td>Rencontre de deux véhicules circulant en sens inverse</td></tr>
-      <tr><td><strong>Dépassement</strong></td><td>Fait de doubler un véhicule circulant dans le même sens</td></tr>
-      <tr><td><strong>Force centrifuge</strong></td><td>Force qui déporte le véhicule vers l'extérieur d'un virage, proportionnelle au carré de la vitesse</td></tr>
-      <tr><td><strong>Frein moteur</strong></td><td>Ralentissement obtenu en levant le pied et en rétrogradant</td></tr>
-      <tr><td><strong>PTAC</strong></td><td>Poids total autorisé en charge : masse maximale du véhicule chargé</td></tr>
-      <tr><td><strong>PLS</strong></td><td>Position latérale de sécurité</td></tr>
-      <tr><td><strong>Suraccident</strong></td><td>Nouvel accident survenant sur les lieux d'un accident déjà produit</td></tr>
-      <tr><td><strong>Zone de rencontre</strong></td><td>Zone où le piéton est prioritaire sur la chaussée et où la vitesse est limitée à 20 km/h</td></tr>
-      </tbody>
-      </table></div>
+      <template v-else>
+        <div class="lx-toolbar">
+          <span>{{ revealedCount }} / {{ allChiffres.length }} réponses affichées</span>
+          <button type="button" class="qcm-reset" @click="shuffleCards">Mélanger</button>
+          <button type="button" class="qcm-reset" @click="hideAll">Tout masquer</button>
+        </div>
+        <div class="lx-cards">
+          <FlashCard
+            v-for="item in cardOrder"
+            :key="item.notion"
+            :revealed="Boolean(revealed[item.notion])"
+            @toggle="toggle(item.notion)"
+          >
+            <template #front>
+              <span class="lx-theme">{{ item.theme }}</span>
+              {{ item.notion }}
+            </template>
+            <template #back>
+              <ValeurBenin v-if="item.k" :k="item.k" /><template v-else>{{ item.valeur }}</template>
+              <span v-if="item.ref" class="lx-ref">Manuel DGTT, {{ item.ref }}</span>
+            </template>
+          </FlashCard>
+        </div>
+      </template>
 
-      <h3>D. Plan de révision en 3 semaines</h3>
-      <div class="table-scroll"><table>
-      <thead><tr><th>Semaine</th><th>Chapitres</th><th>Travail</th></tr></thead>
-      <tbody>
-      <tr><td><strong>Semaine 1 — les règles</strong></td><td>1, 2, 14</td><td>Apprendre les familles de panneaux et la hiérarchie ; refaire les QCM jusqu'à 100 %</td></tr>
-      <tr><td><strong>Semaine 2 — la conduite</strong></td><td>3, 4, 5, 6, 13</td><td>Mémoriser les distances et les manœuvres ; s'auto-interroger à l'oral</td></tr>
-      <tr><td><strong>Semaine 3 — le véhicule et l'humain</strong></td><td>7, 8, 9, 10, 11, 12</td><td>Fiches sur la mécanique et le secourisme ; passer l'examen blanc en conditions réelles</td></tr>
-      </tbody>
-      </table></div>
+      <!-- B. Moyens mnémotechniques -->
+      <h3 id="mnemos">B. Les moyens mnémotechniques</h3>
+      <p class="lx-legend">Essaie de retrouver ce que cache chaque sigle, puis retourne la fiche.</p>
+      <div class="lx-cards mnemo">
+        <FlashCard
+          v-for="m in mnemos"
+          :key="m.sigle"
+          :revealed="Boolean(revealed[m.sigle])"
+          @toggle="toggle(m.sigle)"
+        >
+          <template #front>
+            <span class="lx-sigle">{{ m.sigle }}</span>
+            <span class="lx-theme">{{ m.role }}</span>
+          </template>
+          <template #back>{{ m.sens }}</template>
+        </FlashCard>
+      </div>
+
+      <!-- C. Lexique -->
+      <h3 id="termes">C. Lexique ({{ lexique.length }} termes)</h3>
+      <div class="bj-search" style="margin-top:.4rem">
+        <label for="lx-search" class="bj-search-label">Chercher un terme</label>
+        <input id="lx-search" v-model="query" type="search" placeholder="Ex. : adhérence, PTAC, zébras…" autocomplete="off">
+      </div>
+      <nav class="lx-letters" aria-label="Index alphabétique">
+        <button
+          v-for="letter in allLetters"
+          :key="letter"
+          type="button"
+          :disabled="!presentLetters.has(letter)"
+          @click="goToLetter(letter)"
+        >{{ letter }}</button>
+      </nav>
+      <p v-if="!groups.length" class="exam-legend">Aucun terme ne correspond à « {{ query }} ».</p>
+      <div v-for="[letter, terms] in groups" :id="`lettre-${letter}`" :key="letter" class="lx-group">
+        <span class="lx-letter">{{ letter }}</span>
+        <dl>
+          <template v-for="t in terms" :key="t.terme">
+            <dt>
+              {{ t.terme }}
+              <span v-if="t.source === 'dgtt'" class="lx-src dgtt" title="Définition du manuel DGTT, chapitre I">DGTT</span>
+            </dt>
+            <dd>{{ t.definition }}</dd>
+          </template>
+        </dl>
+      </div>
+
+      <!-- D. Plan de révision -->
+      <h3 id="plan">D. Plan de révision en 3 semaines</h3>
+      <p class="lx-legend">Les cases se cochent toutes seules quand tu as répondu à toutes les questions d’un chapitre.</p>
+      <ol class="lx-plan">
+        <li v-for="week in plan" :key="week.titre" :class="{ done: week.done }">
+          <div class="lx-plan-head">
+            <strong>{{ week.done ? '✓ ' : '' }}{{ week.titre }}</strong>
+            <span class="progress-badge">
+              <span class="bar"><span :style="{ width: week.percent + '%' }" /></span>
+              {{ week.percent }} %
+            </span>
+          </div>
+          <p>{{ week.travail }}</p>
+          <div class="lx-chips">
+            <span class="lx-chips-label">Cours</span>
+            <router-link
+              v-for="c in week.cours"
+              :key="`c${c.num}`"
+              :to="{ name: 'chapitre', params: { id: String(c.num) } }"
+              class="lx-chip"
+              :class="{ done: c.done, started: c.answered && !c.done }"
+              :title="`${c.title} — ${c.answered}/${c.total} questions`"
+            >{{ c.done ? '✓' : '' }} {{ c.num }}. {{ c.title }}</router-link>
+          </div>
+          <div class="lx-chips">
+            <span class="lx-chips-label">DGTT</span>
+            <router-link
+              v-for="c in week.dgtt"
+              :key="`d${c.num}`"
+              :to="{ name: 'benin-chapitre', params: { id: String(c.num) } }"
+              class="lx-chip dgtt"
+              :class="{ done: c.done, started: c.answered && !c.done }"
+              :title="`${c.title} — ${c.answered}/${c.total} questions`"
+            >{{ c.done ? '✓' : '' }} {{ c.roman }}. {{ c.title }} <small>{{ c.answered }}/{{ c.total }}</small></router-link>
+          </div>
+        </li>
+        <li class="lx-plan-final">
+          <strong>Et pour finir</strong>
+          <p>Passe l’examen blanc à plusieurs jours d’intervalle jusqu’à dépasser régulièrement le seuil de réussite.</p>
+          <router-link :to="{ name: 'examen' }" class="exam-btn primary" style="text-decoration:none;display:inline-flex">Examen blanc</router-link>
+        </li>
+      </ol>
 
       <div class="fin">
         <p><b>Comment utiliser ce manuel.</b> Lis un chapitre, ferme le document, écris de mémoire les points clés, puis fais le QCM sans regarder. Une réponse fausse n'est pas un échec : c'est exactement l'endroit où relire. Refais l'examen blanc à trois jours d'intervalle — la mémoire se construit par la répétition espacée, pas par la relecture.</p>
