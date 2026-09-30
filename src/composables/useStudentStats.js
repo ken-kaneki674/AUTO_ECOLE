@@ -48,19 +48,11 @@ function ensurePool() {
 
 export function useStudentStats() {
   const { answers, stats } = useQuizProgress()
-  // Ne plus charger le pool immédiatement : chargement différé quand nécessaire
+  ensurePool()
 
   const ready = computed(() => Boolean(pool.value))
 
-  // Charger le pool de manière différée quand on y accède
-  const ensurePoolWhenNeeded = () => {
-    if (!pool.value && !loading) {
-      ensurePool()
-    }
-  }
-
   const global = computed(() => {
-    ensurePoolWhenNeeded()
     const list = pool.value ?? []
     let answered = 0
     let correct = 0
@@ -82,7 +74,6 @@ export function useStudentStats() {
   })
 
   const themes = computed(() => {
-    ensurePoolWhenNeeded()
     return EXAM_THEMES.map((theme) => {
       const list = (pool.value ?? []).filter((q) => q.theme === theme.id)
       const errors = list.filter((q) => answers[q.key]?.correct === false)
