@@ -2,8 +2,9 @@
 // manuel DGTT, panneaux (cours et manuel), questions (cours et manuel), lexique,
 // chiffres clés et pages de l'application.
 //
-// Il est construit une seule fois, à la première recherche : le texte des chapitres
-// et la banque DGTT sont chargés à ce moment-là seulement.
+// Chargement en 2 phases :
+// - Phase 1 (instantanée) : pages + titres de chapitres + lexique
+// - Phase 2 (lazy) : sections, panneaux, questions (chargées en arrière-plan)
 import { chapters, chapterRoute } from './chapters/chapter-meta.js'
 import { beninChapters, loadBeninBank } from './benin/meta.js'
 import { lexique, chiffres, mnemos } from './lexique.js'
@@ -27,6 +28,28 @@ const PAGES = [
   { title: 'Catalogue des panneaux', text: 'catalogue panneaux illustrations signalisation images', to: { name: 'benin-panneaux' } },
   { title: 'Lexique et fiches de révision', text: 'lexique vocabulaire définitions chiffres clés fiches mémo plan de révision', to: { name: 'lexique' } },
 ]
+
+// Index léger : chargé immédiatement (pages + titres de chapitres + lexique)
+function lightIndex() {
+  return [
+    ...PAGES.map((p) => ({ ...p, type: 'chapitre', kind: 'Page' })),
+    ...chapters.map((chapter) => ({
+      type: 'chapitre',
+      kind: 'Chapitre du cours',
+      title: `Chapitre ${chapter.num} — ${chapter.title}`,
+      text: chapter.title,
+      to: chapterRoute(chapter.id),
+    })),
+    ...beninChapters.map((c) => ({
+      type: 'chapitre',
+      kind: 'Chapitre du manuel DGTT',
+      title: `Manuel DGTT ${c.roman} — ${c.title}`,
+      text: c.title,
+      to: { name: 'benin-chapitre', params: { id: String(c.num) } },
+    })),
+    ...lexiqueEntries(),
+  ]
+}
 
 function stripTags(html) {
   return html
@@ -190,12 +213,28 @@ function lexiqueEntries() {
 }
 
 let indexPromise = null
+let indexValue = null
+
+// Phase 1 : index léger instantané (synchrone)
+export function getLightIndex() {
+  if (!indexValue) {
+    indexValue = lightIndex()
+  }
+  return indexValue
+}
+
+// Phase 2 : index complet (async, chargé en arrière-plan)
 export function loadSearchIndex() {
-  indexPromise ??= Promise.all([courseEntries(), officialEntries()]).then(([course, official]) => [
-    ...PAGES.map((p) => ({ ...p, type: 'chapitre', kind: 'Page' })),
-    ...course,
-    ...official,
-    ...lexiqueEntries(),
-  ])
+  if (indexPromise) return indexPromise
+  // Charger l'index complet en arrière-plan
+  indexPromise = Promise.all([courseEntries(), officialEntries()]).then(([course, official]) => {
+    const fullIndex = [
+      ...lightIndex(),
+      ...course,
+      ...official,
+    ]
+    indexValue = fullIndex
+    return fullIndex
+  })
   return indexPromise
 }
