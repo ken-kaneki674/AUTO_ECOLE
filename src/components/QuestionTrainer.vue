@@ -8,6 +8,7 @@ const props = defineProps({
   questions: { type: Array, required: true },
   // Afficher un bouton « Nouvelle série » en fin de série (émet `new-series`).
   canRenew: { type: Boolean, default: false },
+  renewLabel: { type: String, default: 'Nouvelle série' },
 })
 const emit = defineEmits(['new-series'])
 
@@ -106,7 +107,7 @@ onUnmounted(() => window.removeEventListener('keydown', onKey))
         Rejouer mes {{ errors.length }} erreur(s)
       </button>
       <button type="button" class="exam-btn" @click="restart(series)">Recommencer la série</button>
-      <button v-if="canRenew" type="button" class="exam-btn" @click="emit('new-series')">Nouvelle série</button>
+      <button v-if="canRenew" type="button" class="exam-btn" @click="emit('new-series')">{{ renewLabel }}</button>
     </div>
   </div>
 </template>

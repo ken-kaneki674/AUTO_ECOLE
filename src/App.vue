@@ -26,6 +26,7 @@ const menuOpen = ref(false)
 
       <nav id="site-nav" class="site-nav" :class="{ 'is-open': menuOpen }" @click="menuOpen = false">
         <router-link to="/">Accueil</router-link>
+        <router-link :to="{ name: 'espace' }">Mon espace</router-link>
         <router-link :to="{ name: 'examen' }">Examen blanc</router-link>
         <router-link :to="{ name: 'benin' }">Questions officielles</router-link>
         <router-link :to="{ name: 'lexique' }">Lexique</router-link>

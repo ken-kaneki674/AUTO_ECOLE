@@ -16,6 +16,16 @@ const router = createRouter({
       component: () => import('../views/ExamView.vue'),
     },
     {
+      path: '/espace',
+      name: 'espace',
+      component: () => import('../views/StudentSpaceView.vue'),
+    },
+    {
+      path: '/espace/revision',
+      name: 'espace-revision',
+      component: () => import('../views/StudentRevisionView.vue'),
+    },
+    {
       path: '/lexique',
       name: 'lexique',
       component: () => import('../views/LexiqueView.vue'),

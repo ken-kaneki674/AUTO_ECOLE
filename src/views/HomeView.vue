@@ -61,6 +61,7 @@ function rateClass(value) {
           <template v-if="course.answered">Continuer le cours : chapitre {{ course.next.num }}</template>
           <template v-else>Commencer le cours</template>
         </router-link>
+        <router-link v-if="started" :to="{ name: 'espace' }" class="cta">Mon espace</router-link>
         <router-link :to="{ name: 'benin' }" class="cta">Questions officielles</router-link>
         <router-link :to="{ name: 'examen' }" class="cta">Examen blanc</router-link>
       </div>
@@ -70,7 +71,10 @@ function rateClass(value) {
   <div class="wrap">
     <!-- Ma progression -->
     <section v-if="started" class="home-section" aria-labelledby="progress-title">
-      <h2 id="progress-title" class="home-h2">Ma progression</h2>
+      <h2 id="progress-title" class="home-h2">
+        Ma progression
+        <router-link :to="{ name: 'espace' }" class="home-h2-link">Voir mon espace et ma recommandation du jour →</router-link>
+      </h2>
       <div class="bj-dash">
         <router-link :to="{ name: 'chapitre', params: { id: String(course.next.num) } }" class="bj-tile link" :class="rateClass(course.rate)">
           <span class="k">Cours</span>

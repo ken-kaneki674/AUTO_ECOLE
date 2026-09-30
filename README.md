@@ -6,6 +6,7 @@ Application web en **Vue 3 + Vite**, sans backend : tout tourne dans le navigate
 
 ## Fonctionnalités
 
+- **Mon espace** (`/espace`) : tableau de bord personnel (progression, questions réalisées, bonnes réponses, erreurs), progression par thème avec le détail des chapitres du cours et du manuel DGTT, points faibles, et une **recommandation automatique** du jour (ex. « beaucoup d'erreurs sur la mécanique → 15 questions, ~8 min ») qui lance directement la série de révision. Prénom facultatif, gardé dans le navigateur.
 - **14 chapitres de cours** illustrés : signalisation, priorités, croisements et dépassements, arrêt et stationnement, vitesse, autoroute, équipement, mécanique, secourisme, deux-roues, permis B, catalogue des panneaux…
 - **QCM corrigés** à la fin de chaque chapitre, avec suivi de la progression.
 - **Examen blanc** de 20 ou 40 questions tirées au hasard (≈ 3/4 du manuel DGTT, 1/4 du cours) : une question à la fois, chronomètre, correction à la fin, résultats par thème et historique des scores.
@@ -45,7 +46,7 @@ npm run preview   # prévisualisation du build
 src/
 ├── chapters/            Chapter1.vue … Chapter14.vue — contenu des cours
 ├── components/          QuestionItem, QcmBlock, QuestionTrainer, BeninQuestionSet, BeninSearch, ValeurBenin, encadrés…
-├── composables/         useQuizProgress (progression), useExamSession, useBeninSelection, useSearch
+├── composables/         useQuizProgress (progression), useStudentStats, useExamSession, useBeninSelection, useSearch
 ├── data/
 │   ├── questions/       QCM des chapitres (ch1.json … ch14.json) et examen.json
 │   ├── benin/           banque officielle du Bénin (générée, voir ci-dessous) et meta.js
