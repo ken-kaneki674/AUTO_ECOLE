@@ -1,5 +1,6 @@
 <script setup>
 import { computed, reactive, ref } from 'vue'
+import { useRoute } from 'vue-router'
 import ValeurBenin from '../components/ValeurBenin.vue'
 import FlashCard from '../components/FlashCard.vue'
 import { chiffres, mnemos, lexique, planRevision } from '../data/lexique.js'
@@ -33,7 +34,8 @@ function shuffleCards() {
 const revealedCount = computed(() => allChiffres.filter((c) => revealed[c.notion]).length)
 
 // ----- C. Lexique : recherche et index alphabétique -----
-const query = ref('')
+// ?q=terme (lien depuis la recherche) pré-remplit le filtre du lexique.
+const query = ref(String(useRoute().query.q ?? ''))
 const letterOf = (term) => normalize(term)[0].toUpperCase()
 const filteredTerms = computed(() => {
   const q = normalize(query.value.trim())

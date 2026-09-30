@@ -1,14 +1,25 @@
 <script setup>
 import { computed, onMounted, ref, shallowRef } from 'vue'
+import { useRoute } from 'vue-router'
 import { beninChapters, loadBeninBank } from '../data/benin/meta.js'
 import { normalize } from '../composables/useSearch.js'
 
 const bank = shallowRef(null)
-const query = ref('')
+// ?q=B6a1 (lien depuis la recherche) pré-remplit le filtre.
+const route = useRoute()
+const query = ref(String(route.query.q ?? ''))
 const selected = ref(null)
 
 onMounted(async () => {
   bank.value = await loadBeninBank()
+  // Arrivée depuis la recherche sur un panneau précis : on l'ouvre directement.
+  const target = route.query.img
+    ? signs.value.find((s) => s.src === route.query.img)
+    : query.value && filtered.value.length === 1 ? filtered.value[0] : null
+  if (target) {
+    selected.value = target
+    setTimeout(() => document.querySelector('.bj-sign-detail')?.scrollIntoView({ block: 'start' }), 50)
+  }
 })
 
 // Une vignette par illustration du manuel, avec les questions qui l'utilisent.

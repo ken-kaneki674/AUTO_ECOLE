@@ -26,6 +26,11 @@ const router = createRouter({
       component: () => import('../views/StudentRevisionView.vue'),
     },
     {
+      path: '/recherche',
+      name: 'recherche',
+      component: () => import('../views/SearchView.vue'),
+    },
+    {
       path: '/lexique',
       name: 'lexique',
       component: () => import('../views/LexiqueView.vue'),

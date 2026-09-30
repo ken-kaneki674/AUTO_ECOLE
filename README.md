@@ -11,7 +11,7 @@ Application web en **Vue 3 + Vite**, sans backend : tout tourne dans le navigate
 - **QCM corrigés** à la fin de chaque chapitre, avec suivi de la progression.
 - **Examen blanc** de 20 ou 40 questions tirées au hasard (≈ 3/4 du manuel DGTT, 1/4 du cours) : une question à la fois, chronomètre, correction à la fin, résultats par thème et historique des scores.
 - **Lexique** et fiches de révision.
-- **Recherche** dans les chapitres et les questions.
+- **Recherche transversale** : depuis l'en-tête ou la page `/recherche`, une seule requête (ex. « priorité ») retourne les chapitres et sections du cours, les chapitres du manuel DGTT, les panneaux (cours et illustrations du manuel), les questions et le lexique / chiffres clés, avec termes surlignés, navigation au clavier et liens directs vers la section, le panneau ou le terme.
 - **Valeurs réglementaires béninoises** (vitesses, alcoolémie, numéros d'urgence…) centralisées dans `src/data/valeursBenin.js`. Celles qui viennent du manuel de la DGTT citent leur source ; les autres sont marquées « ⚠ à vérifier ».
 
 ### Questions officielles de l'examen
