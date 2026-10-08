@@ -29,7 +29,8 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "public" / "benin" / "signs"
 MAP_FILE = ROOT / "scripts" / "benin-source" / "images.json"
 MAX_SIDE = 320
-HEADER = re.compile(r"\s*Question\s*n\s*°\s*(\d+)")
+# « Question n°12 », et parfois « Question 379 » sans « n° » dans le manuel
+HEADER = re.compile(r"\s*Question\s*(?:n\s*°\s*)?(\d+)")
 
 
 def question_headers(doc):

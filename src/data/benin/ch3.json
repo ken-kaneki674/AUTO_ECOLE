@@ -1231,7 +1231,27 @@
    "D10"
   ],
   "images": [
-   "/benin/signs/4c26e3e8f77b.webp",
+   "/benin/signs/4c26e3e8f77b.webp"
+  ]
+ },
+ {
+  "id": "bj-q289",
+  "num": 289,
+  "question": "Sur cette image D11",
+  "choices": [
+   "Le véhicule jaune effectue une bonne manœuvre",
+   "Le véhicule jaune n’est pas en infraction",
+   "Le véhicule jaune effectue une mauvaise manœuvre",
+   "Le véhicule jaune est en infraction"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "signs": [
+   "D11"
+  ],
+  "images": [
    "/benin/signs/604f0c4a9d2b.webp"
   ]
  },
@@ -1884,6 +1904,19 @@
   ],
   "correct": [
    1
+  ]
+ },
+ {
+  "id": "bj-q333",
+  "num": 333,
+  "question": "Sur cette image Im 3 quel est l’ordre de passage des voitures",
+  "choices": [
+   "rouge d’abord, bleue ensuite et enfin vert",
+   "bleue d’abord puis vert et rouge simultanément",
+   "vert d’abord, bleue ensuite et enfin rouge"
+  ],
+  "correct": [
+   0
   ],
   "images": [
    "/benin/signs/9884ffc020fe.webp",
@@ -2329,16 +2362,111 @@
    2
   ],
   "images": [
-   "/benin/signs/709968e7cab3.webp",
+   "/benin/signs/709968e7cab3.webp"
+  ]
+ },
+ {
+  "id": "bj-q353",
+  "num": 353,
+  "question": "Sur cette image (Im5) que signifie le geste de l’agent N°1 ?",
+  "choices": [
+   "passer rapidement",
+   "ralentir",
+   "s’arrêter"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
    "/benin/signs/fc5a2e12bed7.webp",
    "/benin/signs/c3ffaadd264c.webp",
    "/benin/signs/49f49469765b.webp",
-   "/benin/signs/776797d9a1eb.webp",
+   "/benin/signs/776797d9a1eb.webp"
+  ]
+ },
+ {
+  "id": "bj-q354",
+  "num": 354,
+  "question": "Sur cette image Im 5 que signifie le geste de l’agent N°2 ?",
+  "choices": [
+   "passer rapidement",
+   "ralentir",
+   "s’arrêter"
+  ],
+  "correct": [
+   1
+  ],
+  "images": [
+   "/benin/signs/fc5a2e12bed7.webp",
+   "/benin/signs/c3ffaadd264c.webp",
+   "/benin/signs/49f49469765b.webp",
+   "/benin/signs/776797d9a1eb.webp"
+  ]
+ },
+ {
+  "id": "bj-q355",
+  "num": 355,
+  "question": "Sur cette image Im 5 que signifie la position de l’agent N°3 ?",
+  "choices": [
+   "passer rapidement",
+   "ralentir",
+   "s’arrêter"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/fc5a2e12bed7.webp",
    "/benin/signs/0f32808ee3b5.webp",
    "/benin/signs/64dcba9db5c0.webp",
-   "/benin/signs/84b189313ccf.webp",
-   "/benin/signs/c1189555428b.webp",
-   "/benin/signs/205ae10ef5a9.webp",
+   "/benin/signs/84b189313ccf.webp"
+  ]
+ },
+ {
+  "id": "bj-q356",
+  "num": 356,
+  "question": "A cette intersection Im 6 quel sera l’ordre de passage des véhicules ?",
+  "choices": [
+   "jaune-rouge-bleu",
+   "bleu et jaune simultanément puis rouge dès que la chaussée abordée par lui sera libre",
+   "vert, jaune et rouge, bleu sur l’ordre de l’agent"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/c1189555428b.webp"
+  ]
+ },
+ {
+  "id": "bj-q357",
+  "num": 357,
+  "question": "A cette image Im 7 quel sera l’ordre de passage des véhicules ?",
+  "choices": [
+   "vert et jaune, puis rouge et bleu",
+   "rouge et bleu puis le jaune et vert",
+   "vert et jaune, puis rouge et bleu sur ordre de l’agent"
+  ],
+  "correct": [
+   2
+  ],
+  "images": [
+   "/benin/signs/205ae10ef5a9.webp"
+  ]
+ },
+ {
+  "id": "bj-q358",
+  "num": 358,
+  "question": "Sur cette image Im 1 quel est l’ordre de passage des voitures :",
+  "choices": [
+   "rouge et jaune simultanément puis bleue au feu vert",
+   "bleue puis rouge et jaune simultanément",
+   "jaune d’abord, bleue ensuite et enfin rouge"
+  ],
+  "correct": [
+   0
+  ],
+  "images": [
    "/benin/signs/f0fdcfb67435.webp"
   ]
  },

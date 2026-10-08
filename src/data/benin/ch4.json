@@ -278,6 +278,19 @@
   ]
  },
  {
+  "id": "bj-q379",
+  "num": 379,
+  "question": "De nuit, seul sur autoroute, avec des feux de route éclairant à 100 mètres, je peux rouler à :",
+  "choices": [
+   "130 km/h",
+   "110 km/h",
+   "100 km/h"
+  ],
+  "correct": [
+   2
+  ]
+ },
+ {
   "id": "bj-q380",
   "num": 380,
   "question": "Sur une voie d’insertion, j’accélère pour :",

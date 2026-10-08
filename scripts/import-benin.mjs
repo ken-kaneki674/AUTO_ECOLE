@@ -23,6 +23,16 @@ const CORRECTIONS = {
   518: 'c', // le manuel indique « e », qui n'existe pas ; la bonne réponse est de consulter son médecin
 }
 
+// Choix mal mis en page dans le manuel, réécrits à la main.
+const CHOICE_FIXES = {
+  // la marque « c- » manque : les choix b et c sont fondus en une seule ligne
+  333: [
+    'rouge d’abord, bleue ensuite et enfin vert',
+    'bleue d’abord puis vert et rouge simultanément',
+    'vert d’abord, bleue ensuite et enfin rouge',
+  ],
+}
+
 // Mentions qui supposent une illustration à côté de la question.
 const NEEDS_IMAGE = /\b(ce panneau|ces panneaux|cette signalisation|ce panonceau|ce signal|cette balise|ces balises|ce marquage|cette image|ci-contre|ci-dessous|ci-dessus|cette situation|ce geste|ce feu|cette figure|ce dessin|ce schéma|ce véhicule|cet agent)\b/i
 const SIGN_CODE = /\b(?:AB|AK|[ABCJKMDEF])\s?-?\d{1,2}(?:[a-z]\d?)?(?:-\d)?\b/g
@@ -89,9 +99,10 @@ function parseBlock(num, body) {
   }
 
   const answerLetters = parseAnswer(CORRECTIONS[num] ?? answerLine)
-  const questionText = clean(question.join(' '))
-  let cleanChoices = choices.map(clean)
-  let letters = choiceLetters
+  // « 1 2 Sur cette image… » : numéros d'agents dessinés sur l'illustration
+  const questionText = clean(question.join(' ')).replace(/^(\d\s)+(?=\p{Lu})/u, '')
+  let cleanChoices = CHOICE_FIXES[num] ?? choices.map(clean)
+  let letters = CHOICE_FIXES[num] ? CHOICE_FIXES[num].map((_, i) => i) : choiceLetters
   let imageChoices = false
   if (cleanChoices.length < 2 && imageLetters.length >= 2) {
     // Les choix sont des dessins : on propose les lettres, l'image fait le reste.
@@ -128,7 +139,8 @@ function parse(text) {
     pos: m.index,
     num: ROMAN[m[1]],
   }))
-  const headers = [...src.matchAll(/^\s*Question\s*n\s*°\s*(\d+)/gm)]
+  // « Question n°12 », et parfois « Question 379 » sans « n° » dans le manuel
+  const headers = [...src.matchAll(/^\s*Question\s*(?:n\s*°\s*)?(\d+)/gm)]
   const questions = []
   headers.forEach((h, i) => {
     const start = h.index + h[0].length
