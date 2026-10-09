@@ -2,6 +2,7 @@
 import { computed, shallowRef, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { chapters } from '../data/chapters/chapter-meta.js'
+import ChapterNav from '../components/ChapterNav.vue'
 
 const route = useRoute()
 const num = computed(() => Number(route.params.id))
@@ -25,9 +26,11 @@ watch(
   { immediate: true }
 )
 
-const previous = computed(() => chapters.find((c) => c.num === num.value - 1))
-const next = computed(() => chapters.find((c) => c.num === num.value + 1))
-const to = (c) => ({ name: 'chapitre', params: { id: String(c.num) } })
+function navItem(c) {
+  return c ? { to: { name: 'chapitre', params: { id: String(c.num) } }, label: c.num, title: c.title } : null
+}
+const previous = computed(() => navItem(chapters.find((c) => c.num === num.value - 1)))
+const next = computed(() => navItem(chapters.find((c) => c.num === num.value + 1)))
 </script>
 
 <template>
@@ -35,20 +38,7 @@ const to = (c) => ({ name: 'chapitre', params: { id: String(c.num) } })
     <p v-if="missing">Chapitre introuvable.</p>
     <template v-else-if="component">
       <component :is="component" :key="num" />
-      <nav class="chap-nav" aria-label="Chapitres">
-        <router-link v-if="previous" :to="to(previous)" class="prev">
-          <span class="dir">← Chapitre précédent</span>
-          <span class="t">{{ previous.num }}. {{ previous.title }}</span>
-        </router-link>
-        <router-link v-if="next" :to="to(next)" class="next">
-          <span class="dir">Chapitre suivant →</span>
-          <span class="t">{{ next.num }}. {{ next.title }}</span>
-        </router-link>
-        <router-link v-else :to="{ name: 'examen' }" class="next">
-          <span class="dir">Dernier chapitre terminé →</span>
-          <span class="t">Passer l’examen blanc</span>
-        </router-link>
-      </nav>
+      <ChapterNav :previous="previous" :next="next" />
     </template>
   </div>
 </template>

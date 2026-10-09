@@ -3,6 +3,7 @@ import { computed, ref, shallowRef, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import BeninQuestionSet from '../components/BeninQuestionSet.vue'
 import ProgressBadge from '../components/ProgressBadge.vue'
+import ChapterNav from '../components/ChapterNav.vue'
 import {
   beninChapters,
   beninQuestionIds,
@@ -58,8 +59,11 @@ watch(
   { immediate: true }
 )
 
-const previous = computed(() => beninChapters.find((c) => c.num === num.value - 1))
-const next = computed(() => beninChapters.find((c) => c.num === num.value + 1))
+function navItem(c) {
+  return c ? { to: { name: 'benin-chapitre', params: { id: String(c.num) } }, label: c.roman, title: c.title } : null
+}
+const previous = computed(() => navItem(beninChapters.find((c) => c.num === num.value - 1)))
+const next = computed(() => navItem(beninChapters.find((c) => c.num === num.value + 1)))
 </script>
 
 <template>
@@ -91,17 +95,11 @@ const next = computed(() => beninChapters.find((c) => c.num === num.value + 1))
         @update:page="(p) => update({ page: p + 1 })"
       >
         <template #after-list="{ lastPage }">
-          <nav v-if="lastPage" class="bj-pager" aria-label="Chapitres">
-            <router-link v-if="previous" :to="{ name: 'benin-chapitre', params: { id: String(previous.num) } }">
-              ← Chapitre {{ previous.roman }}
-            </router-link>
-            <router-link v-if="next" :to="{ name: 'benin-chapitre', params: { id: String(next.num) } }">
-              Chapitre {{ next.roman }} : {{ next.title }} →
-            </router-link>
-            <router-link v-else :to="{ name: 'examen' }">Passer l’examen blanc →</router-link>
-          </nav>
+          <ChapterNav v-if="lastPage" :previous="previous" :next="next" />
         </template>
       </BeninQuestionSet>
+      <!-- En mode « 1 par 1 », pas de pages : les boutons restent sous la carte. -->
+      <ChapterNav v-if="!loading && mode === 'cartes'" :previous="previous" :next="next" />
     </section>
     <p v-else>Chapitre introuvable.</p>
   </div>
