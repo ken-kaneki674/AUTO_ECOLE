@@ -46,7 +46,7 @@ Les vitesses marquées ⚠ ne sont pas précisées par le manuel de la DGTT : po
 
 <h3>5.3 La distance d'arrêt</h3>
 <p>La distance d'arrêt est la somme de deux distances :</p>
-<p style="text-align:center;font-family:var(--font-tech);background:#fff;border:1px solid var(--ligne);padding:12px"><strong>DISTANCE D'ARRÊT = distance de réaction + distance de freinage</strong></p>
+<p style="text-align:center;font-family:var(--font-tech);background:var(--surface);border:1px solid var(--ligne);padding:12px"><strong>DISTANCE D'ARRÊT = distance de réaction + distance de freinage</strong></p>
 <ul>
 <li><strong>Distance de réaction</strong> : distance parcourue pendant le temps de réaction, environ <strong>1 seconde</strong> chez un conducteur en forme. Elle augmente avec la fatigue, l'alcool, le téléphone, les médicaments.</li>
 <li><strong>Distance de freinage</strong> : distance parcourue une fois le frein actionné. Elle dépend du <strong>carré de la vitesse</strong> : doubler la vitesse <strong>quadruple</strong> la distance de freinage.</li>
