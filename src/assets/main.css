@@ -187,6 +187,16 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible,summary:focus-visi
 .obj{background:var(--surface);border:1px solid var(--ligne);border-top:none;padding:14px 20px;font-size:.95rem;color:var(--encre-2);margin:0}
 .obj b{font-family:var(--font-titre);letter-spacing:.08em;font-size:.78rem;text-transform:uppercase;color:var(--bleu-texte);display:block}
 
+/* Navigation de bas de chapitre */
+.chap-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:2rem 0 0}
+.chap-nav a{display:flex;flex-direction:column;gap:4px;background:var(--surface);border:1px solid var(--ligne);border-radius:3px;padding:14px 18px;text-decoration:none;color:var(--encre);min-height:44px}
+.chap-nav a:hover{border-color:var(--bleu-texte)}
+.chap-nav .next{grid-column:2;text-align:right;border-left:4px solid var(--bleu)}
+.chap-nav .prev{border-right:4px solid var(--ligne)}
+.chap-nav .dir{font-family:var(--font-titre);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--bleu-texte)}
+.chap-nav .t{font-size:1rem}
+@media print{.chap-nav{display:none}}
+
 /* ---------- PROGRESSION ---------- */
 .progress-badge{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-tech);font-size:.78rem;color:var(--encre-2)}
 .progress-badge .bar{width:70px;height:7px;background:var(--ligne);border-radius:4px;overflow:hidden}
@@ -504,6 +514,8 @@ hr.sep{border:none;border-top:1px solid var(--ligne);margin:44px 0}
   .bj-sign-detail{grid-template-columns:1fr}
   .bj-sign-detail > img{justify-self:center}
   .trainer-card{padding:6px 14px 16px}
+  .chap-nav{grid-template-columns:1fr}
+  .chap-nav .next{grid-column:auto}
 }
 @media(min-width:641px){
   .menu-toggle{display:none}
