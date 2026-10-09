@@ -139,8 +139,9 @@ function parse(text) {
     pos: m.index,
     num: ROMAN[m[1]],
   }))
-  // « Question n°12 », et parfois « Question 379 » sans « n° » dans le manuel
-  const headers = [...src.matchAll(/^\s*Question\s*(?:n\s*°\s*)?(\d+)/gm)]
+  // « Question n°12 », et parfois « Question 379 » sans « n° », « Question N°510 »
+  // ou « Questions n°586 » dans le manuel
+  const headers = [...src.matchAll(/^\s*Questions?\s*(?:[nN]\s*°\s*)?(\d+)/gm)]
   const questions = []
   headers.forEach((h, i) => {
     const start = h.index + h[0].length

@@ -29,6 +29,19 @@
   ]
  },
  {
+  "id": "bj-q510",
+  "num": 510,
+  "question": "Dans quel cas utiliser les avertisseurs sonores ?",
+  "choices": [
+   "Pour avertir les autres usagers",
+   "Pour rechercher les passagers",
+   "Pour saluer les autres usagers"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
   "id": "bj-q511",
   "num": 511,
   "question": "A toute réquisition des forces de sécurité concernant mon véhicule je dois présenter :",
@@ -1089,6 +1102,20 @@
    "en lisière d’une forêt",
    "le long d’un cours d’eau",
    "à allure soutenue"
+  ],
+  "correct": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "bj-q586",
+  "num": 586,
+  "question": "Je dois allumer mes feux :",
+  "choices": [
+   "Dès que le jour tombe",
+   "Dès qu’il fait nuit",
+   "Dès qu’il commence par pleuvoir"
   ],
   "correct": [
    0,
