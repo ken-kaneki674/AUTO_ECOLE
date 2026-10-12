@@ -2,13 +2,16 @@
 import { computed, onMounted, shallowRef } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import BeninQuestionSet from '../components/BeninQuestionSet.vue'
+import PermisPicker from '../components/PermisPicker.vue'
 import { beninChapters, loadBeninBank, findFilter } from '../data/benin/meta.js'
+import { permisIncludes, permisLabel, usePermis } from '../composables/usePermis.js'
 
 // Entraînement sur toute la banque, piloté par l'URL :
 //   ?filtre=ratees|nouvelles|images|multiples  ?chapitre=3  ?ids=bj-q15,bj-q16  ?n=20
 const route = useRoute()
 const router = useRouter()
 const bank = shallowRef(null)
+const { permis } = usePermis()
 
 onMounted(async () => {
   bank.value = await loadBeninBank()
@@ -33,8 +36,11 @@ const questions = computed(() => {
     const wanted = new Set(ids.value.split(','))
     return bank.value.filter((q) => wanted.has(q.id))
   }
-  return chapterNum.value ? bank.value.filter((q) => q.chapter === chapterNum.value) : bank.value
+  if (chapterNum.value) return bank.value.filter((q) => q.chapter === chapterNum.value)
+  // Sans chapitre précis : tronc commun + chapitre du permis préparé.
+  return bank.value.filter((q) => permisIncludes(permis.value, 'dgtt', q.chapter))
 })
+const wholeBank = computed(() => !ids.value && !chapterNum.value)
 
 const title = computed(() => {
   if (ids.value) return 'Questions sur ce panneau'
@@ -63,7 +69,7 @@ function update(changes) {
         <span class="borne" style="color:var(--vert)">⟳</span>
         <div>
           <span class="fil" style="color:#CDEBDD">
-            Entraînement · {{ chapter ? `chapitre ${chapter.roman}` : 'toute la banque DGTT' }}
+            Entraînement · {{ chapter ? `chapitre ${chapter.roman}` : `banque DGTT · ${permisLabel(permis)}` }}
           </span>
           <h2>{{ title }}</h2>
         </div>
@@ -73,6 +79,8 @@ function update(changes) {
         Réponds, la correction s'affiche aussitôt ; ta progression est comptée dans les chapitres.
         <router-link :to="{ name: 'benin' }" style="margin-left:8px">← Questions officielles</router-link>
       </p>
+
+      <PermisPicker v-if="wholeBank" />
 
       <p v-if="!bank">Chargement de la banque de questions…</p>
       <BeninQuestionSet

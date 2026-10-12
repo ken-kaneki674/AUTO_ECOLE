@@ -20,6 +20,7 @@ La section « Questions officielles » donne accès à la banque de questions du
 - **919 questions** avec le corrigé du manuel, réparties dans les chapitres II à XI ;
 - **340 questions à réponses multiples** : on coche toutes les bonnes réponses, puis on valide ;
 - **220 questions illustrées** par les panneaux et schémas du manuel ;
+- un **choix du permis préparé** (A1 · A2 · A3, B, C · C1, D ou tous) : progression, entraînement et examen blanc ne retiennent que le tronc commun (chapitres II à VI et XI) et le chapitre propre à ce permis (VII à X), plus celui du permis B pour les permis C et D ; le choix est mémorisé (`src/composables/usePermis.js`) ;
 - les généralités du chapitre I (définitions, catégories de permis, abréviations), en sections repliables ;
 - un **tableau de bord** : questions faites, taux de réussite, erreurs à revoir, points faibles, bouton « Reprendre » ;
 - une **recherche** sur toute la banque par numéro (`Q518`), code de panneau (`B6a1`) ou mot-clé ;

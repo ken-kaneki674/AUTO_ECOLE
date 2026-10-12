@@ -487,6 +487,11 @@ figcaption{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.06em;co
 .bj-sign-detail .exam-btn{text-decoration:none;display:inline-flex}
 .bj-close{position:absolute;top:10px;right:10px}
 
+.permis-picker{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;background:var(--surface);border:1px solid var(--ligne);border-left:4px solid var(--vert);border-radius:3px;padding:10px 14px;margin:1rem 0}
+.permis-picker-label{font-family:var(--font-titre);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
+.bj-group-note{font-size:.88rem;color:var(--muted);margin:-.4rem 0 .6rem}
+.bj-cards.other .bj-card{opacity:.7}
+
 .bj-filters{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:1rem 0 0;font-size:.9rem}
 .bj-defs{columns:2;column-gap:30px;font-size:.93rem}
 .bj-defs dt{font-weight:bold;margin-top:.6rem;break-after:avoid}

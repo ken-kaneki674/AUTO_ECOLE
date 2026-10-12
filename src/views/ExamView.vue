@@ -9,9 +9,12 @@ import {
 } from '../composables/useExamSession.js'
 import { useQuizProgress } from '../composables/useQuizProgress.js'
 import ExamHistory from '../components/ExamHistory.vue'
+import PermisPicker from '../components/PermisPicker.vue'
+import { usePermis } from '../composables/usePermis.js'
 import QuestionTrainer from '../components/QuestionTrainer.vue'
 
 const pool = shallowRef(null)
+const { permis } = usePermis()
 const {
   session,
   history,
@@ -57,11 +60,11 @@ onMounted(async () => {
 })
 
 const available = computed(() =>
-  pool.value ? filterPool(pool.value, { source: source.value, themes: themes.value }).length : 0
+  pool.value ? filterPool(pool.value, { source: source.value, themes: themes.value, permis: permis.value }).length : 0
 )
 const themeCounts = computed(() =>
   Object.fromEntries(
-    EXAM_THEMES.map((t) => [t.id, pool.value ? filterPool(pool.value, { source: source.value, themes: [t.id] }).length : 0])
+    EXAM_THEMES.map((t) => [t.id, pool.value ? filterPool(pool.value, { source: source.value, themes: [t.id], permis: permis.value }).length : 0])
   )
 )
 const examSize = computed(() => Math.min(size.value, available.value))
@@ -77,7 +80,7 @@ function begin() {
   confirmFinish.value = false
   confirmAbandon.value = false
   retry.value = null
-  const config = { source: source.value, themes: [...themes.value] }
+  const config = { source: source.value, themes: [...themes.value], permis: permis.value }
   start(drawQuestions(pool.value, examSize.value, config), { timed: timed.value, config })
 }
 
@@ -174,6 +177,8 @@ const reviewList = computed(() => {
           <strong>Une question peut avoir une ou plusieurs bonnes réponses</strong> : elle n'est comptée juste que si
           toutes les bonnes réponses, et elles seules, sont cochées. La correction n'apparaît qu'à la fin.
         </p>
+
+        <PermisPicker />
 
         <div class="exam-setup">
           <fieldset>

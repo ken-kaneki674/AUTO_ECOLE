@@ -2,20 +2,25 @@
 import { computed, ref } from 'vue'
 import AttentionBox from '../components/AttentionBox.vue'
 import BeninSearch from '../components/BeninSearch.vue'
+import PermisPicker from '../components/PermisPicker.vue'
 import { useQuizProgress } from '../composables/useQuizProgress.js'
 import {
   beninSource,
   beninChapters,
   beninQuestionIds,
-  beninAllQuestionIds,
   beninGeneralites,
   loadResume,
 } from '../data/benin/meta.js'
+import { ALL_PERMIS, permisIncludes, permisOfChapter, permisLabel, usePermis } from '../composables/usePermis.js'
 
 const { stats } = useQuizProgress()
+const { permis } = usePermis()
+
+// Chapitres au programme du permis choisi : tronc commun + chapitre du permis.
+const permisChapters = computed(() => beninChapters.filter((c) => permisIncludes(permis.value, 'dgtt', c.num)))
 
 const global = computed(() => {
-  const s = stats(beninAllQuestionIds())
+  const s = stats(permisChapters.value.flatMap((c) => beninQuestionIds(c.num)))
   return {
     ...s,
     errors: s.answered - s.correct,
@@ -29,15 +34,33 @@ const chapterCards = computed(() =>
     return {
       ...chapter,
       ...s,
+      permis: permisOfChapter('dgtt', chapter.num),
+      included: permisIncludes(permis.value, 'dgtt', chapter.num),
       success: s.answered ? Math.round((s.correct / s.answered) * 100) : null,
     }
   })
 )
 
+// Sommaire : tronc commun, chapitre du permis choisi, puis les autres permis.
+const chapterGroups = computed(() => {
+  const cards = chapterCards.value
+  if (permis.value === ALL_PERMIS) return [{ id: 'tous', title: 'Chapitres du manuel', cards, special: true }]
+  return [
+    { id: 'commun', title: 'Tronc commun à tous les permis', cards: cards.filter((c) => !c.permis), special: true },
+    { id: 'permis', title: `Spécifique au ${permisLabel(permis.value)}`, cards: cards.filter((c) => c.permis && c.included) },
+    {
+      id: 'autres',
+      title: 'Autres permis',
+      note: 'Hors de ton programme : ces questions ne comptent pas dans ta progression ni dans l’examen blanc.',
+      cards: cards.filter((c) => !c.included),
+    },
+  ]
+})
+
 // Chapitres où le taux de réussite est le plus bas (au moins 5 réponses).
 const weakest = computed(() =>
   chapterCards.value
-    .filter((c) => c.answered >= 5 && c.success < 100)
+    .filter((c) => c.included && c.answered >= 5 && c.success < 100)
     .sort((a, b) => a.success - b.success)
     .slice(0, 3)
 )
@@ -75,11 +98,13 @@ function successClass(value) {
         Beaucoup de questions ont <strong>plusieurs bonnes réponses</strong> : coche-les toutes puis valide.
       </p>
 
+      <PermisPicker />
+
       <!-- Tableau de bord -->
       <div class="bj-dash" aria-label="Ma progression">
         <div class="bj-tile">
           <span class="v">{{ global.answered }}<small>/{{ global.total }}</small></span>
-          <span class="l">questions faites</span>
+          <span class="l">questions faites · {{ permisLabel(permis) }}</span>
           <span class="bar"><span :style="{ width: global.percent + '%' }" /></span>
         </div>
         <div class="bj-tile" :class="successClass(global.answered ? global.success : null)">
@@ -118,29 +143,32 @@ function successClass(value) {
       <BeninSearch />
 
       <!-- Chapitres -->
-      <h3>Chapitres du manuel</h3>
-      <ul class="bj-cards">
-        <li v-for="c in chapterCards" :key="c.num">
-          <router-link :to="{ name: 'benin-chapitre', params: { id: String(c.num) } }" class="bj-card">
-            <span class="n">{{ c.roman }}</span>
-            <span class="t">{{ c.title }}</span>
-            <span class="meta">
-              {{ c.total }} questions
-              <template v-if="c.answered"> · {{ c.answered }} faites</template>
-            </span>
-            <span class="bar"><span :style="{ width: c.percent + '%' }" /></span>
-            <span v-if="c.success !== null" class="score" :class="successClass(c.success)">{{ c.success }} % de réussite</span>
-            <span v-else class="score">Pas encore commencé</span>
-          </router-link>
-        </li>
-        <li>
-          <router-link :to="{ name: 'benin-panneaux' }" class="bj-card special">
-            <span class="n">▲</span>
-            <span class="t">Catalogue des panneaux et illustrations</span>
-            <span class="meta">Toutes les images du manuel, reliées à leurs questions</span>
-          </router-link>
-        </li>
-      </ul>
+      <template v-for="group in chapterGroups" :key="group.id">
+        <h3>{{ group.title }}</h3>
+        <p v-if="group.note" class="bj-group-note">{{ group.note }}</p>
+        <ul class="bj-cards" :class="{ other: group.id === 'autres' }">
+          <li v-for="c in group.cards" :key="c.num">
+            <router-link :to="{ name: 'benin-chapitre', params: { id: String(c.num) } }" class="bj-card">
+              <span class="n">{{ c.roman }}</span>
+              <span class="t">{{ c.title }}</span>
+              <span class="meta">
+                {{ c.total }} questions
+                <template v-if="c.answered"> · {{ c.answered }} faites</template>
+              </span>
+              <span class="bar"><span :style="{ width: c.percent + '%' }" /></span>
+              <span v-if="c.success !== null" class="score" :class="successClass(c.success)">{{ c.success }} % de réussite</span>
+              <span v-else class="score">Pas encore commencé</span>
+            </router-link>
+          </li>
+          <li v-if="group.special">
+            <router-link :to="{ name: 'benin-panneaux' }" class="bj-card special">
+              <span class="n">▲</span>
+              <span class="t">Catalogue des panneaux et illustrations</span>
+              <span class="meta">Toutes les images du manuel, reliées à leurs questions</span>
+            </router-link>
+          </li>
+        </ul>
+      </template>
 
       <AttentionBox label="À savoir" style="margin-top:26px">
         Les questions et corrigés sont repris du manuel de 2011. Quelques corrigés y sont incohérents et certaines

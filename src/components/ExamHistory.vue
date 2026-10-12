@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { PASS_RATE } from '../composables/useExamSession.js'
 import { EXAM_THEMES } from '../data/examPool.js'
+import { permisLabel } from '../composables/usePermis.js'
 
 // Historique des examens blancs : courbe des scores (du plus ancien au plus récent)
 // avec la ligne du seuil, puis la liste détaillée (qui sert aussi de vue tableau).
@@ -56,7 +57,8 @@ function describe(h) {
   const themes = c.themes?.length
     ? c.themes.map((id) => EXAM_THEMES.find((t) => t.id === id)?.label).filter(Boolean).join(', ')
     : 'tous les thèmes'
-  return `${source} · ${themes}${h.timed === false ? ' · sans chronomètre' : ''}`
+  const permis = c.permis ? ` · ${permisLabel(c.permis)}` : ''
+  return `${source}${permis} · ${themes}${h.timed === false ? ' · sans chronomètre' : ''}`
 }
 </script>
 

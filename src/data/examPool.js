@@ -2,6 +2,7 @@
 // et QCM des 14 chapitres du cours, mises au même format.
 import { chapters, chapterRoute } from './chapters/chapter-meta.js'
 import { beninChapters, loadBeninChapter, isPlayable } from './benin/meta.js'
+import { permisIncludes } from '../composables/usePermis.js'
 
 // Thèmes de l'examen : chaque thème regroupe des chapitres du cours et du manuel DGTT.
 export const EXAM_THEMES = [
@@ -10,7 +11,7 @@ export const EXAM_THEMES = [
   { id: 'manoeuvres', label: 'Arrêt, stationnement, vitesse, manœuvres', cours: [4, 5, 13], dgtt: [4] },
   { id: 'routes', label: 'Routes pour automobiles et autoroutes', cours: [6], dgtt: [5] },
   { id: 'conducteur', label: 'Conducteur : alcool, secourisme, infractions', cours: [9, 11], dgtt: [6] },
-  { id: 'permis', label: 'Permis et catégories de véhicules', cours: [10, 12], dgtt: [7, 8, 9, 10] },
+  { id: 'permis', label: 'Mon permis et sa catégorie de véhicules', cours: [10, 12], dgtt: [7, 8, 9, 10] },
   { id: 'vehicule', label: 'Véhicule, mécanique, entretien', cours: [7, 8], dgtt: [11] },
 ]
 
@@ -38,6 +39,7 @@ function courseQuestions() {
   return [...byId.values()].map(({ q, chapter }) => ({
     key: q.id,
     source: 'cours',
+    chapterNum: chapter.num,
     theme: themeOf('cours', chapter.num),
     group: `Cours · ${chapter.num}. ${chapter.title}`,
     to: chapterRoute(chapter.id),
@@ -59,6 +61,7 @@ async function officialQuestions() {
         .map((q) => ({
           key: q.id,
           source: 'dgtt',
+          chapterNum: chapter.num,
           theme: themeOf('dgtt', chapter.num),
           num: q.num,
           group: `Manuel DGTT · ${chapter.roman}. ${chapter.title}`,
@@ -93,11 +96,15 @@ function shuffle(list) {
   return copy
 }
 
-// Réglages du contenu : { source: 'mixte' | 'dgtt' | 'cours', themes: [ids] }.
-// Sans thème sélectionné, tous les thèmes sont retenus.
-export function filterPool(pool, { source = 'mixte', themes = [] } = {}) {
+// Réglages du contenu : { source: 'mixte' | 'dgtt' | 'cours', themes: [ids], permis }.
+// Sans thème sélectionné, tous les thèmes sont retenus ; seuls les chapitres du tronc
+// commun et ceux du permis préparé sont tirés.
+export function filterPool(pool, { source = 'mixte', themes = [], permis = 'tous' } = {}) {
   return pool.filter(
-    (q) => (source === 'mixte' || q.source === source) && (!themes.length || themes.includes(q.theme))
+    (q) =>
+      (source === 'mixte' || q.source === source) &&
+      (!themes.length || themes.includes(q.theme)) &&
+      permisIncludes(permis, q.source, q.chapterNum)
   )
 }
 
