@@ -49,7 +49,7 @@ import questions from '../data/questions/ch6.json'
 <tr><td><strong>Panneau d'entrée</strong></td><td>Aucun</td><td>Carré bleu à voiture blanche</td><td>Carré bleu à autoroute (deux chaussées et un pont)</td></tr>
 <tr><td><strong>Sens de circulation</strong></td><td>Souvent double sens sur une même chaussée</td><td>Chaussées le plus souvent séparées</td><td>Chaussées <strong>toujours</strong> séparées par un terre-plein</td></tr>
 <tr><td><strong>Croisements</strong></td><td>Carrefours à niveau, entrées riveraines</td><td>Carrefours dénivelés ou giratoires</td><td><strong>Aucun croisement à niveau</strong> : uniquement des échangeurs</td></tr>
-<tr><td><strong>Accès</strong></td><td>Tous usagers autorisés</td><td>Véhicules à moteur pouvant dépasser une vitesse minimale</td><td>Réservée aux véhicules à moteur capables d'atteindre 80 km/h en palier</td></tr>
+<tr><td><strong>Accès</strong></td><td>Tous usagers autorisés</td><td>Véhicules à moteur pouvant dépasser une vitesse minimale</td><td>Interdite aux véhicules qui ne peuvent pas atteindre 60 km/h (manuel DGTT, Q419), aux piétons, cyclistes, cyclomoteurs, cavaliers et véhicules agricoles</td></tr>
 <tr><td><strong>Vitesse maximale</strong></td><td><ValeurBenin k="vitesse_hors_agglomeration" /></td><td><ValeurBenin k="vitesse_voie_express" /></td><td><ValeurBenin k="vitesse_autoroute" /></td></tr>
 <tr><td><strong>Signalisation directionnelle</strong></td><td>Panneaux blancs (routes locales) ou verts (grandes liaisons)</td><td>Panneaux bleus ou verts</td><td>Panneaux <strong>bleus</strong></td></tr>
 <tr><td><strong>BAU</strong></td><td>Non</td><td>Parfois</td><td>Oui</td></tr>

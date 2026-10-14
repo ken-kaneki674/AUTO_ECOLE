@@ -48,41 +48,39 @@ Les vitesses marquées ⚠ ne sont pas précisées par le manuel de la DGTT : po
 <p>La distance d'arrêt est la somme de deux distances :</p>
 <p style="text-align:center;font-family:var(--font-tech);background:var(--surface);border:1px solid var(--ligne);padding:12px"><strong>DISTANCE D'ARRÊT = distance de réaction + distance de freinage</strong></p>
 <ul>
-<li><strong>Distance de réaction</strong> : distance parcourue pendant le temps de réaction, environ <strong>1 seconde</strong> chez un conducteur en forme. Elle augmente avec la fatigue, l'alcool, le téléphone, les médicaments.</li>
-<li><strong>Distance de freinage</strong> : distance parcourue une fois le frein actionné. Elle dépend du <strong>carré de la vitesse</strong> : doubler la vitesse <strong>quadruple</strong> la distance de freinage.</li>
+<li><strong>Distance de réaction</strong> : distance parcourue pendant le temps de réaction (percevoir puis réagir), environ <strong>1 seconde</strong> chez un conducteur en forme. Elle augmente avec la fatigue, l'alcool, le téléphone, les médicaments.</li>
+<li><strong>Distance de freinage</strong> : distance parcourue une fois le frein actionné. Elle dépend de la <strong>vitesse</strong>, de l'<strong>adhérence</strong> (revêtement, chaussée mouillée) et de l'<strong>état des pneumatiques</strong>.</li>
 </ul>
-<MemoBox label="Les deux formules à connaître par cœur">
-<strong>Distance de réaction (m)</strong> = (V ÷ 10) × 3 &nbsp;→ à 90 km/h : 9 × 3 = <strong>27 m</strong><br>
-<strong>Distance de freinage (m, sur sol sec)</strong> = (V ÷ 10) × (V ÷ 10) &nbsp;→ à 90 km/h : 9 × 9 = <strong>81 m</strong><br>
-Sur chaussée mouillée, la distance de freinage est <strong>multipliée par 2</strong>.
+<MemoBox label="La formule du manuel DGTT">
+<strong>Distance d'arrêt (m, sur sol sec)</strong> ≈ (V ÷ 10) × (V ÷ 10) &nbsp;→ à 50 km/h : 5 × 5 = <strong>25 m</strong> ; à 90 km/h : 9 × 9 = <strong>81 m</strong>.<br>
+Doubler la vitesse <strong>quadruple</strong> la distance. Sur chaussée mouillée ou avec des pneus usés, elle augmente fortement (environ le double).
 </MemoBox>
+<p>C'est la valeur qu'attendent les questions officielles : « à 90 km/h, ma distance d'arrêt est d'environ 81 mètres » (Q392), et inversement « je m'arrête après 81 m : je roulais à 90 km/h » (Q446).</p>
 <figure>
-<svg viewBox="0 0 680 250" role="img" aria-label="Distances d'arrêt selon la vitesse">
+<svg viewBox="0 0 680 230" role="img" aria-label="Distances d'arrêt selon la vitesse, d'après le manuel DGTT">
  <g font-family="Arial Narrow, Arial, sans-serif" font-size="13">
-  <text x="10" y="20" font-weight="bold" font-size="14" letter-spacing="1">DISTANCE D'ARRÊT SUR CHAUSSÉE SÈCHE</text>
+  <text x="10" y="20" font-weight="bold" font-size="14" letter-spacing="1">DISTANCE D'ARRÊT SUR CHAUSSÉE SÈCHE : (V ÷ 10)²</text>
   <g>
    <text x="10" y="56" font-weight="bold">50 km/h</text>
-   <rect x="86" y="42" width="60" height="20" fill="#F5B301"/><rect x="146" y="42" width="100" height="20" fill="#D2202F"/>
-   <text x="256" y="57" fill="#171A1F">15 + 25 = <tspan font-weight="bold">40 m</tspan></text>
+   <rect x="86" y="42" width="100" height="20" fill="#D2202F"/>
+   <text x="196" y="57" fill="#171A1F">5 × 5 = <tspan font-weight="bold">25 m</tspan></text>
   </g>
   <g>
    <text x="10" y="96" font-weight="bold">70 km/h</text>
-   <rect x="86" y="82" width="84" height="20" fill="#F5B301"/><rect x="170" y="82" width="196" height="20" fill="#D2202F"/>
-   <text x="376" y="97" fill="#171A1F">21 + 49 = <tspan font-weight="bold">70 m</tspan></text>
+   <rect x="86" y="82" width="196" height="20" fill="#D2202F"/>
+   <text x="292" y="97" fill="#171A1F">7 × 7 = <tspan font-weight="bold">49 m</tspan></text>
   </g>
   <g>
    <text x="10" y="136" font-weight="bold">90 km/h</text>
-   <rect x="86" y="122" width="108" height="20" fill="#F5B301"/><rect x="194" y="122" width="324" height="20" fill="#D2202F"/>
-   <text x="528" y="137" fill="#171A1F">27 + 81 = <tspan font-weight="bold">108 m</tspan></text>
+   <rect x="86" y="122" width="324" height="20" fill="#D2202F"/>
+   <text x="420" y="137" fill="#171A1F">9 × 9 = <tspan font-weight="bold">81 m</tspan></text>
   </g>
   <g>
    <text x="10" y="176" font-weight="bold">110 km/h</text>
-   <rect x="86" y="162" width="132" height="20" fill="#F5B301"/><rect x="218" y="162" width="380" height="20" fill="#D2202F"/>
-   <text x="606" y="177" fill="#171A1F" font-size="12">33+121</text>
+   <rect x="86" y="162" width="484" height="20" fill="#D2202F"/>
+   <text x="580" y="177" fill="#171A1F">11 × 11 = <tspan font-weight="bold">121 m</tspan></text>
   </g>
-  <rect x="86" y="208" width="18" height="14" fill="#F5B301"/><text x="110" y="220">distance de réaction (1 s)</text>
-  <rect x="270" y="208" width="18" height="14" fill="#D2202F"/><text x="294" y="220">distance de freinage (sol sec)</text>
-  <text x="10" y="243" font-size="12" fill="#5C636D">Sur chaussée mouillée, la partie rouge double : à 90 km/h, l'arrêt demande environ 190 m.</text>
+  <text x="10" y="216" font-size="12" fill="#5C636D">Sur chaussée mouillée ou avec des pneus usés, la distance augmente (environ le double).</text>
  </g>
 </svg>
 <figcaption>Figure 5.1 — Ce que coûte réellement chaque tranche de vitesse</figcaption>
@@ -97,14 +95,23 @@ Sur chaussée mouillée, la distance de freinage est <strong>multipliée par 2</
 </ul>
 
 <h3>5.5 Les distances de sécurité</h3>
-<p>La distance à respecter avec le véhicule qui précède correspond à la distance parcourue pendant <strong>2 secondes</strong>. Sur route mouillée ou avec une remorque, on passe à <strong>3 secondes</strong>.</p>
-<AstuceBox label="Technique des deux secondes">
-Repère un point fixe (panneau, arbre). Quand le véhicule de devant le dépasse, compte « <em>mille un, mille deux</em> ». Si tu atteins le point avant la fin du décompte, tu es trop près : lève le pied.
+<p>Le manuel de la DGTT fixe les <strong>intervalles minimaux de sécurité</strong> à garder derrière le véhicule qui précède :</p>
+<div class="table-scroll"><table>
+<thead><tr><th>Situation</th><th>Intervalle minimal</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Deux véhicules qui se suivent à <strong>50 km/h</strong></td><td><strong>15 m</strong> environ</td><td>Q516</td></tr>
+<tr><td>Derrière un véhicule qui roule à <strong>90 km/h</strong></td><td><strong>25 m</strong> environ</td><td>Q460</td></tr>
+<tr><td>Deux <strong>poids lourds</strong> (plus de 3,5 t de PTAC et plus de 7 m de long) qui se suivent en rase campagne</td><td><strong>50 m</strong> environ</td><td>Q720, Q774</td></tr>
+</tbody>
+</table></div>
+<p>L'intervalle entre poids lourds sert à éviter le choc en cas de freinage brusque et à <strong>faciliter le dépassement</strong> par les véhicules légers. Par temps de pluie, on augmente toujours l'intervalle.</p>
+<AstuceBox label="Conseil pratique : les deux secondes">
+Ce ne sont que des minimums. En conduite, laisse au moins <strong>2 secondes</strong> (3 sous la pluie) : repère un point fixe (panneau, arbre) ; quand le véhicule de devant le dépasse, compte « <em>mille un, mille deux</em> ». Si tu atteins le point avant la fin du décompte, tu es trop près.
 </AstuceBox>
 
 <h3>5.6 Vitesse excessive, vitesse insuffisante, phénomènes physiques</h3>
 <ul>
-<li><strong>Vitesse trop faible</strong> : elle est aussi une infraction lorsqu'elle gêne la circulation sans motif ; sur autoroute, la voie de gauche impose de pouvoir tenir au moins 80 km/h.</li>
+<li><strong>Vitesse trop faible</strong> : elle est aussi une infraction lorsqu'elle gêne la circulation sans motif ; l'autoroute est interdite aux véhicules qui ne peuvent pas atteindre <strong>60 km/h</strong> (Q419), et certaines autoroutes imposent une vitesse minimale par panneau.</li>
 <li><strong>Aquaplanage</strong> : au-delà d'une certaine vitesse sur film d'eau, les pneus ne chassent plus l'eau et le véhicule « flotte ». Réaction : lever le pied <strong>sans freiner ni braquer</strong>, tenir le volant droit.</li>
 <li><strong>Force centrifuge</strong> : en virage, elle déporte le véhicule vers l'extérieur ; elle croît avec le carré de la vitesse. On freine <strong>avant</strong> le virage, on accélère progressivement à la sortie.</li>
 <li><strong>Fading</strong> : échauffement des freins en longue descente ; utiliser le frein moteur en rétrogradant.</li>

@@ -90,7 +90,7 @@ Une voiture est garée sur ta voie et un camion arrive en face. L'obstacle est d
 <li><strong>0,5 m</strong> entre deux véhicules automobiles ;</li>
 <li><strong>1 m</strong> entre une automobile et un piéton, un animal, un cycliste ou un motocycliste.</li>
 </ul></li>
-<li><strong>Accélérer franchement</strong> pour dépasser vite.</li>
+<li><strong>Accélérer franchement</strong> pour dépasser vite. La nuit, on peut repasser en <strong>feux de route en arrivant à la hauteur du conducteur</strong> dépassé, quand on ne risque plus de l'éblouir (Q278).</li>
 <li>Le dépassement est <strong>effectif</strong> lorsque l'usager dépassé <strong>apparaît dans le rétroviseur intérieur</strong> : on attend ce moment pour mettre le clignotant à droite et se rabattre à droite.</li>
 </ol>
 <h4>Après le dépassement</h4>

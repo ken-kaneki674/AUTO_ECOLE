@@ -8,10 +8,10 @@
   },
   {
     "id": "ch5-q2",
-    "question": "À 90 km/h sur sol sec, ma distance de freinage est d'environ :",
+    "question": "À 90 km/h, dans des conditions normales, ma distance d'arrêt est d'environ :",
     "choices": ["27 m", "45 m", "81 m", "120 m"],
     "correct": 2,
-    "explanation": "(90 ÷ 10)² = 9 × 9 = 81 m sur sol sec — le double environ sur sol mouillé."
+    "explanation": "(90 ÷ 10)² = 9 × 9 = 81 m sur sol sec, selon le manuel DGTT (Q392) ; bien plus sur sol mouillé."
   },
   {
     "id": "ch5-q3",
@@ -22,10 +22,10 @@
   },
   {
     "id": "ch5-q4",
-    "question": "La distance de sécurité minimale correspond à :",
-    "choices": ["une longueur de voiture", "2 secondes de trajet", "10 mètres", "30 mètres quelle que soit la vitesse"],
-    "correct": 1,
-    "explanation": "La règle des 2 secondes s'adapte automatiquement à la vitesse ; on passe à 3 s sous la pluie."
+    "question": "Derrière un véhicule qui roule à 90 km/h, l'intervalle minimal de sécurité est d'environ :",
+    "choices": ["5 m", "15 m", "25 m", "100 m"],
+    "correct": 2,
+    "explanation": "25 m environ à 90 km/h et 15 m environ à 50 km/h (manuel DGTT, Q460 et Q516). En pratique, garde au moins 2 secondes."
   },
   {
     "id": "ch5-q5",
@@ -54,5 +54,12 @@
     "choices": ["0,1 seconde", "1 seconde", "3 secondes", "5 secondes"],
     "correct": 1,
     "explanation": "Environ 1 seconde ; ce temps double sous l'effet de l'alcool, de la fatigue ou du téléphone."
+  },
+  {
+    "id": "ch5-q9",
+    "question": "En rase campagne, deux poids lourds de plus de 7 m de long qui se suivent doivent garder un intervalle d'au moins :",
+    "choices": ["10 m", "25 m", "50 m", "200 m"],
+    "correct": 2,
+    "explanation": "50 m environ (manuel DGTT, Q720 et Q774) : pour éviter le choc en cas de freinage et faciliter le dépassement par les véhicules légers."
   }
 ]

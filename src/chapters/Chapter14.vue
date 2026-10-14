@@ -19,15 +19,16 @@ import questions from '../data/questions/ch14.json'
 <thead><tr><th>Forme et couleur</th><th>Famille</th><th>Message</th><th>Implantation</th></tr></thead>
 <tbody>
 <tr><td>Triangle à bord rouge, pointe en haut</td><td>Danger</td><td>« Attention, voici ce qui arrive »</td><td><ValeurBenin k="distance_panneau_danger_hors_agglomeration" /> hors agglomération, <ValeurBenin k="distance_panneau_danger_agglomeration" /> en agglomération</td></tr>
-<tr><td>Cercle à bord rouge</td><td>Interdiction</td><td>« C'est interdit »</td><td>Au début de la zone concernée</td></tr>
-<tr><td>Cercle bleu plein</td><td>Obligation</td><td>« Tu dois faire ceci »</td><td>Au début de la zone concernée</td></tr>
+<tr><td>Cercle à bord rouge</td><td>Prescription absolue : interdiction</td><td>« C'est interdit »</td><td>Au début de la zone concernée</td></tr>
+<tr><td>Cercle bleu plein</td><td>Prescription absolue : obligation</td><td>« Tu dois faire ceci »</td><td>Au début de la zone concernée</td></tr>
 <tr><td>Carré ou rectangle bleu</td><td>Indication / service</td><td>« Voici une information utile »</td><td>Sur place</td></tr>
 <tr><td>Cercle blanc barré de gris</td><td>Fin de prescription</td><td>« L'interdiction précédente cesse »</td><td>Fin de zone</td></tr>
-<tr><td>Triangle pointe en bas / octogone</td><td>Priorité</td><td>Cédez le passage / STOP</td><td>À l'intersection</td></tr>
-<tr><td>Fond jaune</td><td>Temporaire ou priorité</td><td>Chantier, déviation ; losange = route prioritaire</td><td>Zone de travaux</td></tr>
+<tr><td>Triangle pointe en bas, octogone, losange jaune, triangle à flèche barrée</td><td>Intersections et régimes de priorité</td><td>Cédez le passage, STOP, route prioritaire (AB6), prioritaire à la prochaine intersection (AB2)</td><td>À l'intersection</td></tr>
+<tr><td>Fond jaune</td><td>Temporaire</td><td>Chantier, déviation</td><td>Zone de travaux</td></tr>
 <tr><td>Rectangle blanc sous le panneau</td><td>Panonceau</td><td>Précise la portée, la distance, la catégorie visée</td><td>Sous le panneau principal</td></tr>
 </tbody>
 </table></div>
+<p>On retrouve les <strong>quatre catégories</strong> du <router-link :to="{ name: 'chapitre', params: { id: '1' } }">chapitre 1</router-link> : danger, prescription absolue (interdiction et obligation, tous ronds), indication, intersections et régimes de priorité.</p>
 
 <h3>14.2 Panneaux de danger (triangle rouge)</h3>
 <div class="panneaux">

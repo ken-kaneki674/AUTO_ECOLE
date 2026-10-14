@@ -33,7 +33,7 @@ import questions from '../data/questions/ch7.json'
 <tr><td><strong>Feux stop</strong></td><td>S'allument au freinage</td><td>Automatique</td></tr>
 <tr><td><strong>Clignotants (indicateurs de direction)</strong></td><td>Annoncent un changement de direction ou de file</td><td>Toujours, avant toute manœuvre</td></tr>
 <tr><td><strong>Feux de détresse (warnings)</strong></td><td>Les quatre clignotants ensemble</td><td>Véhicule immobilisé, ralentissement brutal, danger pour les suiveurs</td></tr>
-<tr><td><strong>Feu de recul, éclairage de plaque</strong></td><td>Signalent la marche arrière, permettent l'identification</td><td>Automatique</td></tr>
+<tr><td><strong>Feu de recul, éclairage de plaque</strong></td><td>Signalent la marche arrière ; la nuit, la plaque d'immatriculation éclairée doit être <strong>lisible à 20 m</strong> (Q822)</td><td>Automatique</td></tr>
 </tbody>
 </table></div>
 <MemoBox label="À retenir">
@@ -43,7 +43,7 @@ Les feux servent à <strong>voir</strong> et à <strong>être vu</strong>. Sous 
 <h3>7.3 Les pneumatiques</h3>
 <ul>
 <li>Seuls points de contact avec la route : <strong>quatre surfaces de la taille d'une carte postale</strong> chacune.</li>
-<li><strong>Profondeur minimale des sculptures : 1,6 mm</strong> sur toute la bande de roulement ⚠. Des témoins d'usure moulés dans les rainures l'indiquent.</li>
+<li><strong>Profondeur minimale des rainures principales : 1,6 mm</strong> (<strong>1 mm</strong> pour un poids lourd), selon le manuel de la DGTT (Q871, Q786). Des témoins d'usure moulés dans les rainures l'indiquent.</li>
 <li><strong>Pression</strong> à contrôler à froid, au moins une fois par mois. Sous-gonflé : usure des épaules, échauffement, surconsommation, risque d'éclatement. Sur-gonflé : usure centrale, tenue de route dégradée.</li>
 <li>Surveiller les <strong>hernies, coupures, corps étrangers</strong> et l'usure irrégulière (signe de mauvais parallélisme).</li>
 </ul>
