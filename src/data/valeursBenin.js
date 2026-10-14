@@ -48,17 +48,20 @@ export const valeursBenin = {
   numero_police: {
     label: 'Numéro d’urgence — Police secours',
     value: '117',
-    verified: false,
+    verified: true,
+    source: 'Confirmé par l’auto-école',
   },
   numero_pompiers: {
     label: 'Numéro d’urgence — Sapeurs-pompiers',
     value: '118',
-    verified: false,
+    verified: true,
+    source: 'Confirmé par l’auto-école',
   },
   numero_samu: {
     label: 'Numéro d’urgence — Secours médicaux',
     value: '112',
-    verified: false,
+    verified: true,
+    source: 'Confirmé par l’auto-école',
   },
   distance_triangle_agglomeration: {
     label: 'Distance de pose du triangle de présignalisation',

@@ -53,7 +53,7 @@ Ce chapitre est un rappel théorique destiné à l'examen du code. Il ne remplac
 <strong>Police secours : <ValeurBenin k="numero_police" /></strong><br>
 <strong>Sapeurs-pompiers : <ValeurBenin k="numero_pompiers" /></strong><br>
 <strong>Secours médicaux : <ValeurBenin k="numero_samu" /></strong><br>
-<em>⚠ Vérifie ces numéros auprès de ton auto-école et note-les dans ton téléphone.</em>
+<em>Note-les dans ton téléphone.</em>
 </td><td>
 1. <strong>Qui</strong> je suis et d'où j'appelle (numéro de rappel).<br>
 2. <strong>Où</strong> exactement : route, sens, point kilométrique, repère visible.<br>
