@@ -2,7 +2,8 @@
 //
 // `verified: true` : la valeur est donnée par le manuel officiel de la DGTT
 // (« Le manuel du candidat à l'examen du permis de conduire », édition 2011) ;
-// `source` indique où. `verified: false` : valeur usuelle à confirmer auprès du code
+// `source` indique où (ou les notes de cours de l'auto-école, qui priment quand elles
+// diffèrent du manuel de 2011). `verified: false` : valeur usuelle à confirmer auprès du code
 // de la route en vigueur ou de l'auto-école, signalée par « ⚠ » dans le cours.
 export const valeursBenin = {
   vitesse_agglomeration: {
@@ -99,10 +100,16 @@ export const valeursBenin = {
     verified: true,
     source: 'Manuel DGTT, chapitre I',
   },
-  remorque_ptac_sans_extension: {
-    label: 'PTAC maximal d’une remorque attelée à un véhicule de catégorie B',
-    value: '750 kg',
+  remorque_ptac_ensemble: {
+    label: 'PTAC maximal du véhicule de catégorie B et de sa remorque réunis',
+    value: '3 500 kg',
     verified: true,
-    source: 'Manuel DGTT, chapitre I',
+    source: 'Notes de cours de l’auto-école (le manuel DGTT de 2011 indique une remorque de 750 kg au plus)',
+  },
+  remorque_carte_grise: {
+    label: 'PTAC de remorque au-delà duquel elle a sa propre carte grise',
+    value: '500 kg',
+    verified: true,
+    source: 'Notes de cours de l’auto-école et manuel DGTT, Q688',
   },
 }

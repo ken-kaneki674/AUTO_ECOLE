@@ -15,12 +15,20 @@ import questions from '../data/questions/ch13.json'
 <p class="obj"><b>Objectifs du chapitre</b> Exécuter proprement un changement de direction à droite, à gauche, un changement de file, un demi-tour et une marche arrière, en appliquant toujours la même méthode.</p>
 
 <h3>13.1 La méthode universelle en cinq temps</h3>
+<p>Avant de changer de direction, le conducteur doit :</p>
+<ul>
+<li>s'assurer que la manœuvre <strong>n'est pas interdite par une signalisation</strong> ;</li>
+<li><strong>surveiller la route</strong> vers l'avant et vers l'arrière ;</li>
+<li><strong>signaler son intention</strong> à l'aide du clignotant ;</li>
+<li><strong>ralentir sans freiner brusquement</strong>, pour ne pas surprendre les usagers qui suivent ;</li>
+<li><strong>respecter les règles de priorité</strong>, puis se placer convenablement sur la chaussée pour tourner.</li>
+</ul>
 <p>Quelle que soit la manœuvre, l'ordre est <strong>toujours</strong> le même. Retiens-le comme une check-list :</p>
 <ol>
 <li><strong>Contrôler</strong> : rétroviseur intérieur, rétroviseur extérieur du côté de la manœuvre, puis <strong>angle mort</strong>.</li>
 <li><strong>Avertir</strong> : clignotant, suffisamment tôt (au moins <strong><ValeurBenin k="distance_clignotant_agglomeration" /> en agglomération, <ValeurBenin k="distance_clignotant_hors_agglomeration" /> hors agglomération</strong>) mais pas trop tôt, pour ne pas induire les autres en erreur.</li>
 <li><strong>Se placer</strong> : à droite pour tourner à droite, près de l'axe pour tourner à gauche.</li>
-<li><strong>Ralentir</strong> : freiner <em>avant</em> le virage, adapter le rapport de boîte.</li>
+<li><strong>Ralentir</strong> : freiner <em>avant</em> le virage, sans à-coup, et adapter le rapport de boîte.</li>
 <li><strong>Tourner et contrôler</strong> : regarder où l'on va, surveiller piétons et deux-roues, puis éteindre le clignotant.</li>
 </ol>
 <MemoBox label="Formule mnémotechnique">
@@ -28,6 +36,7 @@ import questions from '../data/questions/ch13.json'
 </MemoBox>
 
 <h3>13.2 Tourner à droite</h3>
+<p>La place à occuper sur la chaussée dépend de la <strong>catégorie du véhicule</strong> que l'on conduit et du fait que l'on tourne <strong>à droite ou à gauche</strong>. Pour tourner à droite, le conducteur d'un <strong>véhicule léger</strong> se place à droite : il <strong>serre le plus possible le bord droit</strong> de la chaussée.</p>
 <figure>
 <svg viewBox="0 0 660 280" role="img" aria-label="Tourner à droite et à gauche">
  <rect width="660" height="280" fill="#EDEFF2"/>
@@ -69,12 +78,16 @@ import questions from '../data/questions/ch13.json'
 </ul>
 
 <h3>13.3 Tourner à gauche</h3>
+<p>Pour tourner à gauche, la place à occuper dépend aussi du <strong>nombre de sens</strong> de la chaussée :</p>
+<ul>
+<li><strong>Chaussée à double sens</strong> : le conducteur d'un véhicule léger se déporte <strong>au milieu, sans dépasser l'axe médian</strong>, puis il <strong>contourne le centre de l'intersection</strong>.</li>
+<li><strong>Chaussée à sens unique</strong> : il <strong>serre complètement la gauche</strong>, car aucun véhicule ne peut venir en sens inverse.</li>
+</ul>
 <ul>
 <li><strong>Hors agglomération et sur route à double sens</strong> : je me place près de l'axe médian, sans le franchir, en laissant si possible passer les véhicules qui me suivent.</li>
 <li>Je <strong>cède le passage aux véhicules venant en sens inverse</strong> : ils sont prioritaires, y compris les deux-roues, souvent sous-estimés en vitesse.</li>
 <li>Je m'arrête <strong>roues droites</strong> pendant l'attente : si je suis percuté par l'arrière avec les roues braquées, je pars dans la voie d'en face.</li>
 <li>Le virage est <strong>long</strong> : je ne coupe pas la trajectoire, je m'engage dans la voie de droite de la route abordée.</li>
-<li>En sens unique, je me place le long du bord gauche.</li>
 </ul>
 
 <h3>13.4 Changer de file</h3>

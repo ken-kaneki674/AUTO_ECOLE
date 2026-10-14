@@ -17,29 +17,31 @@ import questions from '../data/questions/ch12.json'
 <p>Le permis de conduire est un <strong>titre administratif officiel et personnel</strong>, délivré par l'autorité compétente, qui atteste que son titulaire possède les connaissances théoriques, les aptitudes pratiques et les conditions médicales requises pour conduire une catégorie donnée de véhicules sur la voie publique.</p>
 <p>Le <strong>permis catégorie B</strong> autorise la conduite des <strong>véhicules automobiles affectés au transport de personnes ou de marchandises</strong> dont :</p>
 <ul>
-<li>le <strong>poids total autorisé en charge (PTAC) n'excède pas 3 500 kg</strong> ;</li>
-<li>le nombre de places assises, <strong>outre celle du conducteur, n'excède pas huit</strong> (soit 9 places au total) ;</li>
-<li>l'attelage d'une <strong>remorque dont le PTAC ne dépasse pas <ValeurBenin k="remorque_ptac_sans_extension" /></strong> est autorisé ; au-delà, une extension est nécessaire.</li>
+<li>s'ils transportent des <strong>marchandises</strong>, leur <strong>poids total autorisé en charge (PTAC) n'excède pas 3 500 kg</strong> : ce sont des véhicules de <strong>poids léger</strong> ;</li>
+<li>s'ils transportent des <strong>personnes</strong>, leur nombre de places assises <strong>ne dépasse pas neuf (9), conducteur compris</strong> (8 places outre celle du conducteur).</li>
 </ul>
-<MemoBox label="Les trois chiffres du permis B">
-<strong>3 500 kg</strong> de PTAC · <strong>9 places</strong> conducteur compris · <strong>750 kg</strong> de remorque.
+<p><strong>Remorque.</strong> On peut atteler une remorque à condition que le <strong>PTAC du véhicule et celui de la remorque réunis n'excèdent pas <ValeurBenin k="remorque_ptac_ensemble" /></strong>. Si le PTAC de la remorque dépasse <ValeurBenin k="remorque_carte_grise" />, la remorque doit avoir <strong>sa propre carte grise</strong> et un <strong>numéro d'immatriculation différent</strong> de celui du véhicule tracteur.</p>
+<p><strong>Transport d'enfants.</strong> Les enfants de <strong>moins de dix (10) ans</strong> comptent pour <strong>une demi-personne</strong>, à condition que leur nombre ne dépasse pas dix (10).</p>
+<MemoBox label="Les chiffres du permis B">
+<strong>3 500 kg</strong> de PTAC (véhicule + remorque) · <strong>9 places</strong> conducteur compris · remorque de plus de <strong>500 kg</strong> = carte grise propre · enfant de moins de 10 ans = <strong>½ personne</strong> · âge minimal <strong>18 ans</strong>.
 </MemoBox>
+<p>Le manuel de la DGTT (édition 2011) parle d'une remorque de <strong>750 kg</strong> au plus : c'est cette valeur qu'attendent certaines questions officielles.</p>
 
 <h3>12.2 Les catégories de permis</h3>
 <div class="table-scroll"><table>
 <thead><tr><th>Catégorie</th><th>Véhicules autorisés</th><th>Âge minimal</th></tr></thead>
 <tbody>
 <tr><td><strong>A1 / A2 / A3</strong></td><td>Deux-roues, tricycles et quadricycles à moteur, par tranches de cylindrée (voir chapitre 10)</td><td>16 / 18 / 21 ans</td></tr>
-<tr><td><strong>B</strong></td><td>Transport de personnes ou de marchandises, PTAC ≤ 3,5 t ou 8 places hors conducteur ; remorque ≤ 750 kg</td><td>18 ans</td></tr>
+<tr><td><strong>B</strong></td><td>Transport de personnes ou de marchandises, PTAC ≤ 3,5 t ou 9 places conducteur compris ; véhicule + remorque ≤ 3,5 t</td><td>18 ans</td></tr>
 <tr><td><strong>C</strong></td><td>Transport de marchandises ou de matériel, PTAC ≤ 18 t</td><td>21 ans</td></tr>
 <tr><td><strong>C1</strong></td><td>Transport de marchandises ou de matériel, PTAC &gt; 18 t</td><td>21 ans</td></tr>
 <tr><td><strong>Dr (TCR)</strong></td><td>Transport en commun de 18 places au plus, PTAC ≤ 3,5 t</td><td>21 ans</td></tr>
 <tr><td><strong>D</strong></td><td>Transport en commun de plus de 18 places, PTAC &gt; 3,5 t</td><td>21 ans</td></tr>
-<tr><td><strong>E</strong></td><td>Remorque de plus de 750 kg attelée à un véhicule de catégorie B (E(B))</td><td>—</td></tr>
+<tr><td><strong>E</strong></td><td>Remorque attelée à un véhicule de catégorie B au-delà de la limite du permis B (E(B))</td><td>—</td></tr>
 <tr><td><strong>F</strong></td><td>Réservé aux personnes en situation de handicap physique</td><td>—</td></tr>
 </tbody>
 </table></div>
-<p>Source : manuel du candidat de la DGTT (édition 2011), chapitre I, et questions Q681, Q689 et Q694.</p>
+<p>Source : notes de cours de l'auto-école ; manuel du candidat de la DGTT (édition 2011), chapitre I, et questions Q681, Q689 et Q694.</p>
 
 <h3>12.3 Conditions d'obtention</h3>
 <ol>

@@ -37,13 +37,57 @@ import questions from '../data/questions/ch2.json'
 <figcaption>Figure 2.1 — Carrefour non signalé : le véhicule rouge passe en premier</figcaption>
 </figure>
 <MemoBox label="À retenir">
-La priorité à droite s'applique aussi <strong>dans les parkings, les zones de rencontre et sur les places</strong>, dès lors qu'aucune signalisation ne l'écarte. Elle ne s'applique <strong>jamais</strong> si l'on sort d'un chemin de terre, d'une propriété privée, d'une station-service ou d'un parking vers une chaussée : dans ce cas, on cède toujours le passage.
+La priorité à droite s'applique aussi <strong>dans les parkings, les zones de rencontre et sur les places</strong>, dès lors qu'aucune signalisation ne l'écarte. Elle ne s'applique <strong>jamais</strong> si l'on sort d'une propriété privée, d'une station-service ou d'un parking vers une chaussée : dans ce cas, on cède toujours le passage. Pour les routes en terre, voir la règle de la route revêtue plus bas.
 </MemoBox>
 
-<h3>2.2 Les carrefours réglés par des panneaux</h3>
+<h3>2.2 Les trois règles de priorité</h3>
+<p>En abordant une <strong>intersection</strong> (l'endroit où des routes se rejoignent ou se coupent), il faut savoir quel conducteur doit céder le passage à l'autre. Trois (3) règles de priorité définissent l'ordre de passage des véhicules aux intersections : la <strong>priorité à droite</strong>, la <strong>priorité de passage</strong> et la <strong>perte de priorité</strong>.</p>
+
+<h4>A. La priorité à droite</h4>
+<p><strong>Principe</strong> : laisser passer l'usager dont la droite est libre, ou passer quand on a la droite libre, aux intersections de <strong>routes de même valeur</strong>.</p>
+<p><strong>Elle s'applique dans 3 cas :</strong></p>
+<ol>
+<li>à une intersection <strong>sans signalisation</strong> (ni feu, ni panneau, ni agent) ;</li>
+<li>à une intersection de <strong>deux routes secondaires</strong> signalée par le panneau <strong>AB1</strong> (croix de Saint-André) ;</li>
+<li>à une intersection munie de <strong>feux tricolores dont le jaune seul clignote</strong>.</li>
+</ol>
+<p><strong>NB</strong> : l'intersection étant formée de routes de même valeur, la signalisation est <strong>la même dans tous les angles</strong> de l'intersection.</p>
+
+<h4>B. La priorité de passage</h4>
+<p><strong>Définition</strong> : passer <strong>sans céder le passage</strong> à l'intersection.</p>
+<p><strong>Elle s'applique :</strong></p>
+<ol>
+<li>à la rencontre du panneau <strong>losange à fond jaune (AB6)</strong>, qui indique le caractère prioritaire d'une route ;</li>
+<li>à la rencontre du panneau <strong>triangulaire portant une flèche barrée (AB2)</strong>, qui annonce l'intersection d'une route à grande circulation et d'une route secondaire ;</li>
+<li>à la rencontre du <strong>feu vert allumé</strong> ;</li>
+<li>à la vue du <strong>profil d'un agent</strong> réglementant la circulation.</li>
+</ol>
+
+<h4>C. La perte de priorité</h4>
+<p><strong>Principe</strong> : céder le passage aux usagers venant de <strong>la droite et de la gauche</strong>, à l'intersection de routes <strong>n'ayant pas la même valeur</strong>.</p>
+<p><strong>Elle s'applique :</strong></p>
+<ol>
+<li>à la rencontre du panneau <strong>STOP</strong> : on marque l'arrêt à la ligne qui suit le panneau et on cède le passage à droite et à gauche ;</li>
+<li>à la rencontre du panneau <strong>triangulaire pointe en bas</strong> (« cédez le passage ») ;</li>
+<li>à la rencontre des feux tricolores dont le <strong>rouge est allumé</strong> ;</li>
+<li>à la rencontre <strong>de face ou de dos</strong> d'un agent réglementant la circulation ;</li>
+<li>à la rencontre d'un <strong>véhicule prioritaire</strong> annonçant son approche par l'un au moins de ses avertisseurs spéciaux (sonore ou lumineux). Les véhicules prioritaires sont ceux de la <strong>police</strong>, de la <strong>gendarmerie</strong>, des <strong>sapeurs-pompiers</strong> et du <strong>S.A.M.U.</strong>, en mission.</li>
+</ol>
+
+<h4>Route revêtue et route en terre</h4>
+<ul>
+<li><strong>Hors agglomération (en campagne)</strong>, à l'intersection d'une route revêtue (bitumée) et d'une route en terre : le conducteur qui circule sur la <strong>route en terre</strong> doit céder le passage <strong>à droite et à gauche</strong>.</li>
+<li><strong>En agglomération</strong>, à l'intersection d'une route revêtue et d'une route en terre : <strong>tous les véhicules appliquent la priorité à droite</strong>.</li>
+</ul>
+<MemoBox label="Les trois règles en un coup d'œil">
+<strong>Priorité à droite</strong> : pas de signalisation, croix de Saint-André, jaune clignotant. <strong>Priorité de passage</strong> : losange jaune, triangle à flèche barrée, feu vert, agent de profil. <strong>Perte de priorité</strong> : STOP, cédez le passage, feu rouge, agent de face ou de dos, véhicule prioritaire en mission.
+</MemoBox>
+
+<h3>2.3 Les carrefours réglés par des panneaux</h3>
 <div class="panneaux">
  <div class="pan"><svg width="86" height="78" aria-hidden="true"><use href="#s-danger" xlink:href="#s-danger" width="86" height="78"/><path d="M28 46l30 22M58 46l-30 22" stroke="#000" stroke-width="5"/></svg>AB1 · Croix de Saint-André<br>Priorité à droite au prochain carrefour</div>
- <div class="pan"><svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"><path d="M50 4 96 50 50 96 4 50Z" fill="#F5B301" stroke="#fff" stroke-width="6"/><path d="M50 16 84 50 50 84 16 50Z" fill="none" stroke="#171A1F" stroke-width="3"/></svg>AB2 · Route prioritaire<br>Je suis prioritaire</div>
+ <div class="pan"><svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"><path d="M50 4 96 50 50 96 4 50Z" fill="#F5B301" stroke="#fff" stroke-width="6"/><path d="M50 16 84 50 50 84 16 50Z" fill="none" stroke="#171A1F" stroke-width="3"/></svg>AB6 · Route prioritaire<br>Je suis prioritaire</div>
+ <div class="pan"><svg width="86" height="78" aria-hidden="true"><use href="#s-danger" xlink:href="#s-danger" width="86" height="78"/><path d="M43 70V36" stroke="#000" stroke-width="7"/><path d="M43 26l9 13H34z" fill="#000"/><path d="M29 52h28" stroke="#000" stroke-width="3"/></svg>AB2 · Flèche barrée<br>Prioritaire à la prochaine intersection</div>
  <div class="pan"><svg width="86" height="78" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"><path d="M4 4h92L50 86Z" fill="#D2202F"/><path d="M18 15h64L50 72Z" fill="#fff"/></svg>AB3a · Cédez le passage<br>Ralentir, céder sans s'arrêter forcément</div>
  <div class="pan"><svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"><path d="M30 3h40l27 27v40l-27 27H30L3 70V30Z" fill="#D2202F" stroke="#fff" stroke-width="4"/><text x="50" y="60" fill="#fff" font-size="30" font-family="Arial Narrow, Arial" font-weight="bold" text-anchor="middle">STOP</text></svg>AB4 · STOP<br>Arrêt absolu obligatoire</div>
 </div>
@@ -52,7 +96,8 @@ La priorité à droite s'applique aussi <strong>dans les parkings, les zones de 
 <tbody>
 <tr><td><strong>Cédez le passage</strong> (triangle pointe en bas)</td><td>Ralentir fortement, s'assurer que la voie est libre, s'arrêter seulement si nécessaire</td><td>S'engager « au feeling » sans avoir vraiment regardé à gauche et à droite</td></tr>
 <tr><td><strong>STOP</strong> (octogone rouge)</td><td><strong>Immobilisation complète</strong> du véhicule à la ligne, roues arrêtées, puis observation, puis engagement</td><td>Le « stop américain » : ralentir sans s'arrêter = infraction</td></tr>
-<tr><td><strong>Route prioritaire</strong> (losange jaune)</td><td>Je conserve la priorité aux carrefours suivants jusqu'au panneau de fin</td><td>Croire que l'on est prioritaire sur les piétons ou les véhicules de secours</td></tr>
+<tr><td><strong>Intersection où je suis prioritaire</strong> (triangle à flèche barrée, AB2)</td><td>Je passe sans céder le passage à la <strong>prochaine</strong> intersection uniquement</td><td>Croire que la priorité vaut pour toutes les intersections suivantes</td></tr>
+<tr><td><strong>Route prioritaire</strong> (losange jaune, AB6)</td><td>Je conserve la priorité aux carrefours suivants jusqu'au panneau de fin</td><td>Croire que l'on est prioritaire sur les piétons ou les véhicules de secours</td></tr>
 <tr><td><strong>Croix de Saint-André</strong> (triangle avec croix)</td><td>Le carrefour est à priorité à droite : je ralentis et je regarde à droite</td><td>Confondre avec un panneau de priorité</td></tr>
 </tbody>
 </table></div>
@@ -60,7 +105,7 @@ La priorité à droite s'applique aussi <strong>dans les parkings, les zones de 
 Au STOP, la ligne d'arrêt est parfois placée en retrait pour la visibilité. On s'immobilise <strong>d'abord</strong> à la ligne, puis on peut avancer lentement (« deuxième arrêt ») jusqu'à voir la route.
 </AttentionBox>
 
-<h3>2.3 Le carrefour à sens giratoire</h3>
+<h3>2.4 Le carrefour à sens giratoire</h3>
 <figure>
 <svg viewBox="0 0 380 300" role="img" aria-label="Carrefour à sens giratoire">
  <rect width="380" height="300" fill="#EDEFF2"/>
@@ -98,7 +143,7 @@ Au STOP, la ligne d'arrêt est parfois placée en retrait pour la visibilité. O
 <li>Je tourne à gauche ou je fais demi-tour : voie de gauche, clignotant gauche à l'entrée, puis clignotant droit avant de sortir, en surveillant l'angle mort.</li>
 </ol>
 
-<h3>2.4 Les véhicules prioritaires</h3>
+<h3>2.5 Les véhicules prioritaires</h3>
 <div class="table-scroll"><table>
 <thead><tr><th>Catégorie</th><th>Exemples</th><th>Mon obligation</th></tr></thead>
 <tbody>
@@ -110,11 +155,12 @@ Au STOP, la ligne d'arrêt est parfois placée en retrait pour la visibilité. O
 </tbody>
 </table></div>
 
-<h3>2.5 Cas particuliers à connaître</h3>
+<h3>2.6 Cas particuliers à connaître</h3>
 <ul>
 <li><strong>Rétrécissement de chaussée</strong> : le panneau à flèches (rouge/noire) désigne qui passe. La flèche rouge indique le sens qui doit céder.</li>
-<li><strong>Route de montagne étroite</strong> : le véhicule qui <strong>descend</strong> cède le passage à celui qui monte (démarrage en côte plus délicat) ; à défaut de place, c'est le véhicule le plus facile à manœuvrer qui recule.</li>
-<li><strong>Sortie de parking, station-service, chemin de terre, propriété privée</strong> : je cède toujours le passage.</li>
+<li><strong>Route de montagne étroite ou pente</strong> : le véhicule qui <strong>descend</strong> doit s'arrêter à temps, quelle que soit sa catégorie ; si l'un des deux doit reculer, voir l'ordre de la marche arrière au <router-link :to="{ name: 'chapitre', params: { id: '3' } }">chapitre 3</router-link>.</li>
+<li><strong>Sortie de parking, station-service, propriété privée</strong> : je cède toujours le passage.</li>
+<li><strong>Route en terre</strong> : hors agglomération, je cède à droite et à gauche en arrivant sur la route revêtue ; en agglomération, priorité à droite pour tous.</li>
 <li><strong>Passage à niveau</strong> : ne jamais s'engager si l'on ne peut pas le dégager immédiatement ; l'arrêt sur les rails est interdit.</li>
 <li><strong>Cortège officiel ou funéraire</strong> : on ne le coupe pas.</li>
 <li><strong>Véhicule en panne dans un rétrécissement</strong> : la courtoisie prime, mais la règle de la flèche reste applicable.</li>

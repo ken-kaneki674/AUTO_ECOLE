@@ -39,7 +39,7 @@
     "question": "Sur une route de montagne étroite, qui cède le passage ?",
     "choices": ["celui qui monte", "celui qui descend", "le plus gros véhicule", "le plus rapide"],
     "correct": 1,
-    "explanation": "Celui qui descend cède, car le redémarrage en côte est plus difficile et plus risqué."
+    "explanation": "Sur une pente, le véhicule qui descend doit s'arrêter à temps, quelle que soit sa catégorie : le redémarrage en côte est plus difficile pour celui qui monte."
   },
   {
     "id": "ch2-q7",
@@ -54,5 +54,26 @@
     "choices": ["je le dépasse rapidement", "je ralentis et je le laisse s'insérer", "il doit attendre que la voie soit vide", "je klaxonne"],
     "correct": 1,
     "explanation": "En agglomération, le bus qui quitte son arrêt bénéficie d'une facilité de réinsertion."
+  },
+  {
+    "id": "ch2-q9",
+    "question": "En agglomération, à l'intersection d'une route revêtue et d'une route en terre :",
+    "choices": ["la route revêtue est toujours prioritaire", "tous les véhicules appliquent la priorité à droite", "celui de la route en terre cède à droite et à gauche", "le plus gros véhicule passe"],
+    "correct": 1,
+    "explanation": "En agglomération, priorité à droite pour tous. Hors agglomération, celui qui vient de la route en terre cède à droite et à gauche."
+  },
+  {
+    "id": "ch2-q10",
+    "question": "Le panneau triangulaire portant une flèche barrée (AB2) m'indique :",
+    "choices": ["que je dois céder le passage", "que je suis prioritaire à la prochaine intersection", "une priorité à droite", "la fin de la route prioritaire"],
+    "correct": 1,
+    "explanation": "C'est un cas de priorité de passage : je passe sans céder le passage à la prochaine intersection."
+  },
+  {
+    "id": "ch2-q11",
+    "question": "Lesquelles de ces situations entraînent une perte de priorité ?",
+    "choices": ["un panneau STOP", "un feu vert", "un agent vu de face", "un panneau en losange jaune"],
+    "correct": [0, 2],
+    "explanation": "Perte de priorité : STOP, cédez le passage, feu rouge, agent de face ou de dos, véhicule prioritaire en mission. Feu vert et losange jaune donnent la priorité de passage."
   }
 ]

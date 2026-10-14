@@ -47,5 +47,19 @@
     "choices": ["klaxonner", "contrôler le rétroviseur et l'angle mort", "ouvrir vite pour ne pas gêner", "allumer les warnings uniquement"],
     "correct": 1,
     "explanation": "L'ouverture de portière sans contrôle est une des causes majeures d'accidents graves de deux-roues."
+  },
+  {
+    "id": "ch4-q8",
+    "question": "Hors agglomération, l'accotement droit n'est pas praticable. Je peux stationner :",
+    "choices": ["nulle part", "sur l'accotement gauche", "au milieu de la chaussée", "seulement sur un parking"],
+    "correct": 1,
+    "explanation": "Hors agglomération, on stationne sur l'accotement droit, ou à gauche si le droit n'est pas praticable."
+  },
+  {
+    "id": "ch4-q9",
+    "question": "En agglomération, dans une rue à sens unique, je peux stationner :",
+    "choices": ["uniquement à droite", "uniquement à gauche", "à droite ou à gauche", "nulle part"],
+    "correct": 2,
+    "explanation": "En agglomération on stationne le long du trottoir de droite, sauf en sens unique où les deux côtés sont possibles."
   }
 ]

@@ -23,11 +23,18 @@ import questions from '../data/questions/ch4.json'
 <tr><td><strong>Règle</strong></td><td>Tout stationnement interdit est aussi un arrêt interdit ? <strong>Non</strong> : tout <em>arrêt</em> interdit entraîne l'interdiction de stationner, l'inverse n'est pas vrai</td><td>Là où le stationnement est interdit, l'arrêt peut rester possible</td></tr>
 </tbody>
 </table></div>
+<p>Une immobilisation, <strong>même de courte durée</strong>, est considérée comme un <strong>stationnement</strong> si elle n'est pas liée à la montée ou à la descente de passagers, ni au chargement ou au déchargement du véhicule.</p>
 <MemoBox label="À retenir">
 Le panneau rond bleu barré d'un <strong>seul trait rouge</strong> = <em>stationnement interdit</em>. Barré de <strong>deux traits croisés</strong> = <em>arrêt et stationnement interdits</em>. Un trait, une interdiction ; deux traits, deux interdictions.
 </MemoBox>
 
-<h3>4.2 Où l'arrêt et le stationnement sont interdits</h3>
+<h3>4.2 Où stationner ?</h3>
+<ul>
+<li><strong>Hors agglomération</strong> : les véhicules peuvent stationner sur l'<strong>accotement droit</strong> ; ils peuvent aussi stationner du <strong>côté gauche</strong> si l'accotement droit n'est pas praticable. Hors agglomération, on peut donc stationner à droite ou à gauche.</li>
+<li><strong>En agglomération</strong> : les véhicules doivent stationner sur le <strong>bord droit</strong> de la chaussée, le long du trottoir. <strong>Dans les rues à sens unique</strong>, on peut stationner à droite ou à gauche.</li>
+</ul>
+
+<h3>4.3 Où l'arrêt et le stationnement sont interdits</h3>
 <ul>
 <li>Sur les <strong>passages pour piétons</strong> et, en amont, sur les 5 mètres qui les précèdent (zone de visibilité).</li>
 <li>Sur les <strong>trottoirs</strong>, les pistes et bandes cyclables, les voies réservées aux bus.</li>
@@ -35,11 +42,11 @@ Le panneau rond bleu barré d'un <strong>seul trait rouge</strong> = <em>station
 <li>Dans les <strong>virages, les sommets de côte</strong> et à proximité des intersections lorsque la visibilité est réduite.</li>
 <li>Devant les <strong>entrées carrossables</strong> (portails, garages) d'autrui.</li>
 <li>Sur les <strong>zébras</strong>, les emplacements réservés (handicapés, taxis, livraisons, secours), devant les bouches d'incendie.</li>
-<li>En <strong>double file</strong>, ou du côté opposé au sens de circulation sur une chaussée à double sens.</li>
+<li>En <strong>double file</strong>, ou, en agglomération, du côté gauche d'une chaussée à double sens.</li>
 <li>Sur la <strong>bande d'arrêt d'urgence</strong> d'une autoroute, sauf urgence réelle.</li>
 </ul>
 
-<h3>4.3 Les trois qualifications sanctionnées</h3>
+<h3>4.4 Les trois qualifications sanctionnées</h3>
 <div class="table-scroll"><table>
 <thead><tr><th>Type</th><th>Définition</th><th>Exemples</th></tr></thead>
 <tbody>
@@ -50,7 +57,7 @@ Le panneau rond bleu barré d'un <strong>seul trait rouge</strong> = <em>station
 </table></div>
 <p>Ces stationnements exposent à une amende, à l'<strong>immobilisation</strong> et à la <strong>mise en fourrière</strong> aux frais du propriétaire.</p>
 
-<h3>4.4 Les modes de rangement</h3>
+<h3>4.5 Les trois façons de stationner</h3>
 <figure>
 <svg viewBox="0 0 660 200" role="img" aria-label="Modes de stationnement">
  <rect width="660" height="200" fill="#EDEFF2"/>
@@ -72,10 +79,11 @@ Le panneau rond bleu barré d'un <strong>seul trait rouge</strong> = <em>station
 <figcaption>Figure 4.1 — Les trois modes de stationnement</figcaption>
 </figure>
 <ul>
-<li><strong>Longitudinal (en créneau)</strong> : parallèle au trottoir, dans le sens de la circulation. C'est la manœuvre du créneau, exigée à l'examen pratique.</li>
-<li><strong>En épi</strong> : véhicules en oblique. Entrée facile, sortie délicate (visibilité réduite) : privilégier la <strong>marche arrière à l'entrée</strong> quand c'est possible.</li>
-<li><strong>En bataille</strong> : perpendiculaire au trottoir. Se ranger en marche arrière permet de repartir en marche avant, ce qui est nettement plus sûr.</li>
+<li><strong>En bataille</strong> : le véhicule est rangé <strong>perpendiculairement</strong> au trottoir.</li>
+<li><strong>En épi</strong> : le véhicule est rangé <strong>de biais</strong> par rapport au trottoir (comme l'épi de maïs). Entrée facile, sortie délicate (visibilité réduite).</li>
+<li><strong>En créneau</strong> : le véhicule est rangé <strong>parallèlement</strong> au trottoir, dans le sens de la circulation. C'est la manœuvre exigée à l'examen pratique.</li>
 </ul>
+<p><strong>NB</strong> : chaque fois que l'on peut, il est conseillé de ranger le véhicule <strong>en marche arrière</strong> : cela donne une meilleure visibilité à la sortie.</p>
 <h4>Réglementations particulières</h4>
 <ul>
 <li><strong>Stationnement alterné semi-mensuel</strong> : du 1<sup>er</sup> au 15 du mois, côté impair ; du 16 à la fin du mois, côté pair. Le changement s'effectue le dernier jour de chaque période, entre 20 h 30 et 21 h.</li>
@@ -84,7 +92,7 @@ Le panneau rond bleu barré d'un <strong>seul trait rouge</strong> = <em>station
 <li><strong>Hors agglomération, de nuit</strong> : si le véhicule doit rester sur la chaussée, il faut allumer les <strong>feux de position</strong> et, en cas de panne, poser le triangle de présignalisation à <strong>30 m</strong> au moins.</li>
 </ul>
 
-<h3>4.5 Quitter et reprendre son véhicule</h3>
+<h3>4.6 Quitter et reprendre son véhicule</h3>
 <ol>
 <li>Serrer le <strong>frein de stationnement</strong>, engager une vitesse (1<sup>re</sup> en montée, marche arrière en descente), braquer les roues vers le trottoir en pente.</li>
 <li>Contrôler le rétroviseur et l'angle mort <strong>avant d'ouvrir la portière</strong> : l'ouverture dangereuse est une cause fréquente d'accident mortel de cycliste ou de motocycliste.</li>

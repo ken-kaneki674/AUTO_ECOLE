@@ -47,7 +47,7 @@ export const chiffres = [
     items: [
       { notion: 'Profondeur minimale des rainures d’un pneu', valeur: '1,6 mm (1 mm pour un poids lourd)', source: 'dgtt', ref: 'Q871, Q786' },
       { notion: 'Visite technique d’un véhicule léger privé', valeur: 'tous les ans', source: 'dgtt', ref: 'Q864' },
-      { notion: 'Remorque attelée à un véhicule B', k: 'remorque_ptac_sans_extension' },
+      { notion: 'Véhicule B + remorque (PTAC réunis)', k: 'remorque_ptac_ensemble' },
       { notion: 'Carte grise propre à la remorque', valeur: 'au-delà de 500 kg de PTAC', source: 'dgtt', ref: 'Q688' },
       { notion: 'Chargement dépassant à l’arrière', valeur: '3 m au maximum ; signalé au-delà de 1 m', source: 'dgtt', ref: 'Q781, Q768' },
       { notion: 'Chargement dépassant à l’avant', valeur: 'interdit (0 m)', source: 'dgtt', ref: 'Q780' },

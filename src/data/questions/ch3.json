@@ -36,10 +36,10 @@
   },
   {
     "id": "ch3-q6",
-    "question": "L'écart latéral minimal pour dépasser un cycliste hors agglomération est de :",
-    "choices": ["0,50 m", "1 m", "1,50 m", "3 m"],
-    "correct": 2,
-    "explanation": "1 m en agglomération, 1,50 m hors agglomération ; à défaut de place, on renonce au dépassement."
+    "question": "L'écart latéral minimal entre deux véhicules automobiles lors d'un dépassement est de :",
+    "choices": ["0,30 m", "0,50 m", "1 m", "1,50 m"],
+    "correct": 1,
+    "explanation": "0,5 m entre deux automobiles ; 1 m entre une automobile et un piéton, un animal, un cycliste ou un motocycliste (manuel DGTT, Q269 et Q270)."
   },
   {
     "id": "ch3-q7",
@@ -54,5 +54,33 @@
     "choices": ["je ferme les yeux une seconde", "je ralentis et je fixe le bord droit de la chaussée", "j'allume mes feux de route en réponse", "je freine brusquement"],
     "correct": 1,
     "explanation": "Le regard se porte sur la ligne de rive droite, qui sert de guide pendant les quelques secondes d'éblouissement."
+  },
+  {
+    "id": "ch3-q9",
+    "question": "Sur une pente, deux véhicules de même catégorie ne peuvent pas se croiser. Doit reculer :",
+    "choices": ["le véhicule qui monte", "le véhicule qui descend", "le plus récent", "celui qui a le moins de passagers"],
+    "correct": 1,
+    "explanation": "À catégorie égale, c'est le descendant qui recule. Sinon : le léger devant le lourd, le camion devant l'autobus, le véhicule seul devant l'ensemble de véhicules."
+  },
+  {
+    "id": "ch3-q10",
+    "question": "Pour dépasser, la réserve d'accélération doit me permettre de rouler au moins :",
+    "choices": ["5 km/h de plus", "10 km/h de plus", "20 km/h de plus", "50 km/h de plus"],
+    "correct": 2,
+    "explanation": "Il faut au moins 20 km/h de plus que le véhicule dépassé pour dépasser vite."
+  },
+  {
+    "id": "ch3-q11",
+    "question": "La nuit, je suis dépassé par un autre véhicule. Je dois :",
+    "choices": ["accélérer", "allumer mes feux de route", "maintenir mon allure, serrer à droite et passer en feux de croisement dès que je suis dépassé", "freiner fortement"],
+    "correct": 2,
+    "explanation": "Celui qu'on dépasse maintient son allure, serre sa droite et, la nuit, passe en feux de croisement pour ne pas éblouir."
+  },
+  {
+    "id": "ch3-q12",
+    "question": "Le jour, pour prévenir l'usager que je vais dépasser, j'utilise :",
+    "choices": ["l'avertisseur sonore", "les appels lumineux", "les feux de détresse", "le clignotant droit"],
+    "correct": 0,
+    "explanation": "Le jour avec l'avertisseur sonore, la nuit avec les appels lumineux."
   }
 ]

@@ -39,7 +39,7 @@
     "question": "Au feu jaune fixe, je peux poursuivre ma route :",
     "choices": ["toujours", "si je suis trop engagé pour m'arrêter sans danger", "si je suis pressé", "si aucun véhicule n'arrive"],
     "correct": 1,
-    "explanation": "L'arrêt au jaune fixe est la règle ; l'exception est le risque de choc arrière si l'on freine trop tard."
+    "explanation": "Le jaune fixe commande de ralentir et annonce le rouge : on s'arrête, sauf si l'on est trop près pour le faire sans danger (risque de choc arrière)."
   },
   {
     "id": "ch1-q7",
@@ -54,5 +54,26 @@
     "choices": ["panneaux → agent → feux → marquage", "agent → feux → panneaux → marquage", "feux → agent → marquage → panneaux", "marquage → panneaux → feux → agent"],
     "correct": 1,
     "explanation": "Ordre mémo : « Agent, Feux, Panneaux, Marquage » — A F P M."
+  },
+  {
+    "id": "ch1-q9",
+    "question": "Au péage, un feu en forme de croix rouge est allumé au-dessus d'une voie :",
+    "choices": ["la voie est fermée : je ne l'emprunte pas", "je peux l'emprunter en ralentissant", "elle est réservée aux poids lourds", "je dois m'arrêter puis repartir"],
+    "correct": 0,
+    "explanation": "Les feux bicolores règlent la circulation voie par voie : croix rouge = voie fermée, flèche verte = voie ouverte."
+  },
+  {
+    "id": "ch1-q10",
+    "question": "Une bordure de trottoir peinte en rouge et blanc signifie :",
+    "choices": ["arrêt et stationnement interdits", "stationnement interdit, arrêt autorisé", "stationnement réservé aux taxis", "passage pour piétons"],
+    "correct": 1,
+    "explanation": "Elle a le même sens que la ligne jaune discontinue : stationnement interdit, arrêt autorisé."
+  },
+  {
+    "id": "ch1-q11",
+    "question": "Le feu rouge d'un passage à niveau s'allume. Je dois :",
+    "choices": ["passer vite avant le train", "m'arrêter et attendre qu'il s'éteigne avant de repartir", "ralentir et passer si je ne vois pas de train", "klaxonner et passer"],
+    "correct": 1,
+    "explanation": "Ce feu unique annonce le passage d'un train (ou l'ouverture d'un pont mobile) : on attend qu'il s'éteigne."
   }
 ]
