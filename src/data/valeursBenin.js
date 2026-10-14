@@ -19,15 +19,15 @@ export const valeursBenin = {
   },
   vitesse_voie_express: {
     label: 'Vitesse maximale sur route pour automobiles',
-    value: 'fixée par la réglementation nationale',
-    verified: false,
-    source: 'Manuel DGTT, Q485',
+    value: '110 km/h',
+    verified: true,
+    source: 'Notes de cours de l’auto-école et manuel DGTT, Q770',
   },
   vitesse_autoroute: {
     label: 'Vitesse maximale sur autoroute',
-    value: 'fixée par la réglementation nationale (110 km/h en période probatoire)',
-    verified: false,
-    source: 'Manuel DGTT, Q398 et Q484',
+    value: '130 km/h (110 km/h en période probatoire)',
+    verified: true,
+    source: 'Notes de cours de l’auto-école et manuel DGTT, Q770 et Q398',
   },
   vitesse_novice: {
     label: 'Vitesse maximale d’un conducteur dont le permis a moins d’un an',

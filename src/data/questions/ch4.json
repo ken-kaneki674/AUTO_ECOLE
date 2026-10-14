@@ -22,10 +22,10 @@
   },
   {
     "id": "ch4-q4",
-    "question": "Sur une chaussée à double sens, je peux stationner :",
-    "choices": ["des deux côtés indifféremment", "uniquement du côté droit, dans le sens de la circulation", "à gauche si la place est libre", "en double file"],
+    "question": "En agglomération, sur une chaussée à double sens, je peux stationner :",
+    "choices": ["des deux côtés indifféremment", "uniquement sur le bord droit, le long du trottoir", "à gauche si la place est libre", "en double file"],
     "correct": 1,
-    "explanation": "Le stationnement se fait à droite, dans le sens de la marche ; les deux côtés ne sont possibles qu'en sens unique lorsque c'est autorisé."
+    "explanation": "En agglomération, on stationne sur le bord droit ; à droite ou à gauche seulement dans une rue à sens unique. Hors agglomération, l'accotement gauche est possible si le droit n'est pas praticable."
   },
   {
     "id": "ch4-q5",
@@ -61,5 +61,47 @@
     "choices": ["uniquement à droite", "uniquement à gauche", "à droite ou à gauche", "nulle part"],
     "correct": 2,
     "explanation": "En agglomération on stationne le long du trottoir de droite, sauf en sens unique où les deux côtés sont possibles."
+  },
+  {
+    "id": "ch4-q10",
+    "question": "Le panneau B6a1 « stationnement interdit » s'applique :",
+    "choices": ["sur 50 m", "à partir du panneau jusqu'à la prochaine intersection", "jusqu'à la sortie de l'agglomération", "seulement la nuit"],
+    "correct": 1,
+    "explanation": "L'interdiction commence au panneau et finit à la prochaine intersection ; il en est de même pour « arrêt et stationnement interdits »."
+  },
+  {
+    "id": "ch4-q11",
+    "question": "Un marquage jaune continu le long du trottoir signifie :",
+    "choices": ["stationnement interdit, arrêt autorisé", "arrêt et stationnement interdits", "stationnement payant", "place de livraison"],
+    "correct": 1,
+    "explanation": "Jaune continu : arrêt et stationnement interdits. Jaune discontinu : stationnement interdit, arrêt toléré."
+  },
+  {
+    "id": "ch4-q12",
+    "question": "Dans quels cas le stationnement est-il gênant mais l'arrêt toléré ?",
+    "choices": ["devant un garage ou une porte cochère", "au-delà d'un panneau B6a1", "le long d'une ligne jaune discontinue", "sur un passage pour piétons"],
+    "correct": [0, 1, 2],
+    "explanation": "Sur un passage pour piétons, l'arrêt comme le stationnement sont gênants."
+  },
+  {
+    "id": "ch4-q13",
+    "question": "Un véhicule garé la nuit sur la chaussée sans être signalé est en stationnement :",
+    "choices": ["gênant", "dangereux", "abusif", "autorisé"],
+    "correct": 1,
+    "explanation": "Il est dangereux, car il peut surprendre les autres usagers."
+  },
+  {
+    "id": "ch4-q14",
+    "question": "En sortant d'un garage pour intégrer la circulation, je dois :",
+    "choices": ["m'engager rapidement", "regarder à gauche puis à droite, céder le passage des deux côtés et m'engager progressivement", "klaxonner et passer", "mettre mes feux de détresse et passer"],
+    "correct": 1,
+    "explanation": "On jette d'abord un coup d'œil à gauche puis à droite, on cède le passage aux usagers des deux côtés et on s'engage progressivement."
+  },
+  {
+    "id": "ch4-q15",
+    "question": "Le stationnement payant est contrôlé par :",
+    "choices": ["le disque de stationnement", "l'horodateur", "le parcmètre", "la carte grise"],
+    "correct": [1, 2],
+    "explanation": "Payant : horodateur ou parcmètre. Gratuit à durée limitée : disque de stationnement."
   }
 ]

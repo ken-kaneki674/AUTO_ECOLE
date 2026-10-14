@@ -14,6 +14,15 @@ import questions from '../data/questions/ch11.json'
 </div>
 <p class="obj"><b>Objectifs du chapitre</b> Identifier tous les états dans lesquels il ne faut pas prendre le volant : alcool, stupéfiants, médicaments, fatigue, maladie, distraction, émotion.</p>
 
+<p>Pour conduire, il faut être en <strong>bonne condition physique et mentale</strong>. Le conducteur doit donc <strong>s'abstenir de conduire</strong> lorsqu'il est :</p>
+<ul>
+<li><strong>soucieux</strong> ou <strong>nerveux</strong> ;</li>
+<li><strong>ivre</strong> (sous l'effet de l'alcool) ;</li>
+<li>sous l'effet de certains <strong>médicaments</strong> comme les <strong>somnifères</strong>, les <strong>tranquillisants</strong> ou les <strong>excitants</strong> ;</li>
+<li><strong>malade</strong> ;</li>
+<li><strong>fatigué</strong> ou <strong>somnolent</strong>.</li>
+</ul>
+
 <h3>11.1 L'alcool</h3>
 <p>L'alcool est impliqué dans une très large part des accidents mortels. Il agit <strong>même à faible dose</strong>, et le conducteur est le plus mauvais juge de son propre état — l'alcool supprime d'abord l'autocritique.</p>
 <h4>Ses effets</h4>

@@ -34,30 +34,60 @@ Le panneau rond bleu barré d'un <strong>seul trait rouge</strong> = <em>station
 <li><strong>En agglomération</strong> : les véhicules doivent stationner sur le <strong>bord droit</strong> de la chaussée, le long du trottoir. <strong>Dans les rues à sens unique</strong>, on peut stationner à droite ou à gauche.</li>
 </ul>
 
-<h3>4.3 Où l'arrêt et le stationnement sont interdits</h3>
+<h3>4.3 Les interdictions signalées</h3>
+<p>La signalisation peut interdire l'arrêt ou le stationnement :</p>
+<ul>
+<li>Le panneau <strong>B6a1 « stationnement interdit »</strong> : le stationnement est interdit <strong>à partir du panneau</strong> et l'interdiction <strong>finit à la prochaine intersection</strong>.</li>
+<li>Il en est de même pour le panneau <strong>« arrêt et stationnement interdits »</strong>.</li>
+<li>Le <strong>marquage jaune discontinu</strong> le long du trottoir signifie <strong>stationnement interdit</strong> à tous les véhicules le long de ce trottoir.</li>
+<li>Le <strong>marquage jaune continu</strong> le long du trottoir interdit <strong>l'arrêt et le stationnement</strong> le long de ce trottoir.</li>
+</ul>
+
+<h3>4.4 Où l'arrêt et le stationnement sont interdits</h3>
 <ul>
 <li>Sur les <strong>passages pour piétons</strong> et, en amont, sur les 5 mètres qui les précèdent (zone de visibilité).</li>
 <li>Sur les <strong>trottoirs</strong>, les pistes et bandes cyclables, les voies réservées aux bus.</li>
 <li>Sur les <strong>ponts, dans les tunnels, les passages souterrains</strong> et sur les passages à niveau.</li>
 <li>Dans les <strong>virages, les sommets de côte</strong> et à proximité des intersections lorsque la visibilité est réduite.</li>
-<li>Devant les <strong>entrées carrossables</strong> (portails, garages) d'autrui.</li>
 <li>Sur les <strong>zébras</strong>, les emplacements réservés (handicapés, taxis, livraisons, secours), devant les bouches d'incendie.</li>
 <li>En <strong>double file</strong>, ou, en agglomération, du côté gauche d'une chaussée à double sens.</li>
 <li>Sur la <strong>bande d'arrêt d'urgence</strong> d'une autoroute, sauf urgence réelle.</li>
 </ul>
 
-<h3>4.4 Les trois qualifications sanctionnées</h3>
-<div class="table-scroll"><table>
-<thead><tr><th>Type</th><th>Définition</th><th>Exemples</th></tr></thead>
-<tbody>
-<tr><td><strong>Gênant</strong></td><td>Entrave la circulation des autres usagers</td><td>Trottoir, piste cyclable, double file, arrêt de bus, place réservée</td></tr>
-<tr><td><strong>Dangereux</strong></td><td>Crée un risque d'accident par manque de visibilité</td><td>Virage, sommet de côte, intersection, passage à niveau, tunnel</td></tr>
-<tr><td><strong>Abusif</strong></td><td>Véhicule laissé au même endroit au-delà d'une durée fixée (souvent <strong>7 jours</strong> ⚠ à vérifier), ou véhicule épave</td><td>Voiture immobilisée des semaines sur la voie publique</td></tr>
-</tbody>
-</table></div>
+<h3>4.5 Sans signalisation : dangereux, gênant, abusif</h3>
+<p>En l'absence de signalisation, il existe <strong>trois (03) catégories</strong> d'arrêt et de stationnement interdits : le stationnement <strong>dangereux</strong>, <strong>gênant</strong> et <strong>abusif</strong>.</p>
+<h4>a) Arrêt et stationnement dangereux</h4>
+<p>Ils sont dangereux chaque fois que le véhicule garé <strong>peut surprendre les autres usagers</strong> :</p>
+<ul>
+<li>à proximité des <strong>intersections</strong> ;</li>
+<li>à proximité des <strong>sommets de côte</strong> (et dans les virages) ;</li>
+<li>à proximité des <strong>passages à niveau</strong> ;</li>
+<li>sur la chaussée, <strong>la nuit</strong>, quand le véhicule <strong>n'est pas signalé</strong>.</li>
+</ul>
+<h4>b) Arrêt et stationnement gênants</h4>
+<p>Ils sont gênants quand le véhicule <strong>gêne les autres usagers</strong> :</p>
+<ul>
+<li>à la hauteur d'une <strong>ligne blanche continue</strong>, quand le véhicule oblige les autres à chevaucher la ligne ;</li>
+<li>à côté des <strong>panneaux ou des signaux lumineux</strong>, si le véhicule risque de les cacher aux autres ;</li>
+<li><strong>derrière les véhicules en stationnement</strong>, quand le véhicule peut les empêcher de sortir ;</li>
+<li>aux <strong>emplacements réservés</strong> à certaines catégories de véhicules (bus, ambulances, etc.) ;</li>
+<li>sur les <strong>trottoirs</strong>, les <strong>passages pour piétons</strong>, les <strong>pistes ou bandes cyclables</strong> ;</li>
+<li>dans les <strong>passages souterrains</strong>.</li>
+</ul>
+<p><strong>Le stationnement est gênant mais l'arrêt toléré :</strong></p>
+<ul>
+<li>devant les <strong>garages</strong> ou les <strong>portes cochères</strong> ;</li>
+<li>au-delà d'un panneau <strong>B6a1</strong> « stationnement interdit » ;</li>
+<li>le long de la <strong>ligne jaune discontinue</strong>.</li>
+</ul>
+<h4>c) Stationnement abusif</h4>
+<p>On appelle stationnement abusif l'immobilisation d'un véhicule sur un lieu public pendant <strong>plus de sept (07) jours consécutifs</strong>. <strong>NB</strong> : cette durée peut être réduite par la réglementation locale.</p>
+<MemoBox label="Contrôle du stationnement">
+Stationnement <strong>gratuit à durée limitée</strong> : contrôlé par le <strong>disque de stationnement</strong>. Stationnement <strong>payant</strong> : contrôlé par l'<strong>horodateur</strong> ou le <strong>parcmètre</strong>.
+</MemoBox>
 <p>Ces stationnements exposent à une amende, à l'<strong>immobilisation</strong> et à la <strong>mise en fourrière</strong> aux frais du propriétaire.</p>
 
-<h3>4.5 Les trois façons de stationner</h3>
+<h3>4.6 Les trois façons de stationner</h3>
 <figure>
 <svg viewBox="0 0 660 200" role="img" aria-label="Modes de stationnement">
  <rect width="660" height="200" fill="#EDEFF2"/>
@@ -88,11 +118,25 @@ Le panneau rond bleu barré d'un <strong>seul trait rouge</strong> = <em>station
 <ul>
 <li><strong>Stationnement alterné semi-mensuel</strong> : du 1<sup>er</sup> au 15 du mois, côté impair ; du 16 à la fin du mois, côté pair. Le changement s'effectue le dernier jour de chaque période, entre 20 h 30 et 21 h.</li>
 <li><strong>Zone bleue</strong> : durée limitée, disque de stationnement obligatoire derrière le pare-brise.</li>
-<li><strong>Stationnement payant</strong> : horodateur ; le ticket doit être visible.</li>
+<li><strong>Stationnement payant</strong> : horodateur ou parcmètre ; le ticket doit être visible.</li>
 <li><strong>Hors agglomération, de nuit</strong> : si le véhicule doit rester sur la chaussée, il faut allumer les <strong>feux de position</strong> et, en cas de panne, poser le triangle de présignalisation à <strong>30 m</strong> au moins.</li>
 </ul>
 
-<h3>4.6 Quitter et reprendre son véhicule</h3>
+<h3>4.7 Quitter le stationnement, sortir d'un garage</h3>
+<p><strong>a) En quittant le stationnement</strong> en marche normale pour intégrer la circulation, je dois :</p>
+<ul>
+<li>mettre le <strong>clignotant gauche</strong> ;</li>
+<li>vérifier, à l'aide du <strong>rétroviseur gauche</strong>, que la circulation est libre à l'arrière ;</li>
+<li>m'engager <strong>doucement</strong>, sans gêner la circulation.</li>
+</ul>
+<p><strong>b) En sortant d'un garage</strong> pour intégrer la circulation, je dois :</p>
+<ul>
+<li>jeter tout d'abord un coup d'œil <strong>à gauche puis à droite</strong> ;</li>
+<li><strong>céder le passage</strong> aux usagers circulant à droite et à gauche ;</li>
+<li>m'engager <strong>progressivement</strong>.</li>
+</ul>
+
+<h3>4.8 Quitter et reprendre son véhicule</h3>
 <ol>
 <li>Serrer le <strong>frein de stationnement</strong>, engager une vitesse (1<sup>re</sup> en montée, marche arrière en descente), braquer les roues vers le trottoir en pente.</li>
 <li>Contrôler le rétroviseur et l'angle mort <strong>avant d'ouvrir la portière</strong> : l'ouverture dangereuse est une cause fréquente d'accident mortel de cycliste ou de motocycliste.</li>

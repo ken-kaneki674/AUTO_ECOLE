@@ -73,7 +73,7 @@ export const mnemos = [
   { sigle: 'P.A.S.', sens: 'Protéger, Alerter, Secourir', role: 'l’ordre des gestes de secours' },
   { sigle: 'C.A.P.R.T.', sens: 'Contrôler, Avertir, se Placer, Ralentir, Tourner', role: 'tout changement de direction' },
   { sigle: 'A.C.E.É.', sens: 'Admission, Compression, Explosion, Échappement', role: 'le cycle du moteur à quatre temps' },
-  { sigle: 'O.A.D.D.C.R.', sens: 'Observer, Avertir, Déboîter, Doubler, Contrôler, se Rabattre', role: 'les six temps du dépassement' },
+  { sigle: 'A.P.A.', sens: 'Avant (s’assurer, prévenir), Pendant (déboîter, doubler), Après (se rabattre, éteindre)', role: 'les trois étapes du dépassement' },
 ]
 
 // Termes propres au cours, complétés par les définitions et abréviations du
@@ -87,7 +87,7 @@ const termesCours = [
   ['Assurance au tiers', 'Assurance minimale obligatoire : elle couvre les dommages causés à autrui (Q603, Q865).'],
   ['Balise', 'Dispositif implanté le long de la route pour signaler un virage, une intersection, un obstacle ou un passage à niveau.'],
   ['BAU', 'Bande d’arrêt d’urgence, sur autoroute : réservée aux arrêts en cas de panne ou de malaise et aux véhicules d’intervention.'],
-  ['Carte grise', 'Certificat d’immatriculation du véhicule, à présenter avec le permis et l’attestation d’assurance.'],
+  ['Carte grise', 'Certificat d’immatriculation du véhicule ; on y lit le nom du propriétaire. À présenter avec le permis, l’attestation d’assurance, la visite technique et la vignette.'],
   ['Céder le passage', 'Laisser passer les usagers prioritaires, en s’arrêtant si nécessaire.'],
   ['Croisement', 'Rencontre de deux véhicules circulant en sens inverse ; chacun serre sa droite.'],
   ['Délinéateur', 'Balise à bande réfléchissante qui souligne le bord de la chaussée la nuit.'],

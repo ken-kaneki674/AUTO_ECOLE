@@ -61,5 +61,26 @@
     "choices": ["10 m", "25 m", "50 m", "200 m"],
     "correct": 2,
     "explanation": "50 m environ (manuel DGTT, Q720 et Q774) : pour éviter le choc en cas de freinage et faciliter le dépassement par les véhicules légers."
+  },
+  {
+    "id": "ch5-q10",
+    "question": "À 60 km/h, la distance parcourue en une seconde est d'environ :",
+    "choices": ["6 m", "18 m", "36 m", "60 m"],
+    "correct": 1,
+    "explanation": "Chiffre des dizaines × 3 : 6 × 3 = 18 m par seconde."
+  },
+  {
+    "id": "ch5-q11",
+    "question": "La distance de freinage dépend :",
+    "choices": ["du type de revêtement", "de la vitesse", "de l'état des pneumatiques et des amortisseurs", "de la couleur du véhicule"],
+    "correct": [0, 1, 2],
+    "explanation": "Revêtement, vitesse, pneus et amortisseurs."
+  },
+  {
+    "id": "ch5-q12",
+    "question": "Au Bénin, la vitesse maximale sur autoroute est de :",
+    "choices": ["90 km/h", "110 km/h", "130 km/h", "150 km/h"],
+    "correct": 2,
+    "explanation": "130 km/h sur autoroute, 110 km/h sur route pour automobiles (110 km/h sur autoroute en période probatoire)."
   }
 ]

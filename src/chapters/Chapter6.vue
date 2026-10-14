@@ -14,6 +14,7 @@ import questions from '../data/questions/ch6.json'
 <p class="obj"><b>Objectifs du chapitre</b> Reconnaître les trois types de voies, nommer les parties de la route, maîtriser l'insertion et la sortie, connaître les interdictions propres à l'autoroute et la conduite à tenir en cas de panne.</p>
 
 <h3>6.1 Les parties de la route</h3>
+<p><strong>La route</strong> est tout passage spécialement aménagé et ouvert à la circulation publique ; elle peut être <strong>revêtue ou non</strong>. Elle comprend deux grandes parties : <strong>la chaussée</strong> et <strong>les accotements</strong> (les trottoirs en ville).</p>
 <figure>
 <svg viewBox="0 0 700 230" role="img" aria-label="Coupe d'une route">
  <rect width="700" height="230" fill="#EDEFF2"/>
@@ -34,12 +35,17 @@ import questions from '../data/questions/ch6.json'
 <figcaption>Figure 6.1 — Vocabulaire de la route</figcaption>
 </figure>
 <ul>
-<li><strong>La chaussée</strong> : partie de la route affectée à la circulation des véhicules.</li>
-<li><strong>La voie</strong> : subdivision de la chaussée, de largeur suffisante pour une file de véhicules.</li>
-<li><strong>L'accotement</strong> : bordure située entre la chaussée et le fossé ou le talus ; il peut être stabilisé ou meuble.</li>
+<li><strong>La chaussée</strong> : partie de la route recouverte d'un revêtement spécial et <strong>réservée à la circulation des véhicules</strong>. Elle peut être subdivisée en voies par des lignes blanches continues ou discontinues.</li>
+<li><strong>La voie</strong> : subdivision de la chaussée, assez large pour une file de véhicules circulant dans un même sens.</li>
+<li><strong>Les accotements</strong> : situés de chaque côté de la chaussée, ils sont moins aménagés qu'elle. Ils <strong>permettent le stationnement</strong> des véhicules mais sont <strong>interdits à la circulation</strong>.</li>
 <li><strong>Le terre-plein central</strong> : séparateur entre les deux sens de circulation sur une chaussée séparée.</li>
 <li><strong>La bande d'arrêt d'urgence (BAU)</strong> : bande revêtue à droite des autoroutes et voies express, réservée aux arrêts d'urgence et aux véhicules de secours.</li>
-<li><strong>Le trottoir</strong> : partie réservée aux piétons en agglomération.</li>
+<li><strong>Le trottoir</strong> : en ville, les accotements sont aménagés pour la circulation des piétons : ce sont les trottoirs.</li>
+</ul>
+<p>Ainsi, en ville, la route comprend soit <strong>la chaussée et les trottoirs</strong>, soit <strong>la chaussée, un terre-plein central et les trottoirs</strong>.</p>
+<ul>
+<li><strong>La route pour automobiles</strong> : passage spécialement aménagé et ouvert à la circulation des <strong>véhicules à moteur, à l'exception des cyclomoteurs</strong>. Elle est composée de <strong>deux chaussées séparées</strong> par des glissières de sécurité ou un terre-plein central et <strong>peut avoir des intersections</strong>.</li>
+<li><strong>L'autoroute</strong> : route à deux chaussées séparées par un terre-plein central, réservée à la <strong>circulation rapide des véhicules à moteur</strong>. Elle <strong>ne comporte pas d'intersections</strong>. La vitesse y est réglementée par l'administration.</li>
 </ul>
 
 <h3>6.2 Les trois types de voies</h3>
@@ -47,9 +53,9 @@ import questions from '../data/questions/ch6.json'
 <thead><tr><th></th><th>Route ordinaire</th><th>Route pour automobiles</th><th>Autoroute</th></tr></thead>
 <tbody>
 <tr><td><strong>Panneau d'entrée</strong></td><td>Aucun</td><td>Carré bleu à voiture blanche</td><td>Carré bleu à autoroute (deux chaussées et un pont)</td></tr>
-<tr><td><strong>Sens de circulation</strong></td><td>Souvent double sens sur une même chaussée</td><td>Chaussées le plus souvent séparées</td><td>Chaussées <strong>toujours</strong> séparées par un terre-plein</td></tr>
-<tr><td><strong>Croisements</strong></td><td>Carrefours à niveau, entrées riveraines</td><td>Carrefours dénivelés ou giratoires</td><td><strong>Aucun croisement à niveau</strong> : uniquement des échangeurs</td></tr>
-<tr><td><strong>Accès</strong></td><td>Tous usagers autorisés</td><td>Véhicules à moteur pouvant dépasser une vitesse minimale</td><td>Interdite aux véhicules qui ne peuvent pas atteindre 60 km/h (manuel DGTT, Q419), aux piétons, cyclistes, cyclomoteurs, cavaliers et véhicules agricoles</td></tr>
+<tr><td><strong>Sens de circulation</strong></td><td>Souvent double sens sur une même chaussée</td><td>Deux chaussées séparées par des glissières ou un terre-plein</td><td>Chaussées <strong>toujours</strong> séparées par un terre-plein</td></tr>
+<tr><td><strong>Croisements</strong></td><td>Carrefours à niveau, entrées riveraines</td><td>Peut comporter des intersections</td><td><strong>Aucun croisement à niveau</strong> : uniquement des échangeurs</td></tr>
+<tr><td><strong>Accès</strong></td><td>Tous usagers autorisés</td><td>Véhicules à moteur, sauf les cyclomoteurs</td><td>Interdite aux véhicules qui ne peuvent pas atteindre 60 km/h (manuel DGTT, Q419), aux piétons, cyclistes, cyclomoteurs, cavaliers et véhicules agricoles</td></tr>
 <tr><td><strong>Vitesse maximale</strong></td><td><ValeurBenin k="vitesse_hors_agglomeration" /></td><td><ValeurBenin k="vitesse_voie_express" /></td><td><ValeurBenin k="vitesse_autoroute" /></td></tr>
 <tr><td><strong>Signalisation directionnelle</strong></td><td>Panneaux blancs (routes locales) ou verts (grandes liaisons)</td><td>Panneaux bleus ou verts</td><td>Panneaux <strong>bleus</strong></td></tr>
 <tr><td><strong>BAU</strong></td><td>Non</td><td>Parfois</td><td>Oui</td></tr>
@@ -60,7 +66,7 @@ import questions from '../data/questions/ch6.json'
 <h4>L'insertion</h4>
 <ol>
 <li>Sur la <strong>bretelle d'accès</strong>, j'observe le trafic à ma gauche.</li>
-<li>Sur la <strong>voie d'accélération</strong>, j'accélère pour atteindre une vitesse proche de celle du flux.</li>
+<li>On accède à l'autoroute par la <strong>voie d'accès</strong> puis la <strong>voie d'accélération</strong>, qui permet d'atteindre la vitesse autorisée sur autoroute : j'y accélère pour atteindre la vitesse du flux.</li>
 <li>Je mets le <strong>clignotant gauche</strong>, je contrôle le rétroviseur puis l'<strong>angle mort</strong>.</li>
 <li>Je m'insère dans un espace suffisant. <strong>Je n'ai pas la priorité</strong> : ce sont les véhicules déjà sur l'autoroute qui l'ont. Ceux-ci doivent toutefois faciliter mon insertion en se déportant si possible sur la voie de gauche.</li>
 <li>Ne jamais s'arrêter en bout de voie d'accélération, sauf impossibilité absolue de s'insérer.</li>
@@ -84,9 +90,13 @@ import questions from '../data/questions/ch6.json'
 <li>L'<strong>arrêt et le stationnement</strong> sur la chaussée et sur la BAU (sauf urgence).</li>
 <li>La circulation des <strong>piétons</strong>, des animaux, des cyclistes, des cyclomoteurs et des engins agricoles.</li>
 <li>L'<strong>auto-stop</strong>, y compris sur les bretelles.</li>
-<li>Le franchissement du <strong>terre-plein central</strong>.</li>
+<li>La traversée du <strong>terre-plein central</strong>.</li>
+<li>La <strong>circulation sur la bande d'arrêt d'urgence</strong>.</li>
 <li>Le dépassement par la droite.</li>
 </ul>
+<p><strong>La bande d'arrêt d'urgence</strong> s'utilise en cas de <strong>panne</strong> ou de <strong>malaise</strong> du conducteur ou d'un passager, en faisant usage des <strong>feux de détresse</strong>. La circulation y est toutefois autorisée à certains véhicules : les <strong>véhicules prioritaires</strong>, les <strong>ambulances</strong> transportant un blessé en urgence et les véhicules des <strong>services d'entretien</strong>.</p>
+<h4>Où se garer sur l'autoroute ?</h4>
+<p>L'<strong>arrêt et le stationnement sont interdits</strong> sur l'autoroute. En cas d'<strong>ennui mécanique</strong> ou de <strong>panne de carburant</strong>, on se gare sur la <strong>bande d'arrêt d'urgence</strong>, puis on va <strong>à pied jusqu'au prochain poste téléphonique</strong> (borne d'appel) pour appeler les services d'entretien de l'autoroute. On peut aussi se garer sur une <strong>aire de repos</strong>.</p>
 
 <h3>6.5 En cas de panne ou d'accident</h3>
 <AttentionBox label="Procédure vitale">

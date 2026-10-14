@@ -23,7 +23,7 @@
   {
     "id": "ch9-q4",
     "question": "Le casque d'un motocycliste blessé :",
-    "choices": ["se retire toujours immédiatement", "se laisse en place, sauf nécessité vitale et alors à deux sauveteurs", "se retire pour identifier la victime", "se retire s'il gêne la circulation"],
+    "choices": ["se retire toujours immédiatement", "ne se retire pas : on le laisse en place", "se retire pour identifier la victime", "se retire s'il gêne la circulation"],
     "correct": 1,
     "explanation": "Le retrait du casque risque d'aggraver une lésion cervicale."
   },
@@ -47,5 +47,68 @@
     "choices": ["uniquement le nombre de véhicules", "le lieu précis, la nature de l'accident, le nombre et l'état des victimes", "la marque des voitures", "le nom de mon assureur"],
     "correct": 1,
     "explanation": "Une alerte imprécise retarde les secours : le lieu exact est l'information la plus critique."
+  },
+  {
+    "id": "ch9-q8",
+    "question": "J'arrive sur un accident où les secours sont déjà en place. Je dois :",
+    "choices": ["m'arrêter pour regarder", "éviter de m'arrêter pour ne pas encombrer les lieux", "klaxonner", "faire demi-tour"],
+    "correct": 1,
+    "explanation": "Si les secours ne sont pas encore là et que l'accident vient de se produire, il faut au contraire absolument s'arrêter."
+  },
+  {
+    "id": "ch9-q9",
+    "question": "Pour éteindre un début d'incendie sur un véhicule accidenté, j'utilise :",
+    "choices": ["de l'eau", "l'extincteur", "du sable", "de l'huile"],
+    "correct": [1, 2],
+    "explanation": "Extincteur et sable ; jamais d'eau."
+  },
+  {
+    "id": "ch9-q10",
+    "question": "En campagne, après un accident, j'alerte :",
+    "choices": ["la gendarmerie et les sapeurs-pompiers", "uniquement mon assurance", "la mairie", "un garagiste"],
+    "correct": 0,
+    "explanation": "En ville : la police (117) ou les pompiers (118). En campagne : la gendarmerie et les sapeurs-pompiers."
+  },
+  {
+    "id": "ch9-q11",
+    "question": "Les dangers qui peuvent provoquer la mort d'un blessé avant l'arrivée des secours sont :",
+    "choices": ["l'hémorragie", "l'asphyxie", "l'état de choc", "l'entorse"],
+    "correct": [0, 1, 2],
+    "explanation": "Hémorragie, asphyxie et état de choc ; l'entorse n'est pas un danger vital."
+  },
+  {
+    "id": "ch9-q12",
+    "question": "Pour arrêter une hémorragie externe :",
+    "choices": ["j'appuie sur les points de compression", "je fais une pression directe sur la plaie avec un linge propre", "je fais un pansement compressif", "je mets un pansement imbibé d'alcool"],
+    "correct": [0, 1, 2],
+    "explanation": "Jamais de pansement alcoolisé."
+  },
+  {
+    "id": "ch9-q13",
+    "question": "Lorsque les ligaments se déchirent et que l'articulation est déboîtée, c'est :",
+    "choices": ["une entorse", "une luxation", "une fracture fermée", "une fracture ouverte"],
+    "correct": 1,
+    "explanation": "Entorse : ligaments étirés ou déchirés, sans déboîtement. Luxation : articulation déboîtée."
+  },
+  {
+    "id": "ch9-q14",
+    "question": "La position latérale de sécurité (PLS) permet d'éviter :",
+    "choices": ["la chute de la langue en arrière", "l'encombrement des voies respiratoires par le sang ou les vomissements", "les fractures", "l'hémorragie interne"],
+    "correct": [0, 1],
+    "explanation": "Le blessé est couché sur le côté, le genou supérieur fléchi."
+  },
+  {
+    "id": "ch9-q15",
+    "question": "De l'acide de batterie a été projeté dans l'œil d'une personne. Je dois :",
+    "choices": ["frotter l'œil", "rincer l'œil au moins 10 minutes à l'eau courante, mettre une compresse et l'évacuer chez un ophtalmologiste", "mettre de l'huile", "attendre que ça passe"],
+    "correct": 1,
+    "explanation": "Manuel DGTT, Q548."
+  },
+  {
+    "id": "ch9-q16",
+    "question": "Une personne est brûlée par un liquide brûlant. Je dois :",
+    "choices": ["la déshabiller, la doucher et l'évacuer vers un centre médical", "lui mettre du beurre", "la laisser courir", "percer les cloques"],
+    "correct": 0,
+    "explanation": "Brûlure par le feu : l'empêcher de courir, la couvrir et l'évacuer."
   }
 ]

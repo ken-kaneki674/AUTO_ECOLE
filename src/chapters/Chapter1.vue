@@ -156,7 +156,8 @@ Le feu vert n'est <strong>pas</strong> une priorité absolue : il faut toujours 
 <li><strong>Zébras (hachures)</strong> : zone interdite à la circulation et au stationnement ; on ne s'y engage pas.</li>
 <li><strong>Passage pour piétons</strong> : bandes blanches larges ; on ne s'y arrête jamais et on ne stationne pas dessus.</li>
 <li><strong>Flèches de rabattement</strong> : elles annoncent la fin prochaine de la voie ou une ligne continue ; il faut se rabattre, et le dépassement y est interdit.</li>
-<li><strong>Ligne jaune discontinue</strong> le long du bord de la chaussée : <strong>stationnement interdit, arrêt autorisé</strong>.</li>
+<li><strong>Ligne jaune discontinue</strong> le long du trottoir : <strong>stationnement interdit, arrêt autorisé</strong>.</li>
+<li><strong>Ligne jaune continue</strong> le long du trottoir : <strong>arrêt et stationnement interdits</strong>.</li>
 <li><strong>Bordure de trottoir peinte en rouge et blanc</strong> (rouge discontinu de blanc) : elle signifie la même chose que la ligne jaune discontinue, c'est-à-dire <strong>stationnement interdit, arrêt autorisé</strong>.</li>
 </ul>
 

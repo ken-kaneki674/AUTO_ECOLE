@@ -16,6 +16,11 @@ import questions from '../data/questions/ch5.json'
 <p class="obj"><b>Objectifs du chapitre</b> Comprendre le lien vitesse / distance d'arrêt / gravité du choc, connaître les limitations, calculer une distance de sécurité, adapter sa vitesse aux circonstances.</p>
 
 <h3>5.1 La règle d'or : la vitesse adaptée</h3>
+<p>La voiture permet de se déplacer rapidement ; mais si la vitesse offre des avantages incontestables, elle présente aussi des risques qu'il vaut mieux connaître.</p>
+<p><strong>La vitesse</strong> est la <strong>distance parcourue en un temps donné</strong>. On l'exprime habituellement en <strong>kilomètres à l'heure (km/h)</strong>, mais, pour mieux mesurer la rapidité du déplacement, on l'exprime aussi en <strong>mètres par seconde (m/s)</strong> : en conduite, tout est affaire de mètres et de secondes.</p>
+<MemoBox label="La distance parcourue en une seconde">
+On la calcule approximativement en multipliant <strong>le chiffre des dizaines de la vitesse par 3</strong> : à 60 km/h, la voiture parcourt 6 × 3 = <strong>18 m par seconde</strong> environ ; à 90 km/h, 9 × 3 = <strong>27 m</strong>. C'est la base de la <strong>distance de sécurité</strong> (voir 5.5).
+</MemoBox>
 <p>La limitation affichée est un <strong>maximum</strong>, jamais une obligation. Le conducteur doit <strong>rester constamment maître de son véhicule</strong> et adapter sa vitesse à l'état de la route, au trafic, à la météo, à la visibilité, à la charge du véhicule et à sa propre forme.</p>
 
 <h3>5.2 Les limitations de vitesse</h3>
@@ -40,7 +45,7 @@ import questions from '../data/questions/ch5.json'
 </tbody>
 </table></div>
 <AttentionBox label="⚠ À vérifier">
-Les vitesses marquées ⚠ ne sont pas précisées par le manuel de la DGTT : pour l'autoroute et la route pour automobiles, il renvoie à la réglementation en vigueur. Des limitations locales plus basses s'appliquent souvent à proximité des écoles et des marchés. Retiens le <strong>raisonnement</strong> et confirme les <strong>chiffres</strong> auprès de ton auto-école.
+Sur autoroute et sur route pour automobiles, la vitesse maximale dépend de la législation en vigueur dans le pays : au Bénin, <strong>130 km/h sur autoroute</strong> et <strong>110 km/h sur route pour automobiles</strong>. Les vitesses marquées ⚠ ne sont pas précisées par le manuel de la DGTT. Des limitations locales plus basses s'appliquent souvent à proximité des écoles et des marchés. Retiens le <strong>raisonnement</strong> et confirme les <strong>chiffres</strong> auprès de ton auto-école.
 </AttentionBox>
 <p>D'autres limitations s'appliquent en permanence : véhicules lourds, véhicules tractant une remorque, conducteurs novices, transports en commun. Par temps de pluie ou de faible visibilité, la vitesse doit être réduite.</p>
 
@@ -48,12 +53,14 @@ Les vitesses marquées ⚠ ne sont pas précisées par le manuel de la DGTT : po
 <p>La distance d'arrêt est la somme de deux distances :</p>
 <p style="text-align:center;font-family:var(--font-tech);background:var(--surface);border:1px solid var(--ligne);padding:12px"><strong>DISTANCE D'ARRÊT = distance de réaction + distance de freinage</strong></p>
 <ul>
-<li><strong>Distance de réaction</strong> : distance parcourue pendant le temps de réaction (percevoir puis réagir), environ <strong>1 seconde</strong> chez un conducteur en forme. Elle augmente avec la fatigue, l'alcool, le téléphone, les médicaments.</li>
-<li><strong>Distance de freinage</strong> : distance parcourue une fois le frein actionné. Elle dépend de la <strong>vitesse</strong>, de l'<strong>adhérence</strong> (revêtement, chaussée mouillée) et de l'<strong>état des pneumatiques</strong>.</li>
+<li><strong>Temps de réaction</strong> : laps de temps qui s'écoule entre la <strong>perception de l'information</strong> (obstacle aperçu) et l'<strong>action musculaire</strong> (le pied commence à appuyer sur le frein). Sa durée moyenne est estimée à <strong>1 seconde</strong> environ. La <strong>fatigue</strong> et l'<strong>état d'ivresse</strong> (comme le téléphone ou certains médicaments) l'augmentent.</li>
+<li><strong>Distance de réaction</strong> : distance parcourue pendant le temps de réaction.</li>
+<li><strong>Distance de freinage</strong> : distance parcourue entre le moment où le conducteur <strong>commence à freiner</strong> et celui où la voiture <strong>s'arrête</strong>. Elle dépend du <strong>type de revêtement</strong>, de la <strong>vitesse</strong>, de l'<strong>état des pneumatiques</strong> et de l'<strong>état des amortisseurs</strong>.</li>
+<li><strong>Distance d'arrêt</strong> : distance totale parcourue entre le moment où le conducteur <strong>voit l'obstacle</strong> et celui où sa voiture <strong>s'arrête</strong>.</li>
 </ul>
 <MemoBox label="La formule du manuel DGTT">
 <strong>Distance d'arrêt (m, sur sol sec)</strong> ≈ (V ÷ 10) × (V ÷ 10) &nbsp;→ à 50 km/h : 5 × 5 = <strong>25 m</strong> ; à 90 km/h : 9 × 9 = <strong>81 m</strong>.<br>
-Doubler la vitesse <strong>quadruple</strong> la distance. Sur chaussée mouillée ou avec des pneus usés, elle augmente fortement (environ le double).
+Doubler la vitesse <strong>quadruple</strong> la distance. <strong>Sur sol humide</strong>, cette distance est beaucoup plus grande : elle <strong>augmente de moitié</strong> (à 90 km/h, environ 81 + 40 = 120 m).
 </MemoBox>
 <p>C'est la valeur qu'attendent les questions officielles : « à 90 km/h, ma distance d'arrêt est d'environ 81 mètres » (Q392), et inversement « je m'arrête après 81 m : je roulais à 90 km/h » (Q446).</p>
 <figure>
@@ -80,7 +87,7 @@ Doubler la vitesse <strong>quadruple</strong> la distance. Sur chaussée mouill�
    <rect x="86" y="162" width="484" height="20" fill="#D2202F"/>
    <text x="580" y="177" fill="#171A1F">11 × 11 = <tspan font-weight="bold">121 m</tspan></text>
   </g>
-  <text x="10" y="216" font-size="12" fill="#5C636D">Sur chaussée mouillée ou avec des pneus usés, la distance augmente (environ le double).</text>
+  <text x="10" y="216" font-size="12" fill="#5C636D">Sur sol humide, la distance d'arrêt augmente de moitié : environ 120 m à 90 km/h.</text>
  </g>
 </svg>
 <figcaption>Figure 5.1 — Ce que coûte réellement chaque tranche de vitesse</figcaption>
@@ -95,7 +102,7 @@ Doubler la vitesse <strong>quadruple</strong> la distance. Sur chaussée mouill�
 </ul>
 
 <h3>5.5 Les distances de sécurité</h3>
-<p>Le manuel de la DGTT fixe les <strong>intervalles minimaux de sécurité</strong> à garder derrière le véhicule qui précède :</p>
+<p>La distance de sécurité correspond au moins à la <strong>distance parcourue en une seconde</strong> (chiffre des dizaines × 3). On retrouve ainsi les <strong>intervalles minimaux</strong> du manuel de la DGTT :</p>
 <div class="table-scroll"><table>
 <thead><tr><th>Situation</th><th>Intervalle minimal</th><th>Source</th></tr></thead>
 <tbody>
@@ -109,7 +116,28 @@ Doubler la vitesse <strong>quadruple</strong> la distance. Sur chaussée mouill�
 Ce ne sont que des minimums. En conduite, laisse au moins <strong>2 secondes</strong> (3 sous la pluie) : repère un point fixe (panneau, arbre) ; quand le véhicule de devant le dépasse, compte « <em>mille un, mille deux</em> ». Si tu atteins le point avant la fin du décompte, tu es trop près.
 </AstuceBox>
 
-<h3>5.6 Vitesse excessive, vitesse insuffisante, phénomènes physiques</h3>
+<h3>5.6 Quand réduire sa vitesse ?</h3>
+<p>La route n'est pas toujours libre : la réglementation fixe une vitesse maximale à ne jamais dépasser, et la <strong>réduction de vitesse</strong> s'impose dans les cas suivants :</p>
+<ul>
+<li>devant les <strong>panneaux de limitation de vitesse</strong> ;</li>
+<li><strong>en agglomération</strong> (à l'entrée d'une ville).</li>
+</ul>
+<p><strong>Visibilité réduite = vitesse réduite</strong> :</p>
+<ul>
+<li>dans les <strong>virages</strong> et au <strong>sommet d'une côte</strong> ;</li>
+<li>à l'approche des <strong>intersections</strong> et des <strong>passages à niveau</strong> ;</li>
+<li>la nuit, quand on est <strong>ébloui</strong> par les feux de route d'un autre usager ;</li>
+<li>par temps de <strong>pluie</strong>, de <strong>brouillard</strong> ou de neige.</li>
+</ul>
+<p><strong>Route encombrée = vitesse réduite</strong> :</p>
+<ul>
+<li>endroits fréquentés par les <strong>enfants</strong> ; <strong>passage d'animaux</strong> ;</li>
+<li>approche de <strong>véhicules prioritaires</strong> ;</li>
+<li>présence d'un <strong>triangle de présignalisation</strong> sur la chaussée ;</li>
+<li><strong>zone de travaux</strong>, etc.</li>
+</ul>
+
+<h3>5.7 Vitesse excessive, vitesse insuffisante, phénomènes physiques</h3>
 <ul>
 <li><strong>Vitesse trop faible</strong> : elle est aussi une infraction lorsqu'elle gêne la circulation sans motif ; l'autoroute est interdite aux véhicules qui ne peuvent pas atteindre <strong>60 km/h</strong> (Q419), et certaines autoroutes imposent une vitesse minimale par panneau.</li>
 <li><strong>Aquaplanage</strong> : au-delà d'une certaine vitesse sur film d'eau, les pneus ne chassent plus l'eau et le véhicule « flotte ». Réaction : lever le pied <strong>sans freiner ni braquer</strong>, tenir le volant droit.</li>

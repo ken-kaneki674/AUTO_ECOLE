@@ -15,6 +15,7 @@ import questions from '../data/questions/ch8.json'
 
 <h3>8.1 Le principe : transformer une explosion en mouvement</h3>
 <p>Le moteur à essence est un <strong>moteur à combustion interne</strong> : un mélange d'air et d'essence est comprimé dans un cylindre puis enflammé par une <strong>étincelle de bougie</strong>. L'explosion pousse le piston ; la bielle transforme ce mouvement de va-et-vient en <strong>mouvement rotatif</strong> au niveau du vilebrequin, qui entraîne ensuite la transmission et les roues.</p>
+<p>Pour fonctionner, le moteur a besoin d'un <strong>mélange gazeux (essence + air)</strong> et d'<strong>électricité</strong> : il tire donc sa force de <strong>trois (03) éléments : essence, air, électricité</strong>.</p>
 <h4>Les organes principaux</h4>
 <div class="table-scroll"><table>
 <thead><tr><th>Organe</th><th>Rôle</th></tr></thead>
@@ -32,6 +33,13 @@ import questions from '../data/questions/ch8.json'
 </table></div>
 
 <h3>8.2 Le cycle à quatre temps</h3>
+<p>Le moteur tourne parce qu'un mélange gazeux (essence + air) <strong>explose dans un cylindre</strong> en poussant un piston. Les <strong>soupapes</strong> sont des sortes de bouchons qui s'ouvrent et se ferment ; il y en a deux par cylindre : la <strong>soupape d'admission</strong> et la <strong>soupape d'échappement</strong>.</p>
+<ol>
+<li><strong>L'admission</strong> : le piston <strong>descend</strong> en aspirant le mélange gazeux ; la soupape d'admission est ouverte pour laisser passer le mélange dans le cylindre.</li>
+<li><strong>La compression</strong> : le piston <strong>monte</strong> en comprimant le mélange ; les deux (02) soupapes, d'admission et d'échappement, sont fermées.</li>
+<li><strong>L'explosion</strong>, ou <strong>temps moteur</strong>, ou <strong>temps utile</strong> : le mélange, enflammé par l'étincelle de la bougie, explose et chasse violemment le piston vers le bas ; les deux soupapes sont fermées.</li>
+<li><strong>L'échappement</strong> : le piston <strong>remonte</strong> en chassant les gaz brûlés vers l'extérieur ; la soupape d'échappement est ouverte (elle était fermée pendant les trois autres temps).</li>
+</ol>
 <figure>
 <svg viewBox="0 0 700 260" role="img" aria-label="Cycle à quatre temps">
  <g font-family="Arial Narrow, Arial, sans-serif">
@@ -104,6 +112,43 @@ import questions from '../data/questions/ch8.json'
 </tbody>
 </table></div>
 
+<h4>Le circuit d'alimentation en carburant</h4>
+<p><strong>Réservoir → pompe à essence → carburateur</strong> (ou, sur un moteur à injection : <strong>réservoir → pompe à essence → pompe à injection → injecteurs</strong>).</p>
+<p>L'essence stockée dans le réservoir est aspirée par la <strong>pompe à essence</strong>, traverse un <strong>filtre à essence</strong> et va dans le <strong>carburateur</strong>. L'air, épuré par le <strong>filtre à air</strong>, va directement dans le carburateur pour se mélanger à l'essence. Le mélange gazeux obtenu est distribué dans chaque cylindre.</p>
+<h4>Le circuit électrique</h4>
+<p><strong>Alternateur → régulateur → batterie</strong>, puis <strong>batterie → bobine → allumeur → bougies</strong>.</p>
+<p>L'électricité fournie par l'alternateur passe par le régulateur et va s'emmagasiner dans la batterie. Quand on tourne la clé de contact dans une <strong>première position</strong>, le courant passe de la batterie à la bobine pour alimenter l'allumeur, qui le distribue à chaque bougie. En tournant la clé <strong>à fond</strong>, on met en marche un petit moteur électrique, le <strong>démarreur</strong>, qui lance le moteur de la voiture.</p>
+<h4>Le refroidissement</h4>
+<p>Dans les cylindres, pendant l'explosion, la température peut atteindre <strong>2 000 °C</strong> : le moteur s'échauffe beaucoup. Pour abaisser cet échauffement, on fait appel à l'<strong>air</strong> et à l'<strong>eau</strong>.</p>
+<ul>
+<li><strong>Air</strong> : un <strong>ventilateur</strong> entraîné par une courroie, placé derrière le radiateur, aspire l'air à travers le radiateur et l'envoie vers le moteur.</li>
+<li><strong>Eau</strong> : le <strong>radiateur</strong> est la réserve d'eau ; c'est à son niveau que l'eau chaude se refroidit. Des <strong>chemises d'eau</strong> enveloppent les cylindres et la culasse ; elles sont reliées au radiateur par des tubes en caoutchouc, les <strong>durites</strong>. La <strong>pompe à eau</strong> accélère la circulation : l'eau moins chaude quitte le radiateur par une durite, prend la chaleur autour des cylindres et revient très chaude par l'autre durite.</li>
+</ul>
+<p><strong>NB</strong> : si une durite éclate, l'eau coule, le circuit de refroidissement est coupé et le moteur s'échauffe. L'échauffement du moteur fait <strong>brûler le joint de culasse</strong> et fait <strong>bomber la culasse</strong>.</p>
+<h4>Le graissage</h4>
+<p>Le graissage a pour but d'<strong>éviter le grippage</strong> des pièces qui frottent l'une contre l'autre. Il se fait soit par <strong>barbotage</strong>, soit <strong>sous pression</strong> : une <strong>pompe à huile</strong> puise l'huile dans le <strong>carter</strong> et l'envoie dans les conduits pour lubrifier les pièces.</p>
+<ul>
+<li><strong>Chaque matin</strong>, il faut contrôler le niveau de l'huile moteur à l'aide de la <strong>jauge</strong>.</li>
+<li>L'huile doit être changée de temps en temps : c'est la <strong>vidange</strong>, qui se fait en tenant compte du <strong>kilométrage parcouru</strong>.</li>
+<li><strong>NB</strong> : le manque d'huile moteur entraîne la <strong>bielle coulée</strong> et le <strong>blocage total du moteur</strong>.</li>
+</ul>
+<MemoBox label="Les trois pompes">
+Pour que les circuits de refroidissement (eau), de graissage (huile moteur) et de carburant (essence) fonctionnent normalement, il faut <strong>trois (03) pompes</strong> : la <strong>pompe à eau</strong>, la <strong>pompe à huile</strong> et la <strong>pompe à essence</strong>.
+</MemoBox>
+<h4>Le rôle de quelques organes</h4>
+<div class="table-scroll"><table>
+<thead><tr><th>Organe</th><th>Rôle</th></tr></thead>
+<tbody>
+<tr><td><strong>Carburateur</strong></td><td>Produit le mélange gazeux (essence + air) et le distribue dans chaque cylindre</td></tr>
+<tr><td><strong>Pompe à essence</strong></td><td>Située entre le réservoir et le carburateur, elle aspire l'essence pour l'envoyer au carburateur</td></tr>
+<tr><td><strong>Alternateur</strong></td><td>Entraîné par une courroie quand le moteur tourne, il fournit du courant et <strong>charge la batterie</strong>. La rupture de sa courroie coupe le circuit de charge</td></tr>
+<tr><td><strong>Batterie</strong></td><td>Emmagasine (accumule) l'électricité fournie par l'alternateur et fournit l'énergie nécessaire au <strong>démarrage</strong></td></tr>
+<tr><td><strong>Bobine</strong></td><td>Transformateur : elle change le courant à <strong>faible tension</strong> (primaire) en courant à <strong>haute tension</strong> (secondaire)</td></tr>
+<tr><td><strong>Allumeur</strong></td><td>Distribue le courant aux bougies ; il est muni d'un rupteur appelé <strong>vis platinées</strong></td></tr>
+<tr><td><strong>Bougie</strong></td><td>Placée au bout de la chambre de combustion, elle produit l'étincelle qui enflamme les gaz comprimés : c'est l'explosion</td></tr>
+</tbody>
+</table></div>
+
 <h3>8.4 La transmission</h3>
 <p>La chaîne va du moteur aux roues : <strong>embrayage</strong> (accouple ou désaccouple le moteur) → <strong>boîte de vitesses</strong> (adapte couple et vitesse) → <strong>arbre de transmission</strong> → <strong>différentiel</strong> (permet aux roues de tourner à des vitesses différentes en virage) → <strong>roues</strong>.</p>
 <ul>
@@ -117,6 +162,9 @@ import questions from '../data/questions/ch8.json'
 <thead><tr><th>Symptôme</th><th>Cause probable</th><th>Que faire</th></tr></thead>
 <tbody>
 <tr><td>Le démarreur ne tourne pas, aucun bruit</td><td>Batterie déchargée ou cosses oxydées</td><td>Nettoyer les cosses, recharger, démarrer avec des câbles</td></tr>
+<tr><td>Après une charge correcte, la batterie ne démarre pas le véhicule</td><td><strong>Cosses mal serrées</strong> sur la batterie</td><td>Resserrer les cosses</td></tr>
+<tr><td>À régime élevé, le moteur a des ratés (à-coups)</td><td><strong>Bougie défectueuse</strong>, <strong>allumeur déréglé</strong> ou <strong>vis platinées déréglées</strong></td><td>Faire contrôler l'allumage</td></tr>
+<tr><td>Le véhicule s'éteint en circulation</td><td><strong>Manque de carburant</strong></td><td>Faire le plein, vérifier l'alimentation</td></tr>
 <tr><td>Le moteur tourne mais ne démarre pas</td><td>Allumage (bougies humides) ou panne sèche</td><td>Vérifier le carburant, sécher/nettoyer les bougies</td></tr>
 <tr><td>Aiguille de température dans le rouge, vapeur</td><td>Manque de liquide, durite percée, ventilateur HS</td><td>S'arrêter, laisser refroidir, <strong>ne jamais ouvrir le bouchon à chaud</strong></td></tr>
 <tr><td>Témoin de pression d'huile allumé</td><td>Manque d'huile ou pompe défaillante</td><td>Couper le moteur immédiatement : risque de casse</td></tr>
@@ -127,7 +175,7 @@ import questions from '../data/questions/ch8.json'
 </tbody>
 </table></div>
 <MemoBox label="Le calendrier de l'entretien">
-Vidange huile + filtre selon le constructeur (souvent 5 000 à 10 000 km) · Filtres à air et à carburant · Bougies · Courroie de distribution (pièce vitale : sa rupture détruit le moteur) · Liquide de frein tous les 2 ans · Contrôle des niveaux <strong>chaque semaine</strong> et avant tout long trajet.
+Vidange huile + filtre selon le <strong>kilométrage parcouru</strong> (souvent 5 000 à 10 000 km) · Filtres à air et à carburant · Bougies · Courroie de distribution (pièce vitale : sa rupture détruit le moteur) · Liquide de frein tous les 2 ans · Contrôle du niveau d'huile <strong>chaque matin</strong> et avant tout long trajet.
 </MemoBox>
 
 <QcmBlock title="QCM — Chapitre 8" :questions="questions" />
