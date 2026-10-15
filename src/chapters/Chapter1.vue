@@ -121,6 +121,7 @@ Face ou dos de l'agent = <strong>je m'arrête</strong>. Profil de l'agent = <str
 <li><strong>Feu jaune clignotant</strong> : on le rencontre à une intersection munie de feux tricolores (le carrefour n'est plus régulé : on applique la signalisation en place, à défaut la <strong>priorité à droite</strong>) ou à l'approche d'un <strong>danger qui n'impose pas forcément l'arrêt</strong> (travaux sur la voie).</li>
 <li><strong>Feux bicolores</strong> : placés sur des installations <strong>au-dessus des voies</strong>, ils se présentent sous forme de <strong>croix rouge</strong> (voie fermée) ou de <strong>flèche verte</strong> (voie ouverte : on peut l'emprunter). Ils réglementent la circulation <strong>voie par voie</strong> et se rencontrent surtout aux <strong>postes de péage</strong>.</li>
 <li><strong>Flèches lumineuses</strong> : un feu vert en forme de flèche n'autorise que la direction indiquée, et impose de céder le passage aux piétons.</li>
+<li><strong>Flèche jaune clignotante vers la droite</strong> (à un feu rouge) : les véhicules de la file de droite peuvent tourner à droite, au ralenti, en cédant le passage aux piétons et aux usagers venant de gauche (Q202).</li>
 <li><strong>Feux piétons</strong> : silhouette rouge = interdiction de traverser ; silhouette verte = traversée autorisée.</li>
 </ul>
 <AttentionBox label="Erreur classique">
@@ -158,6 +159,7 @@ Le feu vert n'est <strong>pas</strong> une priorité absolue : il faut toujours 
 <li><strong>Flèches de rabattement</strong> : elles annoncent la fin prochaine de la voie ou une ligne continue ; il faut se rabattre, et le dépassement y est interdit.</li>
 <li><strong>Ligne jaune discontinue</strong> le long du trottoir : <strong>stationnement interdit, arrêt autorisé</strong>.</li>
 <li><strong>Ligne jaune continue</strong> le long du trottoir : <strong>arrêt et stationnement interdits</strong>.</li>
+<li><strong>Ligne jaune brisée</strong> en bordure de la chaussée : elle indique une <strong>zone d'arrêt de bus</strong> (Q10).</li>
 <li><strong>Bordure de trottoir peinte en rouge et blanc</strong> (rouge discontinu de blanc) : elle signifie la même chose que la ligne jaune discontinue, c'est-à-dire <strong>stationnement interdit, arrêt autorisé</strong>.</li>
 </ul>
 

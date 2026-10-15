@@ -57,7 +57,7 @@ import questions from '../data/questions/ch6.json'
 <tr><td><strong>Croisements</strong></td><td>Carrefours à niveau, entrées riveraines</td><td>Peut comporter des intersections</td><td><strong>Aucun croisement à niveau</strong> : uniquement des échangeurs</td></tr>
 <tr><td><strong>Accès</strong></td><td>Tous usagers autorisés</td><td>Véhicules à moteur, sauf les cyclomoteurs</td><td>Interdite aux véhicules qui ne peuvent pas atteindre 60 km/h (manuel DGTT, Q419), aux piétons, cyclistes, cyclomoteurs, cavaliers et véhicules agricoles</td></tr>
 <tr><td><strong>Vitesse maximale</strong></td><td><ValeurBenin k="vitesse_hors_agglomeration" /></td><td><ValeurBenin k="vitesse_voie_express" /></td><td><ValeurBenin k="vitesse_autoroute" /></td></tr>
-<tr><td><strong>Signalisation directionnelle</strong></td><td>Panneaux blancs (routes locales) ou verts (grandes liaisons)</td><td>Panneaux bleus ou verts</td><td>Panneaux <strong>bleus</strong></td></tr>
+<tr><td><strong>Signalisation directionnelle</strong></td><td>Panneaux <strong>bleus</strong> pour les itinéraires reliant des villes importantes (Q162), blancs pour les routes locales ; fond jaune = direction provisoire (Q189)</td><td>Panneaux bleus ou verts</td><td>Panneaux <strong>bleus</strong></td></tr>
 <tr><td><strong>BAU</strong></td><td>Non</td><td>Parfois</td><td>Oui</td></tr>
 </tbody>
 </table></div>

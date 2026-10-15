@@ -54,5 +54,40 @@
     "choices": ["danger temporaire", "route prioritaire", "stationnement payant", "déviation"],
     "correct": 1,
     "explanation": "Le losange jaune annonce le caractère prioritaire de la route ; barré, il en marque la fin."
+  },
+  {
+    "id": "ch14-q9",
+    "question": "Le panneau B31 met fin :",
+    "choices": ["à toutes les interdictions, sauf celles d'arrêt et de stationnement", "uniquement à la limitation de vitesse", "à la priorité", "à l'autoroute"],
+    "correct": 0,
+    "explanation": "Il peut mettre fin à une interdiction de dépasser ou à une limitation de vitesse (Q78, Q131, Q136)."
+  },
+  {
+    "id": "ch14-q10",
+    "question": "En rase campagne, les panneaux AB1 et AB2 sont implantés à environ :",
+    "choices": ["50 m de l'intersection", "150 m de l'intersection", "500 m de l'intersection", "à l'intersection même"],
+    "correct": 1,
+    "explanation": "150 m en rase campagne ; en agglomération, à proximité de l'intersection (Q139 à Q141)."
+  },
+  {
+    "id": "ch14-q11",
+    "question": "Le panneau B15 m'impose de :",
+    "choices": ["céder le passage aux usagers venant en sens inverse", "passer en priorité", "faire demi-tour", "rouler à 15 km/h"],
+    "correct": 0,
+    "explanation": "L'usager d'en face voit le panneau « priorité par rapport à la circulation venant en sens inverse » (Q44, Q47)."
+  },
+  {
+    "id": "ch14-q12",
+    "question": "Le panneau B25 indique :",
+    "choices": ["une vitesse maximale", "une vitesse minimale obligatoire", "une zone 30", "une fin de limitation"],
+    "correct": 1,
+    "explanation": "B25 : vitesse minimale obligatoire ; B43 : fin de vitesse minimale (Q39, Q457)."
+  },
+  {
+    "id": "ch14-q13",
+    "question": "Les panneaux d'itinéraire reliant des villes importantes sont de couleur :",
+    "choices": ["verte", "bleue", "jaune", "rouge"],
+    "correct": 1,
+    "explanation": "Bleue selon le manuel DGTT (Q162) ; un fond jaune indique une direction provisoire (Q189)."
   }
 ]
