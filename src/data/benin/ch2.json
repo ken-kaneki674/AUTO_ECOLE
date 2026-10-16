@@ -2251,8 +2251,9 @@
    2,
    3
   ],
-  "missingImage": true,
-  "needsReview": true
+  "images": [
+   "/benin/signs/b64703bb81b9.webp"
+  ]
  },
  {
   "id": "bj-q131",
@@ -2884,8 +2885,9 @@
    3
   ],
   "imageChoices": true,
-  "missingImage": true,
-  "needsReview": true
+  "images": [
+   "/benin/signs/f8fa1b819df6.webp"
+  ]
  },
  {
   "id": "bj-q166",

@@ -11,12 +11,7 @@
   ],
   "correct": [
    3
-  ],
-  "signs": [
-   "C1"
-  ],
-  "missingImage": true,
-  "needsReview": true
+  ]
  },
  {
   "id": "bj-q690",
@@ -275,12 +270,7 @@
   "correct": [
    1,
    2
-  ],
-  "signs": [
-   "C1"
-  ],
-  "missingImage": true,
-  "needsReview": true
+  ]
  },
  {
   "id": "bj-q709",

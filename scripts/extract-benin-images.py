@@ -10,7 +10,8 @@ On lit les images brutes embarquées dans le PDF (et non un rendu de la page) po
 ne pas récupérer le filigrane « SPECIMEN DGTT ». Chaque image est rattachée à la
 question dont l'en-tête « Question n°N » la précède sur la page (ou sur la page
 précédente si l'image est en haut de page). Les images identiques partagent un
-même fichier. Résultat :
+même fichier. Les rares illustrations dessinées en vectoriel (et non en image) sont
+redessinées à part, sans le filigrane : voir VECTOR_CLIPS. Résultat :
     public/benin/signs/<empreinte>.webp
     scripts/benin-source/images.json   { "numéro de question": ["/benin/signs/…webp"] }
 """
@@ -42,7 +43,69 @@ def question_headers(doc):
                 match = HEADER.match(text)
                 if match:
                     heads.append((page_index, line["bbox"][1], int(match.group(1))))
+    # Les blocs d'une page ne sont pas toujours dans l'ordre de lecture : sans ce tri,
+    # owner() rattachait certaines images à la question précédente (Q238, Q255…).
+    heads.sort()
     return heads
+
+
+# Illustrations dessinées en vectoriel dans le manuel :
+# question -> (page, zone en points, légendes (texte, x, y, taille, gras)).
+VECTOR_CLIPS = {
+    130: (33, (408, 240, 516, 284), [("SAVE", 416, 277, 10.5, True)]),
+    # Le manuel imprime la légende « a » à gauche de la page, loin des balises :
+    # elle revient à la quatrième balise, la seule qui n'en a pas.
+    165: (40, (305, 50, 545, 200), [("c", 326, 194, 10, False), ("d", 390, 194, 10, False),
+                                    ("b", 456, 194, 10, False), ("a", 518, 194, 10, False)]),
+}
+# Le filigrane « SPECIMEN DGTT » est fait de tracés pleins gris moyen, sans contour.
+WATERMARK_GRAY = (0.45, 0.55)
+
+
+def is_watermark(path):
+    fill = path.get("fill")
+    return bool(fill) and not path.get("color") and all(WATERMARK_GRAY[0] < c < WATERMARK_GRAY[1] for c in fill)
+
+
+def redraw(doc, page_no, clip, labels):
+    """Recopie les tracés de la zone sur une page vierge, sans le filigrane, puis l'exporte en WebP."""
+    src = doc[page_no - 1]
+    clip = pymupdf.Rect(clip)
+    out = pymupdf.open()
+    page = out.new_page(width=src.rect.width, height=src.rect.height)
+    shape = page.new_shape()
+    for path in src.get_drawings():
+        if is_watermark(path) or not path["rect"].intersects(clip):
+            continue
+        for item in path["items"]:
+            if item[0] == "l":
+                shape.draw_line(item[1], item[2])
+            elif item[0] == "re":
+                shape.draw_rect(item[1])
+            elif item[0] == "qu":
+                shape.draw_quad(item[1])
+            elif item[0] == "c":
+                shape.draw_bezier(item[1], item[2], item[3], item[4])
+        shape.finish(
+            fill=path.get("fill"),
+            color=path.get("color"),
+            width=path.get("width") or 1,
+            closePath=path.get("closePath", False),
+            even_odd=path.get("even_odd", False),
+            fill_opacity=path.get("fill_opacity") or 1,
+            stroke_opacity=path.get("stroke_opacity") or 1,
+            lineCap=max(path.get("lineCap") or (0,)),
+            lineJoin=path.get("lineJoin") or 0,
+        )
+    shape.commit()
+    for text, x, y, size, bold in labels:
+        page.insert_text((x, y), text, fontsize=size, fontname="hebo" if bold else "helv")
+    pix = page.get_pixmap(dpi=200, clip=clip)
+    image = Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGB")
+    image.thumbnail((MAX_SIDE, MAX_SIDE))
+    buffer = io.BytesIO()
+    image.save(buffer, "WEBP", quality=82)
+    return buffer.getvalue()
 
 
 def owner(heads, page_index, y):
@@ -103,6 +166,12 @@ def main(pdf_path):
             files[xref] = f"/benin/signs/{name}"
         if files[xref] not in mapping[num]:
             mapping[num].append(files[xref])
+
+    for num, (page_no, clip, labels) in VECTOR_CLIPS.items():
+        data = redraw(doc, page_no, clip, labels)
+        name = hashlib.sha1(data).hexdigest()[:12] + ".webp"
+        (OUT_DIR / name).write_bytes(data)
+        mapping[num].append(f"/benin/signs/{name}")
 
     MAP_FILE.write_text(json.dumps(dict(sorted(mapping.items())), indent=1), encoding="utf-8")
     print(f"{len(set(files.values()))} images écrites dans {OUT_DIR}")

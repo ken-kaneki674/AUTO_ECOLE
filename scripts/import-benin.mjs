@@ -33,6 +33,10 @@ const CHOICE_FIXES = {
   ],
 }
 
+// Questions qui se lisent sans illustration malgré une mention de NEEDS_IMAGE
+// (« derrière ce véhicule » dans un énoncé purement chiffré).
+const NO_IMAGE_NEEDED = new Set([460])
+
 // Mentions qui supposent une illustration à côté de la question.
 const NEEDS_IMAGE = /\b(ce panneau|ces panneaux|cette signalisation|ce panonceau|ce signal|cette balise|ces balises|ce marquage|cette image|ci-contre|ci-dessous|ci-dessus|cette situation|ce geste|ce feu|cette figure|ce dessin|ce schéma|ce véhicule|cet agent)\b/i
 const SIGN_CODE = /\b(?:AB|AK|[ABCJKMDEF])\s?-?\d{1,2}(?:[a-z]\d?)?(?:-\d)?\b/g
@@ -112,7 +116,15 @@ function parseBlock(num, body) {
     imageChoices = true
   }
   const correct = answerLetters.map((l) => letters.indexOf(l))
-  const signs = [...new Set((questionText.match(SIGN_CODE) ?? []).map((s) => s.replace(/\s/g, '')))]
+  // « permis … A1 », « catégorie C1 » ou « A 90 km/h » ne sont pas des codes de panneau.
+  const signs = [
+    ...new Set(
+      [...questionText.matchAll(SIGN_CODE)]
+        .filter((m) => !/(permis|catégorie)[^.?]*$/i.test(questionText.slice(0, m.index)))
+        .filter((m) => !/^\s*km/i.test(questionText.slice(m.index + m[0].length)))
+        .map((m) => m[0].replace(/\s/g, ''))
+    ),
+  ]
 
   const issues = []
   if (answerIdx < 0) issues.push('pas de réponse')
@@ -128,7 +140,9 @@ function parseBlock(num, body) {
     correct: correct.filter((i) => i >= 0),
     imageChoices,
     signs,
-    needsImage: signs.length > 0 || imageChoices || NEEDS_IMAGE.test(questionText) || cleanChoices.length < 2,
+    needsImage:
+      !NO_IMAGE_NEEDED.has(num) &&
+      (signs.length > 0 || imageChoices || NEEDS_IMAGE.test(questionText) || cleanChoices.length < 2),
     issues,
   }
 }

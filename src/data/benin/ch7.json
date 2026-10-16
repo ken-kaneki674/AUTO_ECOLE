@@ -78,12 +78,7 @@
   ],
   "correct": [
    0
-  ],
-  "signs": [
-   "A1"
-  ],
-  "missingImage": true,
-  "needsReview": true
+  ]
  },
  {
   "id": "bj-q652",
@@ -98,12 +93,7 @@
   "correct": [
    2,
    3
-  ],
-  "signs": [
-   "A2"
-  ],
-  "missingImage": true,
-  "needsReview": true
+  ]
  },
  {
   "id": "bj-q653",
@@ -120,12 +110,7 @@
    1,
    2,
    3
-  ],
-  "signs": [
-   "A3"
-  ],
-  "missingImage": true,
-  "needsReview": true
+  ]
  },
  {
   "id": "bj-q654",
@@ -246,12 +231,7 @@
   ],
   "correct": [
    1
-  ],
-  "signs": [
-   "A1"
-  ],
-  "missingImage": true,
-  "needsReview": true
+  ]
  },
  {
   "id": "bj-q662",
@@ -329,12 +309,7 @@
   ],
   "correct": [
    2
-  ],
-  "signs": [
-   "A2"
-  ],
-  "missingImage": true,
-  "needsReview": true
+  ]
  },
  {
   "id": "bj-q668",
@@ -360,12 +335,7 @@
   ],
   "correct": [
    2
-  ],
-  "signs": [
-   "A3"
-  ],
-  "missingImage": true,
-  "needsReview": true
+  ]
  },
  {
   "id": "bj-q670",
@@ -466,12 +436,7 @@
   "correct": [
    0,
    1
-  ],
-  "signs": [
-   "A2"
-  ],
-  "missingImage": true,
-  "needsReview": true
+  ]
  },
  {
   "id": "bj-q676",

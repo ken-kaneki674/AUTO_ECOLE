@@ -463,9 +463,7 @@
    2
   ],
   "images": [
-   "/benin/signs/31bc7653b87b.webp",
-   "/benin/signs/bc45f8a2cf6a.webp",
-   "/benin/signs/7b8b1524877b.webp"
+   "/benin/signs/31bc7653b87b.webp"
   ]
  },
  {
@@ -481,7 +479,8 @@
    0
   ],
   "images": [
-   "/benin/signs/3e155018da04.webp"
+   "/benin/signs/bc45f8a2cf6a.webp",
+   "/benin/signs/7b8b1524877b.webp"
   ]
  },
  {
@@ -509,8 +508,9 @@
   "correct": [
    1
   ],
-  "missingImage": true,
-  "needsReview": true
+  "images": [
+   "/benin/signs/3e155018da04.webp"
+  ]
  },
  {
   "id": "bj-q241",
@@ -745,9 +745,7 @@
    2
   ],
   "images": [
-   "/benin/signs/5a992668411b.webp",
-   "/benin/signs/81c8f6a724c7.webp",
-   "/benin/signs/58aa4cbd7213.webp"
+   "/benin/signs/5a992668411b.webp"
   ]
  },
  {
@@ -761,6 +759,10 @@
   ],
   "correct": [
    0
+  ],
+  "images": [
+   "/benin/signs/81c8f6a724c7.webp",
+   "/benin/signs/58aa4cbd7213.webp"
   ]
  },
  {
