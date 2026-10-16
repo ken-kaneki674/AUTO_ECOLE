@@ -20,6 +20,11 @@ const router = createRouter({
       name: 'lexique',
       component: () => import('../views/LexiqueView.vue'),
     },
+    {
+      path: '/astuces',
+      name: 'astuces',
+      component: () => import('../views/AstucesView.vue'),
+    },
     // Banque de questions officielle du manuel DGTT.
     {
       path: '/benin',

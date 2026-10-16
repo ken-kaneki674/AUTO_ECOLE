@@ -47,6 +47,7 @@ const { theme, toggleTheme } = useTheme()
         <router-link :to="{ name: 'examen' }">Examen blanc</router-link>
         <router-link :to="{ name: 'benin' }">Questions officielles</router-link>
         <router-link :to="{ name: 'lexique' }">Lexique</router-link>
+        <router-link :to="{ name: 'astuces' }">Astuces &amp; pièges</router-link>
       </nav>
 
     </div>
