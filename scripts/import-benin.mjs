@@ -23,6 +23,13 @@ const CORRECTIONS = {
   518: 'c', // le manuel indique « e », qui n'existe pas ; la bonne réponse est de consulter son médecin
 }
 
+// Illustrations absentes du manuel, ajoutées à la main. `note` est affichée sous l'image
+// quand elle ne vient pas de la question elle-même.
+const EXTRA_IMAGES = {
+  46: { images: ['/benin/signs/5da205d0b8a4.webp'], note: 'Panneau A18 tel que le manuel le dessine à la question 191.' },
+  928: { images: ['/benin/signs/panonceau-remorque.svg'], note: 'Panonceau redessiné : il manque dans le manuel.' },
+}
+
 // Choix mal mis en page dans le manuel, réécrits à la main.
 const CHOICE_FIXES = {
   // la marque « c- » manque : les choix b et c sont fondus en une seule ligne
@@ -184,6 +191,10 @@ for (const q of questions) {
   if (q.imageChoices) entry.imageChoices = true
   if (q.signs.length) entry.signs = q.signs
   if (images[q.num]?.length) entry.images = images[q.num]
+  if (!entry.images && EXTRA_IMAGES[q.num]) {
+    entry.images = EXTRA_IMAGES[q.num].images
+    entry.imageNote = EXTRA_IMAGES[q.num].note
+  }
   if (q.needsImage && !entry.images) entry.missingImage = true
   if (q.issues.length || (q.needsImage && !entry.images)) entry.needsReview = true
   if (!byChapter.has(q.chapter)) byChapter.set(q.chapter, [])

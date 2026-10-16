@@ -5,7 +5,7 @@ import { useQuizProgress, toIndexList } from '../composables/useQuizProgress.js'
 // Une question de QCM : choix, validation (plusieurs réponses possibles),
 // correction. La réponse est enregistrée dans la progression commune.
 const props = defineProps({
-  // { id, question, choices, correct, explanation?, num?, images?, needsReview?, missingImage? }
+  // { id, question, choices, correct, explanation?, num?, images?, imageNote?, needsReview?, missingImage? }
   // `correct` : indice de la bonne réponse, ou tableau d'indices si plusieurs réponses.
   question: { type: Object, required: true },
   // Numéro affiché quand la question n'a pas de numéro du manuel.
@@ -74,6 +74,7 @@ defineExpose({ choose, validate, isMulti })
         loading="lazy"
         @load="(e) => e.target.classList.toggle('wide', e.target.naturalWidth >= 250)"
       >
+      <small v-if="question.imageNote" class="q-image-note">{{ question.imageNote }}</small>
     </div>
     <p>
       {{ label }} {{ question.question }}

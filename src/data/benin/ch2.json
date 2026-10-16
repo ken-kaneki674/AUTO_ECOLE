@@ -770,8 +770,10 @@
   "signs": [
    "A18"
   ],
-  "missingImage": true,
-  "needsReview": true
+  "images": [
+   "/benin/signs/5da205d0b8a4.webp"
+  ],
+  "imageNote": "Panneau A18 tel que le manuel le dessine à la question 191."
  },
  {
   "id": "bj-q47",

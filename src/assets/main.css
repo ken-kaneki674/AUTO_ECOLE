@@ -256,6 +256,7 @@ figcaption{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.06em;co
 .q-images img{max-width:min(160px,40vw);max-height:160px;height:auto;object-fit:contain}
 /* Scènes et illustrations composées (panneaux proposés a, b, c…) : assez grandes pour lire les lettres. */
 .q-images img.wide{max-width:min(440px,100%);max-height:320px}
+.q-image-note{flex-basis:100%;font-size:.78rem;color:var(--muted)}
 .q-hint,.q-review{display:inline-block;margin-left:8px;font-family:var(--font-tech);font-weight:normal;font-size:.72rem;padding:1px 6px;border-radius:2px;vertical-align:middle}
 .q-hint{background:var(--bleu-fond);color:var(--bleu-texte)}
 .q-review{background:var(--ambre-fond);color:var(--ambre-encre)}

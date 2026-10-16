@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 110" width="240" height="110" role="img" aria-label="Panonceau : véhicules tractant une remorque">
+  <!-- Panonceau redessiné (absent du manuel DGTT) : fond blanc, listel noir, voiture tractant une remorque. -->
+  <rect x="3" y="3" width="234" height="104" rx="10" fill="#fff" stroke="#000" stroke-width="6"/>
+  <g fill="#000">
+    <!-- voiture -->
+    <path d="M24 74 V60 Q24 54 30 53 L46 51 L60 38 Q63 35 68 35 H96 Q101 35 104 39 L114 52 L124 54 Q130 55 130 61 V74 Z"/>
+    <path d="M64 41 H80 V51 H54 Z M86 41 H98 L106 51 H86 Z" fill="#fff"/>
+    <circle cx="50" cy="76" r="11"/>
+    <circle cx="108" cy="76" r="11"/>
+    <circle cx="50" cy="76" r="4" fill="#fff"/>
+    <circle cx="108" cy="76" r="4" fill="#fff"/>
+    <!-- attelage -->
+    <rect x="128" y="66" width="22" height="5"/>
+    <!-- remorque -->
+    <path d="M148 46 H216 V74 H148 Z"/>
+    <circle cx="182" cy="78" r="11"/>
+    <circle cx="182" cy="78" r="4" fill="#fff"/>
+  </g>
+</svg>

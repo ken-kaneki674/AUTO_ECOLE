@@ -1822,8 +1822,10 @@
   "correct": [
    0
   ],
-  "missingImage": true,
-  "needsReview": true
+  "images": [
+   "/benin/signs/panonceau-remorque.svg"
+  ],
+  "imageNote": "Panonceau redessiné : il manque dans le manuel."
  },
  {
   "id": "bj-q929",
