@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref, shallowRef } from 'vue'
 import { beninChapters, loadBeninBank } from '../data/benin/meta.js'
+import { signName } from '../data/benin/signNames.js'
 import { normalize } from '../composables/useSearch.js'
 
 const bank = shallowRef(null)
@@ -26,8 +27,9 @@ const signs = computed(() => {
     .map((e) => ({
       ...e,
       codes: [...e.codes],
+      name: signName(e.src),
       first: Math.min(...e.questions.map((q) => q.num)),
-      text: normalize([...e.codes, ...e.questions.map((q) => q.question)].join(' ')),
+      text: normalize([signName(e.src) ?? '', ...e.codes, ...e.questions.map((q) => q.question)].join(' ')),
     }))
     .sort((a, b) => a.first - b.first)
 })
@@ -39,6 +41,11 @@ const filtered = computed(() => {
 })
 
 function caption(sign) {
+  return sign.name ?? (sign.codes.length ? sign.codes.join(' · ') : `Q${sign.first}`)
+}
+
+// Code du panneau sous son nom, ou numéro de question pour les scènes sans code.
+function reference(sign) {
   return sign.codes.length ? sign.codes.join(' · ') : `Q${sign.first}`
 }
 
@@ -71,7 +78,7 @@ function practiceLink(sign) {
       <template v-else>
         <div class="bj-search">
           <label for="bj-sign-filter" class="bj-search-label">Filtrer</label>
-          <input id="bj-sign-filter" v-model="query" type="search" placeholder="Code (B6a1, AB6…) ou mot (virage, stationnement…)" autocomplete="off">
+          <input id="bj-sign-filter" v-model="query" type="search" placeholder="Nom, code (B6a1, AB6…) ou mot (stop, virage…)" autocomplete="off">
         </div>
         <p class="exam-legend">{{ filtered.length }} illustration(s)</p>
 
@@ -80,6 +87,7 @@ function practiceLink(sign) {
           <img :src="selected.src" :alt="`Illustration ${caption(selected)}`">
           <div>
             <h3>{{ caption(selected) }}</h3>
+            <p class="bj-sign-code">{{ reference(selected) }}</p>
             <ul>
               <li v-for="q in selected.questions" :key="q.id">
                 <strong>Q{{ q.num }}</strong> {{ q.question }}
@@ -103,6 +111,7 @@ function practiceLink(sign) {
             >
               <img :src="sign.src" :alt="`Illustration ${caption(sign)}`" loading="lazy">
               <span>{{ caption(sign) }}</span>
+              <small class="bj-sign-code">{{ reference(sign) }}</small>
             </button>
           </li>
         </ul>

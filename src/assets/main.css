@@ -497,7 +497,9 @@ figcaption{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.06em;co
 .bj-signs button{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:6px;background:var(--surface);border:1px solid var(--ligne);border-radius:3px;padding:10px 6px;cursor:pointer;font:inherit}
 .bj-signs button:hover,.bj-signs button[aria-pressed="true"]{border-color:var(--vert);box-shadow:0 0 0 2px var(--vert) inset}
 .bj-signs img{width:80px;height:80px;object-fit:contain}
-.bj-signs span{font-family:var(--font-tech);font-size:.72rem;color:var(--muted);text-align:center;word-break:break-word}
+.bj-signs{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
+.bj-signs span{font-size:.8rem;line-height:1.25;color:var(--encre);text-align:center;word-break:break-word}
+.bj-sign-code{font-family:var(--font-tech);font-size:.7rem;color:var(--muted);margin:0}
 .bj-sign-detail{position:relative;display:grid;grid-template-columns:180px 1fr;gap:18px;background:var(--surface);border:2px solid var(--vert);border-radius:3px;padding:18px;margin-top:1rem;scroll-margin-top:12px}
 .bj-sign-detail > img{width:180px;max-height:200px;object-fit:contain}
 .bj-sign-detail h3{margin-top:0}
