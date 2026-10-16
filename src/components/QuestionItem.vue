@@ -72,6 +72,7 @@ defineExpose({ choose, validate, isMulti })
         :src="src"
         alt="Illustration de la question"
         loading="lazy"
+        @load="(e) => e.target.classList.toggle('wide', e.target.naturalWidth >= 250)"
       >
     </div>
     <p>

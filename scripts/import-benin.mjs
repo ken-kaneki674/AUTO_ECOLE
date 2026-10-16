@@ -38,7 +38,7 @@ const CHOICE_FIXES = {
 const NO_IMAGE_NEEDED = new Set([460])
 
 // Mentions qui supposent une illustration à côté de la question.
-const NEEDS_IMAGE = /\b(ce panneau|ces panneaux|cette signalisation|ce panonceau|ce signal|cette balise|ces balises|ce marquage|cette image|ci-contre|ci-dessous|ci-dessus|cette situation|ce geste|ce feu|cette figure|ce dessin|ce schéma|ce véhicule|cet agent)\b/i
+const NEEDS_IMAGE = /\b(ce panneau|ces panneaux|cette signalisation|ce panonceau|ce signal|cette balise|ces balises|ce marquage|cette image|ci-contre|ci-dessous|ci-dessus|cette situation|ce geste|ce feu|cette figure|ce dessin|ce schéma|ce véhicule|cet agent|cette intersection)\b/i
 const SIGN_CODE = /\b(?:AB|AK|[ABCJKMDEF])\s?-?\d{1,2}(?:[a-z]\d?)?(?:-\d)?\b/g
 
 function clean(text) {
