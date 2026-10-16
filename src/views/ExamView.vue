@@ -3,7 +3,7 @@ import { computed, onMounted, onUnmounted, ref, shallowRef, watch } from 'vue'
 import { loadExamPool, drawQuestions, filterPool, EXAM_THEMES } from '../data/examPool.js'
 import {
   useExamSession,
-  EXAM_SIZES,
+  EXAM_SIZE,
   SECONDS_PER_QUESTION,
   PASS_RATE,
 } from '../composables/useExamSession.js'
@@ -39,7 +39,6 @@ const {
 } = useExamSession(pool)
 
 const letters = 'ABCDEFGH'
-const size = ref(40)
 const timed = ref(true)
 const confirmFinish = ref(false)
 const confirmAbandon = ref(false)
@@ -67,7 +66,7 @@ const themeCounts = computed(() =>
     EXAM_THEMES.map((t) => [t.id, pool.value ? filterPool(pool.value, { source: source.value, themes: [t.id], permis: permis.value }).length : 0])
   )
 )
-const examSize = computed(() => Math.min(size.value, available.value))
+const examSize = computed(() => Math.min(EXAM_SIZE, available.value))
 onUnmounted(stopTicker)
 
 const current = computed(() => questions.value[session.value?.current ?? 0])
@@ -199,12 +198,6 @@ const reviewList = computed(() => {
             <button v-if="themes.length" type="button" class="qcm-reset" @click="themes = []">Tous les thèmes</button>
           </fieldset>
           <fieldset>
-            <legend>Nombre de questions</legend>
-            <label v-for="n in EXAM_SIZES" :key="n" class="exam-option">
-              <input v-model="size" type="radio" :value="n"> {{ n }} questions
-            </label>
-          </fieldset>
-          <fieldset>
             <legend>Chronomètre</legend>
             <label class="exam-option">
               <input v-model="timed" type="checkbox">
@@ -213,7 +206,7 @@ const reviewList = computed(() => {
           </fieldset>
           <p class="exam-rule">
             <strong>{{ available }}</strong> questions disponibles avec ces réglages.
-            <template v-if="available && available < size">L'examen comptera donc {{ examSize }} questions.</template>
+            <template v-if="available && available < EXAM_SIZE">L'examen comptera donc {{ examSize }} questions.</template>
             <br>Seuil de réussite (14/20, comme à l’examen de l’ANaTT) : <strong>{{ Math.ceil(examSize * PASS_RATE) }} / {{ examSize }}</strong>
             ({{ Math.round(PASS_RATE * 100) }} %).
           </p>

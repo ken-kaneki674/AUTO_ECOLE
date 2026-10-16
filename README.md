@@ -8,7 +8,7 @@ Application web en **Vue 3 + Vite**, sans backend : tout tourne dans le navigate
 
 - **14 chapitres de cours** illustrés : signalisation, priorités, croisements et dépassements, arrêt et stationnement, vitesse, autoroute, équipement, mécanique, secourisme, deux-roues, permis B, catalogue des panneaux…
 - **QCM corrigés** à la fin de chaque chapitre, avec suivi de la progression.
-- **Examen blanc** de 20 ou 40 questions tirées au hasard (≈ 3/4 du manuel DGTT, 1/4 du cours) : une question à la fois, chronomètre, correction à la fin, résultats par thème et historique des scores. Le seuil de réussite est celui de l'examen théorique de l'ANaTT depuis la réforme de 2026 : 14/20.
+- **Examen blanc** de 20 questions tirées au hasard (≈ 3/4 du manuel DGTT, 1/4 du cours) : une question à la fois, chronomètre, correction à la fin, résultats par thème et historique des scores. Le seuil de réussite est celui de l'examen théorique de l'ANaTT depuis la réforme de 2026 : 14/20.
 - **Réforme du permis de 2026** (arrêté ANaTT n° 2026/0196) : nouvelles catégories B1 et BEA, heures de formation minimales, seuils de 14/20 (chapitre 12).
 - **Astuces, pense-bêtes et pièges** (`/astuces`), filtrables par thème.
 - **Lexique** et fiches de révision.

@@ -6,10 +6,11 @@ const SESSION_KEY = 'code-route-exam-session'
 const HISTORY_KEY = 'code-route-exam-history'
 const HISTORY_SIZE = 20
 
-export const EXAM_SIZES = [20, 40]
+// L'examen blanc compte toujours 20 questions, notées sur 20 comme à l'ANaTT.
+export const EXAM_SIZE = 20
 export const SECONDS_PER_QUESTION = 60
 // Seuil de l'examen théorique de l'ANaTT depuis la réforme de 2026 (arrêté n° 2026/0196) :
-// 14/20, soit 28/40.
+// 14/20.
 export const PASS_RATE = 0.7
 // Alertes de temps restant, en secondes.
 export const TIME_ALERTS = [300, 60]

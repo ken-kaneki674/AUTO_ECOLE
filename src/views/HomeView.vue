@@ -123,7 +123,7 @@ function rateClass(value) {
         <li>
           <span class="step">3</span>
           <h3>Passer l'examen blanc</h3>
-          <p>20 ou 40 questions chronométrées, correction à la fin. Vise au moins {{ Math.round(PASS_RATE * 100) }} % avant le jour J.</p>
+          <p>20 questions chronométrées, correction à la fin. Vise au moins {{ Math.round(PASS_RATE * 100) }} % avant le jour J.</p>
           <router-link :to="{ name: 'examen' }">Examen blanc →</router-link>
         </li>
       </ol>
