@@ -32,7 +32,9 @@ import questions from '../data/questions/ch12.json'
 <thead><tr><th>Catégorie</th><th>Véhicules autorisés</th><th>Âge minimal</th></tr></thead>
 <tbody>
 <tr><td><strong>A1 / A2 / A3</strong></td><td>Deux-roues, tricycles et quadricycles à moteur, par tranches de cylindrée (voir chapitre 10)</td><td>16 / 18 / 21 ans</td></tr>
+<tr><td><strong>B1</strong> <span class="lx-src dgtt">2026</span></td><td>Tricycles et quadricycles à moteur, dont les tricycles de transport de passagers (« cloboto »)</td><td>—</td></tr>
 <tr><td><strong>B</strong></td><td>Transport de personnes ou de marchandises, PTAC ≤ 3,5 t ou 9 places conducteur compris ; véhicule + remorque ≤ 3,5 t</td><td>18 ans</td></tr>
+<tr><td><strong>BEA</strong> <span class="lx-src dgtt">2026</span></td><td>Véhicules à boîte de vitesses automatique, PTAC ≤ 4,25 t</td><td>—</td></tr>
 <tr><td><strong>C</strong></td><td>Transport de marchandises ou de matériel, PTAC ≤ 18 t</td><td>21 ans</td></tr>
 <tr><td><strong>C1</strong></td><td>Transport de marchandises ou de matériel, PTAC &gt; 18 t</td><td>21 ans</td></tr>
 <tr><td><strong>Dr (TCR)</strong></td><td>Transport en commun de 18 places au plus, PTAC ≤ 3,5 t</td><td>21 ans</td></tr>
@@ -41,7 +43,7 @@ import questions from '../data/questions/ch12.json'
 <tr><td><strong>F</strong></td><td>Réservé aux personnes en situation de handicap physique</td><td>—</td></tr>
 </tbody>
 </table></div>
-<p>Source : notes de cours de l'auto-école ; manuel du candidat de la DGTT (édition 2011), chapitre I, et questions Q681, Q689 et Q694.</p>
+<p>Source : notes de cours de l'auto-école ; manuel du candidat de la DGTT (édition 2011), chapitre I, et questions Q681, Q689 et Q694. Les catégories marquées <span class="lx-src dgtt">2026</span> sont créées par l'arrêté de l'ANaTT n° 2026/0196, qui porte le nombre de catégories à douze (A1, A2, A3, B1, B, BEA, C, CE, D1, D, E et F). Les catégories C1 et Dr du tableau viennent du manuel de 2011 ; la définition exacte des catégories CE et D1 de la liste de 2026 sera donnée par le manuel de référence annoncé par l'ANaTT.</p>
 
 <h3>12.3 Conditions d'obtention</h3>
 <ol>
@@ -53,7 +55,22 @@ import questions from '../data/questions/ch12.json'
 <li><strong>Dossier</strong> : pièce d'identité, photos, certificat médical, justificatifs et frais.</li>
 </ol>
 
-<h3>12.4 Validité, perte et sanctions</h3>
+<h3>12.4 La réforme du permis de 2026</h3>
+<p>L'arrêté de l'Agence nationale des transports terrestres (<strong>ANaTT</strong>) n° 2026/0196, publié en juillet 2026, remplace l'arrêté de novembre 2015. Il change le parcours du candidat :</p>
+<ul>
+<li><strong>Formation avant le code</strong> : au moins <strong>60 heures</strong> de cours théoriques et <strong>30 heures</strong> de pratique de base dans une auto-école agréée.</li>
+<li><strong>Examen théorique séparé</strong>, passé sur support numérique (smartphone). Il faut au moins <strong>14/20</strong> pour être admis.</li>
+<li><strong>Attestation de succès</strong> : la réussite au code donne une attestation provisoire qui permet de poursuivre la formation pratique.</li>
+<li><strong>Formation pratique</strong> : au moins <strong>six mois</strong> (parcours standard) ou <strong>120 heures</strong> de conduite effective (parcours accéléré), attestées par le livret d'apprentissage et la fiche de suivi de l'auto-école.</li>
+<li><strong>Examen pratique</strong> : note minimale de <strong>14/20</strong> (au lieu de 12/20), avec une épreuve de circulation en dehors du circuit habituel : en ville et sur les routes nationales autour de la commune d'examen.</li>
+<li><strong>Dérogation d'âge</strong> : un candidat de <strong>17 ans</strong> révolus peut se présenter avec l'autorisation de ses parents ou tuteurs pour certaines catégories (dont A2, A3 et BEA ; les sources diffèrent sur B et B1).</li>
+</ul>
+<MemoBox label="À retenir — réforme 2026">
+<strong>60 h</strong> de code + <strong>30 h</strong> de pratique avant l'examen théorique · code et conduite : <strong>14/20</strong> minimum · <strong>6 mois</strong> ou <strong>120 h</strong> de conduite avant l'examen pratique · nouvelles catégories <strong>B1</strong> (tricycles) et <strong>BEA</strong> (boîte automatique).
+</MemoBox>
+<p class="exam-legend">⚠ Selon la Fédération des auto-écoles (communiqué du 16 juillet 2026), ces dispositions n'étaient pas encore appliquées à cette date. Demande à ton auto-école à partir de quelle session elles s'appliquent à toi.</p>
+
+<h3>12.5 Validité, perte et sanctions</h3>
 <ul>
 <li>Le permis doit être <strong>présenté à toute réquisition</strong> des forces de l'ordre, avec la carte grise et l'attestation d'assurance.</li>
 <li><strong>Perte ou vol</strong> : déclaration aux autorités et demande de duplicata.</li>

@@ -8,7 +8,9 @@ const HISTORY_SIZE = 20
 
 export const EXAM_SIZES = [20, 40]
 export const SECONDS_PER_QUESTION = 60
-export const PASS_RATE = 0.85 // seuil indicatif : 34/40, 17/20
+// Seuil de l'examen théorique de l'ANaTT depuis la réforme de 2026 (arrêté n° 2026/0196) :
+// 14/20, soit 28/40.
+export const PASS_RATE = 0.7
 // Alertes de temps restant, en secondes.
 export const TIME_ALERTS = [300, 60]
 

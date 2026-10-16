@@ -173,6 +173,8 @@ export const penseBetes = [
   { theme: 'Alcool et fatigue', texte: 'Somnolence : je m’arrête et je dors 15 à 20 minutes.', ch: 11 },
   { theme: 'Permis B', texte: 'Permis B : 3 500 kg, 9 places conducteur compris, 18 ans.', ch: 12 },
   { theme: 'Permis B', texte: 'Enfant de moins de 10 ans = une demi-personne.', ch: 12 },
+  { theme: 'Permis B', texte: 'Réforme 2026 : 14/20 au code comme à la conduite.', ch: 12 },
+  { theme: 'Permis B', texte: 'Nouveaux permis : B1 pour les tricycles, BEA pour la boîte automatique.', ch: 12 },
   { theme: 'Permis B', texte: 'Changement de direction : C.A.P.R.T. — Contrôler, Avertir, se Placer, Ralentir, Tourner.', ch: 13 },
 ]
 
@@ -357,6 +359,18 @@ export const pieges = [
     theme: 'Permis B',
     piege: 'Le permis B permet de conduire un véhicule de 9 places plus le conducteur.',
     verite: '9 places conducteur compris, soit 8 passagers.',
+    ch: 12,
+  },
+  {
+    theme: 'Permis B',
+    piege: 'Le permis B1 et le panneau B1, c’est la même chose.',
+    verite: 'Non. Le permis B1 (réforme de 2026) sert à conduire les tricycles et quadricycles à moteur. Le panneau B1 est le sens interdit. Lis bien si la question parle d’un permis ou d’un panneau.',
+    ch: 12,
+  },
+  {
+    theme: 'Permis B',
+    piege: 'Depuis la réforme, 12/20 suffit encore à l’examen de conduite.',
+    verite: 'Non. L’arrêté de 2026 fixe 14/20 au minimum pour le code comme pour la conduite.',
     ch: 12,
   },
   {

@@ -214,7 +214,7 @@ const reviewList = computed(() => {
           <p class="exam-rule">
             <strong>{{ available }}</strong> questions disponibles avec ces réglages.
             <template v-if="available && available < size">L'examen comptera donc {{ examSize }} questions.</template>
-            <br>Seuil de réussite indicatif : <strong>{{ Math.ceil(examSize * PASS_RATE) }} / {{ examSize }}</strong>
+            <br>Seuil de réussite (14/20, comme à l’examen de l’ANaTT) : <strong>{{ Math.ceil(examSize * PASS_RATE) }} / {{ examSize }}</strong>
             ({{ Math.round(PASS_RATE * 100) }} %).
           </p>
           <button type="button" class="exam-btn primary" :disabled="!examSize" @click="begin">Commencer l'examen</button>
