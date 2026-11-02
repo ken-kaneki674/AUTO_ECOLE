@@ -46,6 +46,13 @@ const router = createRouter({
       name: 'benin-panneaux',
       component: () => import('../views/BeninSignsView.vue'),
     },
+    // Révisions avec questions du groupe WhatsApp
+    {
+      path: '/revision/:sujetId?',
+      name: 'revision',
+      component: () => import('../views/RevisionView.vue'),
+      props: true
+    },
     // Ancienne adresse de l'examen officiel, fusionné dans l'examen blanc.
     { path: '/benin/examen', redirect: { name: 'examen' } },
   ],

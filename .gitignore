@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Exports WhatsApp bruts (données personnelles des participants)
+/chat/
