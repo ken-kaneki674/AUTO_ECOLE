@@ -478,7 +478,8 @@
   ],
   "correct": [
    3
-  ]
+  ],
+  "explanation": "Réponse du moniteur et du formateur : 110 km/h. Les 130 km/h concernent l’autoroute. Le manuel DGTT coche aussi 130 km/h."
  },
  {
   "id": "bj-q771",
@@ -794,7 +795,8 @@
   ],
   "correct": [
    0
-  ]
+  ],
+  "explanation": "Réponse du formateur : un enfant de moins de 10 ans compte pour une demi-personne. Le manuel DGTT indique « Rien de tout ce qui précède »."
  },
  {
   "id": "bj-q794",
@@ -846,7 +848,8 @@
   ],
   "correct": [
    2
-  ]
+  ],
+  "explanation": "Réponse du manuel DGTT : se déporter au milieu. Le moniteur précise que c’est une règle de poids lourd : pour le permis B, on serre sa droite. À confirmer avec l’auto-école."
  },
  {
   "id": "bj-q798",

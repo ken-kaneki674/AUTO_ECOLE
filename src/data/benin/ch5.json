@@ -226,7 +226,8 @@
   ],
   "correct": [
    1
-  ]
+  ],
+  "explanation": "Réponse du manuel DGTT : 60 km/h. Le moniteur et le formateur enseignent 40 km/h ; pour le moniteur, 60 km/h définit les véhicules lents, qui restent autorisés. À confirmer avec l’auto-école."
  },
  {
   "id": "bj-q420",
@@ -1177,7 +1178,8 @@
   ],
   "correct": [
    3
-  ]
+  ],
+  "explanation": "Réponse du manuel DGTT : selon la législation de chaque pays. D’après la règle du moniteur, il faudrait cocher aussi 110 km/h. À confirmer avec l’auto-école."
  },
  {
   "id": "bj-q486",
@@ -1285,7 +1287,8 @@
    2,
    3,
    4
-  ]
+  ],
+  "explanation": "Réponse du manuel DGTT : tous ces usagers. Le moniteur enseigne que les véhicules lents sont autorisés sur autoroute. À confirmer avec l’auto-école."
  },
  {
   "id": "bj-q493",
@@ -1302,7 +1305,8 @@
    0,
    2,
    4
-  ]
+  ],
+  "explanation": "Réponse du manuel DGTT : piétons, cavaliers et véhicules lents. Le moniteur enseigne que les véhicules lents sont autorisés sur autoroute. À confirmer avec l’auto-école."
  },
  {
   "id": "bj-q494",

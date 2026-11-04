@@ -229,7 +229,8 @@
   "correct": [
    1,
    2
-  ]
+  ],
+  "explanation": "Réponse du manuel DGTT : serrer sa gauche ou se déporter au milieu. C’est la logique poids lourd signalée par le moniteur : pour le permis B, on serre sa droite. À confirmer avec l’auto-école."
  },
  {
   "id": "bj-q706",
@@ -680,7 +681,8 @@
   ],
   "correct": [
    1
-  ]
+  ],
+  "explanation": "Réponse du manuel DGTT : serrer sa gauche. C’est la logique poids lourd signalée par le moniteur : pour le permis B, on serre sa droite. À confirmer avec l’auto-école."
  },
  {
   "id": "bj-q735",
@@ -708,7 +710,8 @@
   "correct": [
    1,
    2
-  ]
+  ],
+  "explanation": "Réponse du manuel DGTT : se déporter au milieu ou serrer sa gauche. Le moniteur précise que c’est une règle de poids lourd : pour le permis B, on serre sa droite. À confirmer avec l’auto-école."
  },
  {
   "id": "bj-q737",
