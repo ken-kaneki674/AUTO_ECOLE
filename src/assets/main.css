@@ -226,6 +226,24 @@ figcaption{font-family:var(--font-titre);font-size:.8rem;letter-spacing:.06em;co
 .panneaux{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin:1.2rem 0}
 .pan{width:118px;text-align:center;font-size:.75rem;font-family:var(--font-titre);letter-spacing:.02em;color:var(--encre-2);line-height:1.25;text-transform:none}
 .pan svg{display:block;margin:0 auto 6px}
+.pan img{display:block;width:80px;height:80px;object-fit:contain;margin:0 auto 6px}
+figure svg text{font-family:var(--font-titre)}
+figure .panneaux{margin:0}
+figure .pan{color:var(--encre)}
+/* Vignettes : plusieurs petits schémas légendés dans une même figure. */
+.scenes{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px 12px}
+.scene{font-family:var(--font-titre);font-size:.86rem;line-height:1.3;color:var(--encre)}
+.scene svg,.scene img{display:block;width:100%;max-width:360px;margin:0 auto 7px;border-radius:3px}
+.scene b{display:block;margin-bottom:1px}
+.scene span{color:var(--muted)}
+.fig-large{display:block;width:100%;max-width:640px;margin:0 auto}
+@media (max-width:600px){
+  figure{padding:10px;overflow-x:auto}
+  svg.fig-large{min-width:440px}
+  .scenes{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .scenes.grandes{grid-template-columns:minmax(0,1fr)}
+  .scene{font-size:.8rem}
+}
 
 /* ---------- QCM ---------- */
 .qcm{background:var(--surface);border:2px solid var(--encre);padding:20px 22px;margin:2.4rem 0 0;border-radius:3px}

@@ -46,7 +46,7 @@ npm run preview   # prévisualisation du build
 
 ```
 src/
-├── chapters/            Chapter1.vue … Chapter14.vue — contenu des cours
+├── chapters/            Chapter1.vue … Chapter14.vue — contenu des cours et schémas SVG (véhicules, routes et personnages réutilisables dans components/IconSprite.vue)
 ├── components/          QuestionItem, QcmBlock, QuestionTrainer, BeninQuestionSet, BeninSearch, ValeurBenin, encadrés…
 ├── composables/         useQuizProgress (progression), useExamSession, useBeninSelection, useSearch
 ├── data/
